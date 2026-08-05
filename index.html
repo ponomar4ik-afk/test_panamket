@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     
-    <!-- ФИКС МЕРЦАНИЯ: Жесткая заливка системного фона -->
     <meta name="theme-color" content="#030B1D">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -263,17 +262,14 @@
                 </div>
             </div>
 
-<!-- Обновленный компактный горизонтальный блок "Твой прогресс" -->
-            <div class="profile-stats-box learned-words-block">
+<div class="profile-stats-box learned-words-block">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     
-                    <!-- Левая часть: Тексты -->
                     <div style="display: flex; flex-direction: column; align-items: flex-start;">
                         <div class="profile-stats-title" style="margin-bottom: 2px;">Твой прогресс</div>
                         <div style="color: #7F848D; font-size: 14px; font-weight: 300;">собрано панамок</div>
                     </div>
                     
-                    <!-- Правая часть: Цифра и иконка -->
                     <div style="display: flex; align-items: center; gap: 8px; color: #FFD24D; font-weight: 700; font-size: 36px; line-height: 1;">
                         <span id="profile-total-xp">0</span>
                         <svg class="panamka-icon" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top: -2px;">
@@ -467,6 +463,21 @@
                 <div class="modal-ex-trans" id="modal-ex-trans">Перевод</div>
             </div>
         </div>
+    </div>
+
+    <div id="onboarding-overlay" class="onboarding-overlay hidden">
+      <div class="onboarding-backdrop"></div>
+      <div class="onboarding-card">
+        <div class="onboarding-cat-icon">😼</div>
+        <div id="onboarding-step-title" class="onboarding-title">Привет!</div>
+        <div id="onboarding-step-text" class="onboarding-text">Погнали разберёмся, как тут всё устроено!</div>
+        <div class="onboarding-dots">
+          <span class="dot active" id="dot-0"></span>
+          <span class="dot" id="dot-1"></span>
+          <span class="dot" id="dot-2"></span>
+        </div>
+        <button id="onboarding-next-btn" class="onboarding-btn">Дальше 🚀</button>
+      </div>
     </div>
 
     <script src="app.js"></script>
