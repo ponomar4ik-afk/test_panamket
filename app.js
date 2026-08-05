@@ -28,13 +28,11 @@ let currentOnboardingStep = 0;
 let isOnboardingActive = false; 
 
 function checkAndStartOnboarding() {
-    const isDone = localStorage.getItem('panamket_onboarding_completed');
-    if (!isDone) {
-        isOnboardingActive = true; // Ставим на паузу все звуки
-        showOnboardingStep(0);
-        const overlay = document.getElementById('onboarding-overlay');
-        if (overlay) overlay.classList.remove('hidden');
-    }
+    // ДЛЯ ТЕСТОВ УБРАЛИ ПРОВЕРКУ ФЛАГА - ОНБОРДИНГ БУДЕТ ВСЕГДА
+    isOnboardingActive = true; // Ставим на паузу все звуки
+    showOnboardingStep(0);
+    const overlay = document.getElementById('onboarding-overlay');
+    if (overlay) overlay.classList.remove('hidden');
 }
 
 function showOnboardingStep(stepIndex) {
@@ -1239,14 +1237,9 @@ document.addEventListener('DOMContentLoaded', () => {
         appMode = 'words'; document.body.classList.remove('hide-tabbar');
         updateTabbarUI('lightning'); generateNextWordsCard(); showScreen('screen-quiz');
         
-        // ВЫЗЫВАЕМ ПОКАЗ ОНБОРДИНГА (с паузой)
+        // ВЫЗЫВАЕМ ПОКАЗ ОНБОРДИНГА БЕЗ ПРОВЕРКИ ФЛАГА
         setTimeout(() => {
-            const isDone = localStorage.getItem('panamket_onboarding_completed');
-            if (!isDone) {
-                checkAndStartOnboarding();
-            } else {
-                if(activeQuizPool[0]) speakWord(activeQuizPool[0].expression, 'word', activeQuizPool[0].id);
-            }
+            checkAndStartOnboarding();
         }, 500); 
     };
 
@@ -1286,7 +1279,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 speakWord(activeQuizPool[0].expression, 'word', activeQuizPool[0].id);
             }
 
-            // РАЗБЛОКИРОВАНО ДЛЯ ТЕСТОВ
+            // ДЛЯ ТЕСТОВ МЫ БОЛЬШЕ НЕ ЗАПИСЫВАЕМ ФЛАГ ОКОНЧАНИЯ
             // localStorage.setItem('panamket_onboarding_completed', 'true');
         }
     });
