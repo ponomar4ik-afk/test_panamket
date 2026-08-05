@@ -58,6 +58,62 @@ function showOnboardingStep(stepIndex) {
     if (btn) {
         btn.textContent = (stepIndex === onboardingSteps.length - 1) ? "Погнали! 🚀" : "Дальше ➔";
     }
+
+    // ==========================================
+    // МАГИЯ ПОДСВЕТКИ (SPOTLIGHT ЭФФЕКТ)
+    // ==========================================
+    
+    // Удаляем старые клоны-подсветки
+    document.querySelectorAll('.onboarding-clone').forEach(el => el.remove());
+
+    const activeScreen = document.querySelector('.screen.active');
+    if (!activeScreen) return;
+
+    let targets = [];
+    const tabs = activeScreen.querySelectorAll('.tabbar-global .tab-item');
+    // Ищем кнопку возврата/крестика
+    const backBtn = activeScreen.querySelector('.s4-back-btn, .s5-back-btn, .s3-back-btn');
+
+    // Определяем, какие элементы подсвечивать на каждом шаге
+    if (stepIndex === 0) {
+        if (tabs[1]) targets.push(tabs[1]); // Режим Молния (по центру)
+    } else if (stepIndex === 1) {
+        if (tabs[0]) targets.push(tabs[0]); // Книга (слева)
+        if (backBtn) targets.push(backBtn); // Кнопка Назад/Крестик (сверху слева)
+    } else if (stepIndex === 2) {
+        if (tabs[2]) targets.push(tabs[2]); // Профиль (справа)
+    }
+
+    // Создаем светящиеся клоны поверх затемнения
+    targets.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        const clone = el.cloneNode(true);
+        clone.classList.add('onboarding-clone');
+        
+        // Позиционируем точно над оригиналом
+        clone.style.position = 'fixed';
+        clone.style.top = rect.top + 'px';
+        clone.style.left = rect.left + 'px';
+        clone.style.width = rect.width + 'px';
+        clone.style.height = rect.height + 'px';
+        clone.style.margin = '0';
+        clone.style.zIndex = '10002'; // Выше затемнения (10000)
+        clone.style.pointerEvents = 'none'; // Блокируем клики по клонам
+        clone.style.color = '#FFD24D'; // Зажигаем иконку жёлтым
+        clone.style.backgroundColor = '#181C26'; // Темный фон перекрывает оригинал
+        clone.style.display = 'flex';
+        clone.style.alignItems = 'center';
+        clone.style.justifyContent = 'center';
+        
+        // Круглое скругление для таббара, квадратное для крестика
+        if (el.classList.contains('tab-item')) {
+            clone.style.borderRadius = '50%';
+        } else {
+            clone.style.borderRadius = '14px';
+        }
+        
+        document.getElementById('onboarding-overlay').appendChild(clone);
+    });
 }
 
 // ================= GLOBAL STATE =================
@@ -1225,9 +1281,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentOnboardingStep < onboardingSteps.length - 1) {
             showOnboardingStep(currentOnboardingStep + 1);
         } else {
-            // Финал онбординга
+            // Финал онбординга: скрываем оверлей и чистим клоны
             const overlay = document.getElementById('onboarding-overlay');
             if (overlay) overlay.classList.add('hidden');
+            document.querySelectorAll('.onboarding-clone').forEach(el => el.remove());
             localStorage.setItem('panamket_onboarding_completed', 'true');
         }
     });
