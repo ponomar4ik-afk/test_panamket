@@ -85,7 +85,7 @@ function showOnboardingStep(stepIndex) {
         if (tabs[2]) targets.push(tabs[2]); // Профиль (справа)
     }
 
-    // Создаем светящиеся клоны поверх затемнения
+// Создаем светящиеся клоны поверх затемнения
     targets.forEach(el => {
         const rect = el.getBoundingClientRect();
         const clone = el.cloneNode(true);
@@ -105,6 +105,12 @@ function showOnboardingStep(stepIndex) {
         clone.style.display = 'flex';
         clone.style.alignItems = 'center';
         clone.style.justifyContent = 'center';
+
+        // 👇 ТОТ САМЫЙ ФИКС С КРЕСТИКОМ 👇
+        // Если это шаг про Книгу, жестко вставляем крестик внутрь клона, даже если под ним стрелка
+        if (stepIndex === 1 && (el.classList.contains('s4-back-btn') || el.classList.contains('s5-back-btn') || el.classList.contains('s3-back-btn'))) {
+            clone.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`;
+        }
         
         // Круглое скругление для таббара, квадратное для крестика
         if (el.classList.contains('tab-item')) {
