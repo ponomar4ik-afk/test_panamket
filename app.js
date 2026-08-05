@@ -3,6 +3,63 @@ if (window.Telegram && Telegram.WebApp) {
     Telegram.WebApp.setBackgroundColor('#030B1D');
     Telegram.WebApp.setHeaderColor('#030B1D');
 }
+
+// ================= СЦЕНАРИЙ ОНБОРДИНГА =================
+const onboardingSteps = [
+    {
+        title: "⚡️ Режим Молния",
+        text: "Бесконечный быстрый спринт по карточкам! Тапай слова на скорость, перелистывай и фарми XP в свободную минуту.",
+        cat: "⚡️"
+    },
+    {
+        title: "📖 Режим Книга",
+        text: "Системные уроки со сборкой фраз из плиток. Жми ✕ вверху экрана, если захочешь быстро закончить уровень.",
+        cat: "📖"
+    },
+    {
+        title: "😼 Твой Профиль",
+        text: "Следи за статистикой выученных слов, переключай языки (EN / PL) и используй кнопку работы над ошибками!",
+        cat: "😼"
+    }
+];
+
+let currentOnboardingStep = 0;
+
+function checkAndStartOnboarding() {
+    const isDone = localStorage.getItem('panamket_onboarding_completed');
+    if (!isDone) {
+        showOnboardingStep(0);
+        const overlay = document.getElementById('onboarding-overlay');
+        if (overlay) overlay.classList.remove('hidden');
+    }
+}
+
+function showOnboardingStep(stepIndex) {
+    currentOnboardingStep = stepIndex;
+    const step = onboardingSteps[stepIndex];
+
+    const titleEl = document.getElementById('onboarding-step-title');
+    const textEl = document.getElementById('onboarding-step-text');
+    const catEl = document.querySelector('.onboarding-cat-icon');
+
+    if(titleEl) titleEl.textContent = step.title;
+    if(textEl) textEl.textContent = step.text;
+    if(catEl) catEl.textContent = step.cat;
+
+    for (let i = 0; i < onboardingSteps.length; i++) {
+        const dot = document.getElementById(`dot-${i}`);
+        if (dot) {
+            if (i === stepIndex) dot.classList.add('active');
+            else dot.classList.remove('active');
+        }
+    }
+
+    const btn = document.getElementById('onboarding-next-btn');
+    if (btn) {
+        btn.textContent = (stepIndex === onboardingSteps.length - 1) ? "Погнали! 🚀" : "Дальше ➔";
+    }
+}
+
 // ================= GLOBAL STATE =================
 let errorReviewPool = []; 
 let initialErrorCount = 0; 
@@ -847,7 +904,7 @@ function loadSentenceQuestion() {
     });
 }
 
-// ================= МОДАЛКА ПРИМЕРОВ ПРЕДЛОЖЕНИЙ (Оставлена для архива) =================
+// ================= МОДАЛКА ПРИМЕРОВ ПРЕДЛОЖЕНИЙ =================
 function openWordModal(wordObj) {
     triggerHaptic('light');
     const modal = document.getElementById('word-modal');
@@ -888,7 +945,6 @@ function updateProfileStats() {
     if (statPhrases) statPhrases.textContent = realPhrasesCount;
 
     const el1 = document.querySelector('.s3-card-slang .s3-stat-text:nth-child(1)');
-    const el2 = document.querySelector('.s3-card-slang .s3-stat-text:nth-child(2)');
     const fill = document.querySelector('.s3-card-slang .s3-progress-fill');
 
     if(el1) el1.textContent = `Глава ${getBookProgress()}`;
@@ -1051,7 +1107,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {
             console.log('TG API Color Error', e);
         }
-        // ==========================
         
         if (tg.disableVerticalSwipes) {
             tg.disableVerticalSwipes();
@@ -1087,7 +1142,6 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault(); // Запрещаем тянуть окно вверх, когда мы в самом низу
         }
     }, { passive: false });
-    // -------------------------------------------
 
     if (typeof amplitude !== 'undefined') {
         amplitude.init('1b7d6e320d00d7bda0f43a207e3bc742', { defaultTracking: { pageViews: true, sessions: true } });
@@ -1142,6 +1196,8 @@ document.addEventListener('DOMContentLoaded', () => {
         appMode = 'words'; document.body.classList.remove('hide-tabbar');
         updateTabbarUI('lightning'); generateNextWordsCard(); showScreen('screen-quiz');
         setTimeout(() => { if(activeQuizPool[0]) speakWord(activeQuizPool[0].expression, 'word', activeQuizPool[0].id); }, 200);
+        // ВЫЗЫВАЕМ ПОКАЗ ОНБОРДИНГА
+        setTimeout(checkAndStartOnboarding, 500); 
     };
 
     const selectBookMode = () => {
@@ -1159,6 +1215,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 appMode = 'profile'; document.body.classList.remove('hide-tabbar');
                 updateTabbarUI('profile'); showScreen('screen-profile'); 
             });
+        }
+    });
+
+    // Обработчик Онбординга
+    document.getElementById('onboarding-next-btn')?.addEventListener('click', () => {
+        if (typeof triggerHaptic === 'function') triggerHaptic('light');
+
+        if (currentOnboardingStep < onboardingSteps.length - 1) {
+            showOnboardingStep(currentOnboardingStep + 1);
+        } else {
+            // Финал онбординга
+            const overlay = document.getElementById('onboarding-overlay');
+            if (overlay) overlay.classList.add('hidden');
+            localStorage.setItem('panamket_onboarding_completed', 'true');
         }
     });
 
