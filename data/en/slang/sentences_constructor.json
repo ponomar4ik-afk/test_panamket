@@ -1,0 +1,2015 @@
+[
+  {
+    "id": 1,
+    "russian": "Я не в хлам, просто под градусом.",
+    "words_pool": ["I'm", "not", "wasted", "just", "buzzed", "wack", "trash", "salty", "basic"],
+    "correct_sequences": [
+      ["I'm", "not", "wasted", "just", "buzzed"],
+      ["not", "wasted", "just", "buzzed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 2,
+    "russian": "Он на словах Лев Толстой.",
+    "words_pool": ["he", "is", "all", "talk", "no", "action", "cap", "snitch", "glazer", "opp"],
+    "correct_sequences": [
+      ["he", "is", "all", "talk", "no", "action"],
+      ["all", "talk", "no", "action"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 3,
+    "russian": "Она ищет единорога.",
+    "words_pool": ["she", "is", "looking", "for", "a", "unicorn", "simp", "chad", "goat", "npc"],
+    "correct_sequences": [
+      ["she", "is", "looking", "for", "a", "unicorn"],
+      ["looking", "for", "a", "unicorn"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 4,
+    "russian": "Этот секс был слишком скучным.",
+    "words_pool": ["that", "sex", "was", "too", "vanilla", "dope", "sick", "lit", "gas"],
+    "correct_sequences": [
+      ["that", "sex", "was", "too", "vanilla"],
+      ["sex", "was", "too", "vanilla"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 5,
+    "russian": "Та женщина — настоящая пума.",
+    "words_pool": ["that", "woman", "is", "a", "real", "cougar", "brokie", "bestie", "stan", "slay"],
+    "correct_sequences": [
+      ["that", "woman", "is", "a", "real", "cougar"],
+      ["that", "woman", "is", "a", "cougar"],
+      ["woman", "is", "a", "real", "cougar"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 6,
+    "russian": "Ты сногсшибательна в этом прикиде!",
+    "words_pool": ["you", "slay", "in", "this", "fit", "whip", "kicks", "ice", "guap"],
+    "correct_sequences": [
+      ["you", "slay", "in", "this", "fit"],
+      ["slay", "in", "this", "fit"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 7,
+    "russian": "Она слилась после свидания.",
+    "words_pool": ["she", "ghosted", "me", "after", "the", "date", "bailed", "flexed", "pinged", "dropped"],
+    "correct_sequences": [
+      ["she", "ghosted", "me", "after", "the", "date"],
+      ["she", "ghosted", "after", "the", "date"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 8,
+    "russian": "У этого парня ноль харизмы.",
+    "words_pool": ["that", "guy", "has", "zero", "rizz", "clout", "beef", "tea", "drip"],
+    "correct_sequences": [
+      ["that", "guy", "has", "zero", "rizz"],
+      ["guy", "has", "zero", "rizz"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 9,
+    "russian": "Я по уши влюбился в него.",
+    "words_pool": ["I", "have", "a", "huge", "crush", "on", "him", "scam", "ick", "flop", "vibe"],
+    "correct_sequences": [
+      ["I", "have", "a", "huge", "crush", "on", "him"],
+      ["have", "a", "huge", "crush", "on", "him"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 10,
+    "russian": "Хватит бегать за ней, бро.",
+    "words_pool": ["stop", "simping", "over", "her", "bro", "tripping", "hustling", "vibing", "flexing"],
+    "correct_sequences": [
+      ["stop", "simping", "over", "her", "bro"],
+      ["stop", "simping", "over", "her"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 11,
+    "russian": "Этот вариант интерфейса реально годный.",
+    "words_pool": ["this", "ui", "option", "is", "valid", "wack", "sus", "corny", "shady"],
+    "correct_sequences": [
+      ["this", "ui", "option", "is", "valid"],
+      ["ui", "option", "is", "valid"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 12,
+    "russian": "Твоя идея для приложения — топ.",
+    "words_pool": ["your", "app", "idea", "is", "dope", "flop", "mid", "basic", "scam"],
+    "correct_sequences": [
+      ["your", "app", "idea", "is", "dope"],
+      ["app", "idea", "is", "dope"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 13,
+    "russian": "Бро, этот трек просто чума!",
+    "words_pool": ["bro", "this", "track", "is", "sick", "brick", "busted", "pressed", "salty"],
+    "correct_sequences": [
+      ["bro", "this", "track", "is", "sick"],
+      ["this", "track", "is", "sick"],
+      ["bro", "track", "is", "sick"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 14,
+    "russian": "Тусовка была просто огненной.",
+    "words_pool": ["the", "party", "was", "totally", "lit", "drained", "shook", "jelly", "wasted"],
+    "correct_sequences": [
+      ["the", "party", "was", "totally", "lit"],
+      ["party", "was", "totally", "lit"],
+      ["the", "party", "was", "lit"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 15,
+    "russian": "Эта песня — абсолютная пушка.",
+    "words_pool": ["this", "song", "is", "an", "absolute", "banger", "gimmick", "tea", "beef", "snitch"],
+    "correct_sequences": [
+      ["this", "song", "is", "an", "absolute", "banger"],
+      ["song", "is", "an", "absolute", "banger"],
+      ["this", "song", "is", "a", "banger"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 16,
+    "russian": "Мне просто нужно расслабиться.",
+    "words_pool": ["I", "just", "need", "to", "chill", "hustle", "flex", "bounce", "grind"],
+    "correct_sequences": [
+      ["I", "just", "need", "to", "chill"],
+      ["just", "need", "to", "chill"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 17,
+    "russian": "Мне очень нравится этот вайб.",
+    "words_pool": ["I", "really", "dig", "this", "vibe", "ick", "scam", "flop", "cap"],
+    "correct_sequences": [
+      ["I", "really", "dig", "this", "vibe"],
+      ["really", "dig", "this", "vibe"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 18,
+    "russian": "Как он купил эту тачку?",
+    "words_pool": ["how", "did", "he", "buy", "this", "whip", "ice", "kicks", "threads", "guap"],
+    "correct_sequences": [
+      ["how", "did", "he", "buy", "this", "whip"],
+      ["how", "did", "he", "buy", "the", "whip"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 19,
+    "russian": "Его прикид выглядел очень стильно.",
+    "words_pool": ["his", "fit", "looked", "so", "clean", "wack", "sus", "corny", "shady"],
+    "correct_sequences": [
+      ["his", "fit", "looked", "so", "clean"],
+      ["fit", "looked", "so", "clean"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 20,
+    "russian": "Где ты урвал эти кроссы?",
+    "words_pool": ["where", "did", "you", "cop", "these", "kicks", "whip", "ice", "threads", "guap"],
+    "correct_sequences": [
+      ["where", "did", "you", "cop", "these", "kicks"],
+      ["where", "did", "you", "cop", "the", "kicks"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 21,
+    "russian": "Он спускает бабло на шмотки.",
+    "words_pool": ["he", "spends", "guap", "on", "threads", "ice", "kicks", "whip", "rizz"],
+    "correct_sequences": [
+      ["he", "spends", "guap", "on", "threads"],
+      ["spends", "guap", "on", "threads"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 22,
+    "russian": "Только посмотри на его брюлики.",
+    "words_pool": ["just", "look", "at", "his", "ice", "threads", "kicks", "whip", "guap"],
+    "correct_sequences": [
+      ["just", "look", "at", "his", "ice"],
+      ["look", "at", "his", "ice"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 23,
+    "russian": "Он делает это ради хайпа.",
+    "words_pool": ["he", "does", "it", "for", "clout", "tea", "beef", "cap", "rizz"],
+    "correct_sequences": [
+      ["he", "does", "it", "for", "clout"],
+      ["does", "it", "for", "clout"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 24,
+    "russian": "Эта крипто-платформа — полный развод.",
+    "words_pool": ["this", "crypto", "platform", "is", "a", "scam", "banger", "flop", "gimmick", "vibe"],
+    "correct_sequences": [
+      ["this", "crypto", "platform", "is", "a", "scam"],
+      ["crypto", "platform", "is", "a", "scam"],
+      ["this", "platform", "is", "a", "scam"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 25,
+    "russian": "Я был потрясен этими новостями.",
+    "words_pool": ["I", "was", "shook", "by", "the", "news", "stoked", "pressed", "salty", "drained"],
+    "correct_sequences": [
+      ["I", "was", "shook", "by", "the", "news"],
+      ["was", "shook", "by", "the", "news"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 26,
+    "russian": "Почему ты так паришься?",
+    "words_pool": ["why", "are", "you", "so", "pressed", "shook", "jelly", "stoked", "wasted"],
+    "correct_sequences": [
+      ["why", "are", "you", "so", "pressed"],
+      ["why", "are", "you", "pressed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 27,
+    "russian": "Ты просто завидуешь.",
+    "words_pool": ["you", "are", "just", "jelly", "pressed", "shook", "stoked", "salty"],
+    "correct_sequences": [
+      ["you", "are", "just", "jelly"],
+      ["you", "are", "jelly"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 28,
+    "russian": "Я в предвкушении нашей поездки.",
+    "words_pool": ["I", "am", "stoked", "about", "our", "trip", "shook", "pressed", "salty", "drained"],
+    "correct_sequences": [
+      ["I", "am", "stoked", "about", "our", "trip"],
+      ["stoked", "about", "our", "trip"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 29,
+    "russian": "Я чувствую себя полностью выжатым.",
+    "words_pool": ["I", "feel", "completely", "drained", "stoked", "shook", "pressed", "jelly"],
+    "correct_sequences": [
+      ["I", "feel", "completely", "drained"],
+      ["feel", "completely", "drained"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 30,
+    "russian": "Скукота, мне пора сваливать.",
+    "words_pool": ["too", "boring", "I", "need", "to", "bounce", "chill", "flex", "grind", "hustle"],
+    "correct_sequences": [
+      ["too", "boring", "I", "need", "to", "bounce"],
+      ["boring", "I", "need", "to", "bounce"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 31,
+    "russian": "Если честно, я без понятия.",
+    "words_pool": ["tbh", "I", "have", "no", "idea", "idk", "btw", "imo", "irl"],
+    "correct_sequences": [
+      ["tbh", "I", "have", "no", "idea"],
+      ["I", "have", "no", "idea", "tbh"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 32,
+    "russian": "Кстати, её макет выглядит стильно.",
+    "words_pool": ["btw", "her", "layout", "looks", "clean", "tbh", "idk", "imo", "irl"],
+    "correct_sequences": [
+      ["btw", "her", "layout", "looks", "clean"],
+      ["her", "layout", "looks", "clean"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 33,
+    "russian": "Хз, когда они это запустят.",
+    "words_pool": ["idk", "when", "they", "launch", "it", "tbh", "btw", "imo", "irl"],
+    "correct_sequences": [
+      ["idk", "when", "they", "launch", "it"],
+      ["when", "they", "launch", "it", "idk"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 34,
+    "russian": "Как по мне, интерфейс отстой.",
+    "words_pool": ["imo", "this", "ui", "is", "a", "flop", "banger", "scam", "gimmick", "vibe"],
+    "correct_sequences": [
+      ["imo", "this", "ui", "is", "a", "flop"],
+      ["this", "ui", "is", "a", "flop"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 35,
+    "russian": "В реале он оказался хайпожором.",
+    "words_pool": ["irl", "he", "is", "a", "clout", "chaser", "simp", "chad", "goat", "npc"],
+    "correct_sequences": [
+      ["irl", "he", "is", "a", "clout", "chaser"],
+      ["he", "is", "a", "clout", "chaser", "irl"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 36,
+    "russian": "Врать не буду, рад что слились.",
+    "words_pool": ["ngl", "I", "am", "glad", "we", "bailed", "flexed", "pinged", "ghosted", "dropped"],
+    "correct_sequences": [
+      ["ngl", "I", "am", "glad", "we", "bailed"],
+      ["I", "am", "glad", "we", "bailed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 37,
+    "russian": "Отойду на секунду, ща вернусь.",
+    "words_pool": ["going", "afk", "for", "a", "sec", "brb", "tbh", "idk", "imo", "irl"],
+    "correct_sequences": [
+      ["going", "afk", "for", "a", "sec", "brb"],
+      ["brb", "going", "afk", "for", "a", "sec"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 38,
+    "russian": "Мда уж, её поведение — фейспалм.",
+    "words_pool": ["smh", "her", "behavior", "was", "a", "flop", "banger", "scam", "gimmick", "vibe"],
+    "correct_sequences": [
+      ["smh", "her", "behavior", "was", "a", "flop"],
+      ["her", "behavior", "was", "a", "flop"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 39,
+    "russian": "Мне надо вкалывать прямо сейчас.",
+    "words_pool": ["I", "gotta", "grind", "right", "now", "chill", "bounce", "flex", "hustle"],
+    "correct_sequences": [
+      ["I", "gotta", "grind", "right", "now"],
+      ["gotta", "grind", "right", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 40,
+    "russian": "Я собираюсь урвать эти кроссы.",
+    "words_pool": ["I", "am", "gonna", "cop", "these", "kicks", "whip", "ice", "threads", "guap"],
+    "correct_sequences": [
+      ["I", "am", "gonna", "cop", "these", "kicks"],
+      ["gonna", "cop", "these", "kicks"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 41,
+    "russian": "Я хз, почему это не работает.",
+    "words_pool": ["I", "dunno", "why", "it", "isn't", "working", "wanna", "gonna", "gotta", "lemme"],
+    "correct_sequences": [
+      ["I", "dunno", "why", "it", "isn't", "working"],
+      ["dunno", "why", "it", "isn't", "working"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 42,
+    "russian": "Дай глянуть графические файлы.",
+    "words_pool": ["lemme", "see", "the", "graphic", "assets", "wanna", "gonna", "gotta", "dunno"],
+    "correct_sequences": [
+      ["lemme", "see", "the", "graphic", "assets"],
+      ["lemme", "see", "graphic", "assets"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 43,
+    "russian": "Гони своё секретное фото.",
+    "words_pool": ["gimme", "your", "sneaky", "link", "photo", "wanna", "gonna", "gotta", "lemme"],
+    "correct_sequences": [
+      ["gimme", "your", "sneaky", "link", "photo"],
+      ["gimme", "sneaky", "link", "photo"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 44,
+    "russian": "Я хочу узнать все сплетни.",
+    "words_pool": ["I", "wanna", "know", "all", "the", "tea", "beef", "clout", "cap", "rizz"],
+    "correct_sequences": [
+      ["I", "wanna", "know", "all", "the", "tea"],
+      ["wanna", "know", "all", "the", "tea"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 45,
+    "russian": "Держи меня в курсе.",
+    "words_pool": ["keep", "me", "in", "the", "loop", "out", "of", "tea", "beef"],
+    "correct_sequences": [
+      ["keep", "me", "in", "the", "loop"],
+      ["keep", "in", "the", "loop"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 46,
+    "russian": "Я вообще не в теме.",
+    "words_pool": ["I", "am", "out", "of", "the", "loop", "in", "tea", "beef", "cap"],
+    "correct_sequences": [
+      ["I", "am", "out", "of", "the", "loop"],
+      ["out", "of", "the", "loop"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 47,
+    "russian": "Он ведет себя так обиженно.",
+    "words_pool": ["he", "is", "acting", "so", "salty", "shook", "pressed", "jelly", "stoked"],
+    "correct_sequences": [
+      ["he", "is", "acting", "so", "salty"],
+      ["acting", "so", "salty"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 48,
+    "russian": "Этот мутный тип предложил сделку.",
+    "words_pool": ["this", "shady", "guy", "offered", "a", "deal", "sus", "corny", "wack", "basic"],
+    "correct_sequences": [
+      ["this", "shady", "guy", "offered", "a", "deal"],
+      ["shady", "guy", "offered", "a", "deal"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 49,
+    "russian": "Его поведение кажется реально подозрительным.",
+    "words_pool": ["his", "behavior", "feels", "really", "sus", "shady", "corny", "wack", "basic"],
+    "correct_sequences": [
+      ["his", "behavior", "feels", "really", "sus"],
+      ["behavior", "feels", "really", "sus"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 50,
+    "russian": "Этот комплимент прозвучал слишком банально.",
+    "words_pool": ["that", "compliment", "sounded", "too", "corny", "sus", "shady", "wack", "basic"],
+    "correct_sequences": [
+      ["that", "compliment", "sounded", "too", "corny"],
+      ["compliment", "sounded", "too", "corny"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 51,
+    "russian": "Этот проект — полный провал.",
+    "words_pool": ["this", "project", "is", "a", "total", "flop", "valid", "banger", "dope", "gas"],
+    "correct_sequences": [
+      ["this", "project", "is", "a", "total", "flop"],
+      ["project", "is", "a", "total", "flop"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 52,
+    "russian": "Она носит типичный скучный шмот.",
+    "words_pool": ["she", "wears", "such", "basic", "threads", "clean", "clout", "whip", "ice"],
+    "correct_sequences": [
+      ["she", "wears", "such", "basic", "threads"],
+      ["wears", "such", "basic", "threads"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 53,
+    "russian": "Этот мошенник наконец-то спалился.",
+    "words_pool": ["this", "scammer", "finally", "got", "busted", "shook", "stoked", "pressed", "salty"],
+    "correct_sequences": [
+      ["this", "scammer", "finally", "got", "busted"],
+      ["scammer", "finally", "got", "busted"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 54,
+    "russian": "Перестань чудить и нести чушь.",
+    "words_pool": ["stop", "tripping", "and", "talking", "nonsense", "simping", "hustling", "chilling", "vibing"],
+    "correct_sequences": [
+      ["stop", "tripping", "and", "talking", "nonsense"],
+      ["stop", "tripping", "and", "talk", "nonsense"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 55,
+    "russian": "Он просто типичный НПС.",
+    "words_pool": ["he", "is", "a", "total", "npc", "chad", "simp", "goat", "glazer"],
+    "correct_sequences": [
+      ["he", "is", "a", "total", "npc"],
+      ["he's", "a", "total", "npc"],
+      ["total", "npc"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 56,
+    "russian": "Моя банда будет тусоваться.",
+    "words_pool": ["my", "fam", "is", "gonna", "hang", "out", "bounce", "bail", "cop", "drop"],
+    "correct_sequences": [
+      ["my", "fam", "is", "gonna", "hang", "out"],
+      ["fam", "is", "gonna", "hang", "out"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 57,
+    "russian": "Она моя лучшая подруга.",
+    "words_pool": ["she", "is", "my", "bestie", "opp", "snitch", "side", "chick"],
+    "correct_sequences": [
+      ["she", "is", "my", "bestie"],
+      ["she's", "my", "bestie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 58,
+    "russian": "Хватит быть лежебокой.",
+    "words_pool": ["stop", "being", "a", "couch", "potato", "party", "pooper", "nutcase", "cheapskate"],
+    "correct_sequences": [
+      ["stop", "being", "a", "couch", "potato"],
+      ["stop", "being", "couch", "potato"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 59,
+    "russian": "Не зови этого душнилу.",
+    "words_pool": ["don't", "invite", "that", "party", "pooper", "couch", "potato", "nutcase", "cheapskate"],
+    "correct_sequences": [
+      ["don't", "invite", "that", "party", "pooper"],
+      ["don't", "invite", "the", "party", "pooper"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 60,
+    "russian": "Влад — мой друг с первого дня.",
+    "words_pool": ["vlad", "is", "my", "day", "one", "bestie", "fam", "bro", "buddy"],
+    "correct_sequences": [
+      ["vlad", "is", "my", "day", "one"],
+      ["vlad", "my", "day", "one"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 61,
+    "russian": "У него тайное свидание.",
+    "words_pool": ["he", "has", "a", "sneaky", "link", "scam", "ick", "flop", "vibe"],
+    "correct_sequences": [
+      ["he", "has", "a", "sneaky", "link"],
+      ["has", "a", "sneaky", "link"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 62,
+    "russian": "Она нашла себе богатого папика.",
+    "words_pool": ["she", "found", "a", "sugar", "daddy", "chad", "simp", "npc", "glazer"],
+    "correct_sequences": [
+      ["she", "found", "a", "sugar", "daddy"],
+      ["found", "a", "sugar", "daddy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 63,
+    "russian": "Она выложила фото ради лайков.",
+    "words_pool": ["she", "posted", "a", "thirst", "trap", "gimmick", "tea", "beef", "clout"],
+    "correct_sequences": [
+      ["she", "posted", "a", "thirst", "trap"],
+      ["posted", "a", "thirst", "trap"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 64,
+    "russian": "Я залипал в новости перед сном.",
+    "words_pool": ["I", "was", "doomscrolling", "before", "bed", "tripping", "hustling", "grinding", "vibing"],
+    "correct_sequences": [
+      ["I", "was", "doomscrolling", "before", "bed"],
+      ["was", "doomscrolling", "before", "bed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 65,
+    "russian": "Эти мемы вызывают разжижение мозга.",
+    "words_pool": ["these", "memes", "give", "me", "brainrot", "gains", "clout", "tea", "rizz"],
+    "correct_sequences": [
+      ["these", "memes", "give", "me", "brainrot"],
+      ["memes", "give", "me", "brainrot"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 66,
+    "russian": "Он поднял кучу бабла.",
+    "words_pool": ["he", "made", "a", "lot", "of", "guap", "ice", "whip", "kicks", "threads"],
+    "correct_sequences": [
+      ["he", "made", "a", "lot", "of", "guap"],
+      ["he", "made", "lot", "of", "guap"],
+      ["made", "a", "lot", "of", "guap"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 67,
+    "russian": "Бро, этот трек нереально качает.",
+    "words_pool": ["bro", "this", "banger", "absolutely", "slaps", "flops", "wacks", "scams", "fakes"],
+    "correct_sequences": [
+      ["bro", "this", "banger", "absolutely", "slaps"],
+      ["this", "banger", "absolutely", "slaps"],
+      ["bro", "banger", "absolutely", "slaps"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 68,
+    "russian": "Этот дизайн — просто топчик.",
+    "words_pool": ["this", "design", "is", "straight", "gas", "wack", "flop", "mid", "corny"],
+    "correct_sequences": [
+      ["this", "design", "is", "straight", "gas"],
+      ["design", "is", "straight", "gas"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 69,
+    "russian": "Она раздаёт стиль.",
+    "words_pool": ["she", "is", "serving", "looks", "slaying", "flexing", "bailing", "pinging"],
+    "correct_sequences": [
+      ["she", "is", "serving", "looks"],
+      ["she's", "serving", "looks"],
+      ["serving", "looks"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 70,
+    "russian": "Я не буду этого делать, и точка!",
+    "words_pool": ["I", "won't", "do", "it", "periodt", "tbh", "btw", "idk", "imo"],
+    "correct_sequences": [
+      ["I", "won't", "do", "it", "periodt"],
+      ["won't", "do", "it", "periodt"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 71,
+    "russian": "Босс, этот макет — отстой.",
+    "words_pool": ["chief", "this", "layout", "is", "wack", "dope", "sick", "lit", "gas"],
+    "correct_sequences": [
+      ["chief", "this", "layout", "is", "wack"],
+      ["chief", "layout", "is", "wack"],
+      ["this", "layout", "is", "wack", "chief"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 72,
+    "russian": "Наш запуск — это огромная победа.",
+    "words_pool": ["our", "launch", "is", "a", "big", "w", "l", "flop", "scam", "gimmick"],
+    "correct_sequences": [
+      ["our", "launch", "is", "a", "big", "w"],
+      ["launch", "is", "a", "big", "w"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 73,
+    "russian": "Маякни мне, когда закончишь.",
+    "words_pool": ["ping", "me", "when", "you", "finish", "bail", "bounce", "flex", "hustle"],
+    "correct_sequences": [
+      ["ping", "me", "when", "you", "finish"],
+      ["ping", "when", "you", "finish"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 74,
+    "russian": "Этот трюк сорвал наш релиз.",
+    "words_pool": ["this", "gimmick", "ruined", "our", "launch", "banger", "vibe", "clout", "beef"],
+    "correct_sequences": [
+      ["this", "gimmick", "ruined", "our", "launch"],
+      ["gimmick", "ruined", "our", "launch"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 75,
+    "russian": "Покажи мне графические файлы.",
+    "words_pool": ["show", "me", "the", "graphic", "assets", "wanna", "gonna", "gotta", "lemme"],
+    "correct_sequences": [
+      ["show", "me", "the", "graphic", "assets"],
+      ["show", "me", "graphic", "assets"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 76,
+    "russian": "Она сильно страдает по нему.",
+    "words_pool": ["she", "is", "down", "bad", "over", "him", "salty", "pressed", "jelly", "shook"],
+    "correct_sequences": [
+      ["she", "is", "down", "bad", "over", "him"],
+      ["she's", "down", "bad", "over", "him"],
+      ["down", "bad", "over", "him"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 77,
+    "russian": "Этот подлиза гоняется за хайпом.",
+    "words_pool": ["this", "glazer", "is", "chasing", "clout", "snitch", "opp", "npc", "chad"],
+    "correct_sequences": [
+      ["this", "glazer", "is", "chasing", "clout"],
+      ["glazer", "is", "chasing", "clout"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 78,
+    "russian": "Альфач никогда не будет бегать за кем-то.",
+    "words_pool": ["a", "chad", "will", "never", "simp", "glazer", "npc", "snitch", "opp"],
+    "correct_sequences": [
+      ["a", "chad", "will", "never", "simp"],
+      ["chad", "will", "never", "simp"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 79,
+    "russian": "Этот задрот психанул и вылетел.",
+    "words_pool": ["this", "sweaty", "gamer", "rage", "quit", "tripping", "bailing", "busting", "ghosting"],
+    "correct_sequences": [
+      ["this", "sweaty", "gamer", "rage", "quit"],
+      ["sweaty", "gamer", "rage", "quit"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 80,
+    "russian": "У них начался жесткий конфликт.",
+    "words_pool": ["they", "started", "a", "huge", "beef", "tea", "clout", "vibe", "scam"],
+    "correct_sequences": [
+      ["they", "started", "a", "huge", "beef"],
+      ["started", "a", "huge", "beef"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 81,
+    "russian": "Я ловлю жор и злюсь.",
+    "words_pool": ["I", "get", "munchies", "and", "hangry", "drained", "wasted", "stoked", "pressed"],
+    "correct_sequences": [
+      ["I", "get", "munchies", "and", "hangry"],
+      ["get", "munchies", "and", "hangry"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 82,
+    "russian": "Он был в хлам, но легендарен.",
+    "words_pool": ["he", "was", "wasted", "but", "goated", "wack", "mid", "basic", "corny"],
+    "correct_sequences": [
+      ["he", "was", "wasted", "but", "goated"],
+      ["was", "wasted", "but", "goated"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 83,
+    "russian": "Твоя подруга жестко хайпанула.",
+    "words_pool": ["your", "bestie", "popped", "off", "bailed", "bounced", "dropped", "copped"],
+    "correct_sequences": [
+      ["your", "bestie", "popped", "off"],
+      ["bestie", "popped", "off"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 84,
+    "russian": "Этот культовый трек нереально качает.",
+    "words_pool": ["this", "goated", "track", "absolutely", "slaps", "flops", "scams", "fakes"],
+    "correct_sequences": [
+      ["this", "goated", "track", "absolutely", "slaps"],
+      ["goated", "track", "absolutely", "slaps"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 85,
+    "russian": "Этот макет — проще простого.",
+    "words_pool": ["this", "mockup", "is", "a", "piece", "of", "cake", "flop", "scam", "gimmick"],
+    "correct_sequences": [
+      ["this", "mockup", "is", "a", "piece", "of", "cake"],
+      ["mockup", "is", "a", "piece", "of", "cake"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 86,
+    "russian": "Мне пришлось сегодня слиться.",
+    "words_pool": ["I", "had", "to", "bail", "today", "bounce", "flex", "grind", "hustle"],
+    "correct_sequences": [
+      ["I", "had", "to", "bail", "today"],
+      ["had", "to", "bail", "today"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 87,
+    "russian": "Её игнор — это тревожный звоночек.",
+    "words_pool": ["her", "cold", "shoulder", "is", "a", "red", "flag", "green", "beige", "valid"],
+    "correct_sequences": [
+      ["her", "cold", "shoulder", "is", "a", "red", "flag"],
+      ["cold", "shoulder", "is", "a", "red", "flag"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 88,
+    "russian": "Стукач раскололся и всё выдал.",
+    "words_pool": ["the", "snitch", "spilled", "the", "beans", "tea", "clout", "beef", "rizz"],
+    "correct_sequences": [
+      ["the", "snitch", "spilled", "the", "beans"],
+      ["snitch", "spilled", "the", "beans"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 89,
+    "russian": "Я весь во внимании, сплетничай.",
+    "words_pool": ["I", "am", "all", "ears", "spill", "the", "tea", "beef", "clout", "cap"],
+    "correct_sequences": [
+      ["I", "am", "all", "ears", "spill", "the", "tea"],
+      ["all", "ears", "spill", "the", "tea"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 90,
+    "russian": "Замётано, я не буду обижаться.",
+    "words_pool": ["bet", "I", "won't", "get", "salty", "pressed", "shook", "drained", "jelly"],
+    "correct_sequences": [
+      ["bet", "I", "won't", "get", "salty"],
+      ["I", "won't", "get", "salty", "bet"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 91,
+    "russian": "Этот макет неожиданно выстрелил.",
+    "words_pool": ["this", "layout", "is", "a", "sleeper", "flop", "banger", "scam", "gimmick"],
+    "correct_sequences": [
+      ["this", "layout", "is", "a", "sleeper"],
+      ["layout", "is", "a", "sleeper"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 92,
+    "russian": "Наш релиз обернулся жестким провалом.",
+    "words_pool": ["our", "launch", "was", "a", "major", "l", "w", "flop", "scam", "vibe"],
+    "correct_sequences": [
+      ["our", "launch", "was", "a", "major", "l"],
+      ["launch", "was", "a", "major", "l"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 93,
+    "russian": "Это просто дешевый ухищрение.",
+    "words_pool": ["this", "is", "just", "a", "cheap", "gimmick", "banger", "flop", "scam", "vibe"],
+    "correct_sequences": [
+      ["this", "is", "just", "a", "cheap", "gimmick"],
+      ["it's", "just", "a", "cheap", "gimmick"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 94,
+    "russian": "Эта песня засела в голове.",
+    "words_pool": ["this", "song", "lives", "rent", "free", "valid", "clean", "dope", "sick"],
+    "correct_sequences": [
+      ["this", "song", "lives", "rent", "free"],
+      ["song", "lives", "rent", "free"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 95,
+    "russian": "Этот мошенник спалился с поличным.",
+    "words_pool": ["this", "scammer", "got", "caught", "in", "4k", "busted", "shook", "bounced"],
+    "correct_sequences": [
+      ["this", "scammer", "got", "caught", "in", "4k"],
+      ["scammer", "got", "caught", "in", "4k"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 96,
+    "russian": "Его чехол вызвал у меня отвращение.",
+    "words_pool": ["his", "case", "gave", "me", "an", "ick", "flop", "scam", "vibe", "tea"],
+    "correct_sequences": [
+      ["his", "case", "gave", "me", "an", "ick"],
+      ["case", "gave", "me", "an", "ick"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 97,
+    "russian": "Твой прикид выглядит безупречно.",
+    "words_pool": ["your", "fit", "is", "on", "fleek", "wack", "mid", "sus", "corny"],
+    "correct_sequences": [
+      ["your", "fit", "is", "on", "fleek"],
+      ["fit", "is", "on", "fleek"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 98,
+    "russian": "Игнор в чате — это красный флаг.",
+    "words_pool": ["left", "on", "read", "is", "a", "red", "flag", "green", "beige", "valid"],
+    "correct_sequences": [
+      ["left", "on", "read", "is", "a", "red", "flag"],
+      ["being", "left", "on", "read", "is", "a", "red", "flag"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 99,
+    "russian": "Я в шоке от этих сплетен.",
+    "words_pool": ["I", "am", "shooketh", "by", "this", "tea", "beef", "clout", "cap", "rizz"],
+    "correct_sequences": [
+      ["I", "am", "shooketh", "by", "this", "tea"],
+      ["shooketh", "by", "this", "tea"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 100,
+    "russian": "Я кайфую один, у них недоотношения.",
+    "words_pool": ["I'm", "living", "single", "they", "have", "a", "situationship", "bestie", "link", "chick"],
+    "correct_sequences": [
+      ["I'm", "living", "single", "they", "have", "a", "situationship"],
+      ["living", "single", "they", "have", "a", "situationship"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 101,
+    "russian": "Я кайфую один, у них недоотношения.",
+    "words_pool": ["I'm", "living", "single", "they", "have", "a", "situationship", "tea", "beef", "clout", "simp"],
+    "correct_sequences": [
+      ["I'm", "living", "single", "they", "have", "a", "situationship"],
+      ["living", "single", "they", "have", "a", "situationship"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 102,
+    "russian": "Её исчезновение — тревожный звоночек.",
+    "words_pool": ["her", "ghosting", "is", "a", "red", "flag", "green", "beige", "valid", "wack"],
+    "correct_sequences": [
+      ["her", "ghosting", "is", "a", "red", "flag"],
+      ["ghosting", "is", "a", "red", "flag"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 103,
+    "russian": "Он просто кормит меня завтраками.",
+    "words_pool": ["he", "is", "just", "breadcrumbing", "me", "simping", "ghosting", "bailing", "flexing"],
+    "correct_sequences": [
+      ["he", "is", "just", "breadcrumbing", "me"],
+      ["he's", "just", "breadcrumbing", "me"],
+      ["just", "breadcrumbing", "me"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 104,
+    "russian": "Его любовь — это просто манипуляция.",
+    "words_pool": ["his", "love", "bombing", "is", "just", "gaslighting", "rizz", "clout", "tea", "beef"],
+    "correct_sequences": [
+      ["his", "love", "bombing", "is", "just", "gaslighting"],
+      ["love", "bombing", "is", "just", "gaslighting"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 105,
+    "russian": "Его поведение — это хороший знак.",
+    "words_pool": ["his", "behavior", "is", "a", "green", "flag", "red", "beige", "scam", "flop"],
+    "correct_sequences": [
+      ["his", "behavior", "is", "a", "green", "flag"],
+      ["behavior", "is", "a", "green", "flag"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 106,
+    "russian": "Она постоянно жадничает инфой.",
+    "words_pool": ["she", "keeps", "gatekeeping", "everything", "simping", "ghosting", "bailing", "flexing"],
+    "correct_sequences": [
+      ["she", "keeps", "gatekeeping", "everything"],
+      ["keeps", "gatekeeping", "everything"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 107,
+    "russian": "Давай проверим атмосферу места.",
+    "words_pool": ["let's", "do", "a", "quick", "vibe", "check", "rizz", "clout", "tea", "beef"],
+    "correct_sequences": [
+      ["let's", "do", "a", "quick", "vibe", "check"],
+      ["do", "a", "quick", "vibe", "check"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 108,
+    "russian": "Этот НПС ведёт себя как главный.",
+    "words_pool": ["this", "npc", "has", "main", "character", "energy", "side", "stan", "chad", "simp"],
+    "correct_sequences": [
+      ["this", "npc", "has", "main", "character", "energy"],
+      ["npc", "has", "main", "character", "energy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 109,
+    "russian": "Я чувствую себя серой мышью.",
+    "words_pool": ["I", "feel", "like", "a", "side", "character", "main", "npc", "stan", "chad"],
+    "correct_sequences": [
+      ["I", "feel", "like", "a", "side", "character"],
+      ["feel", "like", "a", "side", "character"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 110,
+    "russian": "Этот фантазёр нашел решение.",
+    "words_pool": ["this", "delulu", "guy", "found", "a", "solulu", "rizz", "clout", "tea", "beef"],
+    "correct_sequences": [
+      ["this", "delulu", "guy", "found", "a", "solulu"],
+      ["delulu", "guy", "found", "a", "solulu"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 111,
+    "russian": "Он сделал всё абсолютно идеально.",
+    "words_pool": ["he", "totally", "understood", "the", "assignment", "missed", "failed", "flop", "wack"],
+    "correct_sequences": [
+      ["he", "totally", "understood", "the", "assignment"],
+      ["totally", "understood", "the", "assignment"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 112,
+    "russian": "Твоё резкое мнение имеет право быть.",
+    "words_pool": ["your", "hot", "take", "is", "valid", "wack", "flop", "sus", "corny"],
+    "correct_sequences": [
+      ["your", "hot", "take", "is", "valid"],
+      ["hot", "take", "is", "valid"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 113,
+    "russian": "Подписываюсь под словом, без вранья.",
+    "words_pool": ["no", "lies", "detected", "no", "cap", "sus", "corny", "wack", "flop"],
+    "correct_sequences": [
+      ["no", "lies", "detected", "no", "cap"],
+      ["no", "cap", "no", "lies", "detected"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 114,
+    "russian": "Ни слова больше, рассказывай.",
+    "words_pool": ["say", "less", "spill", "the", "tea", "beef", "clout", "rizz", "cap"],
+    "correct_sequences": [
+      ["say", "less", "spill", "the", "tea"],
+      ["spill", "the", "tea", "say", "less"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 115,
+    "russian": "Клянусь, на полном серьезе, по делу.",
+    "words_pool": ["on", "god", "deadass", "real", "talk", "fake", "cap", "sus", "flop"],
+    "correct_sequences": [
+      ["on", "god", "deadass", "real", "talk"],
+      ["deadass", "real", "talk", "on", "god"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 116,
+    "russian": "Я не буду, и точка, замётано.",
+    "words_pool": ["I", "won't", "do", "it", "period", "bet", "cap", "sus", "corny", "wack"],
+    "correct_sequences": [
+      ["I", "won't", "do", "it", "period", "bet"],
+      ["won't", "do", "it", "period", "bet"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 117,
+    "russian": "Злой геймер затащил раунд.",
+    "words_pool": ["this", "salty", "gamer", "clutched", "the", "round", "pressed", "shook", "wasted", "drained"],
+    "correct_sequences": [
+      ["this", "salty", "gamer", "clutched", "the", "round"],
+      ["salty", "gamer", "clutched", "the", "round"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 118,
+    "russian": "Мы на месте, готовы суетиться.",
+    "words_pool": ["we", "out", "here", "ready", "to", "hustle", "chill", "bounce", "flex", "grind"],
+    "correct_sequences": [
+      ["we", "out", "here", "ready", "to", "hustle"],
+      ["out", "here", "ready", "to", "hustle"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 119,
+    "russian": "Её пахота приносит реальный прогресс.",
+    "words_pool": ["her", "grindset", "brings", "solid", "gains", "flop", "scam", "l", "beef"],
+    "correct_sequences": [
+      ["her", "grindset", "brings", "solid", "gains"],
+      ["grindset", "brings", "solid", "gains"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 120,
+    "russian": "Я кайфую, вся банда тусуется.",
+    "words_pool": ["I'm", "hyped", "the", "fam", "is", "vibing", "tripping", "simping", "ghosting", "bailing"],
+    "correct_sequences": [
+      ["I'm", "hyped", "the", "fam", "is", "vibing"],
+      ["hyped", "the", "fam", "is", "vibing"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 121,
+    "russian": "Подлиза бесится из-за нашей победы.",
+    "words_pool": ["this", "glazer", "is", "salty", "over", "the", "w", "l", "flop", "scam", "beef"],
+    "correct_sequences": [
+      ["this", "glazer", "is", "salty", "over", "the", "w"],
+      ["glazer", "is", "salty", "over", "the", "w"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 122,
+    "russian": "Конкуренты в полном шоке.",
+    "words_pool": ["the", "opps", "are", "shook", "stoked", "pressed", "jelly", "wasted"],
+    "correct_sequences": [
+      ["the", "opps", "are", "shook"],
+      ["opps", "are", "shook"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 123,
+    "russian": "Этот нищеброд — просто хайпожор.",
+    "words_pool": ["this", "brokie", "is", "a", "clout", "chaser", "simp", "chad", "goat", "npc"],
+    "correct_sequences": [
+      ["this", "brokie", "is", "a", "clout", "chaser"],
+      ["brokie", "is", "a", "clout", "chaser"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 124,
+    "russian": "Фанат выложил фото ради лайков.",
+    "words_pool": ["this", "stan", "posted", "a", "thirst", "trap", "gimmick", "tea", "beef", "rizz"],
+    "correct_sequences": [
+      ["this", "stan", "posted", "a", "thirst", "trap"],
+      ["stan", "posted", "a", "thirst", "trap"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 125,
+    "russian": "Его банальный комплимент звучит фальшиво.",
+    "words_pool": ["his", "corny", "compliment", "sounds", "so", "cheesy", "wack", "flop", "sus", "basic"],
+    "correct_sequences": [
+      ["his", "corny", "compliment", "sounds", "so", "cheesy"],
+      ["corny", "compliment", "sounds", "so", "cheesy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 126,
+    "russian": "Наблюдатель спалился с поличным.",
+    "words_pool": ["the", "lurker", "got", "caught", "in", "4k", "busted", "shook", "stoked", "pressed"],
+    "correct_sequences": [
+      ["the", "lurker", "got", "caught", "in", "4k"],
+      ["lurker", "got", "caught", "in", "4k"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 127,
+    "russian": "Листание новостей вызывает разжижение мозга.",
+    "words_pool": ["endless", "doomscrolling", "gives", "me", "brainrot", "gains", "clout", "tea", "beef"],
+    "correct_sequences": [
+      ["endless", "doomscrolling", "gives", "me", "brainrot"],
+      ["doomscrolling", "gives", "me", "brainrot"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 128,
+    "russian": "Этот имбовый персонаж просто пушка.",
+    "words_pool": ["this", "op", "character", "is", "straight", "gas", "wack", "flop", "mid", "basic"],
+    "correct_sequences": [
+      ["this", "op", "character", "is", "straight", "gas"],
+      ["op", "character", "is", "straight", "gas"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 129,
+    "russian": "Он отошел, запуск отменяется.",
+    "words_pool": ["he", "went", "afk", "launch", "is", "canceled", "brb", "tbh", "idk", "irl"],
+    "correct_sequences": [
+      ["he", "went", "afk", "launch", "is", "canceled"],
+      ["went", "afk", "launch", "is", "canceled"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 130,
+    "russian": "Эта пушка жестко качает в тачке.",
+    "words_pool": ["this", "banger", "slaps", "in", "the", "whip", "kicks", "ice", "threads", "guap"],
+    "correct_sequences": [
+      ["this", "banger", "slaps", "in", "the", "whip"],
+      ["banger", "slaps", "in", "the", "whip"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 131,
+    "russian": "Ты несешь чушь, когда болеешь.",
+    "words_pool": ["you", "are", "tripping", "under", "the", "weather", "simping", "hustling", "vibing", "flexing"],
+    "correct_sequences": [
+      ["you", "are", "tripping", "under", "the", "weather"],
+      ["tripping", "under", "the", "weather"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 132,
+    "russian": "Его новые кроссы выглядят идеально.",
+    "words_pool": ["his", "new", "kicks", "are", "on", "fleek", "whip", "ice", "threads", "guap"],
+    "correct_sequences": [
+      ["his", "new", "kicks", "are", "on", "fleek"],
+      ["new", "kicks", "are", "on", "fleek"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 133,
+    "russian": "Мой давний бро стал домоседом.",
+    "words_pool": ["my", "day", "one", "is", "a", "couch", "potato", "party", "pooper", "nutcase", "cheapskate"],
+    "correct_sequences": [
+      ["my", "day", "one", "is", "a", "couch", "potato"],
+      ["day", "one", "is", "a", "couch", "potato"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 134,
+    "russian": "Урвал этот макет, проще простого.",
+    "words_pool": ["copped", "this", "mockup", "piece", "of", "cake", "dropped", "bailed", "bounced", "flexed"],
+    "correct_sequences": [
+      ["copped", "this", "mockup", "piece", "of", "cake"],
+      ["copped", "mockup", "piece", "of", "cake"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 135,
+    "russian": "Они релизят продукт, полный провал.",
+    "words_pool": ["they", "drop", "the", "product", "total", "flop", "banger", "gas", "dope", "lit"],
+    "correct_sequences": [
+      ["they", "drop", "the", "product", "total", "flop"],
+      ["drop", "the", "product", "total", "flop"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 136,
+    "russian": "Я просто прицениваюсь.",
+    "words_pool": ["I'm", "just", "window", "shopping", "buying", "flexing", "copping", "dropping"],
+    "correct_sequences": [
+      ["I'm", "just", "window", "shopping"],
+      ["just", "window", "shopping"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 137,
+    "russian": "Это стоит целое состояние.",
+    "words_pool": ["it", "costs", "an", "arm", "and", "a", "leg", "guap", "ice", "whip", "kicks"],
+    "correct_sequences": [
+      ["it", "costs", "an", "arm", "and", "a", "leg"],
+      ["costs", "an", "arm", "and", "a", "leg"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 138,
+    "russian": "Это грабёж средь бела дня.",
+    "words_pool": ["it", "is", "a", "total", "rip-off", "scam", "flop", "wack", "basic"],
+    "correct_sequences": [
+      ["it", "is", "a", "total", "rip-off"],
+      ["it's", "a", "total", "rip-off"],
+      ["a", "total", "rip-off"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 139,
+    "russian": "У меня туго с баблом в этом месяце.",
+    "words_pool": ["I", "am", "strapped", "for", "cash", "this", "month", "guap", "ice", "whip", "kicks"],
+    "correct_sequences": [
+      ["I", "am", "strapped", "for", "cash", "this", "month"],
+      ["strapped", "for", "cash", "this", "month"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 140,
+    "russian": "Я застрял в мертвой пробке.",
+    "words_pool": ["I", "am", "stuck", "in", "bumper-to-bumper", "traffic", "whip", "kicks", "threads", "ice"],
+    "correct_sequences": [
+      ["I", "am", "stuck", "in", "bumper-to-bumper", "traffic"],
+      ["stuck", "in", "bumper-to-bumper", "traffic"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 141,
+    "russian": "Подбросишь меня до центра?",
+    "words_pool": ["can", "you", "drop", "me", "off", "downtown", "cop", "bail", "bounce", "flex"],
+    "correct_sequences": [
+      ["can", "you", "drop", "me", "off", "downtown"],
+      ["drop", "me", "off", "downtown"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 142,
+    "russian": "Я пропустил свой поворот.",
+    "words_pool": ["I", "missed", "my", "exit", "dropped", "copped", "bailed", "bounced"],
+    "correct_sequences": [
+      ["I", "missed", "my", "exit"],
+      ["missed", "my", "exit"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 143,
+    "russian": "Давно не виделись!",
+    "words_pool": ["long", "time", "no", "see", "hear", "talk", "speak", "look"],
+    "correct_sequences": [
+      ["long", "time", "no", "see"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 144,
+    "russian": "Какими судьбами?",
+    "words_pool": ["what", "brings", "you", "here", "why", "who", "when", "how"],
+    "correct_sequences": [
+      ["what", "brings", "you", "here"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 145,
+    "russian": "Давай как-нибудь пересечемся.",
+    "words_pool": ["let's", "catch", "up", "sometime", "hook", "link", "bounce", "bail"],
+    "correct_sequences": [
+      ["let's", "catch", "up", "sometime"],
+      ["catch", "up", "sometime"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 146,
+    "russian": "Напиши мне позже.",
+    "words_pool": ["hit", "me", "up", "later", "ping", "drop", "cop", "flex"],
+    "correct_sequences": [
+      ["hit", "me", "up", "later"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 147,
+    "russian": "Мне нужно заскочить домой переодеться.",
+    "words_pool": ["I", "need", "to", "swing", "by", "my", "place", "to", "change", "bounce", "bail", "flex", "cop"],
+    "correct_sequences": [
+      ["I", "need", "to", "swing", "by", "my", "place", "to", "change"],
+      ["need", "to", "swing", "by", "my", "place", "to", "change"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 148,
+    "russian": "Вообще без проблем.",
+    "words_pool": ["no", "sweat", "at", "all", "cap", "tea", "beef", "clout"],
+    "correct_sequences": [
+      ["no", "sweat", "at", "all"],
+      ["no", "sweat"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 149,
+    "russian": "Я угощаю, не парься.",
+    "words_pool": ["it's", "on", "me", "don't", "worry", "sweat", "trip", "flex", "simp"],
+    "correct_sequences": [
+      ["it's", "on", "me", "don't", "worry"],
+      ["on", "me", "don't", "worry"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 150,
+    "russian": "Давай разделим счет.",
+    "words_pool": ["let's", "split", "the", "bill", "dutch", "check", "pay", "cop"],
+    "correct_sequences": [
+      ["let's", "split", "the", "bill"],
+      ["split", "the", "bill"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 151,
+    "russian": "Я психанул и вышел из игры.",
+    "words_pool": ["I", "rage", "quit", "the", "game", "simp", "flex", "clutch", "drop"],
+    "correct_sequences": [
+      ["I", "rage", "quit", "the", "game"],
+      ["rage", "quit", "the", "game"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 152,
+    "russian": "Он такой потный задрот.",
+    "words_pool": ["he", "is", "such", "a", "sweaty", "gamer", "noob", "stan", "chad", "goat"],
+    "correct_sequences": [
+      ["he", "is", "such", "a", "sweaty", "gamer"],
+      ["is", "such", "a", "sweaty", "gamer"],
+      ["such", "a", "sweaty", "gamer"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 153,
+    "russian": "Это оружие абсолютно имбовое.",
+    "words_pool": ["this", "weapon", "is", "totally", "op", "wack", "mid", "basic", "corny"],
+    "correct_sequences": [
+      ["this", "weapon", "is", "totally", "op"],
+      ["weapon", "is", "totally", "op"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 154,
+    "russian": "Не веди себя как нуб.",
+    "words_pool": ["don't", "act", "like", "a", "noob", "chad", "simp", "goat", "npc"],
+    "correct_sequences": [
+      ["don't", "act", "like", "a", "noob"],
+      ["act", "like", "a", "noob"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 155,
+    "russian": "Он жутко потеет ради победы.",
+    "words_pool": ["he", "is", "a", "massive", "tryhard", "noob", "stan", "glazer", "npc"],
+    "correct_sequences": [
+      ["he", "is", "a", "massive", "tryhard"],
+      ["is", "a", "massive", "tryhard"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 156,
+    "russian": "На улице сегодня просто дубак.",
+    "words_pool": ["it", "is", "brick", "outside", "today", "sick", "dope", "lit", "gas"],
+    "correct_sequences": [
+      ["it", "is", "brick", "outside", "today"],
+      ["brick", "outside", "today"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 157,
+    "russian": "Он включил режим полной беспощадности.",
+    "words_pool": ["he", "went", "full", "savage", "mode", "soft", "hard", "basic", "mid"],
+    "correct_sequences": [
+      ["he", "went", "full", "savage", "mode"],
+      ["went", "full", "savage", "mode"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 158,
+    "russian": "Сейчас решающий момент.",
+    "words_pool": ["it", "is", "clutch", "time", "now", "brick", "flop", "scam", "vibe"],
+    "correct_sequences": [
+      ["it", "is", "clutch", "time", "now"],
+      ["clutch", "time", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 159,
+    "russian": "Ты реально затащил раунд.",
+    "words_pool": ["you", "really", "clutched", "the", "round", "bailed", "bounced", "dropped", "flexed"],
+    "correct_sequences": [
+      ["you", "really", "clutched", "the", "round"],
+      ["really", "clutched", "the", "round"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 160,
+    "russian": "Подтягивайся на вечеринку.",
+    "words_pool": ["pull", "up", "to", "the", "party", "bounce", "bail", "flex", "grind"],
+    "correct_sequences": [
+      ["pull", "up", "to", "the", "party"],
+      ["pull", "up", "to", "party"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 161,
+    "russian": "Это была дешевая отмазка.",
+    "words_pool": ["that", "was", "a", "cheap", "cop", "out", "flop", "scam", "gimmick", "vibe"],
+    "correct_sequences": [
+      ["that", "was", "a", "cheap", "cop", "out"],
+      ["was", "a", "cheap", "cop", "out"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 162,
+    "russian": "Эта шутка была ударом ниже пояса.",
+    "words_pool": ["that", "joke", "was", "a", "low-blow", "banger", "flop", "scam", "tea"],
+    "correct_sequences": [
+      ["that", "joke", "was", "a", "low-blow"],
+      ["joke", "was", "a", "low-blow"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 163,
+    "russian": "Эта песня ночью воспринимается совсем иначе.",
+    "words_pool": ["this", "song", "hits", "different", "at", "night", "slaps", "bops", "flops", "drops"],
+    "correct_sequences": [
+      ["this", "song", "hits", "different", "at", "night"],
+      ["song", "hits", "different", "at", "night"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 164,
+    "russian": "Почему он так сильно злится?",
+    "words_pool": ["why", "is", "he", "so", "big", "mad", "salty", "pressed", "shook", "stoked"],
+    "correct_sequences": [
+      ["why", "is", "he", "so", "big", "mad"],
+      ["why", "is", "he", "big", "mad"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 165,
+    "russian": "Они растрясли его на деньги.",
+    "words_pool": ["they", "shook", "him", "down", "for", "cash", "pressed", "flexed", "bounced", "bailed"],
+    "correct_sequences": [
+      ["they", "shook", "him", "down", "for", "cash"],
+      ["shook", "him", "down", "for", "cash"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 166,
+    "russian": "Хватит тонко оскорблять её.",
+    "words_pool": ["stop", "throwing", "shade", "at", "her", "tea", "beef", "clout", "rizz"],
+    "correct_sequences": [
+      ["stop", "throwing", "shade", "at", "her"],
+      ["stop", "throwing", "shade"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 167,
+    "russian": "Это прямой путь к катастрофе.",
+    "words_pool": ["it", "is", "a", "recipe", "for", "disaster", "banger", "flop", "scam", "gimmick"],
+    "correct_sequences": [
+      ["it", "is", "a", "recipe", "for", "disaster"],
+      ["recipe", "for", "disaster"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 168,
+    "russian": "Это был полный рука-лицо.",
+    "words_pool": ["that", "was", "a", "massive", "facepalm", "banger", "flop", "scam", "vibe"],
+    "correct_sequences": [
+      ["that", "was", "a", "massive", "facepalm"],
+      ["was", "a", "massive", "facepalm"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 169,
+    "russian": "Это место просто вымерло.",
+    "words_pool": ["this", "place", "is", "a", "ghost", "town", "banger", "flop", "scam", "vibe"],
+    "correct_sequences": [
+      ["this", "place", "is", "a", "ghost", "town"],
+      ["place", "is", "a", "ghost", "town"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 170,
+    "russian": "Это беспроигрышный вариант.",
+    "words_pool": ["it", "is", "a", "safe", "bet", "cap", "scam", "flop", "gimmick"],
+    "correct_sequences": [
+      ["it", "is", "a", "safe", "bet"],
+      ["is", "a", "safe", "bet"],
+      ["a", "safe", "bet"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 171,
+    "russian": "Эта фича полностью меняет правила игры.",
+    "words_pool": ["this", "feature", "is", "a", "game", "changer", "banger", "flop", "scam", "gimmick"],
+    "correct_sequences": [
+      ["this", "feature", "is", "a", "game", "changer"],
+      ["feature", "is", "a", "game", "changer"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 172,
+    "russian": "Она сделала намек на новые отношения.",
+    "words_pool": ["she", "did", "a", "soft", "launch", "hard", "brick", "wack", "basic"],
+    "correct_sequences": [
+      ["she", "did", "a", "soft", "launch"],
+      ["did", "a", "soft", "launch"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 173,
+    "russian": "Они официально объявили об отношениях сегодня.",
+    "words_pool": ["they", "did", "a", "hard", "launch", "today", "soft", "brick", "wack", "basic"],
+    "correct_sequences": [
+      ["they", "did", "a", "hard", "launch", "today"],
+      ["did", "a", "hard", "launch", "today"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 174,
+    "russian": "Для меня это категорический отказ.",
+    "words_pool": ["that", "is", "a", "hard", "pass", "for", "me", "soft", "safe", "bet", "clutch"],
+    "correct_sequences": [
+      ["that", "is", "a", "hard", "pass", "for", "me"],
+      ["is", "a", "hard", "pass", "for", "me"],
+      ["hard", "pass", "for", "me"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 175,
+    "russian": "Я на ускоренном пути.",
+    "words_pool": ["I", "am", "on", "the", "fast", "track", "slow", "hard", "soft", "safe"],
+    "correct_sequences": [
+      ["I", "am", "on", "the", "fast", "track"],
+      ["on", "the", "fast", "track"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 176,
+    "russian": "Он абсолютный аутсайдер.",
+    "words_pool": ["he", "is", "the", "ultimate", "underdog", "chad", "simp", "goat", "npc"],
+    "correct_sequences": [
+      ["he", "is", "the", "ultimate", "underdog"],
+      ["is", "the", "ultimate", "underdog"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 177,
+    "russian": "Жизнь подкинула мне неожиданный сюрприз.",
+    "words_pool": ["life", "threw", "me", "a", "curveball", "banger", "flop", "scam", "gimmick"],
+    "correct_sequences": [
+      ["life", "threw", "me", "a", "curveball"],
+      ["threw", "me", "a", "curveball"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 178,
+    "russian": "Отложи это на задний план.",
+    "words_pool": ["put", "that", "on", "the", "backburner", "fast", "track", "safe", "bet"],
+    "correct_sequences": [
+      ["put", "that", "on", "the", "backburner"],
+      ["put", "on", "the", "backburner"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 179,
+    "russian": "Ты должен быть честным на все сто.",
+    "words_pool": ["you", "gotta", "keep", "it", "100", "wanna", "gonna", "lemme", "dunno"],
+    "correct_sequences": [
+      ["you", "gotta", "keep", "it", "100"],
+      ["gotta", "keep", "it", "100"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 180,
+    "russian": "Я получил это на халяву.",
+    "words_pool": ["I", "got", "this", "as", "a", "freebie", "scam", "gimmick", "flop", "banger"],
+    "correct_sequences": [
+      ["I", "got", "this", "as", "a", "freebie"],
+      ["got", "this", "as", "a", "freebie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 181,
+    "russian": "Я просто хочу расслабиться сегодня.",
+    "words_pool": ["I", "just", "want", "to", "chillax", "today", "grind", "hustle", "flex", "bounce"],
+    "correct_sequences": [
+      ["I", "just", "want", "to", "chillax", "today"],
+      ["just", "want", "to", "chillax", "today"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 182,
+    "russian": "Она полная трудоголичка.",
+    "words_pool": ["she", "is", "a", "total", "workaholic", "couch", "potato", "stan", "npc"],
+    "correct_sequences": [
+      ["she", "is", "a", "total", "workaholic"],
+      ["is", "a", "total", "workaholic"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 183,
+    "russian": "Хватит быть такой истеричкой.",
+    "words_pool": ["stop", "being", "such", "a", "drama", "queen", "couch", "potato", "stan", "npc"],
+    "correct_sequences": [
+      ["stop", "being", "such", "a", "drama", "queen"],
+      ["stop", "being", "a", "drama", "queen"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 184,
+    "russian": "Он просто подражатель.",
+    "words_pool": ["he", "is", "just", "a", "copycat", "stan", "npc", "chad", "simp"],
+    "correct_sequences": [
+      ["he", "is", "just", "a", "copycat"],
+      ["is", "just", "a", "copycat"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 185,
+    "russian": "Этот фильм просто сносит крышу.",
+    "words_pool": ["that", "movie", "was", "mind-blowing", "wack", "basic", "corny", "mid"],
+    "correct_sequences": [
+      ["that", "movie", "was", "mind-blowing"],
+      ["movie", "was", "mind-blowing"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 186,
+    "russian": "Я немного опаздываю.",
+    "words_pool": ["I", "am", "running", "a", "bit", "late", "stoked", "pressed", "shook", "salty"],
+    "correct_sequences": [
+      ["I", "am", "running", "a", "bit", "late"],
+      ["running", "a", "bit", "late"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 187,
+    "russian": "Давай закругляться на сегодня.",
+    "words_pool": ["let's", "call", "it", "a", "day", "night", "week", "month", "year"],
+    "correct_sequences": [
+      ["let's", "call", "it", "a", "day"],
+      ["call", "it", "a", "day"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 188,
+    "russian": "Продолжай в том же духе.",
+    "words_pool": ["keep", "up", "the", "good", "work", "down", "bad", "wack", "mid"],
+    "correct_sequences": [
+      ["keep", "up", "the", "good", "work"],
+      ["keep", "up", "good", "work"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 189,
+    "russian": "Я схожу с ума.",
+    "words_pool": ["I", "am", "out", "of", "my", "mind", "loop", "pocket", "box", "zone"],
+    "correct_sequences": [
+      ["I", "am", "out", "of", "my", "mind"],
+      ["out", "of", "my", "mind"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 190,
+    "russian": "Это совершенно вылетело из головы.",
+    "words_pool": ["it", "slipped", "my", "mind", "completely", "bounced", "bailed", "dropped", "ghosted"],
+    "correct_sequences": [
+      ["it", "slipped", "my", "mind", "completely"],
+      ["slipped", "my", "mind", "completely"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 191,
+    "russian": "Можешь мне помочь?",
+    "words_pool": ["can", "you", "give", "me", "a", "hand", "leg", "arm", "finger", "toe"],
+    "correct_sequences": [
+      ["can", "you", "give", "me", "a", "hand"],
+      ["give", "me", "a", "hand"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 192,
+    "russian": "Буду держать за тебя кулачки.",
+    "words_pool": ["I", "will", "keep", "my", "fingers", "crossed", "arms", "legs", "eyes", "toes"],
+    "correct_sequences": [
+      ["I", "will", "keep", "my", "fingers", "crossed"],
+      ["keep", "my", "fingers", "crossed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 193,
+    "russian": "Давай перейдем к делу.",
+    "words_pool": ["let's", "get", "down", "to", "business", "bad", "work", "game", "grind"],
+    "correct_sequences": [
+      ["let's", "get", "down", "to", "business"],
+      ["get", "down", "to", "business"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 194,
+    "russian": "Не принимай близко к сердцу, бро.",
+    "words_pool": ["take", "it", "easy", "bro", "hard", "soft", "safe", "fast"],
+    "correct_sequences": [
+      ["take", "it", "easy", "bro"],
+      ["take", "it", "easy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 195,
+    "russian": "У меня немного кружится голова.",
+    "words_pool": ["I", "feel", "a", "bit", "dizzy", "stoked", "pressed", "shook", "salty"],
+    "correct_sequences": [
+      ["I", "feel", "a", "bit", "dizzy"],
+      ["feel", "a", "bit", "dizzy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 196,
+    "russian": "Не ходи вокруг да около.",
+    "words_pool": ["don't", "beat", "around", "the", "bush", "tree", "plant", "grass", "leaf"],
+    "correct_sequences": [
+      ["don't", "beat", "around", "the", "bush"],
+      ["beat", "around", "the", "bush"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 197,
+    "russian": "Ты справился с этим идеально.",
+    "words_pool": ["you", "nailed", "it", "perfectly", "busted", "ghosted", "clutched", "dropped"],
+    "correct_sequences": [
+      ["you", "nailed", "it", "perfectly"],
+      ["nailed", "it", "perfectly"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 198,
+    "russian": "Это не высшая математика.",
+    "words_pool": ["it", "is", "not", "rocket", "science", "math", "physics", "biology", "history"],
+    "correct_sequences": [
+      ["it", "is", "not", "rocket", "science"],
+      ["not", "rocket", "science"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 199,
+    "russian": "Давай действовать по ситуации.",
+    "words_pool": ["let's", "play", "it", "by", "ear", "eye", "hand", "leg", "arm"],
+    "correct_sequences": [
+      ["let's", "play", "it", "by", "ear"],
+      ["play", "it", "by", "ear"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 200,
+    "russian": "У меня сегодня всё забито.",
+    "words_pool": ["I", "am", "completely", "booked", "today", "wasted", "drained", "stoked", "shook"],
+    "correct_sequences": [
+      ["I", "am", "completely", "booked", "today"],
+      ["completely", "booked", "today"]
+    ],
+    "distractors_count": 4
+  }
+]      

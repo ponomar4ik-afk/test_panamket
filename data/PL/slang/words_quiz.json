@@ -1,0 +1,2520 @@
+[
+  {
+    "id": 1,
+    "expression": "być w proszku",
+    "options": ["Ничего не успевать / быть не готовым", "Быть сильно пьяным", "Устать после работы"],
+    "correct_answer": "Ничего не успевать / быть не готовым",
+    "example": {
+      "text": "Jestem w proszku z tym projektem.",
+      "translation": "Я вообще не готов (в запаре) с этим проектом."
+    }
+  },
+  {
+    "id": 2,
+    "expression": "czaić",
+    "options": ["Скрываться в тени", "Понимать / шарить", "Смеяться над кем-то"],
+    "correct_answer": "Понимать / шарить",
+    "example": {
+      "text": "Czaisz, o co mi chodzi?",
+      "translation": "Шаришь, о чём я говорю?"
+    }
+  },
+  {
+    "id": 3,
+    "expression": "ogarniać",
+    "options": ["Искать проблемы", "Разбираться / всё уладить", "Много болтать"],
+    "correct_answer": "Разбираться / всё уладить",
+    "example": {
+      "text": "Spoko, sam to wszystko ogarnę.",
+      "translation": "Спокуха, я сам всё разрулю."
+    }
+  },
+  {
+    "id": 4,
+    "expression": "ściemniać",
+    "options": ["Врать / заливать", "Ложиться спать", "Выключать свет"],
+    "correct_answer": "Врать / заливать",
+    "example": {
+      "text": "Przestań ściemniać, i tak wszystko wiem.",
+      "translation": "Хватит заливать, я и так всё знаю."
+    }
+  },
+  {
+    "id": 5,
+    "expression": "olewać",
+    "options": ["Много пить воды", "Игнорировать / забить болт", "Сильно обижаться"],
+    "correct_answer": "Игнорировать / забить болт",
+    "example": {
+      "text": "Musisz po prostu to olać.",
+      "translation": "Тебе нужно просто забить на это болт."
+    }
+  },
+  {
+    "id": 6,
+    "expression": "jarać się",
+    "options": ["Кайфовать / тащиться", "Сильно злиться", "Курить сигареты"],
+    "correct_answer": "Кайфовать / тащиться",
+    "example": {
+      "text": "Strasznie jaram się tym nowym telefonem.",
+      "translation": "Я дико тащусь от этого нового телефона."
+    }
+  },
+  {
+    "id": 7,
+    "expression": "rzucić mięsem",
+    "options": ["Приготовить ужин", "Выругаться / матюкнуться", "Сглупить на ровном месте"],
+    "correct_answer": "Выругаться / матюкнуться",
+    "example": {
+      "text": "Wkurzył się i rzucił mięsem.",
+      "translation": "Он взбесился и жестко матюкнулся."
+    }
+  },
+  {
+    "id": 8,
+    "expression": "klepać biedę",
+    "options": ["Жить в нищете / сводить концы с концами", "Жаловаться на жизнь", "Много работать"],
+    "correct_answer": "Жить в нищете / сводить концы с концами",
+    "example": {
+      "text": "Bez tej pracy będę klepać biedę.",
+      "translation": "Без этой работы я буду сводить концы с концами."
+    }
+  },
+  {
+    "id": 9,
+    "expression": "mamić oczy",
+    "options": ["Ухудшать зрение", "Флиртовать", "Пускать пыль в глаза"],
+    "correct_answer": "Пускать пыль в глаза",
+    "example": {
+      "text": "Przestań mi mamić oczy tymi obietnicami.",
+      "translation": "Хватит пускать мне пыль в глаза этими обещаниями."
+    }
+  },
+  {
+    "id": 10,
+    "expression": "nawijać makaron na uszy",
+    "options": ["Много кушать", "Вешать лапшу / обманывать", "Громко слушать музыку"],
+    "correct_answer": "Вешать лапшу / обманывать",
+    "example": {
+      "text": "Nie nawijaj mi makaronu na uszy!",
+      "translation": "Не вешай мне лапшу на уши!"
+    }
+  },
+  {
+    "id": 11,
+    "expression": "robić w balona",
+    "options": ["Обманывать / разводить", "Праздновать день рождения", "Шутить над друзьями"],
+    "correct_answer": "Обманывать / разводить",
+    "example": {
+      "text": "Chyba zrobili nas w balona z ceną.",
+      "translation": "Кажется, нас развели с этой ценой."
+    }
+  },
+  {
+    "id": 12,
+    "expression": "włosy stają dęba",
+    "options": ["Сделать модную прическу", "Ужаснуться / волосы дыбом", "Сильно разозлиться"],
+    "correct_answer": "Ужаснуться / волосы дыбом",
+    "example": {
+      "text": "Od takich historii włosy stają dęba.",
+      "translation": "От таких историй просто волосы дыбом встают."
+    }
+  },
+  {
+    "id": 13,
+    "expression": "czuć miętę",
+    "options": ["Сохнуть по кому-то / симпатизировать", "Предлагать жвачку", "Ненавидеть кого-то"],
+    "correct_answer": "Сохнуть по кому-то / симпатизировать",
+    "example": {
+      "text": "Chyba on czuje do ciebie miętę.",
+      "translation": "Кажется, он по тебе сохнет."
+    }
+  },
+  {
+    "id": 14,
+    "expression": "zwinąć żagle",
+    "options": ["Свалить / тихо уйти", "Купить лодку", "Сдаться без боя"],
+    "correct_answer": "Свалить / тихо уйти",
+    "example": {
+      "text": "Zrobiło się nudno, zwijamy żagle.",
+      "translation": "Стало скучно, сваливаем отсюда."
+    }
+  },
+  {
+    "id": 15,
+    "expression": "wiercić dziurę w brzuchu",
+    "options": ["Проголодаться", "Иметь проблемы со здоровьем", "Выносить мозг / капать на мозги"],
+    "correct_answer": "Выносить мозг / капать на мозги",
+    "example": {
+      "text": "Proszę, nie wierć mi dziury w brzuchu!",
+      "translation": "Пожалуйста, не выноси мне мозг!"
+    }
+  },
+  {
+    "id": 16,
+    "expression": "drzeć koty",
+    "options": ["Цапаться / ругаться", "Гладить кошек", "Громко петь песни"],
+    "correct_answer": "Цапаться / ругаться",
+    "example": {
+      "text": "Oni ciągle drą ze sobą koty.",
+      "translation": "Они постоянно цапаются друг с другом."
+    }
+  },
+  {
+    "id": 17,
+    "expression": "mieć muchy w nosie",
+    "options": ["Быть не в духе / дуться", "Сильно заболеть", "Постоянно чихать"],
+    "correct_answer": "Быть не в духе / дуться",
+    "example": {
+      "text": "O rany, znowu masz muchy w nosie.",
+      "translation": "О боже, ты опять не в духе (душнишь)."
+    }
+  },
+  {
+    "id": 18,
+    "expression": "wpaść jak śliwka w kompot",
+    "options": ["Вляпаться по полной", "Удачно выйти замуж", "Начать готовить обед"],
+    "correct_answer": "Вляпаться по полной",
+    "example": {
+      "text": "Tym razem wpadłem jak śliwka w kompot.",
+      "translation": "В этот раз я вляпался по самые уши."
+    }
+  },
+  {
+    "id": 19,
+    "expression": "robić z igły widły",
+    "options": ["Заниматься шитьем", "Делать из мухи слона", "Тяжело вкалывать"],
+    "correct_answer": "Делать из мухи слона",
+    "example": {
+      "text": "Weź przestań robić z igły widły.",
+      "translation": "Да ладно тебе, не делай из мухи слона."
+    }
+  },
+  {
+    "id": 20,
+    "expression": "mieć węża w kieszeni",
+    "options": ["Быть жмотом / жадничать", "Быть опасным человеком", "Иметь много денег"],
+    "correct_answer": "Быть жмотом / жадничать",
+    "example": {
+      "text": "On ma węża w kieszeni, nie zapłaci.",
+      "translation": "Он жмот, он за это не заплатит."
+    }
+  },
+  {
+    "id": 21,
+    "expression": "masakra",
+    "options": ["Крутой шанс", "Жесть / треш / кошмар", "Большая толпа людей"],
+    "correct_answer": "Жесть / треш / кошмар",
+    "example": {
+      "text": "Ale dzisiaj w pracy była masakra.",
+      "translation": "Ну сегодня на работе была просто жесть."
+    }
+  },
+  {
+    "id": 22,
+    "expression": "sztos",
+    "options": ["Странный поступок", "Пушка / топ / офигенно", "Громкий звук"],
+    "correct_answer": "Пушка / топ / офигенно",
+    "example": {
+      "text": "Ta nowa piosenka to totalny sztos!",
+      "translation": "Эта новая песня — просто пушка!"
+    }
+  },
+  {
+    "id": 23,
+    "expression": "siemka",
+    "options": ["Увидимся позже", "Приветик / здорово", "Как твои дела?"],
+    "correct_answer": "Приветик / здорово",
+    "example": {
+      "text": "Siemka, co tam u ciebie słychać?",
+      "translation": "Приветик, как там у тебя дела?"
+    }
+  },
+  {
+    "id": 24,
+    "expression": "nara",
+    "literal": "na razie",
+    "options": ["Пока / бывай", "Привет", "Прямо сейчас"],
+    "correct_answer": "Пока / бывай",
+    "example": {
+      "text": "Dobra, muszę lecieć. Nara!",
+      "translation": "Ладно, мне пора бежать. Бывай!"
+    }
+  },
+  {
+    "id": 25,
+    "expression": "kumpel",
+    "options": ["Злейший враг", "Коллега по работе", "Кореш / приятель"],
+    "correct_answer": "Кореш / приятель",
+    "example": {
+      "text": "To jest mój kumpel ze studiów.",
+      "translation": "Это mój кореш из универа."
+    }
+  },
+  {
+    "id": 26,
+    "expression": "ziomek",
+    "options": ["Бро / кент / чувак", "Случайный прохожий", "Строгий начальник"],
+    "correct_answer": "Бро / кент / чувак",
+    "example": {
+      "text": "Co jest, ziomek? Wszystko dobrze?",
+      "translation": "Как сам, чувак? Всё нормально?"
+    }
+  },
+  {
+    "id": 27,
+    "expression": "luzik",
+    "options": ["Очередная проблема", "Расслабон / без проблем", "Опоздание на встречу"],
+    "correct_answer": "Расслабон / без проблем",
+    "example": {
+      "text": "Luzik, zrobimy to jutro rano.",
+      "translation": "Без проблем, сделаем это завтра утром."
+    }
+  },
+  {
+    "id": 28,
+    "expression": "hajs",
+    "options": ["Белый шум", "Бабки / кэш", "Модная одежда"],
+    "correct_answer": "Бабки / кэш",
+    "example": {
+      "text": "Skończył mi się hajs na koncie.",
+      "translation": "У меня закончились бабки на счету."
+    }
+  },
+  {
+    "id": 29,
+    "expression": "biba",
+    "options": ["Бурная тусовка", "Скучная лекция", "Крупная ссора"],
+    "correct_answer": "Бурная тусовка",
+    "example": {
+      "text": "Ale wczoraj była biba u Marka!",
+      "translation": "Ну вчера и туса была у Марка!"
+    }
+  },
+  {
+    "id": 30,
+    "expression": "melanż",
+    "options": ["Смесь кофе", "Жесткая пьянка / кутеж", "Спокойный вечер дома"],
+    "correct_answer": "Жесткая пьянка / кутеж",
+    "example": {
+      "text": "Dzisiaj w klubie szykuje się gruby melanż.",
+      "translation": "Сегодня в клубе намечается жесткий кутёж."
+    }
+  },
+  {
+    "id": 31,
+    "expression": "domówka",
+    "options": ["Домашнее задание", "Вписка / туса на хате", "Генеральная уборка"],
+    "correct_answer": "Вписка / туса на хате",
+    "example": {
+      "text": "Idziemy w piątek na domówkę do Ani.",
+      "translation": "Идем в пятницу на вписку к Ане."
+    }
+  },
+  {
+    "id": 32,
+    "expression": "browar",
+    "options": ["Пивасик", "Огромный завод", "Бармен в клубе"],
+    "correct_answer": "Пивасик",
+    "example": {
+      "text": "Idziemy na browara po pracy?",
+      "translation": "Погнали по пивасику после работы?"
+    }
+  },
+  {
+    "id": 33,
+    "expression": "fura",
+    "options": ["Грузовик", "Тачка / крутая машина", "Куча мусора"],
+    "correct_answer": "Тачка / крутая машина",
+    "example": {
+      "text": "Skąd on wziął taką super furę?",
+      "translation": "Откуда он взял такую крутую тачку?"
+    }
+  },
+  {
+    "id": 34,
+    "expression": "chata",
+    "options": ["Походная палатка", "Хата / квартира", "Глухая деревня"],
+    "correct_answer": "Хата / квартира",
+    "example": {
+      "text": "Wbijaj do mnie na chatę wieczorem.",
+      "translation": "Заваливай ко мне на хату вечером."
+    }
+  },
+  {
+    "id": 35,
+    "expression": "kumać",
+    "options": ["Догонять / шарить", "Квакать на болоте", "Заводить новых друзей"],
+    "correct_answer": "Догонять / шарить",
+    "example": {
+      "text": "Nic z tego nie kumam.",
+      "translation": "Я в этом вообще ничего не догоняю."
+    }
+  },
+  {
+    "id": 36,
+    "expression": "czadowo",
+    "options": ["Очень грязно", "Улётно / круто", "Сильно надымлено"],
+    "correct_answer": "Улётно / круто",
+    "example": {
+      "text": "Wyglądasz po prostu czadowo w tej kurtce.",
+      "translation": "Ты выглядишь просто улётно в этой куртке."
+    }
+  },
+  {
+    "id": 37,
+    "expression": "zajawka",
+    "options": ["Внезапная проблема", "Заранее подготовленный план", "Страстное увлечение / кайф"],
+    "correct_answer": "Страстное увлечение / кайф",
+    "example": {
+      "text": "Fotografia to moja nowa zajawka.",
+      "translation": "Фотография — это мое новое страстное увлечение."
+    }
+  },
+  {
+    "id": 38,
+    "expression": "wypas",
+    "options": ["Роскошно / жирно / топчик", "Выпас скота", "Сильная усталость"],
+    "correct_answer": "Роскошно / жирно / топчик",
+    "example": {
+      "text": "Ale wypas, kupiłeś nowe auto!",
+      "translation": "Ну вообще жир, ты купил новую тачку!"
+    }
+  },
+  {
+    "id": 39,
+    "expression": "gasić",
+    "options": ["Беспричинно обижать", "Осадить / заткнуть кого-то", "Включать свет"],
+    "correct_answer": "Осадить / заткнуть кого-то",
+    "example": {
+      "text": "Dobrze go zgasiłeś tym tekstem.",
+      "translation": "Ты круто его осадил этой фразой."
+    }
+  },
+  {
+    "id": 40,
+    "expression": "laska",
+    "options": ["Деревянная трость", "Красивый цветок", "Девушка / чикса"],
+    "correct_answer": "Девушка / чикса",
+    "example": {
+      "text": "Ta laska z baru ciągle na mnie patrzy.",
+      "translation": "Та чикса из бара постоянно на меня смотрит."
+    }
+  },
+  {
+    "id": 41,
+    "expression": "koleś",
+    "options": ["Незнакомый человек", "Чувак / тип", "Дальний родственник"],
+    "correct_answer": "Чувак / тип",
+    "example": {
+      "text": "Ten koleś z naprzeciwka jest jakiś dziwny.",
+      "translation": "Тот тип напротив какой-то странный."
+    }
+  },
+  {
+    "id": 42,
+    "expression": "gościu",
+    "options": ["Вежливый официант", "Чувак (обращение к парню)", "Недовольный клиент"],
+    "correct_answer": "Чувак (обращение к парню)",
+    "example": {
+      "text": "Uważaj na drodze, gościu!",
+      "translation": "Эй, поаккуратнее на дороге, чувак!"
+    }
+  },
+  {
+    "id": 43,
+    "expression": "typ",
+    "options": ["Чел / подозрительный тип", "Трудный выбор", "Образец для работы"],
+    "correct_answer": "Чел / подозрительный тип",
+    "example": {
+      "text": "Jakiś dziwny typ do ciebie dzwonił.",
+      "translation": "Какой-то странный чел тебе звонил."
+    }
+  },
+  {
+    "id": 44,
+    "expression": "ściąga",
+    "options": ["Резинка для волос", "Шпора / шпаргалка", "Толстый блокнот"],
+    "correct_answer": "Шпора / шпаргалка",
+    "example": {
+      "text": "Masz ściągę na dzisiejszy egzamin?",
+      "translation": "У тебя есть шпора на сегодняшний экзамен?"
+    }
+  },
+  {
+    "id": 45,
+    "expression": "koks",
+    "options": ["Качок / нечто мощное", "Уголь для костра", "Быстрый бегун"],
+    "correct_answer": "Качок / нечто мощное",
+    "example": {
+      "text": "Ten gość na siłowni to niezły koks.",
+      "translation": "Тот парень в качалке — жесткий качок."
+    }
+  },
+  {
+    "id": 46,
+    "expression": "szacun",
+    "literal": "szacunek",
+    "options": ["Сильный позор", "Респект / уважуха", "Излишняя гордость"],
+    "correct_answer": "Респект / уважуха",
+    "example": {
+      "text": "Zrobiłeś to sam? Wielki szacun!",
+      "translation": "Сделал это сам? Огромный респект!"
+    }
+  },
+  {
+    "id": 47,
+    "expression": "obciach",
+    "options": ["Громкий успех", "Зашквар / стыдоба", "Смешная шутка"],
+    "correct_answer": "Зашквар / стыдоба",
+    "example": {
+      "text": "Jaki obciach, zapomniałem jej imienia.",
+      "translation": "Какой зашквар, я забыл её имя."
+    }
+  },
+  {
+    "id": 48,
+    "expression": "wiocha",
+    "options": ["Колхоз / позорище", "Красивый пейзаж", "Долгая поездка"],
+    "correct_answer": "Колхоз / позорище",
+    "example": {
+      "text": "Takie zachowanie to totalna wiocha.",
+      "translation": "Такое поведение — это полный колхоз."
+    }
+  },
+  {
+    "id": 49,
+    "expression": "siema",
+    "literal": "jak się masz",
+    "options": ["Здарова", "До скорого", "Большое спасибо"],
+    "correct_answer": "Здарова",
+    "example": {
+      "text": "Siema, dawno się nie widzieliśmy!",
+      "translation": "Здарова, давно не виделись!"
+    }
+  },
+  {
+    "id": 50,
+    "expression": "ściema",
+    "options": ["Жесткая правда", "Вранье / отмазка / развод", "Страшный секрет"],
+    "correct_answer": "Вранье / отмазка / развод",
+    "example": {
+      "text": "To, co on mówi, to zwykła ściema.",
+      "translation": "То, что он говорит — это обычный развод."
+    }
+  },
+  {
+    "id": 51,
+    "expression": "głupek",
+    "options": ["Очень умный человек", "Дурак / придурок", "Маленький ребенок"],
+    "correct_answer": "Дурак / придурок",
+    "example": {
+      "text": "Co za głupek to wymyślił?",
+      "translation": "Какой придурок это придумал?"
+    }
+  },
+  {
+    "id": 52,
+    "expression": "zarąbiście",
+    "options": ["Слишком опасно", "Офигенно / круто", "Очень скучно"],
+    "correct_answer": "Офигенно / круто",
+    "example": {
+      "text": "Wyglądasz dzisiaj po prostu zarąbiście!",
+      "translation": "Ты выглядишь сегодня просто офигенно!"
+    }
+  },
+  {
+    "id": 53,
+    "expression": "zajebiście",
+    "options": ["Очень быстро", "Офигенно (с матерком)", "Полный провал"],
+    "correct_answer": "Офигенно (с матерком)",
+    "example": {
+      "text": "Bawiliśmy się wczoraj po prostu zajebiście.",
+      "translation": "Вчера мы потусили просто офигенно."
+    }
+  },
+  {
+    "id": 54,
+    "expression": "olej to",
+    "options": ["Забей / пох на это", "Купи подсолнечное масло", "Подумай еще раз"],
+    "correct_answer": "Забей / пох на это",
+    "example": {
+      "text": "Olej to, nie warto się stresować.",
+      "translation": "Забей на это, не стоит париться."
+    }
+  },
+  {
+    "id": 55,
+    "expression": "wyluzuj",
+    "options": ["Поторопись", "Расслабься / остынь", "Сильно напрягись"],
+    "correct_answer": "Расслабься / остынь",
+    "example": {
+      "text": "Wyluzuj, wszystko będzie dobrze.",
+      "translation": "Расслабься, всё будет хорошо."
+    }
+  },
+  {
+    "id": 56,
+    "expression": "no weź",
+    "options": ["Быстро уходи", "Да ладно / ну брось", "Возьми это"],
+    "correct_answer": "Да ладно / ну брось",
+    "example": {
+      "text": "No weź, przestań już narzekać!",
+      "translation": "Да ладно, хорош уже ныть!"
+    }
+  },
+  {
+    "id": 57,
+    "expression": "bez jaj",
+    "options": ["Без шуток / серьезно", "Я очень голоден", "Слишком смешно"],
+    "correct_answer": "Без шуток / серьезно",
+    "example": {
+      "text": "Bez jaj, on to naprawdę powiedział?",
+      "translation": "Без шуток, он реально это сказал?"
+    }
+  },
+  {
+    "id": 58,
+    "expression": "beka",
+    "options": ["Горькие слезы", "Ржака / дикий угар", "Крупная ссора"],
+    "correct_answer": "Ржака / дикий угар",
+    "example": {
+      "text": "Ale beka z tego gościa!",
+      "translation": "Ну и угар с этого типа!"
+    }
+  },
+  {
+    "id": 59,
+    "expression": "żartujesz",
+    "options": ["Шутишь / да ладно?", "Сильно злишься", "Нагло врешь"],
+    "correct_answer": "Шутишь / да ладно?",
+    "example": {
+      "text": "Ty chyba sobie teraz żartujesz?",
+      "translation": "Ты сейчас шутишь, что ли?"
+    }
+  },
+  {
+    "id": 60,
+    "expression": "nie ma opcji",
+    "options": ["Без шансов / ни за что", "Это слишком легко", "Вполне возможно"],
+    "correct_answer": "Без шансов / ни за что",
+    "example": {
+      "text": "Nie ma opcji, żebym tam poszedł.",
+      "translation": "Без шансов, что я туда пойду."
+    }
+  },
+  {
+    "id": 61,
+    "expression": "kit",
+    "options": ["Чистая правда", "Лажа / развод / вранье", "Морское животное"],
+    "correct_answer": "Лажа / развод / вранье",
+    "example": {
+      "text": "To jest jakiś totalny kit.",
+      "translation": "Это какая-то полная лажа."
+    }
+  },
+  {
+    "id": 62,
+    "expression": "wciskać kit",
+    "options": ["Вешать лапшу на уши", "Делать ремонт", "Дарить дорогие подарки"],
+    "correct_answer": "Вешать лапшу на уши",
+    "example": {
+      "text": "Nie wciskaj mi tu kitu!",
+      "translation": "Не вешай мне тут лапшу!"
+    }
+  },
+  {
+    "id": 63,
+    "expression": "skumać",
+    "options": ["Случайно забыть", "Вкурить / догнать суть", "Сильно ошибиться"],
+    "correct_answer": "Вкурить / догнать суть",
+    "example": {
+      "text": "Dopiero teraz to skumałem.",
+      "translation": "Только сейчас я в это вкурил."
+    }
+  },
+  {
+    "id": 64,
+    "expression": "obczaić",
+    "options": ["Купить по скидке", "Заценить / чекнуть", "Спрятать от всех"],
+    "correct_answer": "Заценить / чекнуть",
+    "example": {
+      "text": "Musisz obczaić ten nowy serial.",
+      "translation": "Тебе надо заценить этот новый сериал."
+    }
+  },
+  {
+    "id": 65,
+    "expression": "ogarnięty",
+    "options": ["Сильно запутанный", "Толковый / прошаренный чел", "Испачканный в грязи"],
+    "correct_answer": "Толковый / прошаренный чел",
+    "example": {
+      "text": "On jest bardzo ogarnięty w temacie.",
+      "translation": "Он очень прошаренный чел в этой теме."
+    }
+  },
+  {
+    "id": 66,
+    "expression": "olać",
+    "options": ["Тщательно помыть", "Забить болт / проигнорить", "Внезапно вспомнить"],
+    "correct_answer": "Забить болт / проигнорить",
+    "example": {
+      "text": "Postanowiłem całkowicie olać ten problem.",
+      "translation": "Я решил полностью забить на эту проблему."
+    }
+  },
+  {
+    "id": 67,
+    "expression": "zlać",
+    "options": ["Проигнорировать / послать", "Объединить в одно", "Жестоко избить"],
+    "correct_answer": "Проигнорировать / послать",
+    "example": {
+      "text": "Szef całkowicie zlał mój nowy pomysł.",
+      "translation": "Босс полностью проигнорил мою идею."
+    }
+  },
+  {
+    "id": 68,
+    "expression": "skasować kogoś",
+    "options": ["Удалить контакт", "Осадить / словесно уничтожить", "Одолжить денег"],
+    "correct_answer": "Осадить / словесно уничтожить",
+    "example": {
+      "text": "Ale go skasowałeś tym żartem!",
+      "translation": "Жестко ты его осадил этой шуткой!"
+    }
+  },
+  {
+    "id": 69,
+    "expression": "przyfarcić",
+    "options": ["Крупно проиграть", "Случайно повезти (подфартить)", "Сильно опоздать"],
+    "correct_answer": "Случайно повезти (подфартить)",
+    "example": {
+      "text": "Mocno ci przyfarciło na tym teście.",
+      "translation": "Тебе жестко подфартило на этом тесте."
+    }
+  },
+  {
+    "id": 70,
+    "expression": "fuks",
+    "options": ["Дикое везение / халява", "Громкий провал", "Хитрый обман"],
+    "correct_answer": "Дикое везение / халява",
+    "example": {
+      "text": "Zdałem ten egzamin tylko na fuksie.",
+      "translation": "Я сдал этот экзамен чисто на халяву."
+    }
+  },
+  {
+    "id": 71,
+    "expression": "farciarz",
+    "options": ["Везунчик по жизни", "Хронический неудачник", "Уличный торговец"],
+    "correct_answer": "Везунчик по жизни",
+    "example": {
+      "text": "Jaki farciarz, wygrał dzisiaj na loterii!",
+      "translation": "Ну и везунчик, выиграл сегодня в лотерею!"
+    }
+  },
+  {
+    "id": 72,
+    "expression": "kicha",
+    "options": ["Гениальная идея", "Фейл / полный отстой", "Громко чихнуть"],
+    "correct_answer": "Фейл / полный отстой",
+    "example": {
+      "text": "Ten nowy film to totalna kicha.",
+      "translation": "Этот новый фильм — полный отстой."
+    }
+  },
+  {
+    "id": 73,
+    "expression": "lipa",
+    "options": ["Большое дерево", "Ерунда / туфта / подделка", "Теплое лето"],
+    "correct_answer": "Ерунда / туфта / подделка",
+    "example": {
+      "text": "Ta pogoda dzisiaj to jakaś lipa.",
+      "translation": "Эта погода сегодня — какая-то лажа."
+    }
+  },
+  {
+    "id": 74,
+    "expression": "klapa",
+    "options": ["Провал / жесткое фиаско", "Крышка от чемодана", "Неожиданный успех"],
+    "correct_answer": "Провал / жесткое фиаско",
+    "example": {
+      "text": "Moja nowa dieta to totalna klapa.",
+      "translation": "Моя новая диета — это полное фиаско."
+    }
+  },
+  {
+    "id": 75,
+    "expression": "wtopa",
+    "options": ["Косяк / зашквар / фейл", "Сильный потоп", "Семейный праздник"],
+    "correct_answer": "Косяк / зашквар / фейл",
+    "example": {
+      "text": "Ale wtopa, zapomniałem portfela z domu.",
+      "translation": "Вот фейл, я забыл кошелек дома."
+    }
+  },
+  {
+    "id": 76,
+    "expression": "skopać",
+    "options": ["Закопать в землю", "Запороть / жестко накосячить", "Быстро починить"],
+    "correct_answer": "Запороть / жестко накосячить",
+    "example": {
+      "text": "Chłopie, totalnie skopałeś ten projekt!",
+      "translation": "Чувак, ты жестко запорол этот проект!"
+    }
+  },
+  {
+    "id": 77,
+    "expression": "zwalić",
+    "options": ["Сделать всё идеально", "Испортить / завалить дело", "Быстро свалить домой"],
+    "correct_answer": "Испортить / завалить дело",
+    "example": {
+      "text": "Zwalił całą sprawę na samym końcu.",
+      "translation": "Он запорол всё дело в самом конце."
+    }
+  },
+  {
+    "id": 78,
+    "expression": "oblać",
+    "options": ["Успешно сдать тест", "Завалить экзамен / провалиться", "Громко праздновать"],
+    "correct_answer": "Завалить экзамен / провалиться",
+    "example": {
+      "text": "Chyba oblałem dzisiaj egzamin z matematyki.",
+      "translation": "Кажется, я завалил сегодня экзамен по математике."
+    }
+  },
+  {
+    "id": 79,
+    "expression": "kujon",
+    "options": ["Ботан / жесткий зубрила", "Деревенский кузнец", "Уличный хулиган"],
+    "correct_answer": "Ботан / жесткий зубрила",
+    "example": {
+      "text": "On w liceum był strasznym kujonem.",
+      "translation": "В старшей школе он был жутким ботаном."
+    }
+  },
+  {
+    "id": 80,
+    "expression": "wkuwać",
+    "options": ["Зубрить / ботать до утра", "Ковать металл", "Спокойно отдыхать"],
+    "correct_answer": "Зубрить / ботать до утра",
+    "example": {
+      "text": "Muszę wkuwać całą noc do testu.",
+      "translation": "Мне нужно зубрить всю ночь к тесту."
+    }
+  },
+  {
+    "id": 81,
+    "expression": "kminić",
+    "options": ["Обдумывать / ломать голову", "Куда-то сильно спешить", "Много танцевать"],
+    "correct_answer": "Обдумывать / ломать голову",
+    "example": {
+      "text": "Siedzę i kminię, jak to naprawić.",
+      "translation": "Сижу и ломаю голову, как это починить."
+    }
+  },
+  {
+    "id": 82,
+    "expression": "rozkminić",
+    "options": ["Окончательно запутаться", "Понять суть / разгадать", "Навсегда забыть"],
+    "correct_answer": "Понять суть / разгадать",
+    "example": {
+      "text": "Udało mi się szybko to rozkminić.",
+      "translation": "Мне удалось быстро это разгадать."
+    }
+  },
+  {
+    "id": 83,
+    "expression": "rozkmina",
+    "options": ["Глубокая мысль / рассуждение", "Неожиданная разгадка", "Громкая ссора"],
+    "correct_answer": "Глубокая мысль / рассуждение",
+    "example": {
+      "text": "Miałem wczoraj niezłą rozkminę przed snem.",
+      "translation": "У меня вчера была глубокая мысль перед сном."
+    }
+  },
+  {
+    "id": 84,
+    "expression": "przyczaić",
+    "options": ["Заметить / спалить кого-то", "Спрятаться в кустах", "Сильно испугаться"],
+    "correct_answer": "Заметить / спалить кого-то",
+    "example": {
+      "text": "Przyczaiłem go, jak palił za szkołą.",
+      "translation": "Я спалил его, когда он курил за школой."
+    }
+  },
+  {
+    "id": 85,
+    "expression": "na fuksa",
+    "options": ["На удачу / чисто на шару", "Очень сложно", "Специально спланировано"],
+    "correct_answer": "На удачу / чисто на шару",
+    "example": {
+      "text": "Udało mi się to zrobić na fuksa.",
+      "translation": "У меня получилось сделать это чисто на шару."
+    }
+  },
+  {
+    "id": 86,
+    "expression": "fajrant",
+    "options": ["Конец смены / пора домой", "Начало работы", "Крупный пожар"],
+    "correct_answer": "Конец смены / пора домой",
+    "example": {
+      "text": "Zamykamy laptopa, wreszcie mamy fajrant!",
+      "translation": "Закрываем ноут, наконец-то конец смены!"
+    }
+  },
+  {
+    "id": 87,
+    "expression": "harować",
+    "options": ["Пахать как лошадь / вкалывать", "Отдыхать на диване", "Вкусно обедать"],
+    "correct_answer": "Пахать как лошадь / вкалывать",
+    "example": {
+      "text": "Haruję jak wół przez cały tydzień.",
+      "translation": "Вкалываю как вол всю неделю."
+    }
+  },
+  {
+    "id": 88,
+    "expression": "orka",
+    "options": ["Жесткая пахота / каторга", "Шумный праздник", "Легкая учеба"],
+    "correct_answer": "Жесткая пахота / каторга",
+    "example": {
+      "text": "Ten nowy projekt to po prostu straszna orka.",
+      "translation": "Этот новый проект — просто жуткая каторга."
+    }
+  },
+  {
+    "id": 89,
+    "expression": "tyrać",
+    "options": ["Впахивать / вкалывать", "Постоянно лентяйничать", "Тратить много денег"],
+    "correct_answer": "Впахивать / вкалывать",
+    "example": {
+      "text": "Tyram w biurze po dwanaście godzin.",
+      "translation": "Я впахиваю в офисе по двенадцать часов."
+    }
+  },
+  {
+    "id": 90,
+    "expression": "zdzierać",
+    "options": ["Сдирать краску", "Драть три шкуры (завышать цену)", "Скидывать цену"],
+    "correct_answer": "Драть три шкуры (завышать цену)",
+    "example": {
+      "text": "Mechanik strasznie zdziera za naprawę auta.",
+      "translation": "Механик жестко дерет три шкуры за ремонт тачки."
+    }
+  },
+  {
+    "id": 91,
+    "expression": "zdzierstwo",
+    "options": ["Дикая обдираловка / грабеж", "Карманная кража", "Огромная скидка"],
+    "correct_answer": "Дикая обдираловка / грабеж",
+    "example": {
+      "text": "Sto złotych za kawę? To czyste zdzierstwo!",
+      "translation": "Сто злотых за кофе? Это чистый грабеж!"
+    }
+  },
+  {
+    "id": 92,
+    "expression": "kasa",
+    "options": ["Касса в магазине", "Деньги / бабло", "Билет на поезд"],
+    "correct_answer": "Деньги / бабло",
+    "example": {
+      "text": "Znowu całkowicie skończyła mi się kasa.",
+      "translation": "У меня опять полностью закончилось бабло."
+    }
+  },
+  {
+    "id": 93,
+    "expression": "zabulić",
+    "options": ["Раскошелиться / отвалить бабла", "Легко заработать", "Что-то украсть"],
+    "correct_answer": "Раскошелиться / отвалить бабла",
+    "example": {
+      "text": "Musiałem zabulić za nowy telefon.",
+      "translation": "Мне пришлось отвалить бабла за новый телефон."
+    }
+  },
+  {
+    "id": 94,
+    "expression": "sknerować",
+    "options": ["Жестко жадничать / жмотиться", "Тратить без остановки", "Копить на мечту"],
+    "correct_answer": "Жестко жадничать / жмотиться",
+    "example": {
+      "text": "Przestań sknerować, kupmy lepsze piwo.",
+      "translation": "Хватит жмотиться, давай купим пиво получше."
+    }
+  },
+  {
+    "id": 95,
+    "expression": "sknera",
+    "options": ["Жадина / скупердяй / жмот", "Очень щедрый чел", "Крупный банкир"],
+    "correct_answer": "Жадина / скупердяй / жмот",
+    "example": {
+      "text": "Ale z twojego kumpla jest sknera!",
+      "translation": "Ну твой кореш и жмот!"
+    }
+  },
+  {
+    "id": 96,
+    "expression": "spłukany",
+    "options": ["Кристально чистый", "На мели / полностью без денег", "Сильно уставший"],
+    "correct_answer": "На мели / полностью без денег",
+    "example": {
+      "text": "Do wypłaty jestem po prostu spłukany.",
+      "translation": "До зарплаты я просто на мели."
+    }
+  },
+  {
+    "id": 97,
+    "expression": "stówka",
+    "options": ["Сотка (100 злотых)", "Высокий процент", "Отличная оценка"],
+    "correct_answer": "Сотка (100 злотых)",
+    "example": {
+      "text": "Pożyczysz mi stówkę do jutra rana?",
+      "translation": "Одолжишь мне сотку до завтрашнего утра?"
+    }
+  },
+  {
+    "id": 98,
+    "expression": "bańka",
+    "options": ["Хрупкий мыльный пузырь", "Лям (миллион злотых)", "Большая голова"],
+    "correct_answer": "Лям (миллион злотых)",
+    "example": {
+      "text": "Ten nowy dom kosztuje ponad bańkę.",
+      "translation": "Этот новый дом стоит больше ляма."
+    }
+  },
+  {
+    "id": 99,
+    "expression": "kloc",
+    "options": ["Тяжелое дерево", "Косарь (1000 злотых)", "Тяжелый камень"],
+    "correct_answer": "Косарь (1000 злотых)",
+    "example": {
+      "text": "Zapłaciłem za ten wyjazd aż cztery kloce.",
+      "translation": "Я отвалил за эту поездку целых четыре косаря."
+    }
+  },
+  {
+    "id": 100,
+    "expression": "ogarnąć się",
+    "options": ["Прийти в себя / взять в руки", "Потерять контроль", "Громко ругаться"],
+    "correct_answer": "Прийти в себя / взять в руки",
+    "example": {
+      "text": "Musisz wreszcie wziąć się i ogarnąć.",
+      "translation": "Тебе надо наконец взять себя в руки."
+    }
+  },
+  {
+    "id": 101,
+    "expression": "ZW",
+    "literal": "zaraz wracam",
+    "options": ["Уже ухожу", "Скоро вернусь (BRB)", "Закрой дверь"],
+    "correct_answer": "Скоро вернусь (BRB)",
+    "example": {
+      "text": "Idę zrobić herbatę, ZW.",
+      "translation": "Иду сделать чай, скоро вернусь."
+    }
+  },
+  {
+    "id": 102,
+    "expression": "JJ",
+    "literal": "już jestem",
+    "options": ["Я вернулся / я тут", "Ем яблоко", "Яростно спорю"],
+    "correct_answer": "Я вернулся / я тут",
+    "example": {
+      "text": "JJ, możemy grać dalej.",
+      "translation": "Я тут, можем играть дальше."
+    }
+  },
+  {
+    "id": 103,
+    "expression": "NW",
+    "literal": "nie wiem",
+    "options": ["Не вижу", "Новое видео", "Хз / не знаю"],
+    "correct_answer": "Хз / не знаю",
+    "example": {
+      "text": "NW, zapytaj kogoś innego.",
+      "translation": "Хз, спроси кого-нибудь другого."
+    }
+  },
+  {
+    "id": 104,
+    "expression": "NMZC",
+    "literal": "nie ma za co",
+    "options": ["Не могу сказать", "Не за что (Нзч)", "Не мой знакомый"],
+    "correct_answer": "Не за что (Нзч)",
+    "example": {
+      "text": "Dzięki za pomoc! — NMZC.",
+      "translation": "Спс за помощь! — Нзч."
+    }
+  },
+  {
+    "id": 105,
+    "expression": "PRIV",
+    "literal": "prywatna wiadomość",
+    "options": ["Приватный танец", "Личка / ЛС (директ)", "Секретный код"],
+    "correct_answer": "Личка / ЛС (директ)",
+    "example": {
+      "text": "Napisz mi to na priv.",
+      "translation": "Напиши мне это в личку."
+    }
+  },
+  {
+    "id": 106,
+    "expression": "ogarniać kuwetę",
+    "options": ["Менять лоток за котом", "Наводить порядок / брать ситуацию под контроль", "Много пить воды"],
+    "correct_answer": "Наводить порядок / брать ситуацию под контроль",
+    "example": {
+      "text": "Szef wrócił, trzeba ogarniać kuwetę.",
+      "translation": "Босс вернулся, надо навести порядок."
+    }
+  },
+  {
+    "id": 107,
+    "expression": "rzucić okiem",
+    "options": ["Глянуть / бросить взгляд", "Кинуть камень", "Заплакать"],
+    "correct_answer": "Глянуть / бросить взгляд",
+    "example": {
+      "text": "Możesz rzucić okiem na ten tekst?",
+      "translation": "Можешь глянуть этот текст?"
+    }
+  },
+  {
+    "id": 108,
+    "expression": "wpaść",
+    "options": ["Украсть", "Упасть в лужу", "Заскочить / зайти в гости"],
+    "correct_answer": "Заскочить / зайти в гости",
+    "example": {
+      "text": "Wpadnij do mnie po pracy.",
+      "translation": "Заскочи ко мне после работы."
+    }
+  },
+  {
+    "id": 109,
+    "expression": "mieć doła",
+    "options": ["Быть богатым", "Грустить / поймать депресняк", "Копать яму"],
+    "correct_answer": "Грустить / поймать депресняк",
+    "example": {
+      "text": "Mam dzisiaj strasznego doła.",
+      "translation": "У меня сегодня жуткий депресняк."
+    }
+  },
+  {
+    "id": 110,
+    "expression": "wałek",
+    "options": ["Афера / развод / обман", "Мягкая подушка", "Вкусная булка"],
+    "correct_answer": "Афера / развод / обман",
+    "example": {
+      "text": "Ta firma to jakiś wielki wałek.",
+      "translation": "Эта фирма — какой-то жесткий развод."
+    }
+  },
+  {
+    "id": 111,
+    "expression": "siano",
+    "options": ["Бабки / кэш / наличка", "Корм для животных", "Плохая погода"],
+    "correct_answer": "Бабки / кэш / наличка",
+    "example": {
+      "text": "Masz przy sobie jakieś siano?",
+      "translation": "У тебя есть при себе какая-то наличка?"
+    }
+  },
+  {
+    "id": 112,
+    "expression": "wyczaić",
+    "options": ["Выпить чаю", "Забыть имя", "Выследить / раздобыть / приметить"],
+    "correct_answer": "Выследить / раздобыть / приметить",
+    "example": {
+      "text": "Skąd wyczaiłeś takie tanie bilety?",
+      "translation": "Где ты раздобыл такие дешевые билеты?"
+    }
+  },
+  {
+    "id": 113,
+    "expression": "za friko",
+    "options": ["На халяву / бесплатно", "За большие деньги", "Очень быстро"],
+    "correct_answer": "На халяву / бесплатно",
+    "example": {
+      "text": "Dostałem ten telefon za friko.",
+      "translation": "Я достал этот телефон на халяву."
+    }
+  },
+  {
+    "id": 114,
+    "expression": "dzban",
+    "options": ["Стакан воды", "Тупица / дурачок (мемное оскорбление)", "Умный парень"],
+    "correct_answer": "Тупица / дурачок (мемное оскорбление)",
+    "example": {
+      "text": "Ale z ciebie dzban!",
+      "translation": "Ну ты и тупица!"
+    }
+  },
+  {
+    "id": 115,
+    "expression": "kibel",
+    "options": ["Овощной суп", "Крутая тусовка", "Отстой / фиговая ситуация"],
+    "correct_answer": "Отстой / фиговая ситуация",
+    "example": {
+      "text": "Ta impreza to totalny kibel.",
+      "translation": "Эта вечеринка — полный отстой."
+    }
+  },
+  {
+    "id": 116,
+    "expression": "morda",
+    "options": ["Бро / братан (обращение к другу)", "Злой пес", "Скучная книга"],
+    "correct_answer": "Бро / братан (обращение к другу)",
+    "example": {
+      "text": "Dzięki za pomoc, morda!",
+      "translation": "Спасибо за помощь, братан!"
+    }
+  },
+  {
+    "id": 117,
+    "expression": "byk",
+    "options": ["Домашнее животное", "Жесткая ошибка / ляп", "Вкусный стейк"],
+    "correct_answer": "Жесткая ошибка / ляп",
+    "example": {
+      "text": "Zrobiłeś byka w tym kodzie.",
+      "translation": "Ты сделал жесткую ошибку в этом коде."
+    }
+  },
+  {
+    "id": 118,
+    "expression": "git",
+    "options": ["Отлично / супер / всё ок", "Музыкальный инструмент", "Грязная обувь"],
+    "correct_answer": "Отлично / супер / всё ок",
+    "example": {
+      "text": "Wszystko jest git, nie martw się.",
+      "translation": "Всё супер, не парься."
+    }
+  },
+  {
+    "id": 119,
+    "expression": "gitara",
+    "options": ["Всё пучком / всё отлично", "Громкий шум", "Длинная песня"],
+    "correct_answer": "Всё пучком / всё отлично",
+    "example": {
+      "text": "Będzie gitara, zaufaj mi.",
+      "translation": "Всё будет пучком, доверься мне."
+    }
+  },
+  {
+    "id": 120,
+    "expression": "na lajcie",
+    "options": ["Под светом ламп", "На расслабоне / легко", "В тяжелой депрессии"],
+    "correct_answer": "На расслабоне / легко",
+    "example": {
+      "text": "Zdałem ten test na lajcie.",
+      "translation": "Я сдал этот тест на изи (на расслабоне)."
+    }
+  },
+  {
+    "id": 121,
+    "expression": "wziąć się w garść",
+    "options": ["Взять себя в руки / собраться", "Заболеть", "Сдаться без боя"],
+    "correct_answer": "Взять себя в руки / собраться",
+    "example": {
+      "text": "Musisz wziąć się w garść.",
+      "translation": "Ты должен взять себя в руки."
+    }
+  },
+  {
+    "id": 122,
+    "expression": "kozak",
+    "options": ["Лох / неудачник", "Зимний сапог", "Крутотень / смельчак / топовый чел"],
+    "correct_answer": "Крутотень / смельчак / топовый чел",
+    "example": {
+      "text": "Ten nowy trener to niezły kozak.",
+      "translation": "Этот новый тренер — жесткий тип (топовый)."
+    }
+  },
+  {
+    "id": 123,
+    "expression": "kozacko",
+    "options": ["Очень страшно", "Офигенно / топово", "Дико холодно"],
+    "correct_answer": "Офигенно / топово",
+    "example": {
+      "text": "Twój nowy projekt wygląda kozacko.",
+      "translation": "Твой новый проект выглядит топово."
+    }
+  },
+  {
+    "id": 124,
+    "expression": "w dechę",
+    "options": ["Классно / шикарно / супер", "Сильно удариться", "Скучно"],
+    "correct_answer": "Классно / шикарно / супер",
+    "example": {
+      "text": "Ten film był po prostu w dechę!",
+      "translation": "Этот фильм был просто шикарен!"
+    }
+  },
+  {
+    "id": 125,
+    "expression": "z grubej rury",
+    "options": ["Пойти с козырей / начать жестко", "Сделать сантехнику", "Тихо промолчать"],
+    "correct_answer": "Пойти с козырей / начать жестко",
+    "example": {
+      "text": "Od razu walnął z grubej rury.",
+      "translation": "Он сразу пошел с козырей (жестко начал)."
+    }
+  },
+  {
+    "id": 126,
+    "expression": "rozwalić system",
+    "options": ["Порвать всех / сломать систему (в хорошем смысле)", "Сломать компьютер", "Получить двойку"],
+    "correct_answer": "Порвать всех / сломать систему (в хорошем смысле)",
+    "example": {
+      "text": "Tym pomysłem totalnie rozwalisz system.",
+      "translation": "Этой идеей ты просто порвешь всех."
+    }
+  },
+  {
+    "id": 127,
+    "expression": "mieć parcie",
+    "options": ["Быть очень уставшим", "Испытывать сильное давление", "Сильно чего-то хотеть / рваться к цели"],
+    "correct_answer": "Сильно чего-то хотеть / рваться к цели",
+    "example": {
+      "text": "Ona ma parcie na sukces.",
+      "translation": "Она жестко рвется к успеху."
+    }
+  },
+  {
+    "id": 128,
+    "expression": "ciuchy",
+    "options": ["Сплетни", "Шмотки / одежда", "Мелкие деньги"],
+    "correct_answer": "Шмотки / одежда",
+    "example": {
+      "text": "Kupiłem nowe ciuchy na wyjazd.",
+      "translation": "Я купил новые шмотки на выезд."
+    }
+  },
+  {
+    "id": 129,
+    "expression": "lump",
+    "options": ["Глупый поступок", "Дорогой ресторан", "Секонд-хенд / комиссионка"],
+    "correct_answer": "Секонд-хенд / комиссионка",
+    "example": {
+      "text": "Znalazłem tę koszulkę w lumpie.",
+      "translation": "Я нашел эту футболку в секонде."
+    }
+  },
+  {
+    "id": 130,
+    "expression": "przypał",
+    "options": ["Вкусное блюдо", "Зашквар / палево / стыдоба", "Теплая погода"],
+    "correct_answer": "Зашквар / палево / стыдоба",
+    "example": {
+      "text": "Zrobił wczoraj na imprezie straszny przypał.",
+      "translation": "Он вчера на тусе устроил жуткий зашквар."
+    }
+  },
+  {
+    "id": 131,
+    "expression": "mega",
+    "options": ["Супер / очень (приставка для усиления)", "Мало / немного", "Тихо"],
+    "correct_answer": "Супер / очень (приставка для усиления)",
+    "example": {
+      "text": "Było mega fajnie cię zobaczyć.",
+      "translation": "Было супер круто тебя увидеть."
+    }
+  },
+  {
+    "id": 132,
+    "expression": "szama",
+    "options": ["Лекарство", "Шаманский танец", "Хавчик / еда"],
+    "correct_answer": "Хавчик / еда",
+    "example": {
+      "text": "Dobra, zamawiamy jakąś szamę?",
+      "translation": "Ладно, заказываем какой-нибудь хавчик?"
+    }
+  },
+  {
+    "id": 133,
+    "expression": "szamać",
+    "options": ["Громко кричать", "Хавать / кушать", "Быстро бежать"],
+    "correct_answer": "Хавать / кушать",
+    "example": {
+      "text": "Idę szamać obiad, zaraz wracam.",
+      "translation": "Иду хавать обед, скоро вернусь."
+    }
+  },
+  {
+    "id": 134,
+    "expression": "wbijać",
+    "options": ["Грустить дома", "Заваливаться (в гости / на тусу)", "Забивать гвоздь"],
+    "correct_answer": "Заваливаться (в гости / на тусу)",
+    "example": {
+      "text": "Wbijaj do nas na imprezę!",
+      "translation": "Заваливайся к нам на тусу!"
+    }
+  },
+  {
+    "id": 135,
+    "expression": "mieć wywalone",
+    "options": ["Забить болт / вообще пофиг", "Быть избитым", "Много болтать"],
+    "correct_answer": "Забить болт / вообще пофиг",
+    "example": {
+      "text": "Mam totalnie wywalone na jego opinię.",
+      "translation": "Мне вообще пофиг на его мнение (забил болт)."
+    }
+  },
+  {
+    "id": 136,
+    "expression": "zmywać się",
+    "options": ["Мыть посуду", "Смываться / сваливать", "Принимать душ"],
+    "correct_answer": "Смываться / сваливать",
+    "example": {
+      "text": "Późno już, będę się powoli zmywać.",
+      "translation": "Уже поздно, буду потихоньку сваливать."
+    }
+  },
+  {
+    "id": 137,
+    "expression": "zawijać mandżur",
+    "options": ["Готовить шаурму", "Сворачивать удочки / собирать манатки", "Ехать в отпуск"],
+    "correct_answer": "Сворачивать удочки / собирать манатки",
+    "example": {
+      "text": "Koniec imprezy, czas zawijać mandżur.",
+      "translation": "Конец тусы, пора собирать манатки."
+    }
+  },
+  {
+    "id": 138,
+    "expression": "iść w kimę",
+    "options": ["Идти дрыхнуть / спать", "Смотреть кино", "Идти гулять"],
+    "correct_answer": "Идти дрыхнуть / спать",
+    "example": {
+      "text": "Jestem padnięty, idę w kimę.",
+      "translation": "Я убитый, иду дрыхнуть."
+    }
+  },
+  {
+    "id": 139,
+    "expression": "kima",
+    "options": ["Тяжелая работа", "Сон / тихий час", "Зима"],
+    "correct_answer": "Сон / тихий час",
+    "example": {
+      "text": "Przydałaby mi się krótka kima.",
+      "translation": "Мне бы не помешал короткий сон."
+    }
+  },
+  {
+    "id": 140,
+    "expression": "kombinować",
+    "options": ["Мутить дела / выкручиваться / придумывать", "Хорошо одеваться", "Чинить машину"],
+    "correct_answer": "Мутить дела / выкручиваться / придумывать",
+    "example": {
+      "text": "Znowu zaczynasz coś kombinować.",
+      "translation": "Ты опять начинаешь что-то мутить."
+    }
+  },
+  {
+    "id": 141,
+    "expression": "grubo",
+    "options": ["Толсто", "Мягко", "Жестко / мощно / сурово"],
+    "correct_answer": "Жестко / мощно / сурово",
+    "example": {
+      "text": "Wczoraj w klubie było grubo.",
+      "translation": "Вчера в клубе было жестко."
+    }
+  },
+  {
+    "id": 142,
+    "expression": "odpał",
+    "options": ["Скучный день", "Дичь / безумный поступок", "Горящий костер"],
+    "correct_answer": "Дичь / безумный поступок",
+    "example": {
+      "text": "Co to był za odpał wczoraj?",
+      "translation": "Что за дичь ты вчера устроил?"
+    }
+  },
+  {
+    "id": 143,
+    "expression": "odwalić",
+    "options": ["Построить дом", "Натворить делов / отмочить номер", "Убрать мусор"],
+    "correct_answer": "Натворить делов / отмочить номер",
+    "example": {
+      "text": "Aleś wczoraj odwalił numer, stary.",
+      "translation": "Ну ты вчера и отмочил номер, старик."
+    }
+  },
+  {
+    "id": 144,
+    "expression": "z dupy",
+    "options": ["Взятый с потолка / фиговый / ни о чем", "Слишком дорогой", "Известный бренд"],
+    "correct_answer": "Взятый с потолка / фиговый / ни о чем",
+    "example": {
+      "text": "Ten twój pomysł jest z dupy.",
+      "translation": "Эта твоя идея вообще ни о чём (взята с потолка)."
+    }
+  },
+  {
+    "id": 145,
+    "expression": "bez spiny",
+    "options": ["Без спины", "Без напряга / не парься / на чилле", "В полной тишине"],
+    "correct_answer": "Без напряга / не парься / на чилле",
+    "example": {
+      "text": "Zrobimy to na luzie, bez spiny.",
+      "translation": "Сделаем это на расслабоне, без напряга."
+    }
+  },
+  {
+    "id": 146,
+    "expression": "spina",
+    "options": ["Больная спина", "Напряг / ссора / конфликт", "Хорошая вечеринка"],
+    "correct_answer": "Напряг / ссора / конфликт",
+    "example": {
+      "text": "Między nimi jest jakaś dziwna spina.",
+      "translation": "Между ними какой-то странный напряг."
+    }
+  },
+  {
+    "id": 147,
+    "expression": "pruć się",
+    "options": ["Наезжать на кого-то / бычить", "Рвать одежду", "Много смеяться"],
+    "correct_answer": "Наезжать на кого-то / бычить",
+    "example": {
+      "text": "O co ty się do mnie prujesz?",
+      "translation": "Чего ты на меня бычишь?"
+    }
+  },
+  {
+    "id": 148,
+    "expression": "strzelić focha",
+    "options": ["Выстрелить из пистолета", "Обидеться / надуть губы", "Попасть в цель"],
+    "correct_answer": "Обидеться / надуть губы",
+    "example": {
+      "text": "Ona znowu strzeliła focha o nic.",
+      "translation": "Она опять обиделась (надулась) из-за фигни."
+    }
+  },
+  {
+    "id": 149,
+    "expression": "padaka",
+    "options": ["Легкая победа", "Вкусный ужин", "Жесть / полный отстой / изнеможение"],
+    "correct_answer": "Жесть / полный отстой / изнеможение",
+    "example": {
+      "text": "Mój stary laptop to kompletna padaka.",
+      "translation": "Мой старый ноут — это просто жесть (отстой)."
+    }
+  },
+  {
+    "id": 150,
+    "expression": "zaciesz",
+    "options": ["Лыба / сильная радость", "Крепкие объятия", "Долгая тишина"],
+    "correct_answer": "Лыба / сильная радость",
+    "example": {
+      "text": "Oglądał ten film z niezłym zacieszem.",
+      "translation": "Он смотрел этот фильм с нехилой такой лыбой."
+    }
+  },
+  {
+    "id": 151,
+    "expression": "miazga",
+    "options": ["Мягкая подушка", "Скучная лекция", "Разнос"],
+    "correct_answer": "Разнос",
+    "example": {
+      "text": "Ten wczorajszy koncert to była miazga.",
+      "translation": "Вчерашний концерт был просто полный разнос."
+    }
+  },
+  {
+    "id": 152,
+    "expression": "petarda",
+    "options": ["Громкий хлопок", "Бомба", "Старая машина"],
+    "correct_answer": "Бомба",
+    "example": {
+      "text": "Jej nowa fryzura to totalna petarda.",
+      "translation": "Её новая прическа — просто пушка (бомба)."
+    }
+  },
+  {
+    "id": 153,
+    "expression": "szajs",
+    "options": ["Крутая одежда", "Шумный район", "Дешёвка"],
+    "correct_answer": "Дешёвка",
+    "example": {
+      "text": "Nie kupuj tego, to tani szajs.",
+      "translation": "Не покупай это, это дешевая подделка."
+    }
+  },
+  {
+    "id": 154,
+    "expression": "suchar",
+    "options": ["Вкусный сухарик", "Баян", "Сухая погода"],
+    "correct_answer": "Баян",
+    "example": {
+      "text": "Ale rzuciłeś suchara, nikt się nie śmieje.",
+      "translation": "Ну ты и выдал баян, никто не смеется."
+    }
+  },
+  {
+    "id": 155,
+    "expression": "psiapsi",
+    "literal": "psiapsiółka",
+    "options": ["Маленькая собака", "ЛП (лучшая подруга)", "Дорогая сумка"],
+    "correct_answer": "ЛП (лучшая подруга)",
+    "example": {
+      "text": "Idę dzisiaj na kawę z psiapsi.",
+      "translation": "Иду сегодня на кофе z ЛП."
+    }
+  },
+  {
+    "id": 156,
+    "expression": "cwaniak",
+    "options": ["Глупый человек", "Выскочка", "Уличный продавец"],
+    "correct_answer": "Выскочка",
+    "example": {
+      "text": "Znalazł się wielki cwaniak w biurze.",
+      "translation": "Нашелся тут великий выскочка в офисе."
+    }
+  },
+  {
+    "id": 157,
+    "expression": "wkurzać się",
+    "options": ["Долго извиняться", "Крепко спать", "Беситься"],
+    "correct_answer": "Беситься",
+    "example": {
+      "text": "Przestań się wkurzać o takie bzdury.",
+      "translation": "Перестань беситься из-за такой фигни."
+    }
+  },
+  {
+    "id": 158,
+    "expression": "dać ciała",
+    "options": ["Сходить в спортзал", "Облажаться", "Круто станцевать"],
+    "correct_answer": "Облажаться",
+    "example": {
+      "text": "Mocno dałem ciała na tym egzaminie.",
+      "translation": "Я жестко облажался на этом экзамене."
+    }
+  },
+  {
+    "id": 159,
+    "expression": "obgadywać",
+    "options": ["Громко кричать", "Сплетничать", "Договариваться"],
+    "correct_answer": "Сплетничать",
+    "example": {
+      "text": "Ona ciągle obgaduje innych za plecami.",
+      "translation": "Она постоянно сплетничает у других за спиной."
+    }
+  },
+  {
+    "id": 160,
+    "expression": "wkręcać",
+    "options": ["Разыгрывать", "Закручивать гайки", "Танцевать"],
+    "correct_answer": "Разыгрывать",
+    "example": {
+      "text": "Chyba próbujesz mnie teraz wkręcać.",
+      "translation": "Кажется, ты пытаешься меня сейчас разыграть."
+    }
+  },
+  {
+    "id": 161,
+    "expression": "na bank",
+    "options": ["В банке", "Случайно", "Стопудово"],
+    "correct_answer": "Стопудово",
+    "example": {
+      "text": "On na bank o tym zapomniał.",
+      "translation": "Он стопудово об этом забыл."
+    }
+  },
+  {
+    "id": 162,
+    "expression": "proste",
+    "options": ["Прямая дорога", "Сложный выбор", "Очевидно"],
+    "correct_answer": "Очевидно",
+    "example": {
+      "text": "Proste, że ci w tym pomogę.",
+      "translation": "Очевидно (ясно-понятно), что я тебе в этом помогу."
+    }
+  },
+  {
+    "id": 163,
+    "expression": "kocur",
+    "options": ["Профи", "Милый котик", "Злой сосед"],
+    "correct_answer": "Профи",
+    "example": {
+      "text": "Z matematyki to on jest kocur.",
+      "translation": "В математике он просто профи (машина)."
+    }
+  },
+  {
+    "id": 164,
+    "expression": "eluwina",
+    "options": ["До свидания", "Приветики", "Плохое настроение"],
+    "correct_answer": "Приветики",
+    "example": {
+      "text": "Eluwina, co tam u was słychać?",
+      "translation": "Приветики, как там у вас дела?"
+    }
+  },
+  {
+    "id": 165,
+    "expression": "nołlajf",
+    "literal": "no-life",
+    "options": ["Задрот", "Бессмертный", "Вечеринка"],
+    "correct_answer": "Задрот",
+    "example": {
+      "text": "Cały weekend grałem jak typowy nołlajf.",
+      "translation": "Все выходные играл как типичный задрот."
+    }
+  },
+  {
+    "id": 166,
+    "expression": "janusz",
+    "options": ["Жлоб", "Профессор", "Подросток"],
+    "correct_answer": "Жлоб",
+    "example": {
+      "text": "Zachował się jak typowy Janusz biznesu.",
+      "translation": "Он повел себя как типичный жлоб (мамкин бизнесмен)."
+    }
+  },
+  {
+    "id": 167,
+    "expression": "siara",
+    "options": ["Сера", "Зашквар", "Хорошая новость"],
+    "correct_answer": "Зашквар",
+    "example": {
+      "text": "Ale siara, zapomniałem tekstu na scenie.",
+      "translation": "Какой зашквар, я забыл слова на сцене."
+    }
+  },
+  {
+    "id": 168,
+    "expression": "kojarzyć",
+    "options": ["Ругаться", "Быстро бегать", "Припоминать"],
+    "correct_answer": "Припоминать",
+    "example": {
+      "text": "Kojarzysz tego typa z nowej klasy?",
+      "translation": "Припоминаешь (знаешь) этого типа из нового класса?"
+    }
+  },
+  {
+    "id": 169,
+    "expression": "w te pędy",
+    "options": ["В той стороне", "Пулей", "Медленно"],
+    "correct_answer": "Пулей",
+    "example": {
+      "text": "Biegnij do sklepu w te pędy!",
+      "translation": "Беги в магазин пулей!"
+    }
+  },
+  {
+    "id": 170,
+    "expression": "na gapę",
+    "options": ["Смотреть с открытым ртом", "Платить дважды", "Зайцем"],
+    "correct_answer": "Зайцем",
+    "example": {
+      "text": "Znowu jechał tramwajem na gapę.",
+      "translation": "Он опять ехал в трамвае зайцем."
+    }
+  },
+  {
+    "id": 171,
+    "expression": "szlugi",
+    "options": ["Сани", "Сиги", "Монеты"],
+    "correct_answer": "Сиги",
+    "example": {
+      "text": "Masz może pożyczyć jednego szluga?",
+      "translation": "У тебя есть одолжить одну сигу?"
+    }
+  },
+  {
+    "id": 172,
+    "expression": "kac",
+    "options": ["Работа", "Кот", "Похмелье"],
+    "correct_answer": "Похмелье",
+    "example": {
+      "text": "Mam dzisiaj strasznego kaca po wczoraj.",
+      "translation": "У меня сегодня жуткое похмелье после вчерашнего."
+    }
+  },
+  {
+    "id": 173,
+    "expression": "wykitować",
+    "options": ["Склеить ласты", "Построить дом", "Пойти на свидание"],
+    "correct_answer": "Склеить ласты",
+    "example": {
+      "text": "Zaraz tu wykituję z tego gorąca.",
+      "translation": "Я сейчас тут склею ласты от этой жары."
+    }
+  },
+  {
+    "id": 174,
+    "expression": "zapierdzielać",
+    "options": ["Отдыхать", "Шептать", "Пахать"],
+    "correct_answer": "Пахать",
+    "example": {
+      "text": "Muszę zapierdzielać, żeby zdążyć na czas.",
+      "translation": "Мне надо пахать (гнать), чтобы успеть вовремя."
+    }
+  },
+  {
+    "id": 175,
+    "expression": "mądrala",
+    "options": ["Глупец", "Умник", "Старец"],
+    "correct_answer": "Умник",
+    "example": {
+      "text": "Znalazł się z niego wielki mądrala.",
+      "translation": "Нашелся тут великий умник."
+    }
+  },
+  {
+    "id": 176,
+    "expression": "świr",
+    "options": ["Тихий человек", "Псих", "Птица"],
+    "correct_answer": "Псих",
+    "example": {
+      "text": "Ten sąsiad to jakiś kompletny świr.",
+      "translation": "Этот сосед — какой-то полный псих."
+    }
+  },
+  {
+    "id": 177,
+    "expression": "szajba",
+    "options": ["Бзик", "Шайба", "Начальник"],
+    "correct_answer": "Бзик",
+    "example": {
+      "text": "Odbiła mu szajba od tych pieniędzy.",
+      "translation": "У него случился бзик от этих денег."
+    }
+  },
+  {
+    "id": 178,
+    "expression": "odwalać szajbę",
+    "options": ["Играть в хоккей", "Делать ремонт", "Творить дичь"],
+    "correct_answer": "Творить дичь",
+    "example": {
+      "text": "Znowu zaczynasz odwalać jakąś szajbę.",
+      "translation": "Ты опять начинаешь творить какую-то дичь."
+    }
+  },
+  {
+    "id": 179,
+    "expression": "PZD",
+    "literal": "pozdrawiam",
+    "options": ["Пошел вон", "Скорый поезд", "Покеда"],
+    "correct_answer": "Покеда",
+    "example": {
+      "text": "Lecę na trening, PZD!",
+      "translation": "Лечу на тренировку, покеда!"
+    }
+  },
+  {
+    "id": 180,
+    "expression": "KC",
+    "literal": "kocham cię",
+    "options": ["Крутой чел", "Люблю тебя", "Кошмар"],
+    "correct_answer": "Люблю тебя",
+    "example": {
+      "text": "Dzięki za ten prezent, KC mocno.",
+      "translation": "Спасибо за этот подарок, лю тебя сильно."
+    }
+  },
+  {
+    "id": 181,
+    "expression": "z innej beczki",
+    "options": ["Пить пиво", "Толстый", "Меняя тему"],
+    "correct_answer": "Меняя тему",
+    "example": {
+      "text": "Z innej beczki, idziemy jutro do kina?",
+      "translation": "Кстати (меняя тему), идем завтра в кино?"
+    }
+  },
+  {
+    "id": 182,
+    "expression": "grzebać",
+    "options": ["Грести снег", "Греться", "Копаться"],
+    "correct_answer": "Копаться",
+    "example": {
+      "text": "Przestań ciągle grzebać w moim telefonie.",
+      "translation": "Перестань постоянно копаться в моем телефоне."
+    }
+  },
+  {
+    "id": 183,
+    "expression": "zrzuta",
+    "options": ["Скидон", "Сброс веса", "Увольнение"],
+    "correct_answer": "Скидон",
+    "example": {
+      "text": "Robimy zrzutę na prezent dla Ani.",
+      "translation": "Делаем скидон на подарок для Ани."
+    }
+  },
+  {
+    "id": 184,
+    "expression": "bifor",
+    "literal": "before party",
+    "options": ["Быстрая машина", "Прошлое", "Препати"],
+    "correct_answer": "Препати",
+    "example": {
+      "text": "Robimy dzisiaj mały bifor u mnie.",
+      "translation": "Делаем сегодня небольшое препати у меня."
+    }
+  },
+  {
+    "id": 185,
+    "expression": "after",
+    "literal": "after party",
+    "options": ["Кофе", "Автопати", "Ужин"],
+    "correct_answer": "Автопати",
+    "example": {
+      "text": "Zostajecie dzisiaj na after u Maćka?",
+      "translation": "Остаетесь сегодня на автопати у Мацека?"
+    }
+  },
+  {
+    "id": 186,
+    "expression": "wjazd",
+    "options": ["Плата за вход", "Торможение", "Поездка"],
+    "correct_answer": "Плата за вход",
+    "example": {
+      "text": "Ile wczoraj kosztował wjazd do klubu?",
+      "translation": "Сколько вчера стоил вход в клуб?"
+    }
+  },
+  {
+    "id": 187,
+    "expression": "kark",
+    "options": ["Ворон", "Шея", "Амбал"],
+    "correct_answer": "Амбал",
+    "example": {
+      "text": "Na bramce stał jakiś wielki kark.",
+      "translation": "На входе стоял какой-то здоровенный амбал."
+    }
+  },
+  {
+    "id": 188,
+    "expression": "dym",
+    "options": ["Густой дым", "Вкусная еда", "Кипиш"],
+    "correct_answer": "Кипиш",
+    "example": {
+      "text": "Wczoraj w barze był niezły dym.",
+      "translation": "Вчера в баре был жесткий кипиш."
+    }
+  },
+  {
+    "id": 189,
+    "expression": "robić dym",
+    "options": ["Разжигать костер", "Курить", "Скандалить"],
+    "correct_answer": "Скандалить",
+    "example": {
+      "text": "Nie rób dymu o taką bzdurę.",
+      "translation": "Не поднимай кипиш из-за такой фигни."
+    }
+  },
+  {
+    "id": 190,
+    "expression": "obalić",
+    "options": ["Упасть", "Высушить пузырь", "Ударить"],
+    "correct_answer": "Высушить пузырь",
+    "example": {
+      "text": "Obaliliśmy wczoraj we dwóch całą flaszkę.",
+      "translation": "Мы вчера высушили пузырь на двоих."
+    }
+  },
+  {
+    "id": 191,
+    "expression": "polewać",
+    "options": ["Поливать цветы", "Разливать алко", "Смеяться"],
+    "correct_answer": "Разливать алко",
+    "example": {
+      "text": "Nie gadaj tyle, tylko polewaj dalej.",
+      "translation": "Не болтай столько, просто наливай дальше."
+    }
+  },
+  {
+    "id": 192,
+    "expression": "zgon",
+    "options": ["Тишина", "Конец света", "Отруб"],
+    "correct_answer": "Отруб",
+    "example": {
+      "text": "Po czwartym piwie zaliczył totalny zgon.",
+      "translation": "После четвертого пива он ушел в полный отруб."
+    }
+  },
+  {
+    "id": 193,
+    "expression": "faza",
+    "options": ["Фаза луны", "Удар током", "Кайф"],
+    "correct_answer": "Кайф",
+    "example": {
+      "text": "Mam niezłą fazę po tym filmie.",
+      "translation": "У меня нехилый кайф после этого фильма."
+    }
+  },
+  {
+    "id": 194,
+    "expression": "mieć fazę",
+    "options": ["Словить кайф", "Быть электриком", "Опаздывать"],
+    "correct_answer": "Словить кайф",
+    "example": {
+      "text": "Złapał niezłą fazę po tej muzyce.",
+      "translation": "Он словил крутой кайф под эту музыку."
+    }
+  },
+  {
+    "id": 195,
+    "expression": "wymiękać",
+    "options": ["Размягчать масло", "Сливаться", "Делать массаж"],
+    "correct_answer": "Сливаться",
+    "example": {
+      "text": "Tylko nie mów, że teraz wymiękasz.",
+      "translation": "Только не говори, что ты сейчас сливаешься."
+    }
+  },
+  {
+    "id": 196,
+    "expression": "nie pękaj",
+    "options": ["Не лопайся", "Не кричи", "Не ссы"],
+    "correct_answer": "Не ссы",
+    "example": {
+      "text": "Nie pękaj, dasz sobie z tym radę.",
+      "translation": "Не ссы, ты с этим справишься."
+    }
+  },
+  {
+    "id": 197,
+    "expression": "rozwalać",
+    "options": ["Делать ремонт", "Разносить", "Разбрасывать вещи"],
+    "correct_answer": "Разносить",
+    "example": {
+      "text": "Jego memy zawsze mnie totalnie rozwalają.",
+      "translation": "Его мемы меня всегда тотально разносят."
+    }
+  },
+  {
+    "id": 198,
+    "expression": "dziany",
+    "options": ["Рваный", "Голодный", "При бабках"],
+    "correct_answer": "При бабках",
+    "example": {
+      "text": "Jej nowy facet jest nieźle dziany.",
+      "translation": "Ее новый мужик неплохо так при бабках."
+    }
+  },
+  {
+    "id": 199,
+    "expression": "hajsiwo",
+    "options": ["Чай", "Город", "Баблишко"],
+    "correct_answer": "Баблишко",
+    "example": {
+      "text": "Z tej roboty wpadło niezłe hajsiwo.",
+      "translation": "С этой работы упало неплохое баблишко."
+    }
+  },
+  {
+    "id": 200,
+    "expression": "zarobiony",
+    "options": ["Богатый", "Украденный", "В мыле"],
+    "correct_answer": "В мыле",
+    "example": {
+      "text": "Sorry, nie dam rady, jestem zarobiony.",
+      "translation": "Сорри, не смогу, я весь в мыле (в работе)."
+    }
+  },
+  {
+    "id": 201,
+    "expression": "sos",
+    "options": ["Соус для пиццы", "Срочная помощь", "Бабло"],
+    "correct_answer": "Бабло",
+    "example": {
+      "text": "Skąd on ma taki sos?",
+      "translation": "Откуда u него столько бабла?"
+    }
+  },
+  {
+    "id": 202,
+    "expression": "kabona",
+    "options": ["Огромная кабина", "Капуста (деньги)", "Автомобиль"],
+    "correct_answer": "Капуста (деньги)",
+    "example": {
+      "text": "Potrzebuję kabony na nowy telefon.",
+      "translation": "Мне нужна капуста на новый телефон."
+    }
+  },
+  {
+    "id": 203,
+    "expression": "lewizna",
+    "options": ["Левая рука", "Девушка-левша", "Паль (подделка)"],
+    "correct_answer": "Паль (подделка)",
+    "example": {
+      "text": "Te buty to jakaś tania lewizna.",
+      "translation": "Эти кроссовки — какая-то дешевая паль."
+    }
+  },
+  {
+    "id": 204,
+    "expression": "krindż",
+    "literal": "cringe",
+    "options": ["Крик", "Кринж", "Кража"],
+    "correct_answer": "Кринж",
+    "example": {
+      "text": "Ale krindż, weź to wyłącz.",
+      "translation": "Какой кринж, выключи это."
+    }
+  },
+  {
+    "id": 205,
+    "expression": "rel",
+    "literal": "relatable",
+    "options": ["Религия", "Расслабление", "Жиза"],
+    "correct_answer": "Жиза",
+    "example": {
+      "text": "To jest totalny rel, stary.",
+      "translation": "Это полная жиза, старик."
+    }
+  },
+  {
+    "id": 206,
+    "expression": "ez",
+    "literal": "easy",
+    "options": ["Трудно", "Изи", "Эхо"],
+    "correct_answer": "Изи",
+    "example": {
+      "text": "Wygraliśmy ten mecz na ez.",
+      "translation": "Мы выиграли этот матч на изи."
+    }
+  },
+  {
+    "id": 207,
+    "expression": "atencjusz",
+    "options": ["Внимательный", "Атакующий", "Хайпожор"],
+    "correct_answer": "Хайпожор",
+    "example": {
+      "text": "Z niego jest niezły atencjusz.",
+      "translation": "Он тот еще хайпожор."
+    }
+  },
+  {
+    "id": 208,
+    "expression": "foliarz",
+    "options": ["Любитель фольги", "Конспиролог", "Продавец пакетов"],
+    "correct_answer": "Конспиролог",
+    "example": {
+      "text": "Mój wujek to straszny foliarz.",
+      "translation": "Мой дядя — жуткий конспиролог."
+    }
+  },
+  {
+    "id": 209,
+    "expression": "normik",
+    "options": ["Нормис", "Правило", "Скучный урок"],
+    "correct_answer": "Нормис",
+    "example": {
+      "text": "Zachowuje się jak zwykły normik.",
+      "translation": "Ведет себя как обычный нормис."
+    }
+  },
+  {
+    "id": 210,
+    "expression": "odklejka",
+    "options": ["Пластырь", "Поехавший", "Этикетка"],
+    "correct_answer": "Поехавший",
+    "example": {
+      "text": "On ma dzisiaj niezłą odklejkę.",
+      "translation": "Он сегодня конкретно поехавший (отлетел)."
+    }
+  },
+  {
+    "id": 211,
+    "expression": "japa",
+    "options": ["Пасть", "Япония", "Куртка"],
+    "correct_answer": "Пасть",
+    "example": {
+      "text": "Zamknij japę i mnie posłuchaj!",
+      "translation": "Закрой пасть и послушай меня!"
+    }
+  },
+  {
+    "id": 212,
+    "expression": "ryj",
+    "options": ["Рыба", "Дождь", "Морда"],
+    "correct_answer": "Морда",
+    "example": {
+      "text": "Dostał wczoraj w ryj na imprezie.",
+      "translation": "Он вчера получил по морде на тусе."
+    }
+  },
+  {
+    "id": 213,
+    "expression": "chlew",
+    "options": ["Хлеб", "Свинарник", "Обед"],
+    "correct_answer": "Свинарник",
+    "example": {
+      "text": "Ale masz chlew w swoim pokoju.",
+      "translation": "Ну у тебя и свинарник в комнате."
+    }
+  },
+  {
+    "id": 214,
+    "expression": "syf",
+    "options": ["Сыр", "Шум", "Отстой"],
+    "correct_answer": "Отстой",
+    "example": {
+      "text": "Ten nowy hotel to straszny syf.",
+      "translation": "Этот новый отель — жуткий отстой."
+    }
+  },
+  {
+    "id": 215,
+    "expression": "bajer",
+    "options": ["Барон", "Пустая болтовня", "Музыкант"],
+    "correct_answer": "Пустая болтовня",
+    "example": {
+      "text": "To tylko taki tani bajer.",
+      "translation": "Это просто такая дешевая болтовня."
+    }
+  },
+  {
+    "id": 216,
+    "expression": "podbijać",
+    "options": ["Играть в волейбол", "Подкатывать", "Драться"],
+    "correct_answer": "Подкатывать",
+    "example": {
+      "text": "Znowu próbujesz do niej podbijać?",
+      "translation": "Опять пытаешься к ней подкатывать?"
+    }
+  },
+  {
+    "id": 217,
+    "expression": "zarywać",
+    "options": ["Ложиться спать", "Плакать", "Пикапить"],
+    "correct_answer": "Пикапить",
+    "example": {
+      "text": "Przestań zarywać do mojej siostry.",
+      "translation": "Хватит пикапить мою сестру."
+    }
+  },
+  {
+    "id": 218,
+    "expression": "spławić",
+    "options": ["Уплыть", "Выпить воды", "Отшить"],
+    "correct_answer": "Отшить",
+    "example": {
+      "text": "Musiałam go wczoraj szybko spławić.",
+      "translation": "Мне пришлось его вчера быстро отшить."
+    }
+  },
+  {
+    "id": 219,
+    "expression": "kosz",
+    "options": ["Корзина для мусора", "Отказ (в любви)", "Кошка"],
+    "correct_answer": "Отказ (в любви)",
+    "example": {
+      "text": "Dostał wczoraj kosza od tamtej laski.",
+      "translation": "Он вчера получил отказ от той чиксы."
+    }
+  },
+  {
+    "id": 220,
+    "expression": "koryto",
+    "options": ["Коридор", "Жратва", "Дорога"],
+    "correct_answer": "Жратва",
+    "example": {
+      "text": "Dawaj do koryta, umieram z głodu.",
+      "translation": "Давай к жратве, умираю с голоду."
+    }
+  },
+  {
+    "id": 221,
+    "expression": "flaszka",
+    "options": ["Флешка", "Бутылка водки", "Кепка"],
+    "correct_answer": "Бутылка водки",
+    "example": {
+      "text": "Kupiliśmy flaszkę na dzisiejszy wieczór.",
+      "translation": "Мы купили бутылку на сегодняшний вечер."
+    }
+  },
+  {
+    "id": 222,
+    "expression": "lufa",
+    "options": ["Сотка водки", "Пистолет", "Лупа"],
+    "correct_answer": "Сотка водки",
+    "example": {
+      "text": "Walniemy po lufie na start?",
+      "translation": "Бахнем по сотке для начала?"
+    }
+  },
+  {
+    "id": 223,
+    "expression": "rzeźnia",
+    "options": ["Резня", "Мясорубка (о ситуации)", "Раннее утро"],
+    "correct_answer": "Мясорубка (о ситуации)",
+    "example": {
+      "text": "Na wczorajszym egzaminie była niezła rzeźnia.",
+      "translation": "На вчерашнем экзамене была просто мясорубка."
+    }
+  },
+  {
+    "id": 224,
+    "expression": "paker",
+    "options": ["Качок", "Упаковщик", "Рюкзак"],
+    "correct_answer": "Качок",
+    "example": {
+      "text": "Ten paker z siłowni mi pomógł.",
+      "translation": "Тот качок из зала мне помог."
+    }
+  },
+  {
+    "id": 225,
+    "expression": "zgred",
+    "options": ["Сосед", "Дед (ворчун)", "Голод"],
+    "correct_answer": "Дед (ворчун)",
+    "example": {
+      "text": "Mój stary to niezły zgred.",
+      "translation": "Мой батя — тот еще ворчливый дед."
+    }
+  },
+  {
+    "id": 226,
+    "expression": "małolat",
+    "options": ["Самолет", "Малолетка", "Младший брат"],
+    "correct_answer": "Малолетка",
+    "example": {
+      "text": "Jakiś małolat zarysował mi auto.",
+      "translation": "Какой-то малолетка поцарапал мне тачку."
+    }
+  },
+  {
+    "id": 227,
+    "expression": "zamuła",
+    "options": ["Тухляк", "Замок", "Глубокая лужа"],
+    "correct_answer": "Тухляк",
+    "example": {
+      "text": "Ale zamuła na tej domówce.",
+      "translation": "Ну и тухляк на этой вписке."
+    }
+  },
+  {
+    "id": 228,
+    "expression": "przymulać",
+    "options": ["Медленно идти", "Тупить", "Кормить рыбу"],
+    "correct_answer": "Тупить",
+    "example": {
+      "text": "Nie przymulaj, musimy już iść.",
+      "translation": "Не тупи, нам уже пора идти."
+    }
+  },
+  {
+    "id": 229,
+    "expression": "ogień",
+    "options": ["Костер", "Огонь (круто)", "Пожарник"],
+    "correct_answer": "Огонь (круто)",
+    "example": {
+      "text": "Ta nowa piosenka to istny ogień!",
+      "translation": "Эта новая песня — просто огонь!"
+    }
+  },
+  {
+    "id": 230,
+    "expression": "ciarki",
+    "options": ["Часы", "Темнота", "Мурашки"],
+    "correct_answer": "Мурашки",
+    "example": {
+      "text": "Aż mam ciarki od tej muzyki.",
+      "translation": "У меня аж мурашки от этой музыки."
+    }
+  },
+  {
+    "id": 231,
+    "expression": "nuda",
+    "options": ["Скукотища", "Голое тело", "Бессонница"],
+    "correct_answer": "Скукотища",
+    "example": {
+      "text": "Straszna nuda, wracajmy już do domu.",
+      "translation": "Жуткая скукотища, погнали уже домой."
+    }
+  },
+  {
+    "id": 232,
+    "expression": "ściurać się",
+    "options": ["Быстро умыться", "Ушататься", "Спрятаться"],
+    "correct_answer": "Ушататься",
+    "example": {
+      "text": "Strasznie się wczoraj ściurałem w pracy.",
+      "translation": "Я вчера жутко ушатался на работе."
+    }
+  },
+  {
+    "id": 233,
+    "expression": "ciśnienie",
+    "options": ["Напряг", "Толпа", "Теснота"],
+    "correct_answer": "Напряг",
+    "example": {
+      "text": "Zeszło ze mnie całe wczorajsze ciśnienie.",
+      "translation": "С меня спал весь вчерашний напряг."
+    }
+  },
+  {
+    "id": 234,
+    "expression": "dzik",
+    "options": ["Лесной кабан", "Громкий крик", "Машина (о сильном парне)"],
+    "correct_answer": "Машина (о сильном парне)",
+    "example": {
+      "text": "Ale dzik, podniósł to bez problemu.",
+      "translation": "Ну и машина, поднял это без проблем."
+    }
+  },
+  {
+    "id": 235,
+    "expression": "ziom",
+    "options": ["Зима", "Холод", "Кореш"],
+    "correct_answer": "Кореш",
+    "example": {
+      "text": "To jest mój najlepszy ziom.",
+      "translation": "Это мой лучший кореш."
+    }
+  },
+  {
+    "id": 236,
+    "expression": "smacznej kawusi",
+    "options": ["Смешная шутка", "Доброе утро (иронично)", "Вкусная еда"],
+    "correct_answer": "Доброе утро (иронично)",
+    "example": {
+      "text": "Smacznej kawusi i miłego dzionka życzę!",
+      "translation": "Вкусного кофеича и хорошего денечка желаю!"
+    }
+  },
+  {
+    "id": 237,
+    "expression": "baza",
+    "options": ["Военный лагерь", "Скучная лекция", "База (одобрение)"],
+    "correct_answer": "База (одобрение)",
+    "example": {
+      "text": "To co powiedziałeś, to totalna baza.",
+      "translation": "То, что ты сказал — это полная база."
+    }
+  },
+  {
+    "id": 238,
+    "expression": "merytorycznie",
+    "options": ["Глупо", "По фактам", "Смешно"],
+    "correct_answer": "По фактам",
+    "example": {
+      "text": "Wyjaśnił go krótko i merytorycznie.",
+      "translation": "Разъяснил его коротко и по фактам."
+    }
+  },
+  {
+    "id": 239,
+    "expression": "na czilku",
+    "options": ["На морозе", "На чилле", "В спешке"],
+    "correct_answer": "На чилле",
+    "example": {
+      "text": "Zrobimy to jutro, na spokojnym czilku.",
+      "translation": "Сделаем это завтра, на спокойном чилле."
+    }
+  },
+  {
+    "id": 240,
+    "expression": "sus",
+    "literal": "suspicious",
+    "options": ["Свинья", "Вкусно", "Подозрительно"],
+    "correct_answer": "Подозрительно",
+    "example": {
+      "text": "Ten link wygląda jakoś bardzo sus.",
+      "translation": "Эта ссылка выглядит как-то очень подозрительно."
+    }
+  },
+  {
+    "id": 241,
+    "expression": "pet",
+    "options": ["Домашнее животное", "Ничтожество", "Бутылка воды"],
+    "correct_answer": "Ничтожество",
+    "example": {
+      "text": "Rozjechał go w dyskusji jak peta.",
+      "translation": "Разнес его в дискуссии как ничтожество."
+    }
+  },
+  {
+    "id": 242,
+    "expression": "wiochmen",
+    "options": ["Супергерой", "Умник", "Деревенщина"],
+    "correct_answer": "Деревенщина",
+    "example": {
+      "text": "Zachował się jak totalny wiochmen.",
+      "translation": "Повел себя как полная деревенщина."
+    }
+  },
+  {
+    "id": 243,
+    "expression": "kozaczyć",
+    "options": ["Скакать на лошади", "Выпендриваться", "Пить молоко"],
+    "correct_answer": "Выпендриваться",
+    "example": {
+      "text": "Przestań kozaczyć przed swoimi kumplami.",
+      "translation": "Хватит выпендриваться перед своими корешами."
+    }
+  },
+  {
+    "id": 244,
+    "expression": "sapać",
+    "options": ["Тяжело дышать", "Спать", "Бычить"],
+    "correct_answer": "Бычить",
+    "example": {
+      "text": "O co ty do mnie sapiesz?",
+      "translation": "Чего ты на меня бычишь?"
+    }
+  },
+  {
+    "id": 245,
+    "expression": "trzepać hajs",
+    "options": ["Тратить деньги", "Терять кошелек", "Рубить бабки"],
+    "correct_answer": "Рубить бабки",
+    "example": {
+      "text": "On na tym trzepie niezły hajs.",
+      "translation": "Он на этом рубит неплохие бабки."
+    }
+  },
+  {
+    "id": 246,
+    "expression": "zadyma",
+    "options": ["Дымовая завеса", "Потасовка", "Метель"],
+    "correct_answer": "Потасовка",
+    "example": {
+      "text": "Kibice zrobili wielką zadymę na ulicy.",
+      "translation": "Фанаты устроили жесткую потасовку на улице."
+    }
+  },
+  {
+    "id": 247,
+    "expression": "kwit",
+    "options": ["Цветок", "Чек из магазина", "Бабло"],
+    "correct_answer": "Бабло",
+    "example": {
+      "text": "Ważne, żeby na koniec zgadzał się kwit.",
+      "translation": "Главное, чтобы в конце сходилось бабло."
+    }
+  },
+  {
+    "id": 248,
+    "expression": "hajsy",
+    "options": ["Ссоры", "Деньжата", "Песни"],
+    "correct_answer": "Деньжата",
+    "example": {
+      "text": "Masz oddać moje hajsy do jutra.",
+      "translation": "Ты должен отдать мои деньжата до завтра."
+    }
+  },
+  {
+    "id": 249,
+    "expression": "zbierać się",
+    "options": ["Собирать грибы", "Собираться (уходить)", "Копить вещи"],
+    "correct_answer": "Собираться (уходить)",
+    "example": {
+      "text": "Późno jest, muszę się już zbierać.",
+      "translation": "Уже поздно, мне надо уже собираться."
+    }
+  },
+  {
+    "id": 250,
+    "expression": "ciao",
+    "options": ["Итальянец", "Давай (прощание)", "Кофе"],
+    "correct_answer": "Давай (прощание)",
+    "example": {
+      "text": "Lecę do domu, ciao!",
+      "translation": "Лечу домой, давай!"
+    }
+  }
+]

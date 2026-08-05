@@ -1,0 +1,976 @@
+[
+  {
+    "id": 1,
+    "russian": "Давайте использовать строгий минимализм здесь.",
+    "words_pool": ["użyjmy", "surowego", "minimalizmu", "w", "tym", "projekcie", "zrób", "kolor", "font"],
+    "correct_sequences": [
+      ["użyjmy", "surowego", "minimalizmu", "w", "tym", "projekcie"],
+      ["w", "tym", "projekcie", "użyjmy", "surowego", "minimalizmu"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 2,
+    "russian": "Можешь добавить больше воздуха?",
+    "words_pool": ["czy", "możesz", "dodać", "więcej", "wolnej", "przestrzeni", "zrób", "mniej", "padding"],
+    "correct_sequences": [
+      ["czy", "możesz", "dodać", "więcej", "wolnej", "przestrzeni"],
+      ["możesz", "dodać", "więcej", "wolnej", "przestrzeni"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 3,
+    "russian": "Я скину все исходники из Фигмы.",
+    "words_pool": ["wyślę", "wszystkie", "materiały", "źródłowe", "z", "figmy", "zapisz", "zrób", "warstwy"],
+    "correct_sequences": [
+      ["wyślę", "wszystkie", "materiały", "źródłowe", "z", "figmy"],
+      ["wszystkie", "materiały", "źródłowe", "wyślę", "z", "figmy"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 4,
+    "russian": "Паддинги везде одинаковые?",
+    "words_pool": ["czy", "odstępy", "wewnętrzne", "są", "wszędzie", "takie", "same", "margines", "fonty"],
+    "correct_sequences": [
+      ["czy", "odstępy", "wewnętrzne", "są", "wszędzie", "takie", "same"],
+      ["odstępy", "wewnętrzne", "są", "wszędzie", "takie", "same"],
+      ["czy", "wszędzie", "odstępy", "wewnętrzne", "są", "takie", "same"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 5,
+    "russian": "Клиент хочет пастельную палитру.",
+    "words_pool": ["klient", "chce", "pastelową", "paletę", "barw", "jasne", "potrzebuje", "kolor"],
+    "correct_sequences": [
+      ["klient", "chce", "pastelową", "paletę", "barw"],
+      ["pastelową", "paletę", "barw", "chce", "klient"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 6,
+    "russian": "Давай поменяем шрифт на без засечек.",
+    "words_pool": ["zmieńmy", "czcionkę", "na", "bezszeryfową", "zrób", "tekst", "pogrubiony"],
+    "correct_sequences": [
+      ["zmieńmy", "czcionkę", "na", "bezszeryfową"],
+      ["zmieńmy", "na", "czcionkę", "bezszeryfową"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 7,
+    "russian": "Выравнивание поехало на мобилке.",
+    "words_pool": ["wyrównanie", "wygląda", "źle", "na", "wersji", "mobilnej", "zrób", "padding", "pulpit"],
+    "correct_sequences": [
+      ["wyrównanie", "wygląda", "źle", "na", "wersji", "mobilnej"],
+      ["na", "wersji", "mobilnej", "wyrównanie", "wygląda", "źle"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 8,
+    "russian": "Сделай эту тень чуть прозрачнее.",
+    "words_pool": ["spraw", "żeby", "ten", "cień", "był", "mniej", "widoczny", "zrób", "przezroczystość"],
+    "correct_sequences": [
+      ["spraw", "żeby", "ten", "cień", "był", "mniej", "widoczny"],
+      ["spraw", "żeby", "cień", "był", "mniej", "widoczny"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 9,
+    "russian": "Вот первый драфт главного экрана.",
+    "words_pool": ["oto", "pierwszy", "szkic", "ekranu", "głównego", "finalny", "zrób", "aplikację"],
+    "correct_sequences": [
+      ["oto", "pierwszy", "szkic", "ekranu", "głównego"],
+      ["oto", "pierwszy", "szkic", "głównego", "ekranu"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 10,
+    "russian": "Кнопке нужен больший контраст.",
+    "words_pool": ["przycisk", "potrzebuje", "większego", "kontrastu", "zrób", "kolor", "cta"],
+    "correct_sequences": [
+      ["przycisk", "potrzebuje", "większego", "kontrastu"],
+      ["większego", "kontrastu", "potrzebuje", "przycisk"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 11,
+    "russian": "Сделай верстку пиксель в пиксель, пожалуйста.",
+    "words_pool": ["zrób", "implementację", "idealnie", "co", "do", "piksela", "proszę", "kod"],
+    "correct_sequences": [
+      ["zrób", "implementację", "idealnie", "co", "do", "piksela"],
+      ["zrób", "implementację", "co", "do", "piksela"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 12,
+    "russian": "На этой кнопке не хватает состояния при наведении.",
+    "words_pool": ["temu", "przyciskowi", "brakuje", "stanu", "hover", "kliknij", "zrób"],
+    "correct_sequences": [
+      ["temu", "przyciskowi", "brakuje", "stanu", "hover"],
+      ["przyciskowi", "brakuje", "stanu", "hover"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 13,
+    "russian": "Можем поменять скругление углов на 8 пикселей?",
+    "words_pool": ["czy", "możemy", "zmienić", "zaokrąglenie", "rogów", "na", "8", "pikseli", "zrób"],
+    "correct_sequences": [
+      ["czy", "możemy", "zmienić", "zaokrąglenie", "rogów", "na", "8", "pikseli"],
+      ["możemy", "zmienić", "zaokrąglenie", "rogów", "na", "8", "pikseli"]
+    ],
+    "distractors_count": 1
+  },
+  {
+    "id": 14,
+    "russian": "Выпадающее меню слишком длинное.",
+    "words_pool": ["lista", "rozwijana", "jest", "zbyt", "długa", "okno", "zrób"],
+    "correct_sequences": [
+      ["lista", "rozwijana", "jest", "zbyt", "długa"],
+      ["rozwijana", "lista", "jest", "zbyt", "długa"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 15,
+    "russian": "Сайт теперь полностью адаптивный?",
+    "words_pool": ["czy", "strona", "jest", "teraz", "w", "pełni", "responsywna", "zrób", "mobilna"],
+    "correct_sequences": [
+      ["czy", "strona", "jest", "teraz", "w", "pełni", "responsywna"],
+      ["strona", "jest", "teraz", "w", "pełni", "responsywna"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 16,
+    "russian": "Мне не нравится этот градиент, он слишком яркий.",
+    "words_pool": ["nie", "podoba", "mi", "się", "ten", "gradient", "jest", "zbyt", "jasny", "zrób"],
+    "correct_sequences": [
+      ["nie", "podoba", "mi", "się", "ten", "gradient", "jest", "zbyt", "jasny"],
+      ["ten", "gradient", "nie", "podoba", "mi", "się", "jest", "zbyt", "jasny"]
+    ],
+    "distractors_count": 1
+  },
+  {
+    "id": 17,
+    "russian": "Нам нужна подсказка для этой иконки.",
+    "words_pool": ["potrzebujemy", "podpowiedzi", "dla", "tej", "ikony", "zrób", "tekst"],
+    "correct_sequences": [
+      ["potrzebujemy", "podpowiedzi", "dla", "tej", "ikony"],
+      ["dla", "tej", "ikony", "potrzebujemy", "podpowiedzi"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 18,
+    "russian": "Увеличь толщину обводки до 2 пикселей.",
+    "words_pool": ["zwiększ", "grubość", "obrysu", "do", "2", "pikseli", "zrób", "linię"],
+    "correct_sequences": [
+      ["zwiększ", "grubość", "obrysu", "do", "2", "pikseli"],
+      ["do", "2", "pikseli", "zwiększ", "grubość", "obrysu"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 19,
+    "russian": "Визуальная иерархия немного сбивает с толку.",
+    "words_pool": ["hierarchia", "wizualna", "jest", "trochę", "myląca", "zrób", "siatkę"],
+    "correct_sequences": [
+      ["hierarchia", "wizualna", "jest", "trochę", "myląca"],
+      ["wizualna", "hierarchia", "jest", "trochę", "myląca"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 20,
+    "russian": "Поправь межстрочный интервал в этом абзаце.",
+    "words_pool": ["popraw", "interlinię", "w", "tym", "akapicie", "zrób", "odstępy"],
+    "correct_sequences": [
+      ["popraw", "interlinię", "w", "tym", "akapicie"],
+      ["w", "tym", "akapicie", "popraw", "interlinię"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 21,
+    "russian": "Сделай это компонентом.",
+    "words_pool": ["zrób", "z", "tego", "komponent", "ramkę", "grupę"],
+    "correct_sequences": [
+      ["zrób", "z", "tego", "komponent"],
+      ["z", "tego", "zrób", "komponent"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 22,
+    "russian": "Используй автолейаут для этой карточки.",
+    "words_pool": ["użyj", "auto", "layoutu", "dla", "tej", "karty", "padding", "grid"],
+    "correct_sequences": [
+      ["użyj", "auto", "layoutu", "dla", "tej", "karty"],
+      ["dla", "tej", "karty", "użyj", "auto", "layoutu"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 23,
+    "russian": "Экспортируй иконки в формате svg.",
+    "words_pool": ["wyeksportuj", "ikony", "w", "formacie", "svg", "zapisz", "wektor"],
+    "correct_sequences": [
+      ["wyeksportuj", "ikony", "w", "formacie", "svg"],
+      ["ikony", "wyeksportuj", "w", "formacie", "svg"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 24,
+    "russian": "Этот цвет не проходит по контрасту.",
+    "words_pool": ["ten", "kolor", "nie", "przechodzi", "testu", "kontrastu", "jasny", "paleta"],
+    "correct_sequences": [
+      ["ten", "kolor", "nie", "przechodzi", "testu", "kontrastu"],
+      ["kolor", "ten", "nie", "przechodzi", "testu", "kontrastu"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 25,
+    "russian": "Нам нужно добавить внешнюю тень.",
+    "words_pool": ["musimy", "dodać", "cień", "zewnętrzny", "zrób", "wewnętrzny", "blur"],
+    "correct_sequences": [
+      ["musimy", "dodać", "cień", "zewnętrzny"],
+      ["cień", "zewnętrzny", "musimy", "dodać"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 26,
+    "russian": "Положи это в отдельный фрейм.",
+    "words_pool": ["umieść", "to", "w", "osobnej", "ramce", "zrób", "grupę", "warstwę"],
+    "correct_sequences": [
+      ["umieść", "to", "w", "osobnej", "ramce"],
+      ["w", "osobnej", "ramce", "umieść", "to"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 27,
+    "russian": "Измени заливку на белый.",
+    "words_pool": ["zmień", "wypełnienie", "na", "białe", "zrób", "kolor", "obrys"],
+    "correct_sequences": [
+      ["zmień", "wypełnienie", "na", "białe"],
+      ["wypełnienie", "zmień", "na", "białe"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 28,
+    "russian": "Где лежит этот плагин?",
+    "words_pool": ["gdzie", "jest", "ta", "wtyczka", "znajdź", "zrób", "komponent"],
+    "correct_sequences": [
+      ["gdzie", "jest", "ta", "wtyczka"],
+      ["gdzie", "ta", "wtyczka", "jest"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 29,
+    "russian": "Ты сделал вариант для темной темы?",
+    "words_pool": ["czy", "zrobiłeś", "wariant", "dla", "ciemnego", "motywu", "zrób", "kolor"],
+    "correct_sequences": [
+      ["czy", "zrobiłeś", "wariant", "dla", "ciemnego", "motywu"],
+      ["zrobiłeś", "wariant", "dla", "ciemnego", "motywu"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 30,
+    "russian": "Скинь мне хекс код этого синего.",
+    "words_pool": ["wyślij", "mi", "kod", "hex", "tego", "niebieskiego", "zrób", "kolor", "próbkę"],
+    "correct_sequences": [
+      ["wyślij", "mi", "kod", "hex", "tego", "niebieskiego"],
+      ["kod", "hex", "tego", "niebieskiego", "wyślij", "mi"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 31,
+    "russian": "Добавь пагинацию внизу страницы.",
+    "words_pool": ["dodaj", "paginację", "na", "dole", "strony", "zrób", "górę"],
+    "correct_sequences": [
+      ["dodaj", "paginację", "na", "dole", "strony"],
+      ["na", "dole", "strony", "dodaj", "paginację"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 32,
+    "russian": "Это модальное окно нельзя закрыть.",
+    "words_pool": ["tego", "okna", "modalnego", "nie", "da", "się", "zamknąć", "zrób", "otwórz"],
+    "correct_sequences": [
+      ["tego", "okna", "modalnego", "nie", "da", "się", "zamknąć"],
+      ["nie", "da", "się", "zamknąć", "tego", "okna", "modalnego"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 33,
+    "russian": "Клиент просит изменить путь пользователя.",
+    "words_pool": ["klient", "prosi", "o", "zmianę", "ścieżki", "użytkownika", "zrób", "mapę"],
+    "correct_sequences": [
+      ["klient", "prosi", "o", "zmianę", "ścieżki", "użytkownika"],
+      ["o", "zmianę", "ścieżki", "użytkownika", "prosi", "klient"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 34,
+    "russian": "Сделай радиокнопки вместо выпадающего списка.",
+    "words_pool": ["zrób", "przyciski", "opcji", "zamiast", "listy", "rozwijanej", "checkbox", "zmień"],
+    "correct_sequences": [
+      ["zrób", "przyciski", "opcji", "zamiast", "listy", "rozwijanej"],
+      ["zamiast", "listy", "rozwijanej", "zrób", "przyciski", "opcji"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 35,
+    "russian": "Мы забыли нарисовать пустые состояния.",
+    "words_pool": ["zapomnieliśmy", "narysować", "puste", "stany", "zrób", "ekrany", "projektuj"],
+    "correct_sequences": [
+      ["zapomnieliśmy", "narysować", "puste", "stany"],
+      ["puste", "stany", "zapomnieliśmy", "narysować"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 36,
+    "russian": "Сдвинь боковую панель немного вправо.",
+    "words_pool": ["przesuń", "panel", "boczny", "trochę", "w", "prawo", "zrób", "lewo"],
+    "correct_sequences": [
+      ["przesuń", "panel", "boczny", "trochę", "w", "prawo"],
+      ["trochę", "w", "prawo", "przesuń", "panel", "boczny"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 37,
+    "russian": "Покажи мне дашборд администратора.",
+    "words_pool": ["pokaż", "mi", "panel", "administratora", "zrób", "spójrz", "użytkownik"],
+    "correct_sequences": [
+      ["pokaż", "mi", "panel", "administratora"],
+      ["panel", "administratora", "pokaż", "mi"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 38,
+    "russian": "Нам нужен онбординг для новых юзеров.",
+    "words_pool": ["potrzebujemy", "onboardingu", "dla", "nowych", "użytkowników", "zrób", "tutorial"],
+    "correct_sequences": [
+      ["potrzebujemy", "onboardingu", "dla", "nowych", "użytkowników"],
+      ["dla", "nowych", "użytkowników", "potrzebujemy", "onboardingu"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 39,
+    "russian": "На каком брейкпоинте ломается верстка?",
+    "words_pool": ["w", "którym", "punkcie", "przełamania", "układ", "się", "psuje", "zrób", "gdzie"],
+    "correct_sequences": [
+      ["w", "którym", "punkcie", "przełamania", "układ", "się", "psuje"],
+      ["układ", "się", "psuje", "w", "którym", "punkcie", "przełamania"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 40,
+    "russian": "Сделай карточки одинакового соотношения сторон.",
+    "words_pool": ["zrób", "karty", "o", "tych", "samych", "proporcjach", "zachowaj", "rozmiar"],
+    "correct_sequences": [
+      ["zrób", "karty", "o", "tych", "samych", "proporcjach"],
+      ["karty", "zrób", "o", "tych", "samych", "proporcjach"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 41,
+    "russian": "Нам нужна темная тема для этого приложения.",
+    "words_pool": ["potrzebujemy", "ciemnego", "motywu", "dla", "tej", "aplikacji", "zrób", "kolor"],
+    "correct_sequences": [
+      ["potrzebujemy", "ciemnego", "motywu", "dla", "tej", "aplikacji"],
+      ["dla", "tej", "aplikacji", "potrzebujemy", "ciemnego", "motywu"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 42,
+    "russian": "Добавь спиннер пока данные грузятся.",
+    "words_pool": ["dodaj", "spinner", "podczas", "ładowania", "danych", "zrób", "czekaj"],
+    "correct_sequences": [
+      ["dodaj", "spinner", "podczas", "ładowania", "danych"],
+      ["podczas", "ładowania", "danych", "dodaj", "spinner"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 43,
+    "russian": "Передай макеты разработчикам завтра.",
+    "words_pool": ["przekaż", "projekty", "deweloperom", "jutro", "zrób", "wyślij"],
+    "correct_sequences": [
+      ["przekaż", "projekty", "deweloperom", "jutro"],
+      ["jutro", "przekaż", "projekty", "deweloperom"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 44,
+    "russian": "Обнови стайл гайд перед релизом.",
+    "words_pool": ["zaktualizuj", "przewodnik", "po", "stylu", "przed", "wydaniem", "zrób"],
+    "correct_sequences": [
+      ["zaktualizuj", "przewodnik", "po", "stylu", "przed", "wydaniem"],
+      ["przed", "wydaniem", "zaktualizuj", "przewodnik", "po", "stylu"]
+    ],
+    "distractors_count": 1
+  },
+  {
+    "id": 45,
+    "russian": "Замени этот рыбный текст на реальный.",
+    "words_pool": ["zmień", "ten", "tekst", "wypełniający", "na", "rzeczywisty", "zrób"],
+    "correct_sequences": [
+      ["zmień", "ten", "tekst", "wypełniający", "na", "rzeczywisty"],
+      ["ten", "tekst", "wypełniający", "zmień", "na", "rzeczywisty"]
+    ],
+    "distractors_count": 1
+  },
+  {
+    "id": 46,
+    "russian": "Плейсхолдер слишком светлый.",
+    "words_pool": ["tekst", "zastępczy", "jest", "zbyt", "jasny", "zrób", "ciemny"],
+    "correct_sequences": [
+      ["tekst", "zastępczy", "jest", "zbyt", "jasny"],
+      ["zbyt", "jasny", "jest", "tekst", "zastępczy"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 47,
+    "russian": "Этот элемент должен быть на первом экране.",
+    "words_pool": ["ten", "element", "powinien", "być", "na", "pierwszym", "ekranie", "zrób", "top"],
+    "correct_sequences": [
+      ["ten", "element", "powinien", "być", "na", "pierwszym", "ekranie"],
+      ["na", "pierwszym", "ekranie", "powinien", "być", "ten", "element"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 48,
+    "russian": "Микроанимации делают интерфейс живым.",
+    "words_pool": ["mikrointerakcje", "sprawiają", "że", "interfejs", "ożywa", "zrób", "dobre"],
+    "correct_sequences": [
+      ["mikrointerakcje", "sprawiają", "że", "interfejs", "ożywa"]
+    ],
+    "distractors_count": 2
+  },
+  {
+    "id": 49,
+    "russian": "Скелетоны выглядят лучше чем просто спиннер.",
+    "words_pool": ["szkielety", "wyglądają", "lepiej", "niż", "zwykły", "spinner", "zrób"],
+    "correct_sequences": [
+      ["szkielety", "wyglądają", "lepiej", "niż", "zwykły", "spinner"],
+      ["lepiej", "niż", "zwykły", "spinner", "wyglądają", "szkielety"]
+    ],
+    "distractors_count": 1
+  },
+  {
+    "id": 50,
+    "russian": "У нас нет дизайн системы.",
+    "words_pool": ["nie", "mamy", "systemu", "projektowego", "zrób", "potrzebujemy", "twórz"],
+    "correct_sequences": [
+      ["nie", "mamy", "systemu", "projektowego"],
+      ["systemu", "projektowego", "nie", "mamy"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 51,
+    "russian": "Мы должны успеть до дедлайна.",
+    "words_pool": ["musimy", "zdążyć", "przed", "dedlajnem", "zrobić", "czas", "projekt"],
+    "correct_sequences": [
+      ["musimy", "zdążyć", "przed", "dedlajnem"],
+      ["przed", "dedlajnem", "musimy", "zdążyć"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 52,
+    "russian": "Давай обсудим это на созвоне.",
+    "words_pool": ["omówmy", "to", "na", "callu", "zróbmy", "projekt", "teraz"],
+    "correct_sequences": [
+      ["omówmy", "to", "na", "callu"],
+      ["na", "callu", "omówmy", "to"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 53,
+    "russian": "Ждем фидбек от клиента.",
+    "words_pool": ["czekamy", "na", "fidbek", "od", "klienta", "projekt", "jutro", "nowy"],
+    "correct_sequences": [
+      ["czekamy", "na", "fidbek", "od", "klienta"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 54,
+    "russian": "Я нашел баг на главной странице.",
+    "words_pool": ["znalazłem", "błąd", "na", "stronie", "głównej", "szukam", "nowy", "aplikacji"],
+    "correct_sequences": [
+      ["znalazłem", "błąd", "na", "stronie", "głównej"],
+      ["na", "stronie", "głównej", "znalazłem", "błąd"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 55,
+    "russian": "Эта фича будет в следующем спринте.",
+    "words_pool": ["ten", "ficzur", "będzie", "w", "następnym", "sprincie", "nowy", "zrobiony", "jutro"],
+    "correct_sequences": [
+      ["ten", "ficzur", "będzie", "w", "następnym", "sprincie"],
+      ["w", "następnym", "sprincie", "będzie", "ten", "ficzur"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 56,
+    "russian": "Когда мы выкатываем это на продакшен?",
+    "words_pool": ["kiedy", "wrzucamy", "to", "na", "produkcję", "dzisiaj", "zrobimy", "projekt"],
+    "correct_sequences": [
+      ["kiedy", "wrzucamy", "to", "na", "produkcję"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 57,
+    "russian": "Проверь это в тестовой среде.",
+    "words_pool": ["sprawdź", "to", "na", "środowisku", "testowym", "zrób", "nowym", "aplikacji"],
+    "correct_sequences": [
+      ["sprawdź", "to", "na", "środowisku", "testowym"],
+      ["na", "środowisku", "testowym", "sprawdź", "to"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 58,
+    "russian": "Этот таск висит в бэклоге.",
+    "words_pool": ["ten", "task", "wisi", "w", "backlogu", "nowy", "jest", "gotowy"],
+    "correct_sequences": [
+      ["ten", "task", "wisi", "w", "backlogu"],
+      ["w", "backlogu", "wisi", "ten", "task"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 59,
+    "russian": "Можешь дать эстимацию по времени?",
+    "words_pool": ["czy", "możesz", "dać", "estymatę", "czasową", "zrobić", "szybko", "nową"],
+    "correct_sequences": [
+      ["czy", "możesz", "dać", "estymatę", "czasową"],
+      ["możesz", "dać", "estymatę", "czasową"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 60,
+    "russian": "Я отправил дизайн на ревью.",
+    "words_pool": ["wysłałem", "projekt", "do", "riwju", "nowy", "dzisiaj", "klienta"],
+    "correct_sequences": [
+      ["wysłałem", "projekt", "do", "riwju"],
+      ["do", "riwju", "wysłałem", "projekt"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 61,
+    "russian": "Мы получили аппрув от заказчика.",
+    "words_pool": ["dostaliśmy", "akcept", "od", "klienta", "mamy", "nowy", "projekt"],
+    "correct_sequences": [
+      ["dostaliśmy", "akcept", "od", "klienta"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 62,
+    "russian": "Ты читал бриф проекта?",
+    "words_pool": ["czy", "czytałeś", "brief", "projektu", "nowy", "widziałeś", "ten"],
+    "correct_sequences": [
+      ["czy", "czytałeś", "brief", "projektu"],
+      ["czytałeś", "brief", "projektu"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 63,
+    "russian": "Деплой прошел успешно.",
+    "words_pool": ["wdrożenie", "przebiegło", "pomyślnie", "zrobione", "dobrze", "projekt"],
+    "correct_sequences": [
+      ["wdrożenie", "przebiegło", "pomyślnie"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 64,
+    "russian": "Макет выглядит немного криво.",
+    "words_pool": ["ten", "układ", "wygląda", "trochę", "krzywo", "nowy", "jest", "dobrze"],
+    "correct_sequences": [
+      ["ten", "układ", "wygląda", "trochę", "krzywo"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 65,
+    "russian": "Добавь анимацию при скроллинге.",
+    "words_pool": ["dodaj", "animację", "podczas", "skrolowania", "zrób", "nową", "tutaj"],
+    "correct_sequences": [
+      ["dodaj", "animację", "podczas", "skrolowania"],
+      ["podczas", "skrolowania", "dodaj", "animację"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 66,
+    "russian": "Удали элемент свайпом влево.",
+    "words_pool": ["usuń", "element", "przez", "swipe", "w", "lewo", "dodaj", "prawo", "nowy"],
+    "correct_sequences": [
+      ["usuń", "element", "przez", "swipe", "w", "lewo"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 67,
+    "russian": "Кнопка не реагирует на тап.",
+    "words_pool": ["przycisk", "nie", "reaguje", "na", "tapnięcie", "jest", "nowy", "klik"],
+    "correct_sequences": [
+      ["przycisk", "nie", "reaguje", "na", "tapnięcie"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 68,
+    "russian": "Мне нужно обновить кейсы в портфолио.",
+    "words_pool": ["muszę", "zaktualizować", "case", "study", "w", "portfolio", "zrobić", "nowe", "tutaj"],
+    "correct_sequences": [
+      ["muszę", "zaktualizować", "case", "study", "w", "portfolio"],
+      ["w", "portfolio", "muszę", "zaktualizować", "case", "study"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 69,
+    "russian": "Я ищу работу на удаленке.",
+    "words_pool": ["szukam", "pracy", "tylko", "zdalnej", "mam", "nowej", "biurze"],
+    "correct_sequences": [
+      ["szukam", "pracy", "tylko", "zdalnej"],
+      ["szukam", "tylko", "pracy", "zdalnej"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 70,
+    "russian": "Опять придется делать овертайм.",
+    "words_pool": ["znowu", "trzeba", "będzie", "robić", "nadgodziny", "nowe", "dzisiaj", "projekt"],
+    "correct_sequences": [
+      ["znowu", "trzeba", "będzie", "robić", "nadgodziny"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 71,
+    "russian": "Давай устроим мозговой штурм утром.",
+    "words_pool": ["zróbmy", "burzę", "mózgów", "rano", "dzisiaj", "nową", "projekt"],
+    "correct_sequences": [
+      ["zróbmy", "burzę", "mózgów", "rano"],
+      ["rano", "zróbmy", "burzę", "mózgów"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 72,
+    "russian": "Наш питч прошел просто отлично.",
+    "words_pool": ["nasz", "pitch", "poszedł", "po", "prostu", "świetnie", "nowy", "bardzo", "dobrze"],
+    "correct_sequences": [
+      ["nasz", "pitch", "poszedł", "po", "prostu", "świetnie"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 73,
+    "russian": "Кик-офф назначен на понедельник.",
+    "words_pool": ["spotkanie", "kick-off", "jest", "w", "poniedziałek", "nowe", "dzisiaj", "wtorek"],
+    "correct_sequences": [
+      ["spotkanie", "kick-off", "jest", "w", "poniedziałek"],
+      ["w", "poniedziałek", "jest", "spotkanie", "kick-off"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 74,
+    "russian": "Давай сделаем быстрый синк после обеда.",
+    "words_pool": ["zróbmy", "szybki", "synk", "po", "obiedzie", "nowy", "dzisiaj", "rano"],
+    "correct_sequences": [
+      ["zróbmy", "szybki", "synk", "po", "obiedzie"],
+      ["po", "obiedzie", "zróbmy", "szybki", "synk"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 75,
+    "russian": "Процесс онбординга занимает два дня.",
+    "words_pool": ["proces", "onboardingu", "zajmuje", "dwa", "dni", "jest", "nowy", "trzy"],
+    "correct_sequences": [
+      ["proces", "onboardingu", "zajmuje", "dwa", "dni"],
+      ["dwa", "dni", "zajmuje", "proces", "onboardingu"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 76,
+    "russian": "У нас дейли каждый день в десять.",
+    "words_pool": ["mamy", "daily", "codziennie", "o", "dziesiątej", "dzisiaj", "nowe", "rano"],
+    "correct_sequences": [
+      ["mamy", "daily", "codziennie", "o", "dziesiątej"],
+      ["codziennie", "o", "dziesiątej", "mamy", "daily"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 77,
+    "russian": "Подготовь графику к ближайшему релизу.",
+    "words_pool": ["przygotuj", "grafiki", "do", "najbliższego", "wydania", "zrób", "nowe", "jutro"],
+    "correct_sequences": [
+      ["przygotuj", "grafiki", "do", "najbliższego", "wydania"],
+      ["do", "najbliższego", "wydania", "przygotuj", "grafiki"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 78,
+    "russian": "Это критическая ошибка, нужен хотфикс.",
+    "words_pool": ["to", "krytyczny", "błąd", "potrzebny", "hotfix", "jest", "nowy", "dzisiaj"],
+    "correct_sequences": [
+      ["to", "krytyczny", "błąd", "potrzebny", "hotfix"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 79,
+    "russian": "Давай сначала запустим MVP.",
+    "words_pool": ["wypuśćmy", "najpierw", "wersję", "mvp", "zróbmy", "nową", "dzisiaj"],
+    "correct_sequences": [
+      ["wypuśćmy", "najpierw", "wersję", "mvp"],
+      ["najpierw", "wypuśćmy", "wersję", "mvp"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 80,
+    "russian": "Мы используем инструменты с открытым кодом.",
+    "words_pool": ["używamy", "narzędzi", "open", "source", "mamy", "nowe", "tutaj"],
+    "correct_sequences": [
+      ["używamy", "narzędzi", "open", "source"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 81,
+    "russian": "Сделай коммит после этих правок.",
+    "words_pool": ["zrób", "commit", "po", "tych", "poprawkach", "nowy", "dodaj", "dzisiaj"],
+    "correct_sequences": [
+      ["zrób", "commit", "po", "tych", "poprawkach"],
+      ["po", "tych", "poprawkach", "zrób", "commit"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 82,
+    "russian": "Создай новую ветку для этой фичи.",
+    "words_pool": ["utwórz", "nową", "gałąź", "dla", "tego", "ficzura", "zrób", "tutaj", "dzisiaj"],
+    "correct_sequences": [
+      ["utwórz", "nową", "gałąź", "dla", "tego", "ficzura"],
+      ["dla", "tego", "ficzura", "utwórz", "nową", "gałąź"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 83,
+    "russian": "Не забудь сделать пулл реквест.",
+    "words_pool": ["nie", "zapomnij", "zrobić", "pull", "request", "dodaj", "nowy", "dzisiaj"],
+    "correct_sequences": [
+      ["nie", "zapomnij", "zrobić", "pull", "request"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 84,
+    "russian": "Какой фреймворк мы здесь используем?",
+    "words_pool": ["jakiego", "frameworka", "tutaj", "używamy", "nowego", "mamy", "jest"],
+    "correct_sequences": [
+      ["jakiego", "frameworka", "tutaj", "używamy"],
+      ["jakiego", "frameworka", "używamy", "tutaj"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 85,
+    "russian": "Фронтенд еще не готов.",
+    "words_pool": ["frontend", "nie", "jest", "jeszcze", "gotowy", "nowy", "dzisiaj", "zrobiony"],
+    "correct_sequences": [
+      ["frontend", "nie", "jest", "jeszcze", "gotowy"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 86,
+    "russian": "Бэкенд возвращает ошибку.",
+    "words_pool": ["backend", "zwraca", "nam", "błąd", "nowy", "jest", "tutaj"],
+    "correct_sequences": [
+      ["backend", "zwraca", "nam", "błąd"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 87,
+    "russian": "Наш фуллстек разработчик в отпуске.",
+    "words_pool": ["nasz", "fullstack", "jest", "na", "urlopie", "nowy", "dzisiaj", "tutaj"],
+    "correct_sequences": [
+      ["nasz", "fullstack", "jest", "na", "urlopie"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 88,
+    "russian": "Дизайн не соответствует бизнес-требованиям.",
+    "words_pool": ["projekt", "nie", "spełnia", "wymagań", "biznesowych", "jest", "nowy", "tutaj"],
+    "correct_sequences": [
+      ["projekt", "nie", "spełnia", "wymagań", "biznesowych"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 89,
+    "russian": "Мы не понимаем нашу целевую аудиторию.",
+    "words_pool": ["nie", "rozumiemy", "naszej", "grupy", "docelowej", "mamy", "nowej", "tutaj"],
+    "correct_sequences": [
+      ["nie", "rozumiemy", "naszej", "grupy", "docelowej"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 90,
+    "russian": "Нам нужно проверить эту гипотезу.",
+    "words_pool": ["musimy", "sprawdzić", "tę", "hipotezę", "zrobić", "nową", "dzisiaj"],
+    "correct_sequences": [
+      ["musimy", "sprawdzić", "tę", "hipotezę"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 91,
+    "russian": "А/Б тесты покажут лучший вариант.",
+    "words_pool": ["testy", "a/b", "pokażą", "najlepszą", "opcję", "nowe", "dzisiaj", "zrobią"],
+    "correct_sequences": [
+      ["testy", "a/b", "pokażą", "najlepszą", "opcję"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 92,
+    "russian": "Как мы можем повысить конверсию?",
+    "words_pool": ["jak", "możemy", "zwiększyć", "naszą", "konwersję", "zrobić", "nową", "tutaj"],
+    "correct_sequences": [
+      ["jak", "możemy", "zwiększyć", "naszą", "konwersję"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 93,
+    "russian": "Процент брошенных корзин слишком высокий.",
+    "words_pool": ["wskaźnik", "porzuceń", "koszyka", "jest", "zbyt", "wysoki", "nowy", "bardzo", "mamy"],
+    "correct_sequences": [
+      ["wskaźnik", "porzuceń", "koszyka", "jest", "zbyt", "wysoki"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 94,
+    "russian": "Анимация увеличивает вовлеченность пользователей.",
+    "words_pool": ["animacja", "zwiększa", "zaangażowanie", "użytkowników", "robi", "nowe", "bardzo"],
+    "correct_sequences": [
+      ["animacja", "zwiększa", "zaangażowanie", "użytkowników"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 95,
+    "russian": "Информационная архитектура слишком сложная.",
+    "words_pool": ["architektura", "informacji", "jest", "zbyt", "skomplikowana", "nowa", "bardzo", "mamy"],
+    "correct_sequences": [
+      ["architektura", "informacji", "jest", "zbyt", "skomplikowana"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 96,
+    "russian": "Где я могу найти карту сайта?",
+    "words_pool": ["gdzie", "mogę", "znaleźć", "mapę", "witryny", "jest", "nowa", "tutaj"],
+    "correct_sequences": [
+      ["gdzie", "mogę", "znaleźć", "mapę", "witryny"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 97,
+    "russian": "Сделай аватар идеально круглым.",
+    "words_pool": ["zrób", "zdjęcie", "profilowe", "idealnie", "okrągłym", "nowe", "tutaj", "bardzo"],
+    "correct_sequences": [
+      ["zrób", "zdjęcie", "profilowe", "idealnie", "okrągłym"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 98,
+    "russian": "Добавь бейдж с количеством уведомлений.",
+    "words_pool": ["dodaj", "odznakę", "z", "liczbą", "powiadomień", "zrób", "nową", "tutaj"],
+    "correct_sequences": [
+      ["dodaj", "odznakę", "z", "liczbą", "powiadomień"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 99,
+    "russian": "Эта иконка должна быть в векторе.",
+    "words_pool": ["ta", "ikona", "powinna", "być", "w", "wektorze", "jest", "nowa", "tutaj"],
+    "correct_sequences": [
+      ["ta", "ikona", "powinna", "być", "w", "wektorze"],
+      ["w", "wektorze", "powinna", "być", "ta", "ikona"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 100,
+    "russian": "Увеличь размер шрифта в хедере.",
+    "words_pool": ["zwiększ", "rozmiar", "czcionki", "w", "nagłówku", "zrób", "nową", "tutaj"],
+    "correct_sequences": [
+      ["zwiększ", "rozmiar", "czcionki", "w", "nagłówku"],
+      ["w", "nagłówku", "zwiększ", "rozmiar", "czcionki"]
+    ],
+    "distractors_count": 3
+  }
+]

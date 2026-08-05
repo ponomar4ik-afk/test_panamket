@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "expression": "Szkic szkieletowy",
+    "options": ["Цветовая палитра", "Прототип с анимацией", "Структурная схема"],
+    "correct_answer": "Структурная схема",
+    "example": {
+      "text": "Zróbmy najpierw szybki szkic szkieletowy.",
+      "translation": "Давай сначала сделаем быструю структурную схему."
+    }
+  },
+  {
+    "id": 2,
+    "expression": "Makieta wizualna",
+    "options": ["Визуальный макет", "Схема базы данных", "Черновик текста"],
+    "correct_answer": "Визуальный макет",
+    "example": {
+      "text": "Klient w końcu zatwierdził makietę wizualną.",
+      "translation": "Клиент наконец-то утвердил визуальный макет."
+    }
+  },
+  {
+    "id": 3,
+    "expression": "Wolna przestrzeń",
+    "options": ["Белый цвет текста", "Свободное пространство", "Ширина границы"],
+    "correct_answer": "Свободное пространство",
+    "example": {
+      "text": "Dodaj więcej wolnej przestrzeni wokół tekstu.",
+      "translation": "Добавь больше свободного пространства вокруг текста."
+    }
+  },
+  {
+    "id": 4,
+    "expression": "Wyrównanie",
+    "options": ["Скругление углов", "Непрозрачность", "Выравнивание"],
+    "correct_answer": "Выравнивание",
+    "example": {
+      "text": "Sprawdź tutaj wyrównanie do lewej.",
+      "translation": "Проверь здесь выравнивание по левому краю."
+    }
+  },
+  {
+    "id": 5,
+    "expression": "Odstęp wewnętrzny",
+    "options": ["Внешний отступ", "Внутренний отступ", "Межстрочный интервал"],
+    "correct_answer": "Внутренний отступ",
+    "example": {
+      "text": "Zwiększ odstęp wewnętrzny w tym przycisku.",
+      "translation": "Увеличь внутренний отступ в этой кнопке."
+    }
+  },
+  {
+    "id": 6,
+    "expression": "Margines zewnętrzny",
+    "options": ["Внешний отступ", "Внутренний отступ", "Толщина обводки"],
+    "correct_answer": "Внешний отступ",
+    "example": {
+      "text": "Potrzebujemy większego marginesu zewnętrznego na dole.",
+      "translation": "Нам нужен бóльший внешний отступ снизу."
+    }
+  },
+  {
+    "id": 7,
+    "expression": "Materiały źródłowe",
+    "options": ["Шрифты", "Исходные файлы", "Плагины"],
+    "correct_answer": "Исходные файлы",
+    "example": {
+      "text": "Wyeksportuj wszystkie materiały źródłowe dla programistów.",
+      "translation": "Экспортируй все исходные файлы для разработчиков."
+    }
+  },
+  {
+    "id": 8,
+    "expression": "Nieprzezroczystość",
+    "options": ["Размытие", "Контрастность", "Непрозрачность"],
+    "correct_answer": "Непрозрачность",
+    "example": {
+      "text": "Zmniejsz nieprzezroczystość tła do pięćdziesięciu procent.",
+      "translation": "Уменьши непрозрачность фона до пятидесяти процентов."
+    }
+  },
+  {
+    "id": 9,
+    "expression": "Szkic",
+    "options": ["Финальный рендер", "Черновик", "Векторный файл"],
+    "correct_answer": "Черновик",
+    "example": {
+      "text": "To jest tylko wstępny szkic.",
+      "translation": "Это только предварительный черновик."
+    }
+  },
+  {
+    "id": 10,
+    "expression": "Czcionka bezszeryfowa",
+    "options": ["Рукописный шрифт", "Шрифт с засечками", "Шрифт без засечек"],
+    "correct_answer": "Шрифт без засечек",
+    "example": {
+      "text": "Użyjmy czystej czcionki bezszeryfowej.",
+      "translation": "Давай используем чистый шрифт без засечек."
+    }
+  },
+  {
+    "id": 11,
+    "expression": "Pastelowy",
+    "options": ["Темный", "Яркий", "Пастельный"],
+    "correct_answer": "Пастельный",
+    "example": {
+      "text": "Wypróbuj delikatną, pastelową paletę.",
+      "translation": "Попробуй нежную пастельную палитру."
+    }
+  },
+  {
+    "id": 12,
+    "expression": "Minimalizm",
+    "options": ["Сложная анимация", "Перегруженный дизайн", "Минимализм"],
+    "correct_answer": "Минимализм",
+    "example": {
+      "text": "Ten projekt to czysty minimalizm.",
+      "translation": "Этот проект — чистый минимализм."
+    }
+  },
+  {
+    "id": 13,
+    "expression": "Wezwanie do działania",
+    "options": ["Нижний колонтитул", "Призыв к действию", "Всплывающее окно"],
+    "correct_answer": "Призыв к действию",
+    "example": {
+      "text": "Zrób przycisk wezwania do działania bardziej widocznym.",
+      "translation": "Сделай кнопку призыва к действию более заметной."
+    }
+  },
+  {
+    "id": 14,
+    "expression": "Nagłówek strony",
+    "options": ["Шапка сайта", "Подвал сайта", "Боковое меню"],
+    "correct_answer": "Шапка сайта",
+    "example": {
+      "text": "Zmniejsz logo w nagłówku strony.",
+      "translation": "Уменьши логотип в шапке сайта."
+    }
+  },
+  {
+    "id": 15,
+    "expression": "Stopka",
+    "options": ["Шапка сайта", "Модальное окно", "Подвал сайта"],
+    "correct_answer": "Подвал сайта",
+    "example": {
+      "text": "Dodaj linki społecznościowe do stopki.",
+      "translation": "Добавь ссылки на соцсети в подвал сайта."
+    }
+  },
+  {
+    "id": 16,
+    "expression": "Prototyp",
+    "options": ["Статичная картинка", "Модель макета", "Логотип"],
+    "correct_answer": "Модель макета",
+    "example": {
+      "text": "Przetestujmy ten interaktywny prototyp.",
+      "translation": "Давай протестируем этот интерактивный прототип."
+    }
+  },
+  {
+    "id": 17,
+    "expression": "Rozdzielczość ekranu",
+    "options": ["Разрешение экрана", "Цветокоррекция", "Слой"],
+    "correct_answer": "Разрешение экрана",
+    "example": {
+      "text": "Wyeksportuj ten obraz w wysokiej rozdzielczości.",
+      "translation": "Экспортируй это изображение в высоком разрешении."
+    }
+  },
+  {
+    "id": 18,
+    "expression": "Grafika wektorowa",
+    "options": ["Растровая графика", "Фотография", "Векторная графика"],
+    "correct_answer": "Векторная графика",
+    "example": {
+      "text": "Zawsze używaj grafiki wektorowej do logo.",
+      "translation": "Всегда используй векторную графику для логотипов."
+    }
+  },
+  {
+    "id": 19,
+    "expression": "Kontrast",
+    "options": ["Насыщенность", "Яркость", "Контраст"],
+    "correct_answer": "Контраст",
+    "example": {
+      "text": "Kontrast tekstu jest zbyt niski.",
+      "translation": "Контраст текста слишком низкий."
+    }
+  },
+  {
+    "id": 20,
+    "expression": "Wytyczne marki",
+    "options": ["Руководство по стилю", "Эскиз", "Сетка макета"],
+    "correct_answer": "Руководство по стилю",
+    "example": {
+      "text": "Po prostu trzymaj się wytycznych marki.",
+      "translation": "Просто придерживайся руководства по стилю бренда."
+    }
+  },
+  {
+    "id": 21,
+    "expression": "Siatka",
+    "options": ["Модульная сетка", "Шрифт", "Цветовая палитра"],
+    "correct_answer": "Модульная сетка",
+    "example": {
+      "text": "Przyciągnij wszystkie elementy do siatki.",
+      "translation": "Привяжи все элементы к модульной сетке."
+    }
+  },
+  {
+    "id": 22,
+    "expression": "Efekt najechania",
+    "options": ["Клик мыши", "Эффект при наведении", "Скроллинг"],
+    "correct_answer": "Эффект при наведении",
+    "example": {
+      "text": "Zmień kolor przycisku po efekcie najechania.",
+      "translation": "Измени цвет кнопки при наведении курсора."
+    }
+  },
+  {
+    "id": 23,
+    "expression": "Ekran powitalny",
+    "options": ["Экран загрузки", "Экран ошибки", "Главная страница"],
+    "correct_answer": "Экран загрузки",
+    "example": {
+      "text": "Dodaj nasze logo na ekran powitalny.",
+      "translation": "Добавь наш логотип на экран загрузки."
+    }
+  },
+  {
+    "id": 24,
+    "expression": "Okruszki nawigacyjne",
+    "options": ["Навигационная цепочка", "Иконки соцсетей", "Мелкий шрифт"],
+    "correct_answer": "Навигационная цепочка",
+    "example": {
+      "text": "Dodaj okruszki nawigacyjne dla wygody.",
+      "translation": "Добавь навигационную цепочку для удобства."
+    }
+  },
+  {
+    "id": 25,
+    "expression": "Lista rozwijana",
+    "options": ["Модальное окно", "Слайдер", "Выпадающий список"],
+    "correct_answer": "Выпадающий список",
+    "example": {
+      "text": "Wybierz swój kraj z listy rozwijanej.",
+      "translation": "Выбери свою страну из выпадающего списка."
+    }
+  },
+  {
+    "id": 26,
+    "expression": "Przełącznik",
+    "options": ["Чекбокс", "Поле ввода", "Переключатель"],
+    "correct_answer": "Переключатель",
+    "example": {
+      "text": "Użyj przełącznika dla trybu ciemnego.",
+      "translation": "Используй переключатель для темной темы."
+    }
+  },
+  {
+    "id": 27,
+    "expression": "Podpowiedź",
+    "options": ["Заголовок", "Кнопка отмены", "Всплывающая подсказка"],
+    "correct_answer": "Всплывающая подсказка",
+    "example": {
+      "text": "Dodaj podpowiedź po najechaniu na ikonę.",
+      "translation": "Добавь всплывающую подсказку при наведении на иконку."
+    }
+  },
+  {
+    "id": 28,
+    "expression": "Zgodność pikseli",
+    "options": ["Размытый фон", "Пиксельная точность", "Картинка в высоком качестве"],
+    "correct_answer": "Пиксельная точность",
+    "example": {
+      "text": "Końcowy układ musi mieć zgodność pikseli z projektem.",
+      "translation": "Финальная верстка должна иметь пиксельную точность с макетом."
+    }
+  },
+  {
+    "id": 29,
+    "expression": "Użyteczność",
+    "options": ["Красота интерфейса", "Скорость загрузки", "Удобство использования"],
+    "correct_answer": "Удобство использования",
+    "example": {
+      "text": "Musimy przeprowadzić test użyteczności.",
+      "translation": "Мы должны провести тест удобства использования."
+    }
+  },
+  {
+    "id": 30,
+    "expression": "Dostępność",
+    "options": ["Адаптивность под мобилки", "Доступность интерфейса", "Сложная анимация"],
+    "correct_answer": "Доступность интерфейса",
+    "example": {
+      "text": "Musimy poprawić dostępność w naszej aplikacji.",
+      "translation": "Мы должны улучшить доступность интерфейса в нашем приложении."
+    }
+  },
+  {
+    "id": 31,
+    "expression": "Tablica nastroju",
+    "options": ["Доска настроений", "Рабочий стол", "Сетка макета"],
+    "correct_answer": "Доска настроений",
+    "example": {
+      "text": "Zebrałem trochę referencji na tablicy nastroju.",
+      "translation": "Я собрал немного референсов на доске настроений."
+    }
+  },
+  {
+    "id": 32,
+    "expression": "Projekt responsywny",
+    "options": ["Быстрый сервер", "Адаптивный дизайн", "Векторный формат"],
+    "correct_answer": "Адаптивный дизайн",
+    "example": {
+      "text": "Ten projekt musi być w pełni responsywny.",
+      "translation": "Этот макет должен быть полностью адаптивным."
+    }
+  },
+  {
+    "id": 33,
+    "expression": "Typografia",
+    "options": ["Иконки", "Типографика", "Фотографии"],
+    "correct_answer": "Типографика",
+    "example": {
+      "text": "Dobra typografia sprawia, że tekst jest czytelny.",
+      "translation": "Хорошая типографика делает текст читаемым."
+    }
+  },
+  {
+    "id": 34,
+    "expression": "Hierarchia wizualna",
+    "options": ["Визуальная иерархия", "Цветовая палитра", "Структура базы данных"],
+    "correct_answer": "Визуальная иерархия",
+    "example": {
+      "text": "Stwórz tutaj wyraźną hierarchię wizualną.",
+      "translation": "Создай здесь четкую визуальную иерархию."
+    }
+  },
+  {
+    "id": 35,
+    "expression": "Odstępy między znakami",
+    "options": ["Межстрочный интервал", "Расстояние между буквами", "Отступ с краю"],
+    "correct_answer": "Расстояние между буквами",
+    "example": {
+      "text": "Dostosuj odstępy między znakami w logo.",
+      "translation": "Настрой расстояние между буквами в логотипе."
+    }
+  },
+  {
+    "id": 36,
+    "expression": "Interlinia",
+    "options": ["Межбуквенный интервал", "Межстрочный интервал", "Заголовок"],
+    "correct_answer": "Межстрочный интервал",
+    "example": {
+      "text": "Zwiększ interlinię w tym akapicie.",
+      "translation": "Увеличь межстрочный интервал в этом абзаце."
+    }
+  },
+  {
+    "id": 37,
+    "expression": "Gradient",
+    "options": ["Сплошная заливка", "Прозрачность", "Градиент"],
+    "correct_answer": "Градиент",
+    "example": {
+      "text": "Użyjmy gładkiego, liniowego gradientu.",
+      "translation": "Давай используем плавный линейный градиент."
+    }
+  },
+  {
+    "id": 38,
+    "expression": "Rozmycie",
+    "options": ["Резкость", "Размытие", "Тень"],
+    "correct_answer": "Размытие",
+    "example": {
+      "text": "Zastosuj delikatne rozmycie tła.",
+      "translation": "Примени легкое размытие фона."
+    }
+  },
+  {
+    "id": 39,
+    "expression": "Obrys",
+    "options": ["Заливка", "Обводка", "Толщина шрифта"],
+    "correct_answer": "Обводка",
+    "example": {
+      "text": "Dodaj czerwony obrys dla błędów.",
+      "translation": "Добавь красную обводку для ошибок."
+    }
+  },
+  {
+    "id": 40,
+    "expression": "Zaokrąglenie rogów",
+    "options": ["Скругление углов", "Размер шрифта", "Толщина линии"],
+    "correct_answer": "Скругление углов",
+    "example": {
+      "text": "Ustaw zaokrąglenie rogów na 12px.",
+      "translation": "Установи скругление углов на 12px."
+    }
+  },
+  {
+    "id": 41,
+    "expression": "Komponent",
+    "options": ["Слой", "Плагин", "Компонент"],
+    "correct_answer": "Компонент",
+    "example": {
+      "text": "Stwórz dla tego główny komponent.",
+      "translation": "Создай для этого главный компонент."
+    }
+  },
+  {
+    "id": 42,
+    "expression": "Instancja",
+    "options": ["Анимация", "Экземпляр компонента", "Сетка"],
+    "correct_answer": "Экземпляр компонента",
+    "example": {
+      "text": "Zaktualizuj tę instancję w projekcie.",
+      "translation": "Обнови этот экземпляр компонента в макете."
+    }
+  },
+  {
+    "id": 43,
+    "expression": "Wariant",
+    "options": ["Вариант компонента", "Маска", "Шрифт"],
+    "correct_answer": "Вариант компонента",
+    "example": {
+      "text": "Dodaj nieaktywny wariant dla tego przycisku.",
+      "translation": "Добавь неактивный вариант для этой кнопки."
+    }
+  },
+  {
+    "id": 44,
+    "expression": "Automatyczny układ",
+    "options": ["Случайный порядок", "Ручное выравнивание", "Автоматическая верстка"],
+    "correct_answer": "Автоматическая верстка",
+    "example": {
+      "text": "Po prostu użyj tutaj automatycznego układu.",
+      "translation": "Просто используй здесь автоматическую верстку."
+    }
+  },
+  {
+    "id": 45,
+    "expression": "Wtyczka",
+    "options": ["Рабочая область", "Разрешение экрана", "Плагин"],
+    "correct_answer": "Плагин",
+    "example": {
+      "text": "Ta wtyczka generuje losowe awatary.",
+      "translation": "Этот плагин генерирует случайные аватары."
+    }
+  },
+  {
+    "id": 46,
+    "expression": "Warstwa",
+    "options": ["Слой", "Палитра", "Отступ"],
+    "correct_answer": "Слой",
+    "example": {
+      "text": "Zablokuj warstwę tła.",
+      "translation": "Заблокируй фоновый слой."
+    }
+  },
+  {
+    "id": 47,
+    "expression": "Ramka",
+    "options": ["Фрейм", "Тень", "Экспорт"],
+    "correct_answer": "Фрейм",
+    "example": {
+      "text": "Umieść wszystkie elementy w ramce.",
+      "translation": "Помести все элементы во фрейм."
+    }
+  },
+  {
+    "id": 48,
+    "expression": "Obszar roboczy",
+    "options": ["Слой", "Заливка", "Рабочая область"],
+    "correct_answer": "Рабочая область",
+    "example": {
+      "text": "Ustaw szerokość obszaru roboczego na 1440px.",
+      "translation": "Установи ширину рабочей области на 1440px."
+    }
+  },
+  {
+    "id": 49,
+    "expression": "Płótno",
+    "options": ["Иконка", "Холст", "Шрифт"],
+    "correct_answer": "Холст",
+    "example": {
+      "text": "Zgubiłem swoje projekty na płótnie.",
+      "translation": "Я потерял свои макеты на холсте."
+    }
+  },
+  {
+    "id": 50,
+    "expression": "Eksport",
+    "options": ["Импорт", "Удаление", "Экспорт plików"],
+    "correct_answer": "Экспорт plików",
+    "example": {
+      "text": "Wyeksportuj tę ikonę jako plik SVG.",
+      "translation": "Экспортируй эту иконку как SVG-файл."
+    }
+  },
+  {
+    "id": 51,
+    "expression": "Cień zewnętrzny",
+    "options": ["Падающая тень", "Внутренняя тень", "Размытие"],
+    "correct_answer": "Падающая тень",
+    "example": {
+      "text": "Dodaj tu miękki cień zewnętrzny.",
+      "translation": "Добавь здесь мягкую падающую тень."
+    }
+  },
+  {
+    "id": 52,
+    "expression": "Cień wewnętrzny",
+    "options": ["Падающая тень", "Заливка", "Внутренняя тень"],
+    "correct_answer": "Внутренняя тень",
+    "example": {
+      "text": "Cień wewnętrzny wygląda zbyt ostro.",
+      "translation": "Внутренняя тень выглядит слишком резкой."
+    }
+  },
+  {
+    "id": 53,
+    "expression": "Wypełnienie",
+    "options": ["Обводка", "Заливка", "Прозрачность"],
+    "correct_answer": "Заливка",
+    "example": {
+      "text": "Zmień wypełnienie na ciemnoszare.",
+      "translation": "Измени заливку на темно-серую."
+    }
+  },
+  {
+    "id": 54,
+    "expression": "Kod koloru",
+    "options": ["Размер шрифта", "Шестнадцатеричный код", "Исходный код"],
+    "correct_answer": "Шестнадцатеричный код",
+    "example": {
+      "text": "Jaki to ma kod koloru HEX?",
+      "translation": "Какой у этого шестнадцатеричный код цвета?"
+    }
+  },
+  {
+    "id": 55,
+    "expression": "Paleta",
+    "options": ["Цветовая палитра", "Сетка", "Маска"],
+    "correct_answer": "Цветовая палитра",
+    "example": {
+      "text": "Trzymajmy się naszej głównej palety.",
+      "translation": "Давайте придерживаться нашей основной цветовой палитры."
+    }
+  },
+  {
+    "id": 56,
+    "expression": "Próbka koloru",
+    "options": ["Образец цвета", "Градиент", "Слой"],
+    "correct_answer": "Образец цвета",
+    "example": {
+      "text": "Zapisz ten kolor jako próbkę.",
+      "translation": "Сохрани этот цвет как образец."
+    }
+  },
+  {
+    "id": 57,
+    "expression": "Projektowanie szkieletowe",
+    "options": ["Создание вайрфреймов", "Создание анимации", "Выравнивание текста"],
+    "correct_answer": "Создание вайрфреймов",
+    "example": {
+      "text": "Projektowanie szkieletowe pomaga testować układ.",
+      "translation": "Создание вайрфреймов помогает тестировать структуру макета."
+    }
+  },
+  {
+    "id": 58,
+    "expression": "Prototypowanie",
+    "options": ["Создание прототипов", "Удаление файлов", "Экспорт ресурсов"],
+    "correct_answer": "Создание прототипов",
+    "example": {
+      "text": "Zacznij prototypowanie głównej ścieżki użytkownika.",
+      "translation": "Начни создание прототипа главного пути пользователя."
+    }
+  },
+  {
+    "id": 59,
+    "expression": "Ograniczenia",
+    "options": ["Привязки", "Направляющие", "Шрифты"],
+    "correct_answer": "Привязки",
+    "example": {
+      "text": "Ustaw ograniczenia do lewej i góry.",
+      "translation": "Установи привязки к левому и верхнему краю."
+    }
+  },
+  {
+    "id": 60,
+    "expression": "Maska",
+    "options": ["Тень", "Маска", "Обводка"],
+    "correct_answer": "Маска",
+    "example": {
+      "text": "Użyj maski dla tego zdjęcia.",
+      "translation": "Используй маску для этой фотографии."
+    }
+  },
+  {
+    "id": 61,
+    "expression": "Raster",
+    "options": ["Векторная графика", "Растровая графика", "Сетка"],
+    "correct_answer": "Растровая графика",
+    "example": {
+      "text": "Nie powiększaj tej grafiki rastrowej.",
+      "translation": "Не увеличивай эту растровую графику."
+    }
+  },
+  {
+    "id": 62,
+    "expression": "Ścieżka użytkownika",
+    "options": ["Пользовательский путь", "Визуальный стиль", "База данных"],
+    "correct_answer": "Пользовательский путь",
+    "example": {
+      "text": "Ścieżka użytkownika przy płatności jest niejasna.",
+      "translation": "Пользовательский путь при оформлении заказа непонятен."
+    }
+  },
+  {
+    "id": 63,
+    "expression": "Wdrożenie",
+    "options": ["Экран загрузки", "Знакомство с продуктом", "Удаление аккаунта"],
+    "correct_answer": "Знакомство с продуктом",
+    "example": {
+      "text": "Uprośćmy proces wdrożenia nowego użytkownika.",
+      "translation": "Давайте упростим процесс знакомства с продуктом для нового пользователя."
+    }
+  },
+  {
+    "id": 64,
+    "expression": "Panel sterowania",
+    "options": ["Всплывающее окно", "Подвал страницы", "Панель управления"],
+    "correct_answer": "Панель управления",
+    "example": {
+      "text": "Panel sterowania administratora potrzebuje więcej wykresów.",
+      "translation": "Панель управления администратора нуждается в большем количестве графиков."
+    }
+  },
+  {
+    "id": 65,
+    "expression": "Akordeon",
+    "options": ["Чекбокс", "Выпадающее меню", "Раскрывающийся список"],
+    "correct_answer": "Раскрывающийся список",
+    "example": {
+      "text": "Wrzuć sekcję FAQ w akordeon.",
+      "translation": "Помести раздел FAQ в раскрывающийся список."
+    }
+  },
+  {
+    "id": 66,
+    "expression": "Pole wyboru",
+    "options": ["Флажок (чекбокс)", "Радиокнопка", "Ползунок"],
+    "correct_answer": "Флажок (чекбокс)",
+    "example": {
+      "text": "Użytkownicy muszą zaznaczyć chociaż jedno pole wyboru.",
+      "translation": "Пользователи должны отметить хотя бы один флажок (чекбокс)."
+    }
+  },
+  {
+    "id": 67,
+    "expression": "Przycisk opcji",
+    "options": ["Поле ввода", "Кнопка отмены", "Радиокнопка"],
+    "correct_answer": "Радиокнопка",
+    "example": {
+      "text": "Użyj przycisków opcji do pojedynczego wyboru.",
+      "translation": "Используй радиокнопки для выбора только одного варианта."
+    }
+  },
+  {
+    "id": 68,
+    "expression": "Stronicowanie",
+    "options": ["Боковое меню", "Разбивка на страницы", "Хлебные крошки"],
+    "correct_answer": "Разбивка на страницы",
+    "example": {
+      "text": "Dodaj stronicowanie na samym dole.",
+      "translation": "Добавь разбивку на страницы в самом низу."
+    }
+  },
+  {
+    "id": 69,
+    "expression": "Zakładki",
+    "options": ["Вкладки (табы)", "Текстовые ссылки", "Теги"],
+    "correct_answer": "Вкладки (табы)",
+    "example": {
+      "text": "Przełączaj kategorie za pomocą zakładek.",
+      "translation": "Переключайся между категориями с помощью вкладок."
+    }
+  },
+  {
+    "id": 70,
+    "expression": "Suwak",
+    "options": ["Карусель изображений", "Всплывающее окно", "Ползунок"],
+    "correct_answer": "Ползунок",
+    "example": {
+      "text": "Użyj suwaka do wyboru ceny.",
+      "translation": "Используй ползунок для выбора цены."
+    }
+  },
+  {
+    "id": 71,
+    "expression": "Okno modalne",
+    "options": ["Уведомление", "Модальное окно", "Боковая панель"],
+    "correct_answer": "Модальное окно",
+    "example": {
+      "text": "Formularz logowania otwiera się w oknie modalnym.",
+      "translation": "Форма входа открывается в модальном окне."
+    }
+  },
+  {
+    "id": 72,
+    "expression": "Wyskakujące okno",
+    "options": ["Всплывающее окно", "Снэкбар", "Модальное окно"],
+    "correct_answer": "Всплывающее окно",
+    "example": {
+      "text": "To promocyjne wyskakujące okno jest irytujące.",
+      "translation": "Это рекламное всплывающее окно раздражает."
+    }
+  },
+  {
+    "id": 73,
+    "expression": "Powiadomienie na dole",
+    "options": ["Всплывающее уведомление", "Меню навигации", "Шапка профиля"],
+    "correct_answer": "Всплывающее уведомление",
+    "example": {
+      "text": "Pokaż powiadomienie na dole po zapisaniu.",
+      "translation": "Покажи всплывающее уведомление внизу после сохранения."
+    }
+  },
+  {
+    "id": 74,
+    "expression": "Baner reklamowy",
+    "options": ["Текст ошибки", "Рекламный баннер", "Подсказка"],
+    "correct_answer": "Рекламный баннер",
+    "example": {
+      "text": "Ukryj baner reklamowy w wersji mobilnej.",
+      "translation": "Скрой рекламный баннер в мобильной версии."
+    }
+  },
+  {
+    "id": 75,
+    "expression": "Pasek nawigacji",
+    "options": ["Подвал", "Текстовый блок", "Панель навигации"],
+    "correct_answer": "Панель навигации",
+    "example": {
+      "text": "Zrób pasek nawigacji przyklejony przy przewijaniu.",
+      "translation": "Сделай панель навигации фиксированной при скролле."
+    }
+  },
+  {
+    "id": 76,
+    "expression": "Panel boczny",
+    "options": ["Выпадающий список", "Вкладка", "Боковая панель"],
+    "correct_answer": "Боковая панель",
+    "example": {
+      "text": "Przenieś filtry do panelu bocznego.",
+      "translation": "Перенеси фильтры в боковую панель."
+    }
+  },
+  {
+    "id": 77,
+    "expression": "Główna sekcja",
+    "options": ["Главный экран", "Блок контактов", "Блок отзывов"],
+    "correct_answer": "Главный экран",
+    "example": {
+      "text": "Główna sekcja potrzebuje mocnego nagłówka.",
+      "translation": "Главному экрану нужен сильный заголовок."
+    }
+  },
+  {
+    "id": 78,
+    "expression": "Miniatura",
+    "options": ["Иконка загрузки", "Размытый фон", "Миниатюра"],
+    "correct_answer": "Миниатюра",
+    "example": {
+      "text": "Kliknij miniaturę, żeby otworzyć galerię.",
+      "translation": "Кликни по миниатюре, чтобы открыть галерею."
+    }
+  },
+  {
+    "id": 79,
+    "expression": "Punkt przełamania",
+    "options": ["Ошибка в коде", "Точка останова", "Межстрочный интервал"],
+    "correct_answer": "Точка останова",
+    "example": {
+      "text": "Zmień układ na punkcie przełamania dla tabletów.",
+      "translation": "Измени макет на точке останова для планшетов."
+    }
+  },
+  {
+    "id": 80,
+    "expression": "Proporcje obrazu",
+    "options": ["Разрешение экрана", "Баланс белого", "Соотношение сторон"],
+    "correct_answer": "Соотношение сторон",
+    "example": {
+      "text": "Zachowaj proporcje obrazu szesnaście do dziewięciu dla wideo.",
+      "translation": "Сохраняй соотношение сторон шестнадцать к девяти для видео."
+    }
+  },
+  {
+    "id": 81,
+    "expression": "System projektowy",
+    "options": ["Система контроля версий", "Дизайн-система", "Сетка макета"],
+    "correct_answer": "Дизайн-система",
+    "example": {
+      "text": "Dodaj ten nowy przycisk do naszego systemu projektowego.",
+      "translation": "Добавь эту новую кнопку в нашу дизайн-систему."
+    }
+  },
+  {
+    "id": 82,
+    "expression": "Przewodnik po stylu",
+    "options": ["Руководство по стилю", "Скетч", "Черновик"],
+    "correct_answer": "Руководство по стилю",
+    "example": {
+      "text": "Sprawdź rozmiary tekstu w przewodniku po stylu.",
+      "translation": "Проверь размеры текста в руководстве по стилю."
+    }
+  },
+  {
+    "id": 83,
+    "expression": "Mapa ciepła",
+    "options": ["Карта сайта", "Тепловая карта", "Цветовая палитра"],
+    "correct_answer": "Тепловая карта",
+    "example": {
+      "text": "Mapa ciepła nie pokazuje tutaj żadnych kliknięć.",
+      "translation": "Тепловая карта не показывает здесь никаких кликов."
+    }
+  },
+  {
+    "id": 84,
+    "expression": "Współczynnik konwersji",
+    "options": ["Адаптивность", "Разрешение экрана", "Коэффициент конверсии"],
+    "correct_answer": "Коэффициент конверсии",
+    "example": {
+      "text": "Ten nowy design zwiększy nasz współczynnik konwersji.",
+      "translation": "Этот новый дизайн увеличит наш коэффициент конверсии."
+    }
+  },
+  {
+    "id": 85,
+    "expression": "Pierwszy ekran",
+    "options": ["Видимая часть страницы", "Выпадающее меню", "Подвал страницы"],
+    "correct_answer": "Видимая часть страницы",
+    "example": {
+      "text": "Trzymaj główny przycisk na pierwszym ekranie bez przewijania.",
+      "translation": "Держи главную кнопку на видимой части страницы без скролла."
+    }
+  },
+  {
+    "id": 86,
+    "expression": "Ciemny motyw",
+    "options": ["Темная тема", "Скрытый слой", "Тень"],
+    "correct_answer": "Темная тема",
+    "example": {
+      "text": "Musimy zaprojektować ciemny motyw dla tej aplikacji.",
+      "translation": "Нам нужно разработать темную тему для этого приложения."
+    }
+  },
+  {
+    "id": 87,
+    "expression": "Szkielet ładowania",
+    "options": ["Скелетный экран", "Скелет загрузки", "Скрытый текст"],
+    "correct_answer": "Скелет загрузки",
+    "example": {
+      "text": "Pokaż szkielet ładowania, dopóki dane się nie załadują.",
+      "translation": "Показывай скелет загрузки, пока данные не загрузятся."
+    }
+  },
+  {
+    "id": 88,
+    "expression": "Wskaźnik ładowania",
+    "options": ["Индикатор загрузки", "Ползунок", "Выпадающий список"],
+    "correct_answer": "Индикатор загрузки",
+    "example": {
+      "text": "Dodaj wskaźnik ładowania do przycisku wysyłania.",
+      "translation": "Добавь индикатор загрузки к кнопке отправки."
+    }
+  },
+  {
+    "id": 89,
+    "expression": "Pusty stan",
+    "options": ["Удаленный слой", "Пустое состояние", "Прозрачный фон"],
+    "correct_answer": "Пустое состояние",
+    "example": {
+      "text": "Zaprojektuj przyjazny pusty stan z ładną ilustracją.",
+      "translation": "Спроектируй дружелюбное пустое состояние с красивой иллюстрацией."
+    }
+  },
+  {
+    "id": 90,
+    "expression": "Wyskakujący blok",
+    "options": ["Модальное окно", "Подсказка", "Всплывающий блок"],
+    "correct_answer": "Всплывающий блок",
+    "example": {
+      "text": "Dodaj wyskakujący blok z dodatkowymi detalami.",
+      "translation": "Добавь всплывающий блок с дополнительными деталями."
+    }
+  },
+  {
+    "id": 91,
+    "expression": "Odznaka",
+    "options": ["Счетчик уведомлений", "Кнопка", "Иконка профиля"],
+    "correct_answer": "Счетчик уведомлений",
+    "example": {
+      "text": "Pokaż czerwoną odznakę dla nowych wiadomości.",
+      "translation": "Покажи красный счетчик уведомлений для новых сообщений."
+    }
+  },
+  {
+    "id": 92,
+    "expression": "Karuzela",
+    "options": ["Карусель элементов", "Анимация загрузки", "Боковое меню"],
+    "correct_answer": "Карусель элементов",
+    "example": {
+      "text": "Umieść zdjęcia produktu w karuzeli.",
+      "translation": "Помести фотографии продукта в карусель."
+    }
+  },
+  {
+    "id": 93,
+    "expression": "Mikrointerakcja",
+    "options": ["Микроинтеракция", "Мелкий шрифт", "Миниатюра"],
+    "correct_answer": "Микроинтеракция",
+    "example": {
+      "text": "Dodaj mikrointerakcję do przycisku polubienia.",
+      "translation": "Добавь микроинтеракцию к кнопке лайка."
+    }
+  },
+  {
+    "id": 94,
+    "expression": "Obszar przeciągania",
+    "options": ["Зона загрузки файлов", "Корзина", "Скрытый слой"],
+    "correct_answer": "Зона загрузки файлов",
+    "example": {
+      "text": "Zrób znacznie większy obszar przeciągania plików.",
+      "translation": "Сделай зону загрузки файлов значительно больше."
+    }
+  },
+  {
+    "id": 95,
+    "expression": "Kroki procesu",
+    "options": ["Шагомер", "Ползунок", "Сетка"],
+    "correct_answer": "Шагомер",
+    "example": {
+      "text": "Użyj wskaźnika kroków procesu przy płatności.",
+      "translation": "Используй шагомер в процессе оплаты."
+    }
+  },
+  {
+    "id": 96,
+    "expression": "Separator",
+    "options": ["Разделитель", "Градиент", "Отступ"],
+    "correct_answer": "Разделитель",
+    "example": {
+      "text": "Dodaj jasnoszary separator między sekcjami.",
+      "translation": "Добавь светло-серый разделитель между секциями."
+    }
+  },
+  {
+    "id": 97,
+    "expression": "Tekst zastępczy",
+    "options": ["Текст-заглушка", "Главный заголовок", "Иконка ошибки"],
+    "correct_answer": "Текст-заглушка",
+    "example": {
+      "text": "Zmień tekst zastępczy w pasku wyszukiwania.",
+      "translation": "Измени текст-заглушку в строке поиска."
+    }
+  },
+  {
+    "id": 98,
+    "expression": "Tekst wypełniający",
+    "options": ["Векторный формат", "Рыба-текст", "Маска слоя"],
+    "correct_answer": "Рыба-текст",
+    "example": {
+      "text": "Po prostu wypełnij ten blok tekstem wypełniającym.",
+      "translation": "Просто заполни этот блок рыбой-текстом."
+    }
+  },
+  {
+    "id": 99,
+    "expression": "Przekazanie projektu",
+    "options": ["Удаление проекта", "Экспорт иконок", "Передача макета разработчикам"],
+    "correct_answer": "Передача макета разработчикам",
+    "example": {
+      "text": "Przygotuj pliki do przekazania projektu programistom.",
+      "translation": "Подготовь файлы для передачи макета разработчикам."
+    }
+  },
+  {
+    "id": 100,
+    "expression": "Zdjęcie profilowe",
+    "options": ["Аватар пользователя", "Модальное окно", "Анимация"],
+    "correct_answer": "Аватар пользователя",
+    "example": {
+      "text": "Zrób zdjęcie profilowe użytkownika idealnie okrągłym.",
+      "translation": "Сделай аватар пользователя идеально круглым."
+    }
+  },
+  {
+    "id": 101,
+    "expression": "Dedlajn",
+    "options": ["Бюджет", "Дедлайн", "Встреча"],
+    "correct_answer": "Дедлайн",
+    "example": {
+      "text": "Mamy bardzo napięty dedlajn na ten projekt.",
+      "translation": "У нас очень жесткий дедлайн на этот проект."
+    }
+  },
+  {
+    "id": 102,
+    "expression": "Call",
+    "options": ["Созвон", "Презентация", "Ошибка"],
+    "correct_answer": "Созвон",
+    "example": {
+      "text": "Mamy dzisiaj ważny call z klientem.",
+      "translation": "У нас сегодня важный созвон с клиентом."
+    }
+  },
+  {
+    "id": 103,
+    "expression": "Fidbek",
+    "options": ["Отказ", "Обратная связь", "Релиз"],
+    "correct_answer": "Обратная связь",
+    "example": {
+      "text": "Klient zostawił nam pozytywny fidbek do makiety.",
+      "translation": "Клиент оставил нам положительную обратную связь по макету."
+    }
+  },
+  {
+    "id": 104,
+    "expression": "Błąd",
+    "options": ["Баг", "Фича", "Код"],
+    "correct_answer": "Баг",
+    "example": {
+      "text": "Testerzy znaleźli krytyczny błąd w aplikacji.",
+      "translation": "Тестировщики нашли критический баг в приложении."
+    }
+  },
+  {
+    "id": 105,
+    "expression": "Ficzur",
+    "options": ["Ошибка", "Слой", "Фича"],
+    "correct_answer": "Фича",
+    "example": {
+      "text": "To jest nasz główny ficzur na ten sprint.",
+      "translation": "Это наша главная фича на этот спринт."
+    }
+  },
+  {
+    "id": 106,
+    "expression": "Produkcja",
+    "options": ["Разработка", "Продакшен", "Тестирование"],
+    "correct_answer": "Продакшен",
+    "example": {
+      "text": "Wrzucamy nową wersję na produkcję w piątek.",
+      "translation": "Выкатываем новую версию на продакшен в пятницу."
+    }
+  },
+  {
+    "id": 107,
+    "expression": "Środowisko testowe",
+    "options": ["Тестовая среда", "База данных", "Облачное хранилище"],
+    "correct_answer": "Тестовая среда",
+    "example": {
+      "text": "Sprawdź, czy wszystko działa na środowisku testowym.",
+      "translation": "Проверь, все ли работает в тестовой среде."
+    }
+  },
+  {
+    "id": 108,
+    "expression": "Sprint",
+    "options": ["Презентация", "Бэклог", "Спринт"],
+    "correct_answer": "Спринт",
+    "example": {
+      "text": "Co bierzemy do pracy na ten sprint?",
+      "translation": "Что берем в работу на этот спринт?"
+    }
+  },
+  {
+    "id": 109,
+    "expression": "Backlog",
+    "options": ["Бэклог", "Тестирование", "Дизайн-система"],
+    "correct_answer": "Бэклог",
+    "example": {
+      "text": "To zadanie musi jeszcze poczekać w backlogu.",
+      "translation": "Эта задача должна еще подождать в бэклоге."
+    }
+  },
+  {
+    "id": 110,
+    "expression": "Task",
+    "options": ["Задача", "Встреча", "Ревью"],
+    "correct_answer": "Задача",
+    "example": {
+      "text": "Przypisz ten task do mnie w Jirze.",
+      "translation": "Назначь эту задачу на меня в Jira."
+    }
+  },
+  {
+    "id": 111,
+    "expression": "Estymata",
+    "options": ["Оценка времени", "Оплата", "Счет-фактура"],
+    "correct_answer": "Оценка времени",
+    "example": {
+      "text": "Moja estymata na ten projekt to dwa tygodnie.",
+      "translation": "Моя оценка времени на этот проект — две недели."
+    }
+  },
+  {
+    "id": 112,
+    "expression": "Riwju",
+    "options": ["Релиз", "Ревью", "Старт проекта"],
+    "correct_answer": "Ревью",
+    "example": {
+      "text": "Wrzuciłem design do ostatecznego riwju.",
+      "translation": "Я закинул дизайн на итоговое ревью."
+    }
+  },
+  {
+    "id": 113,
+    "expression": "Akcept",
+    "options": ["Отказ", "Аппрув", "Идея"],
+    "correct_answer": "Аппрув",
+    "example": {
+      "text": "Dostaliśmy akcept od klienta, możemy kodować.",
+      "translation": "Мы получили аппрув от клиента, можем верстать."
+    }
+  },
+  {
+    "id": 114,
+    "expression": "Brief",
+    "options": ["Отчет", "Счет", "Бриф"],
+    "correct_answer": "Бриф",
+    "example": {
+      "text": "Klient przysłał bardzo szczegółowy brief.",
+      "translation": "Клиент прислал очень подробный бриф."
+    }
+  },
+  {
+    "id": 115,
+    "expression": "Wdrożenie",
+    "options": ["Удаление", "Деплой", "Слияние"],
+    "correct_answer": "Деплой",
+    "example": {
+      "text": "Dzisiejsze wdrożenie przebiegło bez problemów.",
+      "translation": "Сегодняшний деплой прошел без проблем."
+    }
+  },
+  {
+    "id": 116,
+    "expression": "Układ",
+    "options": ["Макет", "Шрифт", "Анимация"],
+    "correct_answer": "Макет",
+    "example": {
+      "text": "Ten układ strony wygląda bardzo nowocześnie.",
+      "translation": "Этот макет страницы выглядит очень современно."
+    }
+  },
+  {
+    "id": 117,
+    "expression": "Skrolowanie",
+    "options": ["Скроллинг", "Тап", "Масштабирование"],
+    "correct_answer": "Скроллинг",
+    "example": {
+      "text": "Zróbmy animację podczas skrolowania.",
+      "translation": "Давай сделаем анимацию при скроллинге."
+    }
+  },
+  {
+    "id": 118,
+    "expression": "Swipe",
+    "options": ["Свайп", "Нажатие", "Скроллинг"],
+    "correct_answer": "Свайп",
+    "example": {
+      "text": "Możesz usunąć element przez swipe w lewo.",
+      "translation": "Ты можешь удалить элемент через свайп влево."
+    }
+  },
+  {
+    "id": 119,
+    "expression": "Tapnięcie",
+    "options": ["Двойной клик", "Свайп", "Тап"],
+    "correct_answer": "Тап",
+    "example": {
+      "text": "Rozwiń menu po jednym tapnięciu.",
+      "translation": "Разверни меню по одному тапу."
+    }
+  },
+  {
+    "id": 120,
+    "expression": "Case study",
+    "options": ["Кейс", "Бриф", "Презентация"],
+    "correct_answer": "Кейс",
+    "example": {
+      "text": "Muszę napisać dobre case study do mojego portfolio.",
+      "translation": "Мне нужно написать хороший кейс в мое портфолио."
+    }
+  },
+  {
+    "id": 121,
+    "expression": "Praca zdalna",
+    "options": ["Работа в офисе", "Удаленка", "Фриланс"],
+    "correct_answer": "Удаленка",
+    "example": {
+      "text": "Szukam ofert tylko na pracę zdalną.",
+      "translation": "Я ищу вакансии только на удаленку."
+    }
+  },
+  {
+    "id": 122,
+    "expression": "Nadgodziny",
+    "options": ["Переработки", "Отпуск", "Премия"],
+    "correct_answer": "Переработки",
+    "example": {
+      "text": "Przez ten dedlajn muszę znowu robić nadgodziny.",
+      "translation": "Из-за этого дедлайна мне опять приходится перерабатывать."
+    }
+  },
+  {
+    "id": 123,
+    "expression": "Burza mózgów",
+    "options": ["Презентация", "Мозговой штурм", "Тестирование"],
+    "correct_answer": "Мозговой штурм",
+    "example": {
+      "text": "Zróbmy jutro krótką burzę mózgów rano.",
+      "translation": "Давай завтра утром проведем короткий мозговой штурм."
+    }
+  },
+  {
+    "id": 124,
+    "expression": "Pitch",
+    "options": ["Бэклог", "Отчет", "Питч"],
+    "correct_answer": "Питч",
+    "example": {
+      "text": "Nasz pitch dla inwestorów poszedł świetnie.",
+      "translation": "Наш питч для инвесторов прошел отлично."
+    }
+  },
+  {
+    "id": 125,
+    "expression": "Kick-off",
+    "options": ["Релиз", "Стартовая встреча", "Ревью проекта"],
+    "correct_answer": "Стартовая встреча",
+    "example": {
+      "text": "Kick-off nowego projektu mamy w poniedziałek.",
+      "translation": "Стартовая встреча по новому проекту у нас в понедельник."
+    }
+  },
+  {
+    "id": 126,
+    "expression": "Synk",
+    "options": ["Синхронизация", "Передача файлов", "Отчет"],
+    "correct_answer": "Синхронизация",
+    "example": {
+      "text": "Złapiemy się na szybki synk po obiedzie?",
+      "translation": "Пересечемся на быструю синхронизацию после обеда?"
+    }
+  },
+  {
+    "id": 127,
+    "expression": "Onboarding",
+    "options": ["Увольнение", "Онбординг", "Собеседование"],
+    "correct_answer": "Онбординг",
+    "example": {
+      "text": "Mój onboarding w nowej firmie zajął trzy dni.",
+      "translation": "Мой онбординг в новой компании занял три дня."
+    }
+  },
+  {
+    "id": 128,
+    "expression": "Daily",
+    "options": ["Ежедневный митинг", "Месячный отчет", "Отпуск"],
+    "correct_answer": "Ежедневный митинг",
+    "example": {
+      "text": "Omówimy ten problem na jutrzejszym daily.",
+      "translation": "Мы обсудим эту проблему на завтрашнем дейли."
+    }
+  },
+  {
+    "id": 129,
+    "expression": "Release",
+    "options": ["Релиз", "Баг", "Бэклог"],
+    "correct_answer": "Релиз",
+    "example": {
+      "text": "Przygotuj grafiki na najbliższy release.",
+      "translation": "Подготовь графику на ближайший релиз."
+    }
+  },
+  {
+    "id": 130,
+    "expression": "Hotfix",
+    "options": ["Хотфикс", "Новая функция", "Полное обновление"],
+    "correct_answer": "Хотфикс",
+    "example": {
+      "text": "Musimy natychmiast wrzucić hotfix na produkcję.",
+      "translation": "Нам нужно немедленно залить хотфикс на продакшен."
+    }
+  },
+  {
+    "id": 131,
+    "expression": "MVP",
+    "options": ["Минимально жизнеспособный продукт", "Финальная версия", "Прототип"],
+    "correct_answer": "Минимально жизнеспособный продукт",
+    "example": {
+      "text": "Wypuśćmy MVP, a resztę dodamy później.",
+      "translation": "Давай выпустим MVP, а остальное добавим позже."
+    }
+  },
+  {
+    "id": 132,
+    "expression": "Open source",
+    "options": ["Закрытый код", "Открытый исходный код", "Платная лицензия"],
+    "correct_answer": "Открытый исходный код",
+    "example": {
+      "text": "To narzędzie jest w pełni open source.",
+      "translation": "Этот инструмент имеет полностью открытый исходный код."
+    }
+  },
+  {
+    "id": 133,
+    "expression": "Repozytorium",
+    "options": ["Библиотека", "Репозиторий", "Ветка"],
+    "correct_answer": "Репозиторий",
+    "example": {
+      "text": "Deweloperzy zaktualizowali kod w repozytorium.",
+      "translation": "Разработчики обновили код в репозитории."
+    }
+  },
+  {
+    "id": 134,
+    "expression": "Commit",
+    "options": ["Коммит", "Удаление", "Слияние"],
+    "correct_answer": "Коммит",
+    "example": {
+      "text": "Zrób commit po każdej ważnej zmianie.",
+      "translation": "Делай коммит после каждого важного изменения."
+    }
+  },
+  {
+    "id": 135,
+    "expression": "Gałąź",
+    "options": ["Репозиторий", "Ветка", "Корень"],
+    "correct_answer": "Ветка",
+    "example": {
+      "text": "Pracuję nad nową funkcją na osobnej gałęzi.",
+      "translation": "Я работаю над новой фичей в отдельной ветке."
+    }
+  },
+  {
+    "id": 136,
+    "expression": "Merge",
+    "options": ["Разделение", "Слияние", "Коммит"],
+    "correct_answer": "Слияние",
+    "example": {
+      "text": "Teraz musimy zrobić merge naszych zmian.",
+      "translation": "Теперь мы должны сделать слияние наших изменений."
+    }
+  },
+  {
+    "id": 137,
+    "expression": "Pull request",
+    "options": ["Удаление запроса", "Пулл реквест", "Обновление"],
+    "correct_answer": "Пулл реквест",
+    "example": {
+      "text": "Zostawiłem komentarz w twoim pull request.",
+      "translation": "Я оставил комментарий в твоем пулл реквесте."
+    }
+  },
+  {
+    "id": 138,
+    "expression": "Framework",
+    "options": ["Библиотека", "Плагин", "Фреймворк"],
+    "correct_answer": "Фреймворк",
+    "example": {
+      "text": "Będziemy używać nowego frameworka dla tego projektu.",
+      "translation": "Мы будем использовать новый фреймворк для этого проекта."
+    }
+  },
+  {
+    "id": 139,
+    "expression": "Frontend",
+    "options": ["Серверная часть", "База данных", "Фронтенд"],
+    "correct_answer": "Фронтенд",
+    "example": {
+      "text": "Szukamy specjalisty od frontendu.",
+      "translation": "Мы ищем специалиста по фронтенду."
+    }
+  },
+  {
+    "id": 140,
+    "expression": "Backend",
+    "options": ["Пользовательский интерфейс", "Бэкенд", "Анимация"],
+    "correct_answer": "Бэкенд",
+    "example": {
+      "text": "Backend nie zwraca prawidłowych danych.",
+      "translation": "Бэкенд не возвращает правильные данные."
+    }
+  },
+  {
+    "id": 141,
+    "expression": "Fullstack",
+    "options": ["Дизайнер", "Фуллстек", "Тестировщик"],
+    "correct_answer": "Фуллстек",
+    "example": {
+      "text": "Dobry fullstack potrafi zrobić wszystko.",
+      "translation": "Хороший фуллстек-разработчик умеет делать всё."
+    }
+  },
+  {
+    "id": 142,
+    "expression": "Wymagania biznesowe",
+    "options": ["Бизнес-требования", "Техническое задание", "Бюджет проекта"],
+    "correct_answer": "Бизнес-требования",
+    "example": {
+      "text": "Ten projekt spełnia wszystkie wymagania biznesowe.",
+      "translation": "Этот проект соответствует всем бизнес-требованиям."
+    }
+  },
+  {
+    "id": 143,
+    "expression": "Docelowa grupa",
+    "options": ["Команда разработчиков", "Случайные пользователи", "Целевая аудитория"],
+    "correct_answer": "Целевая аудитория",
+    "example": {
+      "text": "Musimy lepiej zrozumieć naszą docelową grupę.",
+      "translation": "Нам нужно лучше понять нашу целевую аудиторию."
+    }
+  },
+  {
+    "id": 144,
+    "expression": "Hipoteza",
+    "options": ["Теория", "Аксиома", "Гипотеза"],
+    "correct_answer": "Гипотеза",
+    "example": {
+      "text": "Zróbmy test, żeby sprawdzić tę hipotezę.",
+      "translation": "Давай проведем тест, чтобы проверить эту гипотезу."
+    }
+  },
+  {
+    "id": 145,
+    "expression": "Testy A/B",
+    "options": ["А/Б тестирование", "Стресс-тест", "Тестирование безопасности"],
+    "correct_answer": "А/Б тестирование",
+    "example": {
+      "text": "Testy A/B pokazały, że czerwony przycisk działa lepiej.",
+      "translation": "А/Б тестирование показало, что красная кнопка работает лучше."
+    }
+  },
+  {
+    "id": 146,
+    "expression": "Konwersja",
+    "options": ["Трафик", "Конверсия", "Охват"],
+    "correct_answer": "Конверсия",
+    "example": {
+      "text": "Konwersja spadła po ostatniej aktualizacji.",
+      "translation": "Конверсия упала после последнего обновления."
+    }
+  },
+  {
+    "id": 147,
+    "expression": "Porzucenie koszyka",
+    "options": ["Брошенная корзина", "Удаление товара", "Возврат средств"],
+    "correct_answer": "Брошенная корзина",
+    "example": {
+      "text": "Mamy wysoki wskaźnik porzucenia koszyka.",
+      "translation": "У нас высокий показатель брошенных корзин."
+    }
+  },
+  {
+    "id": 148,
+    "expression": "Zaangażowanie",
+    "options": ["Вовлеченность", "Количество кликов", "Отказы"],
+    "correct_answer": "Вовлеченность",
+    "example": {
+      "text": "Nowy design znacząco zwiększył zaangażowanie użytkowników.",
+      "translation": "Новый дизайн значительно увеличил вовлеченность пользователей."
+    }
+  },
+  {
+    "id": 149,
+    "expression": "Architektura informacji",
+    "options": ["Визуальный стиль", "Информационная архитектура", "База данных"],
+    "correct_answer": "Информационная архитектура",
+    "example": {
+      "text": "Architektura informacji na tej stronie jest bardzo zagmatwana.",
+      "translation": "Информационная архитектура на этом сайте очень запутанная."
+    }
+  },
+  {
+    "id": 150,
+    "expression": "Mapa witryny",
+    "options": ["Карта пути пользователя", "Карта сайта", "Навигация"],
+    "correct_answer": "Карта сайта",
+    "example": {
+      "text": "Podeślij mi aktualną mapę witryny.",
+      "translation": "Скинь мне актуальную карту сайта."
+    }
+  }
+]

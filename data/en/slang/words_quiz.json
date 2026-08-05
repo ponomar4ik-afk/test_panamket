@@ -1,0 +1,2547 @@
+[
+  {
+    "id": 1,
+    "expression": "BTW",
+    "literal": "(от By The Way)",
+    "options": ["Кстати", "Между нами", "В конце концов"],
+    "correct_answer": "Кстати",
+    "example": {
+      "text": "BTW, are you coming to the party tonight?",
+      "translation": "Кстати, ты придешь сегодня на вечеринку?"
+    }
+  },
+  {
+    "id": 2,
+    "expression": "IDK",
+    "literal": "(I Don't Know)",
+    "options": ["Хз", "Мне всё равно", "Без проблем"],
+    "correct_answer": "Хз",
+    "example": {
+      "text": "IDK what you are talking about.",
+      "translation": "Хз, о чем ты говоришь."
+    }
+  },
+  {
+    "id": 3,
+    "expression": "TBH",
+    "literal": "(To Be Honest)",
+    "options": ["По чесноку", "Если честно, нет", "Грубо говоря"],
+    "correct_answer": "По чесноку",
+    "example": {
+      "text": "TBH, I didn't like that movie at all.",
+      "translation": "По чесноку, мне вообще не понравился этот фильм."
+    }
+  },
+  {
+    "id": 4,
+    "expression": "IMO",
+    "literal": "(In My Opinion)",
+    "options": ["Как по мне", "По слухам", "Скорее всего"],
+    "correct_answer": "Как по мне",
+    "example": {
+      "text": "IMO, this is the best cafe in the city.",
+      "translation": "Как по мне, это лучшее кафе в городе."
+    }
+  },
+  {
+    "id": 5,
+    "expression": "IRL",
+    "literal": "(In Real Life)",
+    "options": ["В жизни", "В интернете", "На самом деле"],
+    "correct_answer": "В жизни",
+    "example": {
+      "text": "She is even more beautiful IRL.",
+      "translation": "В жизни она еще красивее."
+    }
+  },
+  {
+    "id": 6,
+    "expression": "BRB",
+    "literal": "(Be Right Back)",
+    "options": ["Ща вернусь", "Уже ухожу", "Опоздаю"],
+    "correct_answer": "Ща вернусь",
+    "example": {
+      "text": "Someone is knocking on the door, BRB.",
+      "translation": "Кто-то стучит в дверь, ща вернусь."
+    }
+  },
+  {
+    "id": 7,
+    "expression": "Dunno",
+    "literal": "(сокращение от Don't know)",
+    "options": ["Не знаю", "Не хочу", "Не умею"],
+    "correct_answer": "Не знаю",
+    "example": {
+      "text": "I dunno where he went.",
+      "translation": "Не знаю, куда он ушел."
+    }
+  },
+  {
+    "id": 8,
+    "expression": "Wanna",
+    "literal": "(Want to)",
+    "options": ["Хотеть", "Делать", "Ждать"],
+    "correct_answer": "Хотеть",
+    "example": {
+      "text": "Do you wanna grab some pizza?",
+      "translation": "Хочешь взять пиццы?"
+    }
+  },
+  {
+    "id": 9,
+    "expression": "Gonna",
+    "literal": "(Going to)",
+    "options": ["Ща буду", "Уже сделал", "Собираюсь уходить"],
+    "correct_answer": "Ща буду",
+    "example": {
+      "text": "I'm gonna text you later.",
+      "translation": "Я ща буду писать тебе позже."
+    }
+  },
+  {
+    "id": 10,
+    "expression": "Gotta",
+    "literal": "(Got to)",
+    "options": ["Должен", "Могу", "Хочу"],
+    "correct_answer": "Должен",
+    "example": {
+      "text": "It's getting late, I gotta go.",
+      "translation": "Уже поздно, я должен идти."
+    }
+  },
+  {
+    "id": 11,
+    "expression": "Lemme",
+    "literal": "(Let me)",
+    "options": ["Дай мне", "Помоги мне", "Покажи мне"],
+    "correct_answer": "Дай мне",
+    "example": {
+      "text": "Lemme see what you have in your bag.",
+      "translation": "Дай-ка я посмотрю, что у тебя в сумке."
+    }
+  },
+  {
+    "id": 12,
+    "expression": "Gimme",
+    "literal": "(Give me)",
+    "options": ["Дай мне", "Принеси это", "Забудь об этом"],
+    "correct_answer": "Дай мне",
+    "example": {
+      "text": "Gimme a minute to think about it.",
+      "translation": "Дай мне минутку подумать об этом."
+    }
+  },
+  {
+    "id": 13,
+    "expression": "Chill",
+    "options": ["Расслабляться", "Напрягаться", "Веселиться"],
+    "correct_answer": "Расслабляться",
+    "example": {
+      "text": "We are just gonna chill at home tonight.",
+      "translation": "Мы просто будем расслабляться дома сегодня вечером."
+    }
+  },
+  {
+    "id": 14,
+    "expression": "Vibe",
+    "options": ["Атмосфера", "Проблема", "Шумная тусовка"],
+    "correct_answer": "Атмосфера",
+    "example": {
+      "text": "This place has a really cool vibe.",
+      "translation": "У этого места реально крутая атмосфера."
+    }
+  },
+  {
+    "id": 15,
+    "expression": "Dope",
+    "options": ["Очень круто", "Странный поступок", "Скучная вещь"],
+    "correct_answer": "Очень круто",
+    "example": {
+      "text": "That new track is absolutely dope!",
+      "translation": "Этот новый трек просто очень крутой!"
+    }
+  },
+  {
+    "id": 16,
+    "expression": "Sick",
+    "options": ["Офигенно / чума", "Глупо / тупо", "Сложно / непонятно"],
+    "correct_answer": "Офигенно / чума",
+    "example": {
+      "text": "Your new car is sick, man!",
+      "translation": "Твоя новая тачка просто чума, чувак!"
+    }
+  },
+  {
+    "id": 17,
+    "expression": "Lit",
+    "options": ["Огненный / крутой", "Испорченный", "Слишком дорогой"],
+    "correct_answer": "Огненный / крутой",
+    "example": {
+      "text": "The concert last night was lit!",
+      "translation": "Вчерашний концерт был огненным!"
+    }
+  },
+  {
+    "id": 18,
+    "expression": "Bestie",
+    "options": ["Лучший друг / лучшая подруга", "Случайный знакомый", "Враг"],
+    "correct_answer": "Лучший друг / лучшая подруга",
+    "example": {
+      "text": "I'm going shopping with my bestie.",
+      "translation": "Я иду по магазинам со своей лучшей подругой."
+    }
+  },
+  {
+    "id": 19,
+    "expression": "Bro",
+    "literal": "(сокращение от Brother)",
+    "options": ["Брат, братан (дружеское обращение)", "Коллега по работе", "Незнакомый парень"],
+    "correct_answer": "Брат, братан (дружеское обращение)",
+    "example": {
+      "text": "What's up, bro? How have you been?",
+      "translation": "Как дела, братан? Как поживал?"
+    }
+  },
+  {
+    "id": 20,
+    "expression": "Fam",
+    "literal": "(сокращение от Family)",
+    "options": ["Близкие друзья", "Соседи по дому", "Родственники в деревне"],
+    "correct_answer": "Близкие друзья",
+    "example": {
+      "text": "I got you, fam, don't worry.",
+      "translation": "Я помогу тебе, родной, не переживай."
+    }
+  },
+  {
+    "id": 21,
+    "expression": "Dude",
+    "options": ["Чувак", "Босс", "Ребенок"],
+    "correct_answer": "Чувак",
+    "example": {
+      "text": "Dude, you won't believe what just happened!",
+      "translation": "Чувак, ты не поверишь, что только что произошло!"
+    }
+  },
+  {
+    "id": 22,
+    "expression": "Buddy",
+    "options": ["Приятель, друг", "Прохожий", "Враг"],
+    "correct_answer": "Приятель, друг",
+    "example": {
+      "text": "Hey buddy, can you help me with this?",
+      "translation": "Эй, приятель, можешь мне с этим помочь?"
+    }
+  },
+  {
+    "id": 23,
+    "expression": "For real (FR)",
+    "options": ["Без шуток", "Возможно", "Забудь об этом"],
+    "correct_answer": "Без шуток",
+    "example": {
+      "text": "I'm so tired today, for real.",
+      "translation": "Я так устал сегодня, без шуток."
+    }
+  },
+  {
+    "id": 24,
+    "expression": "Real talk",
+    "options": ["Серьезный разговор по делу", "Сплетни за спиной", "Пустая болтовня"],
+    "correct_answer": "Серьезный разговор по делу",
+    "example": {
+      "text": "Real talk, we need to change our strategy.",
+      "translation": "Серьезный разговор по делу, нам нужно менять нашу стратегию."
+    }
+  },
+  {
+    "id": 25,
+    "expression": "Period",
+    "options": ["И точка!", "Продолжай!", "Может быть"],
+    "correct_answer": "И точка!",
+    "example": {
+      "text": "I am not going there, period.",
+      "translation": "Я туда не пойду, и точка!"
+    }
+  },
+  {
+    "id": 26,
+    "expression": "Periodt",
+    "literal": "(от Period)",
+    "options": ["Разговор окончен", "Сделай паузу", "Повтори еще раз"],
+    "correct_answer": "Разговор окончен",
+    "example": {
+      "text": "That is the best song ever, periodt.",
+      "translation": "Это лучшая песня в истории, разговор окончен."
+    }
+  },
+  {
+    "id": 27,
+    "expression": "SMH",
+    "literal": "(от Shaking My Head)",
+    "options": ["Мда уж", "Рад за тебя", "Капец как круто"],
+    "correct_answer": "Мда уж",
+    "example": {
+      "text": "He forgot his keys again, SMH.",
+      "translation": "Он опять забыл ключи, мда уж."
+    }
+  },
+  {
+    "id": 28,
+    "expression": "No lies detected",
+    "options": ["Тут не к чему придраться", "Ничего не понятно", "Обман чистой воды"],
+    "correct_answer": "Тут не к чему придраться",
+    "example": {
+      "text": "You said the pizza here is great, and no lies detected.",
+      "translation": "Ты сказал, что пицца тут супер, и тут не к чему придраться."
+    }
+  },
+  {
+    "id": 29,
+    "expression": "Valid",
+    "options": ["Это оправдано", "Это бессмысленно", "Это запрещено"],
+    "correct_answer": "Это оправдано",
+    "example": {
+      "text": "Your feelings are completely valid.",
+      "translation": "Твои чувства абсолютно оправданы."
+    }
+  },
+  {
+    "id": 30,
+    "expression": "Bet",
+    "options": ["Замётано", "Вряд ли", "Не верю"],
+    "correct_answer": "Замётано",
+    "example": {
+      "text": "You think you can beat me? Bet.",
+      "translation": "Думаешь, сможешь меня обыграть? Замётано."
+    }
+  },
+  {
+    "id": 31,
+    "expression": "Say less",
+    "options": ["Ни слова больше", "Говори громче", "Расскажи подробнее"],
+    "correct_answer": "Ни слова больше",
+    "example": {
+      "text": "You need a ride? Say less, I'm on my way.",
+      "translation": "Тебе нужно подвезти? Ни слова больше, я уже еду."
+    }
+  },
+  {
+    "id": 32,
+    "expression": "Scam",
+    "options": ["Развод", "Выгода", "Подарок"],
+    "correct_answer": "Развод",
+    "example": {
+      "text": "Don't buy those tickets, it's a total scam.",
+      "translation": "Не покупай эти билеты, это полный развод."
+    }
+  },
+  {
+    "id": 33,
+    "expression": "Shady",
+    "options": ["Мутный", "Известный", "Добрый"],
+    "correct_answer": "Мутный",
+    "example": {
+      "text": "That guy looks really shady, let's go.",
+      "translation": "Тот парень выглядит очень мутным, пошли отсюда."
+    }
+  },
+  {
+    "id": 34,
+    "expression": "Wack",
+    "options": ["Отстойный", "Гениальный", "Дорогой"],
+    "correct_answer": "Отстойный",
+    "example": {
+      "text": "His new haircut is pretty wack.",
+      "translation": "Его новая стрижка довольно отстойная."
+    }
+  },
+  {
+    "id": 35,
+    "expression": "Flop",
+    "options": ["Провал", "Взлет", "Сюрприз"],
+    "correct_answer": "Провал",
+    "example": {
+      "text": "Their latest album was a massive flop.",
+      "translation": "Их последний альбом был масштабным провалом."
+    }
+  },
+  {
+    "id": 36,
+    "expression": "L",
+    "literal": "(от Loss)",
+    "options": ["Проигрыш", "Удача", "Лень"],
+    "correct_answer": "Проигрыш",
+    "example": {
+      "text": "We took an L tonight, but we'll win next time.",
+      "translation": "Сегодня мы потерпели проигрыш, но в следующий раз победим."
+    }
+  },
+  {
+    "id": 37,
+    "expression": "W",
+    "literal": "(от Win)",
+    "options": ["Победа", "Ожидание", "Желание"],
+    "correct_answer": "Победа",
+    "example": {
+      "text": "Getting that job is a huge W for you!",
+      "translation": "Получить эту работу — это огромная победа для тебя!"
+    }
+  },
+  {
+    "id": 38,
+    "expression": "Big W",
+    "literal": "(от Big Win)",
+    "options": ["Крупный успех", "Большие проблемы", "Огромный риск"],
+    "correct_answer": "Крупный успех",
+    "example": {
+      "text": "She passed the exam, that's a Big W.",
+      "translation": "Она сдала экзамен, это крупный успех."
+    }
+  },
+  {
+    "id": 39,
+    "expression": "Major L",
+    "literal": "(от Major Loss)",
+    "options": ["Жесткий провал", "Главная цель", "Большой перерыв"],
+    "correct_answer": "Жесткий провал",
+    "example": {
+      "text": "Forgetting his passport was a Major L.",
+      "translation": "Забыть паспорт было жестким провалом."
+    }
+  },
+  {
+    "id": 40,
+    "expression": "Ping",
+    "options": ["Маякнуть", "Забыть", "Разозлить"],
+    "correct_answer": "Маякнуть",
+    "example": {
+      "text": "Ping me when you get home.",
+      "translation": "Маякни мне, когда доберешься до дома."
+    }
+  },
+  {
+    "id": 41,
+    "expression": "Rule of thumb",
+    "options": ["Проверенный метод", "Новое правило", "Строгий запрет"],
+    "correct_answer": "Проверенный метод",
+    "example": {
+      "text": "As a rule of thumb, always save your work.",
+      "translation": "Как проверенный метод, всегда сохраняй свою работу."
+    }
+  },
+  {
+    "id": 42,
+    "expression": "Piece of cake",
+    "options": ["Проще простого", "Очень дорого", "Опасное дело"],
+    "correct_answer": "Проще простого",
+    "example": {
+      "text": "The math test was a piece of cake.",
+      "translation": "Тест по математике был проще простого."
+    }
+  },
+  {
+    "id": 43,
+    "expression": "Under the weather",
+    "options": ["Приболеть", "Загореть", "Промокнуть"],
+    "correct_answer": "Приболеть",
+    "example": {
+      "text": "I can't come today, I'm feeling under the weather.",
+      "translation": "Я не смогу прийти сегодня, я немного приболел."
+    }
+  },
+  {
+    "id": 44,
+    "expression": "Skeleton in the closet",
+    "options": ["Постыдная тайна", "Старая одежда", "Нежданный гость"],
+    "correct_answer": "Постыдная тайна",
+    "example": {
+      "text": "Every family has a skeleton in the closet.",
+      "translation": "У каждой семьи есть своя постыдная тайна."
+    }
+  },
+  {
+    "id": 45,
+    "expression": "Spill the beans",
+    "options": ["Выдать секрет", "Приготовить ужин", "Устроить бардак"],
+    "correct_answer": "Выдать секрет",
+    "example": {
+      "text": "Come on, spill the beans! What did he say?",
+      "translation": "Давай, выдавай секрет! Что он сказал?"
+    }
+  },
+  {
+    "id": 46,
+    "expression": "All ears",
+    "options": ["Я весь во внимании", "Я очень устал", "Я ничего не слышу"],
+    "correct_answer": "Я весь во внимании",
+    "example": {
+      "text": "Tell me about your date, I'm all ears.",
+      "translation": "Расскажи мне о своем свидании, я весь во внимании."
+    }
+  },
+  {
+    "id": 47,
+    "expression": "Cold shoulder",
+    "options": ["Намеренный игнор", "Плохая погода", "Тяжелая работа"],
+    "correct_answer": "Намеренный игнор",
+    "example": {
+      "text": "I tried to talk to her, but she gave me the cold shoulder.",
+      "translation": "Я пытался заговорить с ней, но она включила намеренный игнор."
+    }
+  },
+  {
+    "id": 48,
+    "expression": "Couch potato",
+    "options": ["Домосед", "Вегетарианец", "Фермер"],
+    "correct_answer": "Домосед",
+    "example": {
+      "text": "He's such a couch potato on weekends.",
+      "translation": "Он такой домосед по выходным."
+    }
+  },
+  {
+    "id": 49,
+    "expression": "Party animal",
+    "options": ["Тусовщик", "Музыкант", "Вышибала"],
+    "correct_answer": "Тусовщик",
+    "example": {
+      "text": "John is a real party animal, he goes out every night.",
+      "translation": "Джон настоящий тусовщик, он гуляет каждую ночь."
+    }
+  },
+  {
+    "id": 50,
+    "expression": "Mama’s boy",
+    "options": ["Маменькин сынок", "Послушный ребенок", "Молодой отец"],
+    "correct_answer": "Маменькин сынок",
+    "example": {
+      "text": "He can't make a decision without asking her, total mama’s boy.",
+      "translation": "Он не может принять решение без нее, типичный маменькин сынок."
+    }
+  },
+  {
+    "id": 51,
+    "expression": "Womanizer",
+    "options": ["Бабник", "Джентльмен", "Стилист"],
+    "correct_answer": "Бабник",
+    "example": {
+      "text": "Everyone knows he is a famous womanizer.",
+      "translation": "Все знают, что он известный бабник."
+    }
+  },
+  {
+    "id": 52,
+    "expression": "Cheapskate",
+    "options": ["Жмот", "Бедняк", "Покупатель"],
+    "correct_answer": "Жмот",
+    "example": {
+      "text": "Don't be such a cheapskate, leave a tip.",
+      "translation": "Не будь таким жмотом, оставь чаевые."
+    }
+  },
+  {
+    "id": 53,
+    "expression": "Nutcase",
+    "options": ["Псих; чокнутый", "Умник", "Продавщик скорлупы"],
+    "correct_answer": "Псих; чокнутый",
+    "example": {
+      "text": "Stay away from him, he is a total nutcase.",
+      "translation": "Держись от него подальше, он полный псих."
+    }
+  },
+  {
+    "id": 54,
+    "expression": "Redneck",
+    "options": ["Деревенщина", "Работяга", "Загарелый"],
+    "correct_answer": "Деревенщина",
+    "example": {
+      "text": "He moved to the city but still acts like a redneck.",
+      "translation": "Он переехал в город, но всё еще ведет себя как деревенщина."
+    }
+  },
+  {
+    "id": 55,
+    "expression": "Show-off",
+    "options": ["Понторез; выпендрёжник", "Актёр театра", "Организатор выставок"],
+    "correct_answer": "Понторез; выпендрёжник",
+    "example": {
+      "text": "He bought that car just to be a show-off.",
+      "translation": "Он купил эту машину просто чтобы быть понторезом."
+    }
+  },
+  {
+    "id": 56,
+    "expression": "Party pooper",
+    "options": ["Душнила", "Организатор вечеринок", "Танцор"],
+    "correct_answer": "Душнила",
+    "example": {
+      "text": "Don't invite him, he's always a party pooper.",
+      "translation": "Не зови его, он всегда душнила."
+    }
+  },
+  {
+    "id": 57,
+    "expression": "Day one",
+    "options": ["Друг с самых первых дней", "Понедельник", "Начало диеты"],
+    "correct_answer": "Друг с самых первых дней",
+    "example": {
+      "text": "She is my day one, I trust her with my life.",
+      "translation": "Она мой друг с самых первых дней, я доверяю ей свою жизнь."
+    }
+  },
+  {
+    "id": 58,
+    "expression": "In the loop",
+    "options": ["Быть в курсе событий", "Запутаться в проблемах", "Идти по кругу"],
+    "correct_answer": "Быть в курсе событий",
+    "example": {
+      "text": "Keep me in the loop about the new project.",
+      "translation": "Держи меня в курсе событий насчет нового проекта."
+    }
+  },
+  {
+    "id": 59,
+    "expression": "Out of the loop",
+    "options": ["Быть не в теме", "Выйти на прогулку", "Решить проблему"],
+    "correct_answer": "Быть не в теме",
+    "example": {
+      "text": "I was on vacation, so I'm totally out of the loop.",
+      "translation": "Я был в отпуске, так что я абсолютно не в теме."
+    }
+  },
+  {
+    "id": 60,
+    "expression": "Shook",
+    "options": ["Потрясен", "Разочарован", "Успокоен"],
+    "correct_answer": "Потрясен",
+    "example": {
+      "text": "When I heard the news, I was literally shook.",
+      "translation": "Когда я услышал новости, я был буквально потрясен."
+    }
+  },
+  {
+    "id": 61,
+    "expression": "Stoked",
+    "options": ["В предвкушении", "В глубокой депрессии", "В ярости"],
+    "correct_answer": "В предвкушении",
+    "example": {
+      "text": "I am so stoked for the concert tomorrow!",
+      "translation": "Я в таком предвкушении от завтрашнего концерта!"
+    }
+  },
+  {
+    "id": 62,
+    "expression": "Drained",
+    "options": ["Выжатый как лимон", "Промокший под дождем", "Грязный"],
+    "correct_answer": "Выжатый как лимон",
+    "example": {
+      "text": "After a 12-hour shift, I feel completely drained.",
+      "translation": "После 12-часовой смены я чувствую себя полностью выжатым как лимон."
+    }
+  },
+  {
+    "id": 63,
+    "expression": "Jelly",
+    "literal": "(от Jealous)",
+    "options": ["Ревнующий", "Мягкий", "Сладкий"],
+    "correct_answer": "Ревнующий",
+    "example": {
+      "text": "You got a new phone? I'm so jelly right now.",
+      "translation": "Ты купил новый телефон? Я сейчас так ревную (завидую)."
+    }
+  },
+  {
+    "id": 64,
+    "expression": "Pressed",
+    "options": ["Загоняться", "Торопиться", "Отдыхать"],
+    "correct_answer": "Загоняться",
+    "example": {
+      "text": "Why are you so pressed over a simple joke?",
+      "translation": "Почему ты так загоняешься из-за простой шутки?"
+    }
+  },
+  {
+    "id": 65,
+    "expression": "Salty",
+    "options": ["Обиженный", "Остроумный", "Сердитый"],
+    "correct_answer": "Обиженный",
+    "example": {
+      "text": "He lost the game and now he is acting salty.",
+      "translation": "Он проиграл игру и теперь ведет себя как обиженный."
+    }
+  },
+  {
+    "id": 66,
+    "expression": "Hangry",
+    "literal": "(от hungry + angry)",
+    "options": ["Злой, потому что голодный", "Уставший после работы", "Опоздавший на встречу"],
+    "correct_answer": "Злой, потому что голодный",
+    "example": {
+      "text": "Feed her quickly before she gets hangry.",
+      "translation": "Покорми её быстрее, пока она не стала злой от голода."
+    }
+  },
+  {
+    "id": 67,
+    "expression": "Munchies",
+    "options": ["Дикое желание пожевать", "Мелкие монеты", "Глупые шутки"],
+    "correct_answer": "Дикое желание пожевать",
+    "example": {
+      "text": "Watching this movie gave me the munchies.",
+      "translation": "Просмотр этого фильма вызвал у меня дикое желание пожевать."
+    }
+  },
+  {
+    "id": 68,
+    "expression": "Bail",
+    "options": ["Слиться", "Договориться", "Остаться"],
+    "correct_answer": "Слиться",
+    "example": {
+      "text": "The movie was boring, so we decided to bail.",
+      "translation": "Фильм был скучным, поэтому мы решили слиться."
+    }
+  },
+  {
+    "id": 69,
+    "expression": "Bailing",
+    "options": ["Слив с планов в самый последний момент", "Аренда новой квартиры", "Покупка билетов"],
+    "correct_answer": "Слив с планов в самый последний момент",
+    "example": {
+      "text": "I hate it when people start bailing on Friday night.",
+      "translation": "Ненавижу, когда люди начинают сливаться с планов в вечер пятницы."
+    }
+  },
+  {
+    "id": 70,
+    "expression": "Bounce",
+    "options": ["Резко свалить", "Громко смеяться", "Высоко прыгать"],
+    "correct_answer": "Резко свалить",
+    "example": {
+      "text": "It's getting late, I think I'm gonna bounce.",
+      "translation": "Уже поздно, думаю, я буду резко сваливать."
+    }
+  },
+  {
+    "id": 71,
+    "expression": "Flex",
+    "options": ["Понтоваться", "Разминаться", "Работать"],
+    "correct_answer": "Понтоваться",
+    "example": {
+      "text": "He bought a fake watch just to flex on Instagram.",
+      "translation": "Он купил поддельные часы просто чтобы понтоваться в Инстаграме."
+    }
+  },
+  {
+    "id": 72,
+    "expression": "Hustle",
+    "options": ["Крутиться", "Лентяйничать", "Жаловаться"],
+    "correct_answer": "Крутиться",
+    "example": {
+      "text": "You gotta hustle if you want to make good money.",
+      "translation": "Тебе нужно крутиться, если хочешь заработать хорошие деньги."
+    }
+  },
+  {
+    "id": 73,
+    "expression": "Hustling",
+    "options": ["Жесткая суета и работа ради кэша", "Отдых на курорте", "Поиск бесплатного жилья"],
+    "correct_answer": "Жесткая суета и работа ради кэша",
+    "example": {
+      "text": "He is always hustling to pay his bills.",
+      "translation": "Он всегда в жесткой суете и работе, чтобы оплачивать свои счета."
+    }
+  },
+  {
+    "id": 74,
+    "expression": "Grid",
+    "options": ["Упорно и монотонно трудиться", "Искать приключения", "Терять время"],
+    "correct_answer": "Упорно и монотонно трудиться",
+    "example": {
+      "text": "Back on the grid, working on my new project.",
+      "translation": "Снова упорно тружусь, работаю над новым проектом."
+    }
+  },
+  {
+    "id": 75,
+    "expression": "Grindset",
+    "literal": "(от grind + mindset)",
+    "options": ["Мышление пахаря", "Плохое настроение", "Творческий кризис"],
+    "correct_answer": "Мышление пахаря",
+    "example": {
+      "text": "You need that sigma grindset to succeed in business.",
+      "translation": "Тебе нужно это мышление пахаря, чтобы преуспеть в бизнесе."
+    }
+  },
+  {
+    "id": 76,
+    "expression": "Gains",
+    "options": ["Прогресс", "Потеря веса", "Усталость"],
+    "correct_answer": "Прогресс",
+    "example": {
+      "text": "I've been hitting the gym and seeing some real gains.",
+      "translation": "Я хожу в зал и вижу реальный прогресс."
+    }
+  },
+  {
+    "id": 77,
+    "expression": "Big time",
+    "options": ["По-крупному", "Очень редко", "В прошлый раз"],
+    "correct_answer": "По-крупному",
+    "example": {
+      "text": "He messed up his presentation big time.",
+      "translation": "Он облажался со своей презентацией по-крупному."
+    }
+  },
+  {
+    "id": 78,
+    "expression": "Whip",
+    "options": ["Дорогая или крутая тачка", "Старый велосипед", "Общественный транспорт"],
+    "correct_answer": "Дорогая или крутая тачка",
+    "example": {
+      "text": "Check out my new whip, I just bought it yesterday.",
+      "translation": "Зацени мою новую тачку, я купил её только вчера."
+    }
+  },
+  {
+    "id": 79,
+    "expression": "Fit",
+    "literal": "(от Outfit)",
+    "options": ["Стильный прикид", "Спортивный зал", "Хорошее настроение"],
+    "correct_answer": "Стильный прикид",
+    "example": {
+      "text": "Your fit for the party is absolutely amazing.",
+      "translation": "Твой стильный прикид для вечеринки абсолютно потрясающий."
+    }
+  },
+  {
+    "id": 80,
+    "expression": "Kicks",
+    "options": ["Кроссовки", "Удары ногой", "Проблемы"],
+    "correct_answer": "Кроссовки",
+    "example": {
+      "text": "I got some new fresh kicks for the summer.",
+      "translation": "Я купил новые свежие кроссовки на лето."
+    }
+  },
+  {
+    "id": 81,
+    "expression": "Threads",
+    "options": ["Шмотки", "Социальные сети", "Длинные разговоры"],
+    "correct_answer": "Шмотки",
+    "example": {
+      "text": "He always wears expensive designer threads.",
+      "translation": "Он всегда носит дорогие дизайнерские шмотки."
+    }
+  },
+  {
+    "id": 82,
+    "expression": "Drip",
+    "options": ["Стильный прикид / крутой шмот", "Плохая погода", "Скучный дизайн"],
+    "correct_answer": "Стильный прикид / крутой шмот",
+    "example": {
+      "text": "Look at his drip, he clearly has a good taste.",
+      "translation": "Посмотри на его крутой шмот, у него явно хороший вкус."
+    }
+  },
+  {
+    "id": 83,
+    "expression": "Ice",
+    "options": ["Дорогие побрякушки", "Холодный прием", "Чистый стакан"],
+    "correct_answer": "Дорогие побрякушки",
+    "example": {
+      "text": "Look at all that ice on his wrist.",
+      "translation": "Посмотри на все эти дорогие побрякушки на его запястье."
+    }
+  },
+  {
+    "id": 84,
+    "expression": "Cop",
+    "options": ["Купить, урвать шмот/вещь", "Выбросить мусор", "Потерять кошелек"],
+    "correct_answer": "Купить, урвать шмот/вещь",
+    "example": {
+      "text": "I need to cop those new sneakers before they sell out.",
+      "translation": "Мне нужно урвать те новые кроссовки, пока их не раскупили."
+    }
+  },
+  {
+    "id": 85,
+    "expression": "Drop",
+    "options": ["Выпустить, зарелизить трек/продукт", "Отменить мероприятие", "Упасть от усталости"],
+    "correct_answer": "Выпустить, зарелизить трек/продукт",
+    "example": {
+      "text": "When is your favorite artist going to drop a new album?",
+      "translation": "Когда твой любимый артист собирается выпустить новый альбом?"
+    }
+  },
+  {
+    "id": 86,
+    "expression": "Gucci",
+    "options": ["Всё пучком", "Очень дорого", "Высокомерно"],
+    "correct_answer": "Всё пучком",
+    "example": {
+      "text": "Don't worry about the mistake, it's all Gucci.",
+      "translation": "Не переживай из-за ошибки, всё пучком."
+    }
+  },
+  {
+    "id": 87,
+    "expression": "Bffr",
+    "literal": "(от Be For Real)",
+    "options": ["Да ладно тебе", "До скорой встречи", "Мне всё равно"],
+    "correct_answer": "Да ладно тебе",
+    "example": {
+      "text": "You think he is actually going to help us? Bffr.",
+      "translation": "Думаешь, он реально собирается нам помочь? Да ладно тебе."
+    }
+  },
+  {
+    "id": 88,
+    "expression": "Full of crap",
+    "options": ["Нести чушь; быть полным ерунды", "Быть очень занятым", "Иметь много денег"],
+    "correct_answer": "Нести чушь; быть полным ерунды",
+    "example": {
+      "text": "Don't listen to him, he is completely full of crap.",
+      "translation": "Не слушай его, он несет полную чушь."
+    }
+  },
+  {
+    "id": 89,
+    "expression": "Talk out of your ass",
+    "options": ["Говорить, не зная темы; нести чушь", "Шептаться за спиной", "Кричать от радости"],
+    "correct_answer": "Говорить, не зная темы; нести чушь",
+    "example": {
+      "text": "Stop talking out of your ass and show me the facts.",
+      "translation": "Хватит нести чушь, покажи мне факты."
+    }
+  },
+  {
+    "id": 90,
+    "expression": "No biggie",
+    "literal": "(от No big deal)",
+    "options": ["Ничего страшного, пустяк", "Большая проблема", "Не твоё дело"],
+    "correct_answer": "Ничего страшного, пустяк",
+    "example": {
+      "text": "You forgot my book? No biggie, bring it tomorrow.",
+      "translation": "Ты забыл мою книгу? Ничего страшного, принеси завтра."
+    }
+  },
+  {
+    "id": 91,
+    "expression": "Rizz",
+    "literal": "(от Charisma)",
+    "options": ["Умение соблазнять", "Потеря денег", "Плохое настроение"],
+    "correct_answer": "Умение соблазнять",
+    "example": {
+      "text": "He definitely has the rizz, he gets every girl's number.",
+      "translation": "У него определенно есть умение соблазнять, он получает номер каждой девушки."
+    }
+  },
+  {
+    "id": 92,
+    "expression": "Crush",
+    "options": ["Тот, в кого ты тайно влюблен", "Заклятый враг", "Случайный прохожий"],
+    "correct_answer": "Тот, в кого ты тайно влюблен",
+    "example": {
+      "text": "I finally talked to my crush today!",
+      "translation": "Я наконец-то поговорил со своей тайной любовью сегодня!"
+    }
+  },
+  {
+    "id": 93,
+    "expression": "Simp",
+    "options": ["Парень, который бегает за девушкой", "Уверенный в себе мужчина", "Одинокий человек"],
+    "correct_answer": "Парень, который бегает за девушкой",
+    "example": {
+      "text": "Stop being a simp and have some self-respect.",
+      "translation": "Перестань бегать за ней и имей хоть какое-то самоуважение."
+    }
+  },
+  {
+    "id": 94,
+    "expression": "Simping",
+    "options": ["Чрезмерное ухаживание и подлиз к девушке", "Игнорирование сообщений", "Поиск новых друзей"],
+    "correct_answer": "Чрезмерное ухаживание и подлиз к девушке",
+    "example": {
+      "text": "He is simping so hard over her Instagram posts.",
+      "translation": "Он так сильно подлизывается к её постам в Инстаграме."
+    }
+  },
+  {
+    "id": 95,
+    "expression": "Tea",
+    "options": ["Сплетни", "Спокойный вечер", "Подарок"],
+    "correct_answer": "Сплетни",
+    "example": {
+      "text": "I heard some crazy tea about our boss today.",
+      "translation": "Я слышал сегодня сумасшедшие сплетни о нашем боссе."
+    }
+  },
+  {
+    "id": 96,
+    "expression": "Spill the tea",
+    "options": ["Сплетничать", "Пить горячие напитки", "Устроить ссору"],
+    "correct_answer": "Сплетничать",
+    "example": {
+      "text": "Come on, spill the tea about your date last night!",
+      "translation": "Давай, расскажи сплетни о своем вчерашнем свидании!"
+    }
+  },
+  {
+    "id": 97,
+    "expression": "Spill",
+    "options": ["Рассказывай / выкладывай", "Уходи отсюда", "Перестань врать"],
+    "correct_answer": "Рассказывай / выкладывай",
+    "example": {
+      "text": "I know you are hiding something, spill!",
+      "translation": "Я знаю, что ты что-то скрываешь, выкладывай!"
+    }
+  },
+  {
+    "id": 98,
+    "expression": "Cap",
+    "options": ["Гонишь", "Правда", "Забыл"],
+    "correct_answer": "Гонишь",
+    "example": {
+      "text": "You bought a Ferrari? That's cap.",
+      "translation": "Ты купил Феррари? Ты гонишь."
+    }
+  },
+  {
+    "id": 99,
+    "expression": "No cap",
+    "options": ["Зуб даю", "Не может быть", "Без головного убора"],
+    "correct_answer": "Зуб даю",
+    "example": {
+      "text": "This is the best burger I've ever had, no cap.",
+      "translation": "Это лучший бургер, что я когда-либо ел, зуб даю."
+    }
+  },
+  {
+    "id": 100,
+    "expression": "Sus",
+    "literal": "(от Suspicious)",
+    "options": ["Подозрительный", "Надежный", "Скучный"],
+    "correct_answer": "Подозрительный",
+    "example": {
+      "text": "He is acting really sus today, I don't trust him.",
+      "translation": "Он ведет себя очень подозрительно сегодня, я ему не доверяю."
+    }
+  },
+  {
+    "id": 101,
+    "expression": "Basic",
+    "options": ["Типичный", "Уникальный", "Сложный"],
+    "correct_answer": "Типичный",
+    "example": {
+      "text": "Her outfit is so basic, everyone wears that.",
+      "translation": "Ее наряд такой типичный, все такое носят."
+    }
+  },
+  {
+    "id": 102,
+    "expression": "Mid",
+    "literal": "(от Mediocre)",
+    "options": ["Посредственность", "Высший класс", "Полный отстой"],
+    "correct_answer": "Посредственность",
+    "example": {
+      "text": "The new movie was pretty mid, nothing special.",
+      "translation": "Новый фильм был довольно посредственным, ничего особенного."
+    }
+  },
+  {
+    "id": 103,
+    "expression": "Slay",
+    "options": ["Выглядеть сногсшибательно", "Сделать ошибку", "Испортить атмосферу"],
+    "correct_answer": "Выглядеть сногсшибательно",
+    "example": {
+      "text": "You absolutely slay in that red dress!",
+      "translation": "Ты выглядишь абсолютно сногсшибательно в этом красном платье!"
+    }
+  },
+  {
+    "id": 104,
+    "expression": "Ate",
+    "options": ["Сделать безупречно", "Потерпеть неудачу", "Потерять интерес"],
+    "correct_answer": "Сделать безупречно",
+    "example": {
+      "text": "She sang that song and completely ate.",
+      "translation": "Она спела эту песню и сделала всё безупречно."
+    }
+  },
+  {
+    "id": 105,
+    "expression": "Serving",
+    "options": ["Раздавать стиль", "Выполнять приказы", "Ждать своей очереди"],
+    "correct_answer": "Раздавать стиль",
+    "example": {
+      "text": "He is serving looks on the red carpet tonight.",
+      "translation": "Он раздает стиль на красной дорожке сегодня вечером."
+    }
+  },
+  {
+    "id": 106,
+    "expression": "On fleek",
+    "options": ["Выглядит идеально", "Требует ремонта", "Слишком старомодно"],
+    "correct_answer": "Выглядит идеально",
+    "example": {
+      "text": "Her makeup and hair are always on fleek.",
+      "translation": "Ее макияж и прическа всегда выглядят идеально."
+    }
+  },
+  {
+    "id": 107,
+    "expression": "Glow up",
+    "options": ["Круто преобразиться", "Потускнеть", "Разозлиться на кого-то"],
+    "correct_answer": "Круто преобразиться",
+    "example": {
+      "text": "He had a massive glow up after high school.",
+      "translation": "Он круто преобразился после старшей школы."
+    }
+  },
+  {
+    "id": 108,
+    "expression": "GOATed",
+    "literal": "(от G.O.A.T. — Greatest Of All Time)",
+    "options": ["Ставший культовым / легендарный", "Забытый всеми", "Смешной и нелепый"],
+    "correct_answer": "Ставший культовым / легендарный",
+    "example": {
+      "text": "That video game is literally GOATed.",
+      "translation": "Та видеоигра буквально стала легендарной."
+    }
+  },
+  {
+    "id": 109,
+    "expression": "Understood the assignment",
+    "options": ["Сделать всё идеально", "Получить выговор", "Не понять задачу"],
+    "correct_answer": "Сделать всё идеально",
+    "example": {
+      "text": "The designer really understood the assignment here.",
+      "translation": "Дизайнер здесь реально сделал всё идеально."
+    }
+  },
+  {
+    "id": 110,
+    "expression": "Banger",
+    "options": ["Пушка / Топ", "Худший трек", "Старая новость"],
+    "correct_answer": "Пушка / Топ",
+    "example": {
+      "text": "This new track is an absolute banger!",
+      "translation": "Этот новый трек — абсолютная пушка!"
+    }
+  },
+  {
+    "id": 111,
+    "expression": "Slaps",
+    "options": ["Качает (заходит)", "Раздражает", "Вызывает грусть"],
+    "correct_answer": "Качает (заходит)",
+    "example": {
+      "text": "This playlist slaps so hard.",
+      "translation": "Этот плейлист так жестко качает."
+    }
+  },
+  {
+    "id": 112,
+    "expression": "Slapping",
+    "options": ["Офигенный", "Скучный", "Шумный"],
+    "correct_answer": "Офигенный",
+    "example": {
+      "text": "Those tacos we had yesterday were slapping.",
+      "translation": "Те тако, что мы ели вчера, были офигенными."
+    }
+  },
+  {
+    "id": 113,
+    "expression": "Gas",
+    "options": ["Высшее качество", "Дешевая подделка", "Опасная вещь"],
+    "correct_answer": "Высшее качество",
+    "example": {
+      "text": "This coffee is pure gas, I need another cup.",
+      "translation": "Этот кофе — высшее качество, мне нужна еще чашка."
+    }
+  },
+  {
+    "id": 114,
+    "expression": "Hyped",
+    "options": ["На кураже", "В унынии", "Спокойный"],
+    "correct_answer": "На кураже",
+    "example": {
+      "text": "I'm so hyped for the concert this weekend!",
+      "translation": "Я так на кураже перед концертом в эти выходные!"
+    }
+  },
+  {
+    "id": 115,
+    "expression": "Pop off",
+    "options": ["Хайпануть", "Уйти в тень", "Сделать глупость"],
+    "correct_answer": "Хайпануть",
+    "example": {
+      "text": "Her new dance video is about to pop off on TikTok.",
+      "translation": "Ее новое танцевальное видео вот-вот хайпанет в ТикТоке."
+    }
+  },
+  {
+    "id": 116,
+    "expression": "Vibing",
+    "options": ["Ловить кайф", "Много работать", "Жаловаться на жизнь"],
+    "correct_answer": "Ловить кайф",
+    "example": {
+      "text": "We were just vibing to the music all night.",
+      "translation": "Мы просто ловили кайф под музыку всю ночь."
+    }
+  },
+  {
+    "id": 117,
+    "expression": "Fired up",
+    "options": ["Заряжен", "Уволен", "Разочарован"],
+    "correct_answer": "Заряжен",
+    "example": {
+      "text": "The team is really fired up for the big game.",
+      "translation": "Команда реально заряжена на большую игру."
+    }
+  },
+  {
+    "id": 118,
+    "expression": "Chilled out",
+    "options": ["На чилле", "В панике", "Замерзший"],
+    "correct_answer": "На чилле",
+    "example": {
+      "text": "He is always so chilled out, nothing bothers him.",
+      "translation": "Он всегда такой на чилле, его ничего не беспокоит."
+    }
+  },
+  {
+    "id": 119,
+    "expression": "Clout",
+    "options": ["Авторитет", "Обман", "Слухи"],
+    "correct_answer": "Авторитет",
+    "example": {
+      "text": "He is only doing it for the clout on social media.",
+      "translation": "Он делает это только ради авторитета в соцсетях."
+    }
+  },
+  {
+    "id": 120,
+    "expression": "Clout chaser",
+    "options": ["Хайпожор ради лайков", "Успешный бизнесмен", "Скромный человек"],
+    "correct_answer": "Хайпожор ради лайков",
+    "example": {
+      "text": "Stop being a clout chaser and just be yourself.",
+      "translation": "Перестань быть хайпожором и просто будь собой."
+    }
+  },
+  {
+    "id": 121,
+    "expression": "Clout chasing",
+    "options": ["Погоня за дешевым хайпом любой ценой", "Честный заработок", "Поиск постоянной работы"],
+    "correct_answer": "Погоня за дешевым хайпом любой ценой",
+    "example": {
+      "text": "All this fake drama is just clout chasing.",
+      "translation": "Вся эта фейковая драма — просто погоня за дешевым хайпом."
+    }
+  },
+  {
+    "id": 122,
+    "expression": "Main character",
+    "options": ["Пуп земли", "Маленький человек", "Помощник руководителя"],
+    "correct_answer": "Пуп земли",
+    "example": {
+      "text": "She always acts like she is the main character.",
+      "translation": "Она всегда ведет себя так, будто она пуп земли."
+    }
+  },
+  {
+    "id": 123,
+    "expression": "Main character energy",
+    "options": ["Харизма лидера", "Скромное поведение", "Вечная усталость"],
+    "correct_answer": "Харизма лидера",
+    "example": {
+      "text": "He walked into the room with pure main character energy.",
+      "translation": "Он вошел в комнату с чистой харизмой лидера."
+    }
+  },
+  {
+    "id": 124,
+    "expression": "Side character",
+    "options": ["Незаметная серая мышь", "Главный виновник", "Важный гость"],
+    "correct_answer": "Незаметная серая мышь",
+    "example": {
+      "text": "I feel like a side character in my own life today.",
+      "translation": "Сегодня я чувствую себя незаметной серой мышью в собственной жизни."
+    }
+  },
+  {
+    "id": 125,
+    "expression": "Chad",
+    "options": ["Уверенный в себе альфач", "Глупый парень", "Трусливый человек"],
+    "correct_answer": "Уверенный в себе альфач",
+    "example": {
+      "text": "He handled the conflict like an absolute Chad.",
+      "translation": "Он разрулил конфликт как абсолютный уверенный в себе альфач."
+    }
+  },
+  {
+    "id": 126,
+    "expression": "Glazer",
+    "options": ["Подлиза", "Бунтарь", "Критик"],
+    "correct_answer": "Подлиза",
+    "example": {
+      "text": "He agrees with everything the boss says, what a glazer.",
+      "translation": "Он соглашается со всем, что говорит босс, вот подлиза."
+    }
+  },
+  {
+    "id": 127,
+    "expression": "NPC",
+    "literal": "(от Non-Playable Character)",
+    "options": ["Ведомый человек без своего мнения", "Лидер компании", "Профессиональный геймер"],
+    "correct_answer": "Ведомый человек без своего мнения",
+    "example": {
+      "text": "Sometimes I feel like I'm surrounded by NPCs.",
+      "translation": "Иногда мне кажется, что меня окружают ведомые люди без своего мнения."
+    }
+  },
+  {
+    "id": 128,
+    "expression": "Stan",
+    "literal": "(от Stalker + Fan)",
+    "options": ["Ярый, фанатичный поклонник", "Равнодушный зритель", "Хейтер"],
+    "correct_answer": "Ярый, фанатичный поклонник",
+    "example": {
+      "text": "I am a huge stan of her early albums.",
+      "translation": "Я ярый поклонник ее ранних альбомов."
+    }
+  },
+  {
+    "id": 129,
+    "expression": "Delulu",
+    "literal": "(от Delusional)",
+    "options": ["Поехавший", "Реалист", "Гений"],
+    "correct_answer": "Поехавший",
+    "example": {
+      "text": "You are acting totally delulu right now.",
+      "translation": "Ты сейчас ведешь себя как абсолютно поехавший."
+    }
+  },
+  {
+    "id": 130,
+    "expression": "Solulu",
+    "literal": "(от Solution)",
+    "options": ["Выход из ситуации", "Сложная проблема", "Отказ от помощи"],
+    "correct_answer": "Выход из ситуации",
+    "example": {
+      "text": "Being delulu is the only solulu sometimes.",
+      "translation": "Иногда быть поехавшим — это единственный выход из ситуации."
+    }
+  },
+  {
+    "id": 131,
+    "expression": "Rent free",
+    "options": ["Засесть в голове", "Жить бесплатно", "Потерять память"],
+    "correct_answer": "Засесть в голове",
+    "example": {
+      "text": "That catchy song is living in my head rent free.",
+      "translation": "Эта прилипчивая песня засела у меня в голове."
+    }
+  },
+  {
+    "id": 132,
+    "expression": "Caught in 4K",
+    "options": ["Спалиться с поличным", "Сделать красивое фото", "Выиграть в лотерею"],
+    "correct_answer": "Спалиться с поличным",
+    "example": {
+      "text": "He lied about where he was, but got caught in 4K on camera.",
+      "translation": "Он соврал о том, где был, но спалился с поличным на камеру."
+    }
+  },
+  {
+    "id": 133,
+    "expression": "Left on read",
+    "options": ["Прочитать и не ответить", "Быстро перезвонить", "Удалить сообщение"],
+    "correct_answer": "Прочитать и не ответить",
+    "example": {
+      "text": "I hate it when my messages are left on read.",
+      "translation": "Ненавижу, когда мои сообщения читают и не отвечают."
+    }
+  },
+  {
+    "id": 134,
+    "expression": "Dead",
+    "options": ["Умираю со смеху", "Очень устал", "Мне скучно"],
+    "correct_answer": "Умираю со смеху",
+    "example": {
+      "text": "That meme you sent me has me dead!",
+      "translation": "Тот мем, что ты мне скинул, я просто умираю со смеху!"
+    }
+  },
+  {
+    "id": 135,
+    "expression": "Sending me",
+    "options": ["Это выносит меня", "Это меня успокаивает", "Это меня раздражает"],
+    "correct_answer": "Это выносит меня",
+    "example": {
+      "text": "His reaction to the prank is literally sending me.",
+      "translation": "Его реакция на пранк буквально выносит меня."
+    }
+  },
+  {
+    "id": 136,
+    "expression": "Shooketh",
+    "literal": "(от Shook)",
+    "options": ["Просто в дичайшем культурном шоке", "Абсолютно спокойный", "Слегка уставший"],
+    "correct_answer": "Просто в дичайшем культурном шоке",
+    "example": {
+      "text": "When I saw the final plot twist, I was shooketh.",
+      "translation": "Когда я увидел финальный поворот сюжета, я был в дичайшем культурном шоке."
+    }
+  },
+  {
+    "id": 137,
+    "expression": "Hot take",
+    "options": ["Спорное мнение, вызывающее дискуссии", "Свежая новость дня", "Общепринятый факт"],
+    "correct_answer": "Спорное мнение, вызывающее дискуссии",
+    "example": {
+      "text": "Hot take: pineapple on pizza is actually delicious.",
+      "translation": "Спорное мнение: ананасы на пицце — это реально вкусно."
+    }
+  },
+  {
+    "id": 138,
+    "expression": "High-key",
+    "options": ["Сто процентов", "Втихаря", "Маловероятно"],
+    "correct_answer": "Сто процентов",
+    "example": {
+      "text": "I am high-key obsessed with this new show.",
+      "translation": "Я сто процентов одержим этим новым сериалом."
+    }
+  },
+  {
+    "id": 139,
+    "expression": "Low-key",
+    "options": ["Втихаря", "Открыто для всех", "Очень громко"],
+    "correct_answer": "Втихаря",
+    "example": {
+      "text": "I low-key want to stay home instead of going out.",
+      "translation": "Я втихаря хочу остаться дома вместо того, чтобы куда-то идти."
+    }
+  },
+  {
+    "id": 140,
+    "expression": "Gimmick",
+    "options": ["Уловка ради хайпа", "Честное предложение", "Полезный лайфхак"],
+    "correct_answer": "Уловка ради хайпа",
+    "example": {
+      "text": "The whole marketing campaign was just a cheap gimmick.",
+      "translation": "Вся маркетинговая кампания была просто дешевой уловкой ради хайпа."
+    }
+  },
+  {
+    "id": 141,
+    "expression": "Doomscrolling",
+    "options": ["Безостановочное чтение плохих новостей", "Поиск скидок в интернете", "Просмотр смешных видео"],
+    "correct_answer": "Безостановочное чтение плохих новостей",
+    "example": {
+      "text": "I spent three hours doomscrolling on Twitter last night.",
+      "translation": "Вчера вечером я провел три часа за безостановочным чтением плохих новостей в Твиттере."
+    }
+  },
+  {
+    "id": 142,
+    "expression": "Brainrot",
+    "options": ["Разжижение мозга от тупого контента", "Умственное переутомление", "Интеллектуальное развитие"],
+    "correct_answer": "Разжижение мозга от тупого контента",
+    "example": {
+      "text": "Watching these weird TikToks all day is pure brainrot.",
+      "translation": "Смотреть эти странные ТикТоки весь день — это чистое разжижение мозга."
+    }
+  },
+  {
+    "id": 143,
+    "expression": "Lurker",
+    "options": ["Молчаливый наблюдатель в чатах", "Активный комментатор", "Администратор группы"],
+    "correct_answer": "Молчаливый наблюдатель в чатах",
+    "example": {
+      "text": "I never post on this forum, I'm just a lurker.",
+      "translation": "Я никогда не пишу на этом форуме, я просто молчаливый наблюдатель."
+    }
+  },
+  {
+    "id": 144,
+    "expression": "Thirst trap",
+    "options": ["Откровенное фото ради лайков", "Красивый пейзаж", "Реклама напитков"],
+    "correct_answer": "Откровенное фото ради лайков",
+    "example": {
+      "text": "He posted a workout picture, it's a total thirst trap.",
+      "translation": "Он выложил фото с тренировки, это типичное откровенное фото ради лайков."
+    }
+  },
+  {
+    "id": 145,
+    "expression": "Drama channels",
+    "options": ["Каналы со сплетнями и разбором тёрок блогеров", "Каналы с документальными фильмами", "Официальные новости бизнеса"],
+    "correct_answer": "Каналы со сплетнями и разбором тёрок блогеров",
+    "example": {
+      "text": "I wasted my evening watching drama channels on YouTube.",
+      "translation": "Я потратил вечер на просмотр каналов со сплетнями на YouTube."
+    }
+  },
+  {
+    "id": 146,
+    "expression": "Era",
+    "options": ["Определенный период жизни человека", "Продолжительный отпуск", "Планы на будущее"],
+    "correct_answer": "Определенный период жизни человека",
+    "example": {
+      "text": "She is definitely in her fitness era right now.",
+      "translation": "Она сейчас определенно проживает свой фитнес-период жизни."
+    }
+  },
+  {
+    "id": 147,
+    "expression": "Cancel culture",
+    "options": ["Культура отмены (публичный бойкот)", "Популяризация творчества", "Государственная поддержка"],
+    "correct_answer": "Культура отмены (публичный бойкот)",
+    "example": {
+      "text": "Many celebrities are afraid of cancel culture these days.",
+      "translation": "Многие знаменитости сегодня боятся культуры отмены."
+    }
+  },
+  {
+    "id": 148,
+    "expression": "Ghost",
+    "options": ["Резко прекратить общение", "Начать новые отношения", "Попросить прощения"],
+    "correct_answer": "Резко прекратить общение",
+    "example": {
+      "text": "I think he is trying to ghost me, he stopped replying.",
+      "translation": "Думаю, он пытается резко прекратить общение со мной, он перестал отвечать."
+    }
+  },
+  {
+    "id": 149,
+    "expression": "Ghosted",
+    "options": ["Был жестко слит", "Стал очень популярен", "Нашел компромисс"],
+    "correct_answer": "Был жестко слит",
+    "example": {
+      "text": "After two dates, I got totally ghosted.",
+      "translation": "После двух свиданий я был жестко слит."
+    }
+  },
+  {
+    "id": 150,
+    "expression": "Ghosting",
+    "options": ["Резкое исчезновение из общения без причин", "Частые звонки по телефону", "Долгие переписки по делу"],
+    "correct_answer": "Резкое исчезновение из общения без причин",
+    "example": {
+      "text": "Ghosting is a terrible way to end a relationship.",
+      "translation": "Резкое исчезновение из общения — ужасный способ закончить отношения."
+    }
+  },
+  {
+    "id": 151,
+    "expression": "Soft ghosting",
+    "options": ["Ответы сухими смайликами", "Грубые оскорбления", "Ежедневные долгие звонки"],
+    "correct_answer": "Ответы сухими смайликами",
+    "example": {
+      "text": "I think he is soft ghosting me, he only replies with emojis.",
+      "translation": "Думаю, он отвечает мне сухими смайликами, шлет только эмодзи."
+    }
+  },
+  {
+    "id": 152,
+    "expression": "Situationship",
+    "literal": "(от situation + relationship)",
+    "options": ["Непонятные отношения без обязательств и статуса", "Официальный брак", "Крепкая многолетняя дружба"],
+    "correct_answer": "Непонятные отношения без обязательств и статуса",
+    "example": {
+      "text": "We are not dating, it's just a situationship.",
+      "translation": "Мы не встречаемся, это просто непонятные отношения без обязательств."
+    }
+  },
+  {
+    "id": 153,
+    "expression": "Living single",
+    "options": ["Без отношений и кайфовать", "Искать партнера в панике", "Переживать из-за одиночества"],
+    "correct_answer": "Без отношений и кайфовать",
+    "example": {
+      "text": "She broke up with him and is now living single.",
+      "translation": "Она рассталась с ним и теперь кайфует без отношений."
+    }
+  },
+  {
+    "id": 154,
+    "expression": "Sneaky link",
+    "options": ["Секретный любовник", "Полезная ссылка на сайт", "Близкий родственник"],
+    "correct_answer": "Секретный любовник",
+    "example": {
+      "text": "He left the party early to meet his sneaky link.",
+      "translation": "Он ушел с вечеринки пораньше, чтобы встретиться со своим секретным любовником."
+    }
+  },
+  {
+    "id": 155,
+    "expression": "Side chick",
+    "options": ["Любовница", "Лучшая подруга", "Законная жена"],
+    "correct_answer": "Любовница",
+    "example": {
+      "text": "He got caught cheating with his side chick.",
+      "translation": "Его поймали на измене со своей любовницей."
+    }
+  },
+  {
+    "id": 156,
+    "expression": "Main squeeze",
+    "options": ["Главный партнер, любимый человек", "Случайный знакомый на вечер", "Бывший супруг"],
+    "correct_answer": "Главный партнер, любимый человек",
+    "example": {
+      "text": "I'm staying home tonight with my main squeeze.",
+      "translation": "Сегодня вечером я остаюсь дома со своим любимым человеком."
+    }
+  },
+  {
+    "id": 157,
+    "expression": "Sugar daddy",
+    "options": ["Богатый папик", "Молодой парень", "Строгий отец"],
+    "correct_answer": "Богатый папик",
+    "example": {
+      "text": "She bought a new car thanks to her sugar daddy.",
+      "translation": "Она купила новую машину благодаря своему богатому папику."
+    }
+  },
+  {
+    "id": 158,
+    "expression": "Cougar",
+    "options": ["Женщина постарше, ищущая молодых парней", "Молодая наивная девушка", "Спортивный тренер"],
+    "correct_answer": "Женщина постарше, ищущая молодых парней",
+    "example": {
+      "text": "That club is full of cougars looking for college guys.",
+      "translation": "Тот клуб полон женщин постарше, ищущих парней из колледжа."
+    }
+  },
+  {
+    "id": 159,
+    "expression": "Unicorn",
+    "options": ["Девушка для sexa втроем", "Сказочный персонаж", "Редкий вид обмана"],
+    "correct_answer": "Девушка для sexa втроем",
+    "example": {
+      "text": "They are looking for a unicorn to join them this weekend.",
+      "translation": "Они ищут девушку для секса втроем на эти выходные."
+    }
+  },
+  {
+    "id": 160,
+    "expression": "Vanilla",
+    "options": ["Скучный sex", "Яркий эксперимент", "Запретная тема"],
+    "correct_answer": "Скучный sex",
+    "example": {
+      "text": "Their relationship is a bit too vanilla for my taste.",
+      "translation": "Их отношения немного скучноваты для моего вкуса."
+    }
+  },
+  {
+    "id": 161,
+    "expression": "Knock boots",
+    "options": ["Переспать", "Подраться на улице", "Купить новую обувь"],
+    "correct_answer": "Переспать",
+    "example": {
+      "text": "They went to the bedroom to knock boots.",
+      "translation": "Они ушли в спальню, чтобы переспать."
+    }
+  },
+  {
+    "id": 162,
+    "expression": "Hook up",
+    "options": ["Перепихнуться, сойтись на ночь", "Поссориться навсегда", "Отправиться в путешествие"],
+    "correct_answer": "Перепихнуться, сойтись на ночь",
+    "example": {
+      "text": "Did you guys hook up after the party?",
+      "translation": "Вы, ребята, перепихнулись после вечеринки?"
+    }
+  },
+  {
+    "id": 163,
+    "expression": "Breadcrumbing",
+    "options": ["Кормить «завтраками»", "Дарить дорогие подарки", "Быстро признаться в любви"],
+    "correct_answer": "Кормить «завтраками»",
+    "example": {
+      "text": "He is just breadcrumbing you, move on.",
+      "translation": "Он просто кормит тебя «завтраками», двигайся дальше."
+    }
+  },
+  {
+    "id": 164,
+    "expression": "Love bombing",
+    "options": ["Окружение чрезмерной любовью ради манипуляций", "Полное игнорирование чувств партнера", "Частые ссоры из-за ревности"],
+    "correct_answer": "Окружение чрезмерной любовью ради манипуляций",
+    "example": {
+      "text": "Be careful, all these gifts might be just love bombing.",
+      "translation": "Будь осторожна, все эти подарки могут быть просто окружением любовью ради манипуляций."
+    }
+  },
+  {
+    "id": 165,
+    "expression": "Gaslighting",
+    "options": ["Психологическое внушение человеку, что он сумасшедший", "Открытая поддержка в трудную минуту", "Устроить романтический вечер при свечах"],
+    "correct_answer": "Психологическое внушение человеку, что он сумасшедший",
+    "example": {
+      "text": "Stop gaslighting me, I know what I saw!",
+      "translation": "Хватит психологически внушать мне, что я сумасшедший, я знаю, что видел!"
+    }
+  },
+  {
+    "id": 166,
+    "expression": "Red flag",
+    "options": ["Тревожный звоночек", "Отличный шанс", "Обычное дело"],
+    "correct_answer": "Тревожный звоночек",
+    "example": {
+      "text": "The way he talks to waiters is a huge red flag.",
+      "translation": "То, как он разговаривает с официантами, это огромный тревожный звоночек."
+    }
+  },
+  {
+    "id": 167,
+    "expression": "Green flag",
+    "options": ["Хороший знак", "Опасная ситуация", "Странный поступок"],
+    "correct_answer": "Хороший знак",
+    "example": {
+      "text": "He listens to you without interrupting, that's a green flag.",
+      "translation": "Он слушает тебя не перебивая, это хороший знак."
+    }
+  },
+  {
+    "id": 168,
+    "expression": "Beige flag",
+    "options": ["Странная черта характера, но безобидная", "Серьезная угроза отношениям", "Идеальное качество партнера"],
+    "correct_answer": "Странная черта характера, но безобидная",
+    "example": {
+      "text": "Her obsession with collecting mugs is a funny beige flag.",
+      "translation": "Ее одержимость коллекционированием кружек — это забавная безобидная странность."
+    }
+  },
+  {
+    "id": 169,
+    "expression": "Gatekeeping",
+    "options": ["Утаивание инфы", "Открытый доступ", "Активный обмен опытом"],
+    "correct_answer": "Утаивание инфы",
+    "example": {
+      "text": "Stop gatekeeping that song and tell us the name!",
+      "translation": "Хватит утаивать инфу об этой песне, скажи нам название!"
+    }
+  },
+  {
+    "id": 170,
+    "expression": "Vibe check",
+    "options": ["Проверка атмосферы", "Поиск ошибок в тексте", "Оплата счета в кафе"],
+    "correct_answer": "Проверка атмосферы",
+    "example": {
+      "text": "I just failed the vibe check at the meeting.",
+      "translation": "Я только что провалил проверку атмосферы на собрании."
+    }
+  },
+  {
+    "id": 171,
+    "expression": "Ick",
+    "options": ["Внезапное отвращение", "Острое влечение", "Легкое удивление"],
+    "correct_answer": "Внезапное отвращение",
+    "example": {
+      "text": "When he chewed with his mouth open, it gave me the ick.",
+      "translation": "Когда он жевал с открытым ртом, это вызвало у меня внезапное отвращение."
+    }
+  },
+  {
+    "id": 172,
+    "expression": "Down bad",
+    "options": ["Страдать по кому-то", "Чувствовать себя прекрасно", "Иметь много денег"],
+    "correct_answer": "Страдать по кому-то",
+    "example": {
+      "text": "He is down bad for her, he buys her flowers every day.",
+      "translation": "Он жутко страдает по ней, каждый день покупает ей цветы."
+    }
+  },
+  {
+    "id": 173,
+    "expression": "Heartbroken",
+    "options": ["С разбитым сердцем", "Счастливый", "Равнодушный"],
+    "correct_answer": "С разбитым сердцем",
+    "example": {
+      "text": "She was completely heartbroken after the breakup.",
+      "translation": "Она была с полностью разбитым сердцем после расставания."
+    }
+  },
+  {
+    "id": 174,
+    "expression": "Single pringle",
+    "options": ["Гордый и свободный одиночка", "Человек в активном поиске", "Семейный человек"],
+    "correct_answer": "Гордый и свободный одиночка",
+    "example": {
+      "text": "Don't worry about me, I'm a happy single pringle.",
+      "translation": "Не переживай за меня, я счастливый и свободный одиночка."
+    }
+  },
+  {
+    "id": 175,
+    "expression": "Snitch",
+    "options": ["Стукач", "Помощник", "Защитник"],
+    "correct_answer": "Стукач",
+    "example": {
+      "text": "Nobody likes a snitch in this neighborhood.",
+      "translation": "В этом районе никто не любит стукачей."
+    }
+  },
+  {
+    "id": 176,
+    "expression": "Beef",
+    "options": ["Конфликт", "Соглашение", "Угощение"],
+    "correct_answer": "Конфликт",
+    "example": {
+      "text": "Do you have some kind of beef with him?",
+      "translation": "У тебя с ним какой-то конфликт?"
+    }
+  },
+  {
+    "id": 177,
+    "expression": "Opp",
+    "literal": "(от Opposition / Opponent)",
+    "options": ["Враг", "Лучший бро", "Случайный прохожий"],
+    "correct_answer": "Враг",
+    "example": {
+      "text": "Watch out, there is an opp in the building.",
+      "translation": "Осторожно, в здании враг."
+    }
+  },
+  {
+    "id": 178,
+    "expression": "Opps",
+    "literal": "(от Opposition / Opponents)",
+    "options": ["Конкуренты", "Партнеры", "Подписчики"],
+    "correct_answer": "Конкуренты",
+    "example": {
+      "text": "We have to stay ahead of our opps.",
+      "translation": "Мы должны оставаться на шаг впереди наших конкурентов."
+    }
+  },
+  {
+    "id": 179,
+    "expression": "Corny",
+    "options": ["Банальный", "Уникальный", "Грубый"],
+    "correct_answer": "Банальный",
+    "example": {
+      "text": "That joke was so corny, but I still laughed.",
+      "translation": "Эта шутка была такой банальной, но я всё равно засмеялся."
+    }
+  },
+  {
+    "id": 180,
+    "expression": "Cheesy",
+    "options": ["Дешевый, фальшивый", "Дорогой, качественный", "Очень смешной"],
+    "correct_answer": "Дешевый, фальшивый",
+    "example": {
+      "text": "This romantic movie is a bit too cheesy.",
+      "translation": "Этот романтический фильм немного слишком дешевый и фальшивый."
+    }
+  },
+  {
+    "id": 181,
+    "expression": "Out of pocket",
+    "options": ["Перегибать палку, вести себя неадекватно", "Потратить все деньги до копейки", "Остаться без связи"],
+    "correct_answer": "Перегибать палку, вести себя неадекватно",
+    "example": {
+      "text": "Your comment during dinner was completely out of pocket.",
+      "translation": "Твой комментарий за ужином был совершенно неадекватным (ты перегнул палку)."
+    }
+  },
+  {
+    "id": 182,
+    "expression": "Sleeper",
+    "options": ["Что-то неожиданно крутое, хотя выглядело просто", "Очень скучный и нудный фильм", "Человек, который постоянно опаздывает"],
+    "correct_answer": "Что-то неожиданно крутое, хотя выглядело просто",
+    "example": {
+      "text": "That indie game is a real sleeper hit this year.",
+      "translation": "Эта инди-игра — реально неожиданно крутая вещь в этом году."
+    }
+  },
+  {
+    "id": 183,
+    "expression": "Guap",
+    "options": ["Куча бабла", "Полная нищета", "Мелкая ссора"],
+    "correct_answer": "Куча бабла",
+    "example": {
+      "text": "He made a lot of guap selling sneakers.",
+      "translation": "Он заработал кучу бабла, продавая кроссовки."
+    }
+  },
+  {
+    "id": 184,
+    "expression": "Loaded",
+    "options": ["При баблах, богатый", "Очень уставший", "Пьяный в хлам"],
+    "correct_answer": "При баблах, богатый",
+    "example": {
+      "text": "His parents are loaded, they bought him a house.",
+      "translation": "Его родители при баблах, они купили ему дом."
+    }
+  },
+  {
+    "id": 185,
+    "expression": "Brokie",
+    "literal": "(от Broke)",
+    "options": ["Нищеброд, бедолага", "Успешный бизнесмен", "Сломанный гаджет"],
+    "correct_answer": "Нищеброд, бедолага",
+    "example": {
+      "text": "I can't go to the restaurant, I'm a brokie right now.",
+      "translation": "Я не могу пойти в ресторан, я сейчас нищеброд."
+    }
+  },
+  {
+    "id": 186,
+    "expression": "Busted",
+    "options": ["Спалившийся", "Победивший", "Спрятанный"],
+    "correct_answer": "Спалившийся",
+    "example": {
+      "text": "He got busted trying to sneak out of the house.",
+      "translation": "Он спалился, пытаясь незаметно уйти из дома."
+    }
+  },
+  {
+    "id": 187,
+    "expression": "Tripping",
+    "options": ["Нести чушь", "Путешествовать", "Много работать"],
+    "correct_answer": "Нести чушь",
+    "example": {
+      "text": "If you think I'll pay for that, you are tripping.",
+      "translation": "Если ты думаешь, что я за это заплачу, ты несешь чушь."
+    }
+  },
+  {
+    "id": 188,
+    "expression": "Buzzkill",
+    "options": ["Кайфоломщик", "Душа компании", "Опасный преступник"],
+    "correct_answer": "Кайфоломщик",
+    "example": {
+      "text": "Don't invite John, he is such a buzzkill.",
+      "translation": "Не приглашай Джона, он такой кайфоломщик."
+    }
+  },
+  {
+    "id": 189,
+    "expression": "Salty dog",
+    "options": ["Бывалый, тертый калач", "Злая собака", "Молодой новичок"],
+    "correct_answer": "Бывалый, тертый калач",
+    "example": {
+      "text": "The captain is a real salty dog who has seen everything.",
+      "translation": "Капитан — настоящий бывалый, тертый калач, который повидал всё."
+    }
+  },
+  {
+    "id": 190,
+    "expression": "High-maintenance",
+    "options": ["Капризный, требующий много внимания/затрат", "Скромный, неприхотливый в быту", "Очень надежный и ответственный"],
+    "correct_answer": "Капризный, требующий много внимания/затрат",
+    "example": {
+      "text": "His new girlfriend is very high-maintenance.",
+      "translation": "Его новая девушка очень капризная и требует много внимания."
+    }
+  },
+  {
+    "id": 191,
+    "expression": "I’m buzzed",
+    "options": ["Слегка пьян", "Очень занят", "Жутко разозлен"],
+    "correct_answer": "Слегка пьян",
+    "example": {
+      "text": "I can't drive right now, I’m buzzed.",
+      "translation": "Я не могу сейчас вести машину, я слегка пьян."
+    }
+  },
+  {
+    "id": 192,
+    "expression": "Tipsy",
+    "options": ["Подшофе; слегка пьяный", "Трезвый как стеклышко", "Очень сонный"],
+    "correct_answer": "Подшофе; слегка пьяный",
+    "example": {
+      "text": "After two glasses of wine, she was already tipsy.",
+      "translation": "После двух бокалов вина она уже была подшофе."
+    }
+  },
+  {
+    "id": 193,
+    "expression": "Nurse a drink",
+    "options": ["Медленно потягивать алкоголь", "Быстро выпить залпом", "Разлить напиток на стол"],
+    "correct_answer": "Медленно потягивать алкоголь",
+    "example": {
+      "text": "He was just nursing a drink at the bar all night.",
+      "translation": "Он просто медленно потягивал алкоголь за баром всю ночь."
+    }
+  },
+  {
+    "id": 194,
+    "expression": "Bend the elbow",
+    "options": ["Выпивать", "Заниматься спортом", "Драться"],
+    "correct_answer": "Выпивать",
+    "example": {
+      "text": "Let's go to the pub and bend the elbow.",
+      "translation": "Пойдем в паб и выпьем."
+    }
+  },
+  {
+    "id": 195,
+    "expression": "Wasted",
+    "options": ["В хлам / пьяный", "Трезвый", "Богатый"],
+    "correct_answer": "В хлам / пьяный",
+    "example": {
+      "text": "He got completely wasted at the party last night.",
+      "translation": "Вчера на вечеринке он напился в хлам."
+    }
+  },
+  {
+    "id": 196,
+    "expression": "Hammered",
+    "options": ["Пьяный в хлам", "Сильно уставший", "Очень злой"],
+    "correct_answer": "Пьяный в хлам",
+    "example": {
+      "text": "They were so hammered they couldn't find a taxi.",
+      "translation": "Они были такие пьяные в хлам, что не могли найти такси."
+    }
+  },
+  {
+    "id": 197,
+    "expression": "Bottoms up!",
+    "options": ["Пей до дна!", "Переверни стакан!", "Осторожно, горячо!"],
+    "correct_answer": "Пей до дна!",
+    "example": {
+      "text": "Here is to our success, bottoms up!",
+      "translation": "За наш успех, пей до дна!"
+    }
+  },
+  {
+    "id": 198,
+    "expression": "Hair of the dog",
+    "options": ["Опохмелиться", "Погладить пса", "Пойти на стрижку"],
+    "correct_answer": "Опохмелиться",
+    "example": {
+      "text": "I need some hair of the dog to cure this hangover.",
+      "translation": "Мне нужно опохмелиться, чтобы вылечить это похмелье."
+    }
+  },
+  {
+    "id": 199,
+    "expression": "On the sauce",
+    "options": ["В запое", "На диете", "Готовить ужин"],
+    "correct_answer": "В запое",
+    "example": {
+      "text": "He hasn't been to work, I think he is back on the sauce.",
+      "translation": "Его не было на работе, думаю, он снова в запое."
+    }
+  },
+  {
+    "id": 200,
+    "expression": "Raise hell",
+    "options": ["Устроить скандал; поднять шум", "Организовать благотворительность", "Пойти спать"],
+    "correct_answer": "Устроить скандал; поднять шум",
+    "example": {
+      "text": "If they cancel my flight, I'm going to raise hell.",
+      "translation": "Если они отменят мой рейс, я устрою скандал."
+    }
+  },
+  {
+    "id": 201,
+    "expression": "All talk, no action",
+    "options": ["На словах он Лев Толстой", "Делает больше, чем говорит", "Молчаливый исполнитель"],
+    "correct_answer": "На словах он Лев Толстой",
+    "example": {
+      "text": "He promised to help us move, but he is all talk, no action.",
+      "translation": "Он обещал помочь нам с переездом, но на словах он Лев Толстой."
+    }
+  },
+  {
+    "id": 202,
+    "expression": "Betray",
+    "options": ["Предавать", "Помогать", "Обещать"],
+    "correct_answer": "Предавать",
+    "example": {
+      "text": "I can't believe you would betray my trust like that.",
+      "translation": "Не могу поверить, что ты мог так предать мое доверие."
+    }
+  },
+  {
+    "id": 203,
+    "expression": "Enchant",
+    "options": ["Очаровывать", "Раздражать", "Пугать"],
+    "correct_answer": "Очаровывать",
+    "example": {
+      "text": "The magic of the old city will completely enchant you.",
+      "translation": "Магия старого города полностью очарует тебя."
+    }
+  },
+  {
+    "id": 204,
+    "expression": "Bloom",
+    "options": ["Цвести", "Увядать", "Замерзать"],
+    "correct_answer": "Цвести",
+    "example": {
+      "text": "The cherry trees bloom beautifully every spring.",
+      "translation": "Вишневые деревья красиво цветут каждую весну."
+    }
+  },
+  {
+    "id": 205,
+    "expression": "Slayed",
+    "options": ["Сразил наповал (в хорошем смысле)", "Жестко опозорился", "Никого не удивил"],
+    "correct_answer": "Сразил наповал (в хорошем смысле)",
+    "example": {
+      "text": "She slayed her performance at the talent show.",
+      "translation": "Она сразила всех наповал своим выступлением на шоу талантов."
+    }
+  },
+  {
+    "id": 206,
+    "expression": "Goat",
+    "literal": "(от G.O.A.T. — Greatest Of All Time)",
+    "options": ["Величайший всех времен", "Упрямый человек", "Полный неудачник"],
+    "correct_answer": "Величайший всех времен",
+    "example": {
+      "text": "Messi is definitely the GOAT of football.",
+      "translation": "Месси определенно величайший игрок всех времен в футболе."
+    }
+  },
+  {
+    "id": 207,
+    "expression": "Shook up",
+    "options": ["Сильно взволнован", "Абсолютно спокоен", "Очень сонный"],
+    "correct_answer": "Сильно взволнован",
+    "example": {
+      "text": "He was pretty shook up after the car accident.",
+      "translation": "Он был сильно взволнован после автомобильной аварии."
+    }
+  },
+  {
+    "id": 208,
+    "expression": "Fire",
+    "options": ["Огонь, пушка", "Полный отстой", "Старая скучная вещь"],
+    "correct_answer": "Огонь, пушка",
+    "example": {
+      "text": "These new sneakers are absolute fire!",
+      "translation": "Эти новые кроссовки — абсолютный огонь!"
+    }
+  },
+  {
+    "id": 209,
+    "expression": "Real one",
+    "options": ["Настоящий, преданный человек", "Лживый лицемер", "Случайный прохожий"],
+    "correct_answer": "Настоящий, преданный человек",
+    "example": {
+      "text": "Thanks for having my back, you are a real one.",
+      "translation": "Спасибо, что прикрыл меня, ты настоящий преданный человек."
+    }
+  },
+  {
+    "id": 210,
+    "expression": "Fake",
+    "options": ["Двуличный, фальшивый человек", "Надежный партнер", "Очень умный специалист"],
+    "correct_answer": "Двуличный, фальшивый человек",
+    "example": {
+      "text": "I stopped talking to him because he is totally fake.",
+      "translation": "Я перестал общаться с ним, потому что он абсолютно двуличный человек."
+    }
+  },
+  {
+    "id": 211,
+    "expression": "Rage quit",
+    "options": ["Психануть и выйти из игры/чата", "Закончить работу вовремя", "Начать спокойный разговор"],
+    "correct_answer": "Психануть и выйти из игры/чата",
+    "example": {
+      "text": "He missed the final shot and did a rage quit.",
+      "translation": "Он промазал решающий выстрел и психанул, выйдя из игры."
+    }
+  },
+  {
+    "id": 212,
+    "expression": "Sweaty",
+    "options": ["Задрот, играющий чересчур серьезно", "Новичок, который ничего не умеет", "Профессиональный комментатор"],
+    "correct_answer": "Задрот, играющий чересчур серьезно",
+    "example": {
+      "text": "We lost the match because the other team was so sweaty.",
+      "translation": "Мы проиграли матч, потому что в другой команде были лютые задроты."
+    }
+  },
+  {
+    "id": 213,
+    "expression": "AFK",
+    "literal": "(от Away From Keyboard)",
+    "options": ["Отошел от клавиатуры / телефона", "Быстро печатаю сообщение", "Активно играю в матче"],
+    "correct_answer": "Отошел от клавиатуры / телефона",
+    "example": {
+      "text": "Hold on, I need to go AFK for a minute.",
+      "translation": "Погоди, мне нужно отойти от клавиатуры на минутку."
+    }
+  },
+  {
+    "id": 214,
+    "expression": "OP",
+    "literal": "(от Overpowered)",
+    "options": ["Слишком сильный, имбалансный", "Очень слабый, бесполезный", "Секретный персонаж"],
+    "correct_answer": "Слишком сильный, имбалансный",
+    "example": {
+      "text": "That new weapon in the game is completely OP.",
+      "translation": "То новое оружие в игре совершенно имбалансное."
+    }
+  },
+  {
+    "id": 215,
+    "expression": "Noob",
+    "literal": "(от Newbie)",
+    "options": ["Новичок, ламер", "Опытный мастер", "Читер, нарушающий правила"],
+    "correct_answer": "Новичок, ламер",
+    "example": {
+      "text": "Don't judge him, he is just a noob at this game.",
+      "translation": "Не суди его строго, он просто новичок в этой игре."
+    }
+  },
+  {
+    "id": 216,
+    "expression": "Tryhard",
+    "options": ["Выкладывающийся на полную (часто ирон.)", "Ленивый человек", "Тот, кто быстро сдается"],
+    "correct_answer": "Выкладывающийся на полную (часто ирон.)",
+    "example": {
+      "text": "He dressed up in a full suit for a casual dinner, what a tryhard.",
+      "translation": "Он надел строгий костюм на обычный ужин, вот же старается выделиться."
+    }
+  },
+  {
+    "id": 217,
+    "expression": "Brick",
+    "options": ["Очень холодная погода", "Летняя жара", "Прочный материал"],
+    "correct_answer": "Очень холодная погода",
+    "example": {
+      "text": "Put on a jacket, it's brick outside.",
+      "translation": "Надень куртку, на улице очень холодно."
+    }
+  },
+  {
+    "id": 218,
+    "expression": "Savage mode",
+    "options": ["Режим беспощадности / жесткости", "Время для отдыха", "Режим строгой экономии"],
+    "correct_answer": "Режим беспощадности / жесткости",
+    "example": {
+      "text": "When the debate started, she went into full savage mode.",
+      "translation": "Когда начались дебаты, она включила полный режим беспощадности."
+    }
+  },
+  {
+    "id": 219,
+    "expression": "Clutch time",
+    "options": ["Решающий, критический момент", "Время обеденного перерыва", "Поздний вечер"],
+    "correct_answer": "Решающий, критический момент",
+    "example": {
+      "text": "We are down by two points, it's clutch time now.",
+      "translation": "Мы проигрываем два очка, сейчас настал решающий момент."
+    }
+  },
+  {
+    "id": 220,
+    "expression": "Clutch",
+    "options": ["Спасти ситуацию", "Всё испортить", "Проигнорировать проблему"],
+    "correct_answer": "Спасти ситуацию",
+    "example": {
+      "text": "Bringing extra umbrellas was a really clutch move.",
+      "translation": "Взять с собой запасные зонты было решением, которое спасло ситуацию."
+    }
+  },
+  {
+    "id": 221,
+    "expression": "We out here",
+    "options": ["Мы на месте", "Мы уходим отсюда", "Нам здесь не рады"],
+    "correct_answer": "Мы на месте",
+    "example": {
+      "text": "Just arrived at the festival, we out here!",
+      "translation": "Только что приехали на фестиваль, мы на месте!"
+    }
+  },
+  {
+    "id": 222,
+    "expression": "Pull up",
+    "options": ["Подъехать, подскочить куда-то", "Уехать далеко", "Отменить встречу"],
+    "correct_answer": "Подъехать, подскочить куда-то",
+    "example": {
+      "text": "Send me the address, I'll pull up in 10 minutes.",
+      "translation": "Скинь мне адрес, я подскочу через 10 минут."
+    }
+  },
+  {
+    "id": 223,
+    "expression": "Cop out",
+    "options": ["Отмазка, уклонение от ответственности", "Честное признание вины", "Полицейский патруль"],
+    "correct_answer": "Отмазка, уклонение от ответственности",
+    "example": {
+      "text": "Saying you were too tired is just a cop out.",
+      "translation": "Сказать, что ты был слишком уставшим, это просто отмазка."
+    }
+  },
+  {
+    "id": 224,
+    "expression": "Low-blow",
+    "options": ["Удар ниже пояса", "Дружеский совет", "Громкий комплимент"],
+    "correct_answer": "Удар ниже пояса",
+    "example": {
+      "text": "Mentioning his ex-wife in the argument was a real low-blow.",
+      "translation": "Упоминание его бывшей жены в споре было настоящим ударом ниже пояса."
+    }
+  },
+  {
+    "id": 225,
+    "expression": "Hit different",
+    "options": ["Восприниматься совсем иначе (круче)", "Быть испорченным и сломанным", "Вызывать полное равнодушие"],
+    "correct_answer": "Восприниматься совсем иначе (круче)",
+    "example": {
+      "text": "Cold water at 3 AM just hits different.",
+      "translation": "Холодная вода в 3 часа ночи воспринимается совершенно иначе (круче)."
+    }
+  },
+  {
+    "id": 226,
+    "expression": "Big mad",
+    "options": ["Сильно разозленный", "Очень грустный", "Безумно влюбленный"],
+    "correct_answer": "Сильно разозленный",
+    "example": {
+      "text": "She found out he lied and now she is big mad.",
+      "translation": "Она узнала, что он солгал, и теперь она сильно разозлена."
+    }
+  },
+  {
+    "id": 227,
+    "expression": "Shook down",
+    "options": ["Обчистили, растрясли на деньги", "Круто встретили, обняли", "Успокоили после паники"],
+    "correct_answer": "Обчистили, растрясли на деньги",
+    "example": {
+      "text": "The scammers shook him down for a thousand dollars.",
+      "translation": "Мошенники обчистили его на тысячу долларов."
+    }
+  },
+  {
+    "id": 228,
+    "expression": "Throw shade",
+    "options": ["Тонко оскорблять, бросать тень", "Защищать от солнца", "Говорить чистую правду в лицо"],
+    "correct_answer": "Тонко оскорблять, бросать тень",
+    "example": {
+      "text": "Did you notice how she was throwing shade at my outfit?",
+      "translation": "Ты заметил, как она тонко оскорбляла мой наряд?"
+    }
+  },
+  {
+    "id": 229,
+    "expression": "Tea party",
+    "options": ["Обсуждение сплетен в компании", "Официальное бизнес-совещание", "Одинокий скучный вечер"],
+    "correct_answer": "Обсуждение сплетен в компании",
+    "example": {
+      "text": "We had a whole tea party after the office meeting.",
+      "translation": "После совещания в офисе мы устроили целое обсуждение сплетен."
+    }
+  },
+  {
+    "id": 230,
+    "expression": "Recipe for disaster",
+    "options": ["Прямой путь к катастрофе", "Отличный план для стартапа", "Полезный кулинарный совет"],
+    "correct_answer": "Прямой путь к катастрофе",
+    "example": {
+      "text": "Leaving teenagers home alone is a recipe for disaster.",
+      "translation": "Оставить подростков дома одних — это прямой путь к катастрофе."
+    }
+  },
+  {
+    "id": 231,
+    "expression": "Facepalm",
+    "options": ["Рука-лицо", "Удар по лицу", "Маска для кожи"],
+    "correct_answer": "Рука-лицо",
+    "example": {
+      "text": "His stupid question made everyone in the room facepalm.",
+      "translation": "Его глупый вопрос заставил всех в комнате сделать рука-лицо."
+    }
+  },
+  {
+    "id": 232,
+    "expression": "Ghost town",
+    "options": ["Вымершее место (где никого нет)", "Парк аттракционов", "Популярный туристический центр"],
+    "correct_answer": "Вымершее место (где никого нет)",
+    "example": {
+      "text": "The mall was completely empty, a total ghost town.",
+      "translation": "Торговый центр был совершенно пустым, прямо вымершее место."
+    }
+  },
+  {
+    "id": 233,
+    "expression": "Safe bet",
+    "options": ["Беспроигрышный вариант", "Опасная авантюра", "Денежный долг"],
+    "correct_answer": "Беспроигрышный вариант",
+    "example": {
+      "text": "Ordering pizza for a party is always a safe bet.",
+      "translation": "Заказать пиццу на вечеринку — это всегда беспроигрышный вариант."
+    }
+  },
+  {
+    "id": 234,
+    "expression": "Game changer",
+    "options": ["То, что полностью меняет правила игры", "Сломанная компьютерная приставка", "Человек, который часто врет"],
+    "correct_answer": "То, что полностью меняет правила игры",
+    "example": {
+      "text": "This new software update is a real game changer.",
+      "translation": "Это новое обновление программы полностью меняет правила игры."
+    }
+  },
+  {
+    "id": 235,
+    "expression": "Micro-influencer",
+    "options": ["Блогер с небольшой, но преданной аудиторией", "Известный на весь мир актер", "Разработчик мелких микросхем"],
+    "correct_answer": "Блогер с небольшой, но преданной аудиторией",
+    "example": {
+      "text": "Brands love working with her because she is a great micro-influencer.",
+      "translation": "Бренды любят работать с ней, потому что она отличный блогер с небольшой лояльной аудиторией."
+    }
+  },
+  {
+    "id": 236,
+    "expression": "Soft launch",
+    "options": ["Намек на новые отношения без показа лица партнера", "Официальная пышная свадьба", "Полное удаление аккаунта из сети"],
+    "correct_answer": "Намек на новые отношения без показа лица партнера",
+    "example": {
+      "text": "She posted a picture of two coffee cups, it's a soft launch.",
+      "translation": "Она выложила фото двух чашек кофе, это намек на новые отношения."
+    }
+  },
+  {
+    "id": 237,
+    "expression": "Hard launch",
+    "options": ["Официальное объявление об отношениях в соцсетях", "Тайный роман, о котором никто не знает", "Тяжелое расставание с криками"],
+    "correct_answer": "Официальное объявление об отношениях в соцсетях",
+    "example": {
+      "text": "They finally did a hard launch with a kissing photo on Instagram.",
+      "translation": "Они наконец-то сделали официальное объявление об отношениях, выложив фото с поцелуем в Инстаграм."
+    }
+  },
+  {
+    "id": 238,
+    "expression": "Hard pass",
+    "options": ["Категорический отказ", "Успешная сдача сложного экзамена", "Бесплатный пропуск на тусовку"],
+    "correct_answer": "Категорический отказ",
+    "example": {
+      "text": "Sushi for breakfast? That's a hard pass for me.",
+      "translation": "Суши на завтрак? Для меня это категорический отказ."
+    }
+  },
+  {
+    "id": 239,
+    "expression": "Fast track",
+    "options": ["Ускоренный путь", "Опасный поворот", "Длинная пешеходная зона"],
+    "correct_answer": "Ускоренный путь",
+    "example": {
+      "text": "He is on the fast track to becoming a company director.",
+      "translation": "Он на ускоренном пути к тому, чтобы стать директором компании."
+    }
+  },
+  {
+    "id": 240,
+    "expression": "Underdog",
+    "options": ["Аутсайдер, на которого никто не ставит", "Фаворит соревнований", "Породистая дорогая собака"],
+    "correct_answer": "Аутсайдер, на которого никто не ставит",
+    "example": {
+      "text": "Everyone loves a story where the underdog wins.",
+      "translation": "Все любят истории, где побеждает аутсайдер, на которого никто не ставил."
+    }
+  },
+  {
+    "id": 241,
+    "expression": "Curveball",
+    "options": ["Неожиданный поворот событий, сюрприз", "Спортивный инвентарь", "Заранее продуманный идеальный план"],
+    "correct_answer": "Неожиданный поворот событий, сюрприз",
+    "example": {
+      "text": "The teacher threw us a curveball with a pop quiz.",
+      "translation": "Учитель устроил нам неожиданный сюрприз в виде внезапного теста."
+    }
+  },
+  {
+    "id": 242,
+    "expression": "Backburner",
+    "options": ["На задний план (отложить дело/отношения)", "Выйти в лидеры гонки", "Сжечь все мосты и документы"],
+    "correct_answer": "На задний план (отложить дело/отношения)",
+    "example": {
+      "text": "I had to put my hobbies on the backburner while studying.",
+      "translation": "Мне пришлось отложить свои хобби на задний план на время учебы."
+    }
+  },
+  {
+    "id": 243,
+    "expression": "Keep it 100",
+    "options": ["Быть честным на все 100%", "Дожить до ста лет", "Сохранить крупную сумму денег"],
+    "correct_answer": "Быть честным на все 100%",
+    "example": {
+      "text": "I respect him because he always keeps it 100 with me.",
+      "translation": "Я уважаю его, потому что он всегда честен со мной на все 100%."
+    }
+  },
+  {
+    "id": 244,
+    "expression": "Freebie",
+    "options": ["Халява", "Тяжелый монотонный труд", "Ограниченное предложение"],
+    "correct_answer": "Халява",
+    "example": {
+      "text": "They gave away free T-shirts at the concert, I love a good freebie.",
+      "translation": "На концерте раздавали бесплатные футболки, я обожаю хорошую халяву."
+    }
+  },
+  {
+    "id": 245,
+    "expression": "Chillax",
+    "literal": "(от chill + relax)",
+    "options": ["Расслабиться по полной", "Очень сильно замерзнуть", "Заниматься тяжелым спортом"],
+    "correct_answer": "Расслабиться по полной",
+    "example": {
+      "text": "Dude, just chillax, everything is going to be fine.",
+      "translation": "Чувак, просто расслабься по полной, всё будет хорошо."
+    }
+  },
+  {
+    "id": 246,
+    "expression": "Workaholic",
+    "options": ["Трудоголик", "Бездельник", "Начальник отдела"],
+    "correct_answer": "Трудоголик",
+    "example": {
+      "text": "My boss is a complete workaholic, he emails me on Sundays.",
+      "translation": "Мой босс — полный трудоголик, он пишет мне на почту по воскресеньям."
+    }
+  },
+  {
+    "id": 247,
+    "expression": "Drama queen",
+    "options": ["Истеричка, паникер", "Спокойный уравновешенный человек", "Профессиональная актриса театра"],
+    "correct_answer": "Истеричка, паникер",
+    "example": {
+      "text": "Stop being such a drama queen, it's just a small scratch.",
+      "translation": "Перестань быть такой истеричкой, это всего лишь маленькая царапина."
+    }
+  },
+  {
+    "id": 248,
+    "expression": "Gold digger",
+    "options": ["Охотница за деньгами", "Работница шахты", "Щедрая богатая девушка"],
+    "correct_answer": "Охотница за деньгами",
+    "example": {
+      "text": "She doesn't love him, everyone knows she is a gold digger.",
+      "translation": "Она его не любит, все знают, что она охотница за деньгами."
+    }
+  },
+  {
+    "id": 249,
+    "expression": "Copycat",
+    "options": ["Повторюшка, подражатель", "Домашний питомец", "Уникальный создатель контента"],
+    "correct_answer": "Повторюшка, подражатель",
+    "example": {
+      "text": "He bought the exact same jacket as me, what a copycat.",
+      "translation": "Он купил точно такую же куртку, как у меня, вот повторюшка."
+    }
+  },
+  {
+    "id": 250,
+    "expression": "Mind-blowing",
+    "options": ["Сносящий крышу, поразительный", "Ужасно скучный и затянутый", "Вызывающий сильную головную боль"],
+    "correct_answer": "Сносящий крышу, поразительный",
+    "example": {
+      "text": "The plot twist at the end of the movie was completely mind-blowing.",
+      "translation": "Поворот сюжета в конце фильма был совершенно поразительным."
+    }
+  }
+]
+    

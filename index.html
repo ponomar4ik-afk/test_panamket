@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    
+    <!-- ФИКС МЕРЦАНИЯ: Жесткая заливка системного фона -->
+    <meta name="theme-color" content="#030B1D">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="background-color" content="#030B1D">
+
+    <title>Panamket TMA</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.eu.amplitude.com/script/1b7d6e320d00d7bda0f43a207e3bc742.js"></script>
+    <script>window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));window.amplitude.init('1b7d6e320d00d7bda0f43a207e3bc742', {"fetchRemoteConfig":true,"serverZone":"EU","autocapture":{"attribution":{"trackingMethod":["userProperty","eventProperty"]},"fileDownloads":true,"formInteractions":true,"pageViews":true,"sessions":true,"elementInteractions":true,"networkTracking":true,"webVitals":true,"frustrationInteractions":{"thrashedCursor":true,"errorClicks":true,"deadClicks":true,"rageClicks":true}}});</script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <style>
+        .streak-popup-content { display: flex; flex-direction: column; align-items: center; }
+        .combo-text { margin-top: 6px !important; }
+    </style>
+</head>
+<body>
+    <div class="tma-bg-shield"></div>
+
+    <div id="streak-popup" class="streak-popup-overlay">
+        <div class="streak-popup-content">
+            <img id="streak-img" src="" alt="Streak Cat">
+        </div>
+    </div>
+
+    <div id="screen-start" class="screen active">
+        <div class="main-img"></div>
+        <div class="panamket-title">Panamket</div>
+        <div class="panamket-subtitle">Учись понимать живой английский, <br> а не учебники.</div>
+    </div>
+
+    <div id="screen-lang" class="screen">
+        <div class="global-header">
+            <div class="lang-title">Какой язык учить будем?</div>
+            <div class="global-divider"></div>
+        </div>
+        <div class="lang-cards-container">
+            <div class="lang-card" id="btn-eng">
+                <div class="lang-img en"></div>
+                <div class="lang-label">
+                    <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="18" fill="#00247D"/>
+                        <path d="M-5 -3L35 21M-5 21L35 -3" stroke="#FFFFFF" stroke-width="3.6"/>
+                        <path d="M-5 -3L35 21" stroke="#CF142B" stroke-width="1.2" transform="translate(0, 0.7)"/>
+                        <path d="M-5 21L35 -3" stroke="#CF142B" stroke-width="1.2" transform="translate(0, -0.7)"/>
+                        <path d="M15 0V18M0 9H30" stroke="#FFFFFF" stroke-width="6"/>
+                        <path d="M15 0V18M0 9H30" stroke="#CF142B" stroke-width="3.6"/>
+                    </svg> EN
+                </div>
+            </div>
+            <div class="lang-card" id="btn-pln">
+                <div class="lang-img pl"></div>
+                <div class="lang-label">
+                    <svg width="30" height="18" viewBox="0 0 30 18" fill="none">
+                        <rect width="30" height="18" fill="white"/>
+                        <rect y="9" width="30" height="9" fill="#DC143C"/>
+                    </svg> PL
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-lessons" class="screen">
+        <div class="s3-back-btn" id="s3-btn-back">
+            <svg width="30" height="24" viewBox="0 0 30 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.33333 1L1 8.33333L8.33333 15.6667M1 8.33333H21.1667C23.1116 8.33333 24.9768 9.10595 26.3521 10.4812C27.7274 11.8565 28.5 13.7217 28.5 15.6667C28.5 17.6116 27.7274 19.4768 26.3521 20.8521C24.9768 22.2274 23.1116 23 21.1667 23H19.3333"/></svg>
+        </div>
+        
+        <div class="global-header">
+            <div class="s3-title">Что будем изучать?</div>
+            <div class="global-divider"></div>
+        </div>
+        
+        <div class="s3-cards-container">
+            <div id="lessons-review-box" class="s3-card" style="position: relative; height: 90px; background: linear-gradient(180deg, #B52B2B 0%, #8A1E1E 100%); display: none; margin-bottom: 0px; overflow: hidden; border-radius: 16px;">
+                <div style="display: flex; align-items: center; justify-content: flex-end; width: 100%; height: 100%; padding-right: 20px; box-sizing: border-box;">
+                    <img src="teacher.webp" alt="Teacher Cat" style="position: absolute; left: 10px; bottom: -5px; height: 95px; object-fit: contain; z-index: 1;">
+                    <div style="display: flex; flex-direction: column; align-items: flex-end; z-index: 2;">
+                        <div style="font-size: 22px; font-weight: 600; color: #FFFFFF; line-height: 1.2;">Исправь ошибки</div>
+                        <div style="font-size: 26px; font-weight: 800; color: #FFFFFF; line-height: 1.2;">(<span id="lessons-errors-count">10</span>)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s3-card s3-card-slang" id="s3-btn-slang">
+                <div class="s3-card-title">SLANG</div>
+                <div class="s3-img s3-img-slang"></div>
+                <div class="s3-stats">
+                    <div class="s3-stat-text">раунд 1</div>
+                    <div class="s3-progress-bg"><div class="s3-progress-fill" style="width: 0%;"></div></div>
+                </div>
+            </div>
+
+            <div id="s3-btn-design" class="s3-card s3-card-design">
+                <div class="s3-card-title">DESIGN</div>
+                <div class="s3-img s3-img-design"></div>
+                <div class="s3-stats">
+                    <div class="s3-stat-text">Глава 1</div>
+                    <div class="s3-progress-bg"><div class="s3-progress-fill" style="width: 0%;"></div></div>
+                </div>
+            </div>
+
+            <div class="s3-card s3-card-it s3-disabled">
+                <div class="s3-card-title">IT</div>
+                <div class="s3-img s3-img-it"></div>
+                <div class="s3-stats">
+                    <div class="s3-stat-text">раунд 0</div>
+                    <div class="s3-progress-bg"><div class="s3-progress-fill" style="width: 0%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-quiz" class="screen">
+        <div class="s4-top-bar">
+            <div class="s4-back-btn" id="s4-btn-back">
+                <svg width="30" height="24" viewBox="0 0 30 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.33333 1L1 8.33333L8.33333 15.6667M1 8.33333H21.1667C23.1116 8.33333 24.9768 9.10595 26.3521 10.4812C27.7274 11.8565 28.5 13.7217 28.5 15.6667C28.5 17.6116 27.7274 19.4768 26.3521 20.8521C24.9768 22.2274 23.1116 23 21.1667 23H19.3333"/></svg>
+            </div>
+            <div class="s4-progress-container"><div class="s4-progress-track"><div class="s4-progress-fill" id="s4-progress-bar"></div></div></div>
+            <div class="s4-progress-text" id="s4-progress-text">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 1 0 0-8c-2 0-4 1.33-6 4Z"/>
+                </svg>
+            </div>
+        </div>
+        <div class="global-header">
+            <div class="s4-title">Выбери правильный перевод.</div>
+            <div class="global-divider"></div>
+        </div>
+        
+        <div class="content-scroll-container">
+            <div class="s4-question-card">
+                <div class="s4-card-inner" id="s4-card-inner">
+                    <div class="s4-card-front">
+                        <div class="s4-word" id="s4-word-en">Word</div>
+                        <div class="s4-transcription" id="s4-word-ru">(transcription)</div>
+                        
+                        <button class="speaker-audio-btn s4-hint-btn" id="s4-btn-hint">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7F848D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </button>
+                        
+                        <button class="speaker-audio-btn s4-speaker" id="s4-btn-speak">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M11 5L6 9H2v6h4l5 4V5z" stroke="#FFD24D"/>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07" stroke="rgba(255, 255, 255, 0.5)"/>
+                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14" stroke="rgba(255, 255, 255, 0.5)"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="s4-card-back">
+                        <div class="s4-back-scroll-area">
+                            <div class="s4-back-word" id="s4-back-word">Word</div>
+                            <div class="s4-back-trans" id="s4-back-trans">Перевод</div>
+                            <div class="s4-back-ex-box">
+                                <div class="s4-back-ex-text" id="s4-back-ex-text">Example context</div>
+                                <div class="s4-back-ex-trans" id="s4-back-ex-trans">Example translation</div>
+                            </div>
+                        </div>
+
+                        <button class="s4-back-close" id="s4-btn-close-hint">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </button>
+                        <div class="s4-back-warning">*при использовании подсказки, панамки не начисляются</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s4-options-container" id="s4-options-list"></div>
+        </div>
+        
+        <div class="tabbar-global">
+            <div class="tab-glass-indicator"></div>
+            <div class="tab-item" id="s4-tab-book">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <div class="tab-item active">
+                <svg width="18" height="28" viewBox="0 0 23 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8.45161 20.6313C8.46736 20.5022 8.45566 20.3711 8.41726 20.2468C8.37886 20.1225 8.31464 20.0077 8.2288 19.9099C8.14295 19.8121 8.03742 19.7335 7.91912 19.6794C7.80081 19.6252 7.67239 19.5966 7.54228 19.5955H1.91761C1.76551 19.5939 1.61615 19.5548 1.48269 19.4819C1.34922 19.4089 1.23575 19.3042 1.15225 19.1771C1.06876 19.05 1.01781 18.9042 1.00389 18.7528C0.989974 18.6013 1.01352 18.4487 1.07244 18.3085L8.23528 1.57383C8.30319 1.4054 8.41961 1.26094 8.56975 1.15878C8.7199 1.05661 8.89701 1.00135 9.07861 1H17.3616C18.0088 1 18.4506 1.66 18.2141 2.27233L14.1349 12.7443C14.0789 12.8843 14.0579 13.0357 14.0736 13.1856C14.0892 13.3355 14.1412 13.4794 14.225 13.6047C14.3088 13.73 14.4218 13.833 14.5543 13.9047C14.6869 13.9765 14.8349 14.015 14.9856 14.0167H20.2509C21.0063 14.0167 21.4371 14.8948 20.9806 15.5072L7.28561 33.9248C7.17194 34.077 6.93544 33.9798 6.95561 33.7928L8.45161 20.6313Z"/></svg>
+            </div>
+            <div class="tab-item">
+                <div class="tab-avatar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-sentences" class="screen">
+        <div class="s5-top-bar">
+            <div class="s4-back-btn" id="s5-btn-back">
+                <svg width="30" height="24" viewBox="0 0 30 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.33333 1L1 8.33333L8.33333 15.6667M1 8.33333H21.1667C23.1116 8.33333 24.9768 9.10595 26.3521 10.4812C27.7274 11.8565 28.5 13.7217 28.5 15.6667C28.5 17.6116 27.7274 19.4768 26.3521 20.8521C24.9768 22.2274 23.1116 23 21.1667 23H19.3333"/></svg>
+            </div>
+            <div class="s4-progress-container"><div class="s4-progress-track"><div class="s4-progress-fill" style="width: 30%;"></div></div></div>
+            <div class="s4-progress-text s5-progress-text">3/10</div>
+        </div>
+        <div class="global-header">
+            <div class="s4-title">Переведи и составь предложение.</div>
+            <div class="global-divider"></div>
+        </div>
+        
+        <div class="content-scroll-container">
+            <div class="s5-task-text">Эта дизайн-система — просто пушка, реально, это вообще совсем другой уровень</div>
+            
+            <div class="s5-content-wrapper">
+                <div class="s5-drop-zone-container">
+                    <div class="s5-dz-lines"><div class="s5-dz-line"></div><div class="s5-dz-line"></div><div class="s5-dz-line"></div></div>
+                    <div class="s5-drop-zone" id="s5-drop-zone"></div>
+                </div>
+                <div class="s5-word-bank" id="s5-word-bank"></div>
+            </div>
+
+            <div class="s5-center-stack">
+                <div class="s5-feedback" id="s5-feedback">
+                    <div class="s5-cat" id="s5-cat"></div>
+                </div>
+                <div class="s5-error-message" id="s5-error-box"></div>
+            </div>
+
+            <button class="s5-submit-btn" id="s5-btn-submit">Отправить</button>
+        </div>
+
+        <div class="tabbar-global">
+            <div class="tab-glass-indicator"></div>
+            <div class="tab-item active">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <div class="tab-item" id="s5-tab-lightning">
+                <svg width="18" height="28" viewBox="0 0 23 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8.45161 20.6313C8.46736 20.5022 8.45566 20.3711 8.41726 20.2468C8.37886 20.1225 8.31464 20.0077 8.2288 19.9099C8.14295 19.8121 8.03742 19.7335 7.91912 19.6794C7.80081 19.6252 7.67239 19.5966 7.54228 19.5955H1.91761C1.76551 19.5939 1.61615 19.5548 1.48269 19.4819C1.34922 19.4089 1.23575 19.3042 1.15225 19.1771C1.06876 19.05 1.01781 18.9042 1.00389 18.7528C0.989974 18.6013 1.01352 18.4487 1.07244 18.3085L8.23528 1.57383C8.30319 1.4054 8.41961 1.26094 8.56975 1.15878C8.7199 1.05661 8.89701 1.00135 9.07861 1H17.3616C18.0088 1 18.4506 1.66 18.2141 2.27233L14.1349 12.7443C14.0789 12.8843 14.0579 13.0357 14.0736 13.1856C14.0892 13.3355 14.1412 13.4794 14.225 13.6047C14.3088 13.73 14.4218 13.833 14.5543 13.9047C14.6869 13.9765 14.8349 14.015 14.9856 14.0167H20.2509C21.0063 14.0167 21.4371 14.8948 20.9806 15.5072L7.28561 33.9248C7.17194 34.077 6.93544 33.9798 6.95561 33.7928L8.45161 20.6313Z"/></svg>
+            </div>
+            <div class="tab-item active">
+                <div class="tab-avatar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-profile" class="screen">
+        <div class="profile-scroll-container">
+            <div class="profile-header-card">
+                <img src="profile.webp" alt="Avatar" class="profile-avatar" id="tg-avatar">
+                <div class="profile-info">
+                    <div class="profile-name" id="tg-name">Andrei Panama</div>
+                    <div class="profile-handle" id="tg-handle">@panama_andrei</div>
+                    
+                    <div class="profile-theme-row" id="btn-change-lang">
+                        <div class="profile-theme-label">язык: <span class="theme-highlight" id="profile-lang-label">EN</span></div>
+                        <div class="profile-change-theme">сменить язык</div>
+                    </div>
+
+                    <div class="profile-theme-row" id="btn-change-theme">
+                        <div class="profile-theme-label">тема: <span class="theme-highlight" id="profile-theme-label">SLANG</span></div>
+                        <div class="profile-change-theme">сменить тему</div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Обновленный компактный горизонтальный блок "Твой прогресс" -->
+            <div class="profile-stats-box learned-words-block">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    
+                    <!-- Левая часть: Тексты -->
+                    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                        <div class="profile-stats-title" style="margin-bottom: 2px;">Твой прогресс</div>
+                        <div style="color: #7F848D; font-size: 14px; font-weight: 300;">собрано панамок</div>
+                    </div>
+                    
+                    <!-- Правая часть: Цифра и иконка -->
+                    <div style="display: flex; align-items: center; gap: 8px; color: #FFD24D; font-weight: 700; font-size: 36px; line-height: 1;">
+                        <span id="profile-total-xp">0</span>
+                        <svg class="panamka-icon" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top: -2px;">
+                            <path d="M4.85115 10.9999C4.85115 13.0212 33.149 13.0212 33.149 10.9999L37.1916 17.468C37.1916 19.8935 0.808594 19.8935 0.808594 17.468L4.85115 10.9999Z" fill="#FEBA16"/>
+                            <path d="M8.08512 1.53164C8.08512 2.74441 29.9149 2.74441 29.9149 1.53164L33.149 10.9999C33.149 13.0212 4.85115 13.0212 4.85115 10.9999L8.08512 1.53164Z" fill="#FFCD56"/>
+                            <path d="M8.08512 1.53164C8.08512 0.318879 29.9149 0.318879 29.9149 1.53164C29.9149 2.74441 8.08512 2.74441 8.08512 1.53164Z" fill="#FEBA16"/>
+                            <path d="M4.85115 10.9999C4.85115 13.0212 33.149 13.0212 33.149 10.9999M4.85115 10.9999L0.808594 17.468C0.808594 19.8935 37.1916 19.8935 37.1916 17.468L33.149 10.9999M4.85115 10.9999L8.08512 1.53164M33.149 10.9999L29.9149 1.53164M8.08512 1.53164C8.08512 2.74441 29.9149 2.74441 29.9149 1.53164M8.08512 1.53164C8.08512 0.318879 29.9149 0.318879 29.9149 1.53164" stroke="#EBA806" stroke-width="0.808511" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="profile-stats-box">
+                <div class="stats-header-container">
+                    <div class="profile-stats-title">Статистика</div>
+                    <div id="btn-reset-progress" class="reset-progress-text">Сбросить</div>
+                </div> 
+                <div class="profile-stats-divider"></div>
+                <div class="profile-stats-row">
+                    <div class="profile-stat-item">
+                        <span class="profile-stat-value" id="process-words-count">0</span>
+                        <span class="profile-stat-label">в процессе</span>
+                    </div>
+                    <div class="profile-stat-item">
+                        <span class="profile-stat-value" id="phrases-count">0</span>
+                        <span class="profile-stat-label">собрано фраз</span>
+                    </div>
+                </div>
+            </div>
+
+            <button id="profile-btn-loot" class="profile-action-btn profile-btn-green">
+                Проверить стату
+            </button>
+            <button id="profile-btn-review" class="profile-action-btn profile-btn-red" style="display: none;">
+                Работа над ошибками (<span id="profile-errors-count">0</span>)
+            </button>
+            
+            <div class="profile-about-box">
+                <div class="profile-about-title" style="margin-top: 10px;">Связь</div>
+                <a href="https://t.me/panama_andrei" target="_blank" class="profile-action-btn" style="margin-bottom: 8px; text-decoration: none; background: linear-gradient(120.42deg, #1242DB 13.39%, #2F1396 48.07%, #221062 84.1%); border: 1px solid #6136FF; color: #FFFFFF;">Написать разработчику</a>
+                <a href="https://forms.gle/your_form_link" target="_blank" class="profile-action-btn" style="background: #181C26; border: 1px solid #232936; color: #FFFFFF; text-decoration: none; margin-bottom: 24px;">Оставить отзыв</a>
+
+                <div class="profile-about-title">О приложении</div>
+                <div class="profile-privacy-box">
+                    <span class="profile-privacy-link" id="btn-privacy">Правила и политика конфиденциальности</span>
+                </div>
+                <div class="profile-version">Версия Panamket 1.2 <br> 2026</div>
+            </div>
+        </div>
+
+        <div class="tabbar-global">
+            <div class="tab-glass-indicator"></div>
+            <div class="tab-item" id="prof-tab-book">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <div class="tab-item" id="prof-tab-lightning">
+                <svg width="18" height="28" viewBox="0 0 23 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8.45161 20.6313C8.46736 20.5022 8.45566 20.3711 8.41726 20.2468C8.37886 20.1225 8.31464 20.0077 8.2288 19.9099C8.14295 19.8121 8.03742 19.7335 7.91912 19.6794C7.80081 19.6252 7.67239 19.5966 7.54228 19.5955H1.91761C1.76551 19.5939 1.61615 19.5548 1.48269 19.4819C1.34922 19.4089 1.23575 19.3042 1.15225 19.1771C1.06876 19.05 1.01781 18.9042 1.00389 18.7528C0.989974 18.6013 1.01352 18.4487 1.07244 18.3085L8.23528 1.57383C8.30319 1.4054 8.41961 1.26094 8.56975 1.15878C8.7199 1.05661 8.89701 1.00135 9.07861 1H17.3616C18.0088 1 18.4506 1.66 18.2141 2.27233L14.1349 12.7443C14.0789 12.8843 14.0579 13.0357 14.0736 13.1856C14.0892 13.3355 14.1412 13.4794 14.225 13.6047C14.3088 13.73 14.4218 13.833 14.5543 13.9047C14.6869 13.9765 14.8349 14.015 14.9856 14.0167H20.2509C21.0063 14.0167 21.4371 14.8948 20.9806 15.5072L7.28561 33.9248C7.17194 34.077 6.93544 33.9798 6.95561 33.7928L8.45161 20.6313Z"/></svg>
+            </div>
+            <div class="tab-item active">
+                <div class="tab-avatar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-privacy" class="screen" style="background: #030B1D;">
+        <div style="position: sticky; top: 0; display: flex; align-items: center; padding: 20px 16px; background: #030B1D; border-bottom: 1px solid #181C26; z-index: 10;">
+            <button id="privacy-btn-back" style="background: transparent; border: none; color: #7F848D; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0;">
+                <svg width="30" height="24" viewBox="0 0 30 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.33333 1L1 8.33333L8.33333 15.6667M1 8.33333H21.1667C23.1116 8.33333 24.9768 9.10595 26.3521 10.4812C27.7274 11.8565 28.5 13.7217 28.5 15.6667C28.5 17.6116 27.7274 19.4768 26.3521 20.8521C24.9768 22.2274 23.1116 23 21.1667 23H19.3333"/></svg>
+            </button>
+            <h1 style="font-size: 20px; font-weight: 600; color: #FFFFFF; margin: 0 0 0 16px; font-family: sans-serif;">Политика</h1>
+        </div>
+
+        <div id="policy-scroll-content" style="padding: 16px 16px 100px 16px; color: #7F848D; font-size: 14px; line-height: 1.5; font-family: sans-serif;">
+            <p style="margin-bottom: 16px;">Настоящий документ содержит Правила использования и Политику конфиденциальности Telegram Mini App «Panamket» (далее — «приложение»).</p>
+            
+            <h3 style="color: #FFFFFF; font-size: 16px; margin-bottom: 8px;">1. Какие данные мы собираем</h3>
+            <p style="margin-bottom: 16px;">Мы минимизируем сбор данных. Приложение получает доступ только к базовой публичной информации через Telegram API: ваш уникальный Telegram ID, публичное имя (First Name) и ссылку на аватар. Мы <strong>не собираем</strong> номера телефонов, пароли или платежные реквизиты.</p>
+            
+            <h3 style="color: #FFFFFF; font-size: 16px; margin-bottom: 8px;">2. Использование локального хранилища</h3>
+            <p style="margin-bottom: 16px;">Ваш прогресс обучения (выученные слова, собранные фразы и текущий уровень) сохраняется локально на вашем устройстве (в LocalStorage). Если вы очистите кэш Telegram, ваш прогресс может быть безвозвратно сброшен.</p>
+            
+            <h3 style="color: #FFFFFF; font-size: 16px; margin-bottom: 8px;">3. Аналитика и сторонние сервисы</h3>
+            <p style="margin-bottom: 16px;">Для улучшения качества приложения мы используем обезличенную продуктовую аналитику (Amplitude). Мы отслеживаем статистику прохождения уровней и клики по разделам. Эти данные полностью анонимны и используются исключительно для поиска ошибок и улучшения пользовательского опыта.</p>
+            
+            <h3 style="color: #FFFFFF; font-size: 16px; margin-bottom: 8px;">4. Передача данных третьим лицам</h3>
+            <p style="margin-bottom: 16px;">Мы строго соблюдаем конфиденциальность и <strong>не продаем</strong> ваши данные третьим лицам. Доступ к обезличенной статистике в аналитических системах имеют исключительно разработчики приложения.</p>
+            
+            <h3 style="color: #FFFFFF; font-size: 16px; margin-bottom: 8px;">5. Удаление данных</h3>
+            <p style="margin-bottom: 16px;">Вы можете в любой момент удалить приложение из списка чатов Telegram и очистить кэш мессенджера. Это приведёт к полному удалению вашего прогресса и локальных данных с устройства.</p>
+            
+            <h3 style="color: #FFFFFF; font-size: 16px; margin-bottom: 8px;">6. Изменения в Политике</h3>
+            <p style="margin-bottom: 16px;">Мы оставляем за собой право вносить изменения в настоящий документ. Актуальная версия всегда доступна на этом экране в профиле пользователя.</p>
+            
+            <h3 style="color: #FFFFFF; font-size: 16px; margin-bottom: 8px;">7. Условия использования (Правила)</h3>
+            <p style="margin-bottom: 16px;">Приложение предоставляется «как есть» (as is). Все материалы, обучающие тексты, дизайн-макеты, иллюстрации и контент приложения являются интеллектуальной собственностью команды Panamket. Пользователь обязуется не использовать данный контент и дизайн в коммерческих целях, не копировать и не перепродавать его без явного письменного разрешения.</p>
+        </div>
+    </div>
+
+    <div id="screen-summary" class="screen">
+        <div class="summary-container" style="padding: 24px; text-align: center; margin-top: 40px; padding-bottom: 100px;">
+            <div class="summary-icon" style="font-size: 48px; margin-bottom: 16px;">Congrats!</div>
+            <h2 id="summary-title" style="font-size: 24px; font-weight: 700; color: #FFFFFF; margin-bottom: 24px; font-family: sans-serif;">Глава завершена!</h2>
+            
+            <div style="background: #181C26; border-radius: 16px; padding: 20px; margin-bottom: 32px; border: 1px solid #232936; text-align: left;">
+                <div style="display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 20px; font-weight: 700; color: #FFD214; margin-bottom: 16px;">
+                    Собрано: <span id="summary-total-xp">56</span>
+                    <svg class="panamka-icon" width="38" height="20" viewBox="0 0 38 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top: -2px; margin-left: 2px;">
+                        <path d="M4.85115 10.9999C4.85115 13.0212 33.149 13.0212 33.149 10.9999L37.1916 17.468C37.1916 19.8935 0.808594 19.8935 0.808594 17.468L4.85115 10.9999Z" fill="#FEBA16"/>
+                        <path d="M8.08512 1.53164C8.08512 2.74441 29.9149 2.74441 29.9149 1.53164L33.149 10.9999C33.149 13.0212 4.85115 13.0212 4.85115 10.9999L8.08512 1.53164Z" fill="#FFCD56"/>
+                        <path d="M8.08512 1.53164C8.08512 0.318879 29.9149 0.318879 29.9149 1.53164C29.9149 2.74441 8.08512 2.74441 8.08512 1.53164Z" fill="#FEBA16"/>
+                        <path d="M4.85115 10.9999C4.85115 13.0212 33.149 13.0212 33.149 10.9999M4.85115 10.9999L0.808594 17.468C0.808594 19.8935 37.1916 19.8935 37.1916 17.468L33.149 10.9999M4.85115 10.9999L8.08512 1.53164M33.149 10.9999L29.9149 1.53164M8.08512 1.53164C8.08512 2.74441 29.9149 2.74441 29.9149 1.53164M8.08512 1.53164C8.08512 0.318879 29.9149 0.318879 29.9149 1.53164" stroke="#EBA806" stroke-width="0.808511" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div style="font-size: 14px; color: #E0E0E0; display: flex; justify-content: space-between; margin-bottom: 8px;">
+                    <span style="color: #7F848D;">прохождение уровня:</span><span style="font-weight: 600;">+10</span>
+                </div>
+                <div style="font-size: 14px; color: #E0E0E0; display: flex; justify-content: space-between; margin-bottom: 8px;">
+                    <span style="color: #7F848D;">слова:</span><span style="font-weight: 600;" id="summary-words-xp">+16</span>
+                </div>
+                <div style="font-size: 14px; color: #E0E0E0; display: flex; justify-content: space-between; margin-bottom: 8px;">
+                    <span style="color: #7F848D;">предложения:</span><span style="font-weight: 600;" id="summary-phrases-xp">+13</span>
+                </div>
+                <div style="font-size: 14px; color: #E0E0E0; display: flex; justify-content: space-between;">
+                    <span style="color: #7F848D;">комбо:</span><span style="font-weight: 600;" id="summary-combo-xp">+6</span>
+                </div>
+            </div>
+
+            <button id="summary-btn-next" style="width: 100%; background: #FFD214; color: #0A0E17; border: none; border-radius: 12px; padding: 16px; font-size: 16px; font-weight: 600; cursor: pointer; margin-bottom: 12px; font-family: sans-serif;">
+                Двигаем дальше
+            </button>
+            <button id="summary-btn-loot" style="width: 100%; background: transparent; color: #7F848D; border: 1px solid #232936; border-radius: 12px; padding: 16px; font-size: 16px; font-weight: 500; cursor: pointer; font-family: sans-serif;">
+                Чекнуть что прошли
+            </button>
+        </div>
+        
+        <div class="tabbar-global">
+            <div class="tab-glass-indicator"></div>
+            <div class="tab-item active">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <div class="tab-item">
+                <svg width="18" height="28" viewBox="0 0 23 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8.45161 20.6313C8.46736 20.5022 8.45566 20.3711 8.41726 20.2468C8.37886 20.1225 8.31464 20.0077 8.2288 19.9099C8.14295 19.8121 8.03742 19.7335 7.91912 19.6794C7.80081 19.6252 7.67239 19.5966 7.54228 19.5955H1.91761C1.76551 19.5939 1.61615 19.5548 1.48269 19.4819C1.34922 19.4089 1.23575 19.3042 1.15225 19.1771C1.06876 19.05 1.01781 18.9042 1.00389 18.7528C0.989974 18.6013 1.01352 18.4487 1.07244 18.3085L8.23528 1.57383C8.30319 1.4054 8.41961 1.26094 8.56975 1.15878C8.7199 1.05661 8.89701 1.00135 9.07861 1H17.3616C18.0088 1 18.4506 1.66 18.2141 2.27233L14.1349 12.7443C14.0789 12.8843 14.0579 13.0357 14.0736 13.1856C14.0892 13.3355 14.1412 13.4794 14.225 13.6047C14.3088 13.73 14.4218 13.833 14.5543 13.9047C14.6869 13.9765 14.8349 14.015 14.9856 14.0167H20.2509C21.0063 14.0167 21.4371 14.8948 20.9806 15.5072L7.28561 33.9248C7.17194 34.077 6.93544 33.9798 6.95561 33.7928L8.45161 20.6313Z"/></svg>
+            </div>
+            <div class="tab-item active">
+                <div class="tab-avatar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-archive" class="screen" style="background: #0A0E17;">
+        <div style="height: var(--tg-viewport-stable-height, 100vh); display: flex; flex-direction: column;">
+            <div style="display: flex; align-items: center; padding: 20px 16px; border-bottom: 1px solid #181C26; flex-shrink: 0;">
+                <button id="archive-btn-back" style="background: transparent; border: none; color: #7F848D; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0;">
+                    <svg width="30" height="24" viewBox="0 0 30 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.33333 1L1 8.33333L8.33333 15.6667M1 8.33333H21.1667C23.1116 8.33333 24.9768 9.10595 26.3521 10.4812C27.7274 11.8565 28.5 13.7217 28.5 15.6667C28.5 17.6116 27.7274 19.4768 26.3521 20.8521C24.9768 22.2274 23.1116 23 21.1667 23H19.3333"/></svg>
+                </button>
+                <h1 style="font-size: 20px; font-weight: 600; color: #FFFFFF; margin: 0 0 0 16px; font-family: sans-serif;">Your Loot</h1>
+            </div>
+
+            <div style="display: flex; background: #181C26; margin: 16px; border-radius: 10px; padding: 4px; flex-shrink: 0;">
+                <div id="tab-loot-progress" class="archive-tab active" style="flex: 1; text-align: center; padding: 10px 4px; font-size: 12px; color: #7F848D; font-weight: 600; font-family: sans-serif; border-radius: 8px; cursor: pointer;">Пройденные</div>
+                <div id="tab-loot-phrases" class="archive-tab" style="flex: 1; text-align: center; padding: 10px 4px; font-size: 12px; color: #7F848D; font-weight: 600; font-family: sans-serif; border-radius: 8px; cursor: pointer;">Фразы</div>
+                <div id="tab-loot-learned" class="archive-tab" style="flex: 1; text-align: center; padding: 10px 4px; font-size: 12px; color: #7F848D; font-weight: 600; font-family: sans-serif; border-radius: 8px; cursor: pointer;">Выученные</div>
+            </div>
+
+            <div style="padding: 0 16px; flex-grow: 1; overflow-y: auto; padding-bottom: 100px;">
+                <div id="archive-list-container"></div>
+            </div>
+            
+            <div class="tabbar-global">
+                <div class="tab-glass-indicator"></div>
+                <div class="tab-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                </div>
+                <div class="tab-item">
+                    <svg width="18" height="28" viewBox="0 0 23 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8.45161 20.6313C8.46736 20.5022 8.45566 20.3711 8.41726 20.2468C8.37886 20.1225 8.31464 20.0077 8.2288 19.9099C8.14295 19.8121 8.03742 19.7335 7.91912 19.6794C7.80081 19.6252 7.67239 19.5966 7.54228 19.5955H1.91761C1.76551 19.5939 1.61615 19.5548 1.48269 19.4819C1.34922 19.4089 1.23575 19.3042 1.15225 19.1771C1.06876 19.05 1.01781 18.9042 1.00389 18.7528C0.989974 18.6013 1.01352 18.4487 1.07244 18.3085L8.23528 1.57383C8.30319 1.4054 8.41961 1.26094 8.56975 1.15878C8.7199 1.05661 8.89701 1.00135 9.07861 1H17.3616C18.0088 1 18.4506 1.66 18.2141 2.27233L14.1349 12.7443C14.0789 12.8843 14.0579 13.0357 14.0736 13.1856C14.0892 13.3355 14.1412 13.4794 14.225 13.6047C14.3088 13.73 14.4218 13.833 14.5543 13.9047C14.6869 13.9765 14.8349 14.015 14.9856 14.0167H20.2509C21.0063 14.0167 21.4371 14.8948 20.9806 15.5072L7.28561 33.9248C7.17194 34.077 6.93544 33.9798 6.95561 33.7928L8.45161 20.6313Z"/></svg>
+                </div>
+                <div class="tab-item active">
+                    <div class="tab-avatar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="word-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <div class="modal-header" id="modal-word-title">Word - Перевод</div>
+            <div class="modal-example">
+                <div class="modal-ex-text" id="modal-ex-text">Example</div>
+                <div class="modal-ex-trans" id="modal-ex-trans">Перевод</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

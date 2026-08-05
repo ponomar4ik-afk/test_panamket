@@ -1,0 +1,1502 @@
+[
+{
+"id": 1,
+"russian": "Сорри, я сегодня вообще ничего не успеваю.",
+"words_pool": ["sorki", "ale", "jestem", "dzisiaj", "totalnie", "w", "proszku", "gotowy", "siano", "kicha", "fajrant"],
+"correct_sequences": [
+["sorki", "ale", "jestem", "dzisiaj", "totalnie", "w", "proszku"],
+["sorki", "dzisiaj", "jestem", "totalnie", "w", "proszku"]
+],
+"distractors_count": 4
+},
+{
+"id": 2,
+"russian": "Ты вообще шаришь, о чем речь?",
+"words_pool": ["czy", "ty", "w", "ogóle", "czaisz", "o", "co", "chodzi", "kumasz", "ściemniasz", "wiocha", "typ"],
+"correct_sequences": [
+["czy", "ty", "w", "ogóle", "czaisz", "o", "co", "chodzi"],
+["ty", "w", "ogóle", "czaisz", "o", "co", "chodzi"]
+],
+"distractors_count": 4
+},
+{
+"id": 3,
+"russian": "Я в этом вообще не шарю, помоги мне.",
+"words_pool": ["ja", "tego", "zupełnie", "nie", "ogarniam", "pomóż", "mi", "olewam", "jaram", "beka", "ziomek"],
+"correct_sequences": [
+["ja", "tego", "zupełnie", "nie", "ogarniam", "pomóż", "mi"],
+["zupełnie", "tego", "nie", "ogarniam", "pomóż", "mi"]
+],
+"distractors_count": 4
+},
+{
+"id": 4,
+"russian": "Хватит мне заливать, я знаю правду.",
+"words_pool": ["przestań", "mi", "ściemniać", "ja", "znam", "prawdę", "gasić", "kminić", "masakra", "fuks"],
+"correct_sequences": [
+["przestań", "mi", "ściemniać", "ja", "znam", "prawdę"],
+["przestań", "ściemniać", "znam", "prawdę"]
+],
+"distractors_count": 4
+},
+{
+"id": 5,
+"russian": "Забей на это, не о чем париться.",
+"words_pool": ["olej", "to", "nie", "ma", "się", "czym", "przejmować", "zlej", "skasuj", "lipa", "wtopa"],
+"correct_sequences": [
+["olej", "to", "nie", "ma", "się", "czym", "przejmować"],
+["olej", "to", "nie", "ma", "czym", "się", "przejmować"]
+],
+"distractors_count": 4
+},
+{
+"id": 6,
+"russian": "Я дико тащусь от этого нового фильма.",
+"words_pool": ["strasznie", "się", "jaram", "tym", "nowym", "filmem", "nudzę", "wkurzam", "suchar", "petarda"],
+"correct_sequences": [
+["strasznie", "się", "jaram", "tym", "nowym", "filmem"],
+["jaram", "się", "strasznie", "tym", "nowym", "filmem"]
+],
+"distractors_count": 4
+},
+{
+"id": 7,
+"russian": "Он опять матюкнулся при детях.",
+"words_pool": ["on", "znowu", "rzucił", "mięsem", "przy", "dzieciach", "zjadł", "obiad", "kibel", "dzban"],
+"correct_sequences": [
+["on", "znowu", "rzucił", "mięsem", "przy", "dzieciach"],
+["znowu", "rzucił", "mięsem", "przy", "dzieciach"]
+],
+"distractors_count": 4
+},
+{
+"id": 8,
+"russian": "Мои соседи сейчас жутко сводят концы с концами.",
+"words_pool": ["moi", "sąsiedzi", "teraz", "strasznie", "klepią", "biedę", "mają", "węża", "dziani", "bogaci"],
+"correct_sequences": [
+["moi", "sąsiedzi", "teraz", "strasznie", "klepią", "biedę"],
+["teraz", "moi", "sąsiedzi", "strasznie", "klepią", "biedę"]
+],
+"distractors_count": 4
+},
+{
+"id": 9,
+"russian": "Не пытайся пускать мне пыль в глаза этими обещаниями.",
+"words_pool": ["nie", "próbuj", "mi", "mamić", "oczu", "tymi", "obietnicami", "włosów", "uszu", "ściema", "kit"],
+"correct_sequences": [
+["nie", "próbuj", "mi", "mamić", "oczu", "tymi", "obietnicami"],
+["nie", "próbuj", "mamić", "mi", "oczu", "tymi", "obietnicami"]
+],
+"distractors_count": 4
+},
+{
+"id": 10,
+"russian": "Этот чувак вешает лапшу на уши каждой девушке.",
+"words_pool": ["ten", "gościu", "nawija", "makaron", "na", "uszy", "każdej", "lasce", "koleś", "zupę", "oczy", "psiapsi"],
+"correct_sequences": [
+["ten", "gościu", "nawija", "makaron", "na", "uszy", "każdej", "lasce"],
+["gościu", "nawija", "makaron", "na", "uszy", "każdej", "lasce"]
+],
+"distractors_count": 4
+},
+{
+"id": 11,
+"russian": "Кассир в магазине развел меня на десятку.",
+"words_pool": ["kasjer", "w", "sklepie", "zrobił", "mnie", "w", "balona", "na", "dychę", "oszukał", "kiosk", "lump", "wałek"],
+"correct_sequences": [
+["kasjer", "w", "sklepie", "zrobił", "mnie", "w", "balona", "na", "dychę"],
+["w", "sklepie", "kasjer", "zrobił", "mnie", "w", "balona", "na", "dychę"]
+],
+"distractors_count": 4
+},
+{
+"id": 12,
+"russian": "Когда я увидел этот счет, у меня волосы дыбом встали.",
+"words_pool": ["kiedy", "zobaczyłem", "ten", "rachunek", "włosy", "stanęły", "mi", "dęba", "paragon", "oko", "szajs", "masakra"],
+"correct_sequences": [
+["kiedy", "zobaczyłem", "ten", "rachunek", "włosy", "stanęły", "mi", "dęba"],
+["kiedy", "zobaczyłem", "ten", "rachunek", "włosy", "mi", "stanęły", "dęba"]
+],
+"distractors_count": 4
+},
+{
+"id": 13,
+"russian": "Кажется, я сохну по этой новой девушке.",
+"words_pool": ["chyba", "czuję", "miętę", "do", "tej", "nowej", "dziewczyny", "laski", "kawkę", "szlugi", "psiapsi"],
+"correct_sequences": [
+["chyba", "czuję", "miętę", "do", "tej", "nowej", "dziewczyny"],
+["czuję", "miętę", "do", "tej", "nowej", "dziewczyny"]
+],
+"distractors_count": 4
+},
+{
+"id": 14,
+"russian": "Становится поздно, пора сваливать с этой вечеринки.",
+"words_pool": ["robi", "się", "późno", "czas", "zwinąć", "żagle", "z", "tej", "imprezy", "uciec", "namiot", "chata", "fajrant"],
+"correct_sequences": [
+["robi", "się", "późno", "czas", "zwinąć", "żagle", "z", "tej", "imprezy"],
+["czas", "zwinąć", "żagle", "z", "tej", "imprezy", "robi", "się", "późno"]
+],
+"distractors_count": 4
+},
+{
+"id": 15,
+"russian": "Хватит выносить мне мозг по поводу этой поездки.",
+"words_pool": ["przestań", "mi", "wiercić", "dziurę", "w", "brzuchu", "o", "ten", "wyjazd", "głowie", "szukać", "wypad", "odpał"],
+"correct_sequences": [
+["przestań", "mi", "wiercić", "dziurę", "w", "brzuchu", "o", "ten", "wyjazd"],
+["przestań", "wiercić", "mi", "dziurę", "w", "brzuchu", "o", "ten", "wyjazd"]
+],
+"distractors_count": 4
+},
+{
+"id": 16,
+"russian": "Они всегда цапаются из-за каждой ерунды.",
+"words_pool": ["oni", "zawsze", "drą", "koty", "o", "każdą", "bzdurę", "psy", "krzyczą", "kminią", "wtopę"],
+"correct_sequences": [
+["oni", "zawsze", "drą", "koty", "o", "każdą", "bzdurę"],
+["zawsze", "drą", "koty", "o", "każdą", "bzdurę"]
+],
+"distractors_count": 4
+},
+{
+"id": 17,
+"russian": "Кассирша сегодня утром была не в духе.",
+"words_pool": ["kasjerka", "dzisiaj", "rano", "miała", "muchy", "w", "nosie", "głowie", "była", "kocura", "zamuła"],
+"correct_sequences": [
+["kasjerka", "dzisiaj", "rano", "miała", "muchy", "w", "nosie"],
+["dzisiaj", "rano", "kasjerka", "miała", "muchy", "w", "nosie"]
+],
+"distractors_count": 4
+},
+{
+"id": 18,
+"russian": "Я потерял кошелек и жестко вляпался.",
+"words_pool": ["zgubiłem", "portfel", "i", "wpadłem", "jak", "śliwka", "w", "kompot", "hajs", "jabłko", "zupę", "kibel"],
+"correct_sequences": [
+["zgubiłem", "portfel", "i", "wpadłem", "jak", "śliwka", "w", "kompot"],
+["wpadłem", "jak", "śliwka", "w", "kompot", "i", "zgubiłem", "portfel"]
+],
+"distractors_count": 4
+},
+{
+"id": 19,
+"russian": "Это маленькая проблема, не делай из мухи слона.",
+"words_pool": ["to", "mały", "problem", "nie", "rób", "z", "igły", "wideł", "spina", "masakra", "nóż", "łyżki"],
+"correct_sequences": [
+["to", "mały", "problem", "nie", "rób", "z", "igły", "wideł"],
+["nie", "rób", "z", "igły", "wideł", "to", "mały", "problem"]
+],
+"distractors_count": 4
+},
+{
+"id": 20,
+"russian": "Мой дядя жмот и никогда не оставляет чаевые.",
+"words_pool": ["mój", "wujek", "ma", "węża", "w", "kieszeni", "i", "nigdy", "nie", "daje", "napiwków", "kota", "torbie", "sknera", "hajsu"],
+"correct_sequences": [
+["mój", "wujek", "ma", "węża", "w", "kieszeni", "i", "nigdy", "nie", "daje", "napiwków"],
+["wujek", "ma", "węża", "w", "kieszeni", "i", "nigdy", "nie", "daje", "napiwków"]
+],
+"distractors_count": 4
+},
+{
+"id": 21,
+"russian": "Погода сегодня — это просто какая-то жесть.",
+"words_pool": ["pogoda", "dzisiaj", "to", "jakaś", "totalna", "masakra", "deszcz", "wypas", "sztos", "kicha"],
+"correct_sequences": [
+["pogoda", "dzisiaj", "to", "jakaś", "totalna", "masakra"],
+["dzisiaj", "pogoda", "to", "jakaś", "totalna", "masakra"]
+],
+"distractors_count": 4
+},
+{
+"id": 22,
+"russian": "Эта новая кофейня на углу — абсолютный топ.",
+"words_pool": ["ta", "nowa", "kawiarnia", "na", "rogu", "to", "absolutny", "sztos", "sklep", "lipa", "dzban", "syf"],
+"correct_sequences": [
+["ta", "nowa", "kawiarnia", "na", "rogu", "to", "absolutny", "sztos"],
+["nowa", "kawiarnia", "na", "rogu", "to", "absolutny", "sztos"]
+],
+"distractors_count": 4
+},
+{
+"id": 23,
+"russian": "Приветик, не знаешь случайно, как дойти до вокзала?",
+"words_pool": ["siemka", "wiesz", "może", "jak", "dojść", "na", "dworzec", "nara", "kierunek", "fura", "gdzie"],
+"correct_sequences": [
+["siemka", "wiesz", "może", "jak", "dojść", "na", "dworzec"],
+["siemka", "może", "wiesz", "jak", "dojść", "na", "dworzec"]
+],
+"distractors_count": 4
+},
+{
+"id": 24,
+"russian": "Мне пора бежать на автобус, всем пока!",
+"words_pool": ["muszę", "lecieć", "na", "autobus", "nara", "wszystkim", "siema", "auto", "chata", "dzik"],
+"correct_sequences": [
+["muszę", "lecieć", "na", "autobus", "nara", "wszystkim"],
+["nara", "wszystkim", "muszę", "lecieć", "na", "autobus"]
+],
+"distractors_count": 4
+},
+{
+"id": 25,
+"russian": "Мой приятель поможет мне перенести эту мебель.",
+"words_pool": ["mój", "kumpel", "pomoże", "mi", "przenieść", "te", "meble", "ziomek", "kark", "szajs", "chlew"],
+"correct_sequences": [
+["mój", "kumpel", "pomoże", "mi", "przenieść", "te", "meble"],
+["kumpel", "pomoże", "mi", "przenieść", "te", "meble"]
+],
+"distractors_count": 4
+},
+{
+"id": 26,
+"russian": "Этот чувак с района продал мне классный велик.",
+"words_pool": ["ten", "ziomek", "z", "osiedla", "sprzedał", "mi", "fajny", "rower", "typ", "fura", "kloc", "wałek"],
+"correct_sequences": [
+["ten", "ziomek", "z", "osiedla", "sprzedał", "mi", "fajny", "rower"],
+["ziomek", "z", "osiedla", "sprzedał", "mi", "fajny", "rower"]
+],
+"distractors_count": 4
+},
+{
+"id": 27,
+"russian": "Не переживай, всё норм, расслабон.",
+"words_pool": ["nie", "martw", "się", "spoko", "jest", "luzik", "spina", "szybko", "masakra", "nuda"],
+"correct_sequences": [
+["nie", "martw", "się", "spoko", "jest", "luzik"],
+["spoko", "jest", "luzik", "nie", "martw", "się"]
+],
+"distractors_count": 4
+},
+{
+"id": 28,
+"russian": "Я взял слишком мало бабок на продукты.",
+"words_pool": ["zabrałem", "za", "mało", "hajsu", "na", "zakupy", "spożywcze", "siano", "ciuchy", "sknera", "portfel"],
+"correct_sequences": [
+["zabrałem", "za", "mało", "hajsu", "na", "zakupy", "spożywcze"],
+["zabrałem", "za", "mało", "hajsu"]
+],
+"distractors_count": 4
+},
+{
+"id": 29,
+"russian": "В субботу намечается неплохая тусовка у Марка.",
+"words_pool": ["w", "sobotę", "szykuje", "się", "niezła", "biba", "u", "marka", "melanż", "nuda", "kibel", "chata"],
+"correct_sequences": [
+["w", "sobotę", "szykuje", "się", "niezła", "biba", "u", "marka"],
+["szykuje", "się", "niezła", "biba", "u", "marka", "w", "sobotę"]
+],
+"distractors_count": 4
+},
+{
+"id": 30,
+"russian": "После вчерашней пьянки у меня жуткая боль в голове.",
+"words_pool": ["po", "wczorajszym", "melanżu", "mam", "straszny", "ból", "głowy", "domówka", "kac", "zgon", "suchar"],
+"correct_sequences": [
+["po", "wczorajszym", "melanżu", "mam", "straszny", "ból", "głowy"],
+["mam", "straszny", "ból", "głowy", "po", "wczorajszym", "melanżu"]
+],
+"distractors_count": 4
+},
+{
+"id": 31,
+"russian": "Предпочитаешь пойти в клуб или устроим небольшую вписку?",
+"words_pool": ["wolisz", "iść", "do", "klubu", "czy", "robimy", "małą", "domówkę", "bibę", "chata", "lump", "wjazd"],
+"correct_sequences": [
+["wolisz", "iść", "do", "klubu", "czy", "robimy", "małą", "domówkę"],
+["robimy", "małą", "domówkę", "czy", "wolisz", "iść", "do", "klubu"]
+],
+"distractors_count": 4
+},
+{
+"id": 32,
+"russian": "Сгоняю в магаз на углу за холодным пивасиком.",
+"words_pool": ["skoczę", "do", "sklepu", "na", "rogu", "po", "zimny", "browar", "flaszka", "lufa", "szama", "sos"],
+"correct_sequences": [
+["skoczę", "do", "sklepu", "na", "rogu", "po", "zimny", "browar"],
+["skoczę", "po", "zimny", "browar", "do", "sklepu", "na", "rogu"]
+],
+"distractors_count": 4
+},
+{
+"id": 33,
+"russian": "Смотри, какая крутая тачка стоит под нашим домом.",
+"words_pool": ["zobacz", "jaka", "super", "fura", "stoi", "pod", "naszym", "blokiem", "auto", "szajs", "kozak", "dzban"],
+"correct_sequences": [
+["zobacz", "jaka", "super", "fura", "stoi", "pod", "naszym", "blokiem"],
+["zobacz", "jaka", "super", "fura", "pod", "naszym", "blokiem", "stoi"]
+],
+"distractors_count": 4
+},
+{
+"id": 34,
+"russian": "Приглашаю вас завтра на обед ко мне на хату.",
+"words_pool": ["zapraszam", "was", "jutro", "na", "obiad", "na", "moją", "chatę", "domówkę", "koryto", "syf", "baza"],
+"correct_sequences": [
+["zapraszam", "was", "jutro", "na", "obiad", "na", "moją", "chatę"],
+["jutro", "zapraszam", "was", "na", "obiad", "na", "moją", "chatę"]
+],
+"distractors_count": 4
+},
+{
+"id": 35,
+"russian": "Ты вообще догоняешь, как работает этот автомат с билетами?",
+"words_pool": ["czy", "ty", "w", "ogóle", "kumasz", "jak", "działa", "ten", "biletomat", "czaisz", "kminisz", "maszyna", "bilet"],
+"correct_sequences": [
+["czy", "ty", "w", "ogóle", "kumasz", "jak", "działa", "ten", "biletomat"],
+["ty", "w", "ogóle", "kumasz", "jak", "działa", "ten", "biletomat"]
+],
+"distractors_count": 4
+},
+{
+"id": 36,
+"russian": "Мы были вчера в горах, и было реально улётно.",
+"words_pool": ["byliśmy", "wczoraj", "w", "górach", "i", "było", "naprawdę", "czadowo", "sztos", "wiocha", "lipa", "masakra"],
+"correct_sequences": [
+["byliśmy", "wczoraj", "w", "górach", "i", "było", "naprawdę", "czadowo"],
+["wczoraj", "byliśmy", "w", "górach", "i", "było", "naprawdę", "czadowo"]
+],
+"distractors_count": 4
+},
+{
+"id": 37,
+"russian": "Езда на велике — это мой новый летний кайф.",
+"words_pool": ["jazda", "na", "rowerze", "to", "moja", "nowa", "letnia", "zajawka", "pasja", "nuda", "odpał", "wałek"],
+"correct_sequences": [
+["jazda", "na", "rowerze", "to", "moja", "nowa", "letnia", "zajawka"],
+["to", "moja", "nowa", "letnia", "zajawka", "jazda", "na", "rowerze"]
+],
+"distractors_count": 4
+},
+{
+"id": 38,
+"russian": "Ты приготовил на ужин такую еду, что просто топчик.",
+"words_pool": ["zrobiłeś", "na", "kolację", "takie", "jedzenie", "że", "po", "prostu", "wypas", "szama", "koryto", "kicha", "padaka"],
+"correct_sequences": [
+["zrobiłeś", "na", "kolację", "takie", "jedzenie", "że", "po", "prostu", "wypas"],
+["takie", "jedzenie", "zrobiłeś", "na", "kolację", "że", "po", "prostu", "wypas"]
+],
+"distractors_count": 4
+},
+{
+"id": 39,
+"russian": "Не обязательно сразу затыкать каждого, кто спрашивает дорогу.",
+"words_pool": ["nie", "musisz", "od", "razu", "gasić", "każdego", "kto", "pyta", "o", "drogę", "spławić", "skasować", "ulicę", "koleś"],
+"correct_sequences": [
+["nie", "musisz", "od", "razu", "gasić", "każdego", "kto", "pyta", "o", "drogę"],
+["nie", "musisz", "gasić", "każdego", "kto", "pyta", "o", "drogę", "od", "razu"]
+],
+"distractors_count": 4
+},
+{
+"id": 40,
+"russian": "Та девушка в красной куртке потеряла свои ключи.",
+"words_pool": ["ta", "laska", "w", "czerwonej", "kurtce", "zgubiła", "swoje", "klucze", "psiapsi", "dziewczyna", "portfel", "hajs"],
+"correct_sequences": [
+["ta", "laska", "w", "czerwonej", "kurtce", "zgubiła", "swoje", "klucze"],
+["ta", "laska", "w", "czerwonej", "kurtce", "zgubiła", "klucze"]
+],
+"distractors_count": 4
+},
+{
+"id": 41,
+"russian": "Какой-то странный чувак спрашивал о тебе возле магазина.",
+"words_pool": ["jakiś", "dziwny", "koleś", "pytał", "o", "ciebie", "pod", "sklepem", "ziomek", "dzban", "typ", "wkręcał"],
+"correct_sequences": [
+["jakiś", "dziwny", "koleś", "pytał", "o", "ciebie", "pod", "sklepem"],
+["pod", "sklepem", "pytał", "o", "ciebie", "jakiś", "dziwny", "koleś"]
+],
+"distractors_count": 4
+},
+{
+"id": 42,
+"russian": "Слушай чувак, ты не можешь здесь парковать машину.",
+"words_pool": ["słuchaj", "gościu", "nie", "możesz", "tutaj", "parkować", "samochodu", "morda", "kierowco", "fury", "mandżur"],
+"correct_sequences": [
+["słuchaj", "gościu", "nie", "możesz", "tutaj", "parkować", "samochodu"],
+["gościu", "słuchaj", "nie", "możesz", "tutaj", "parkować", "samochodu"]
+],
+"distractors_count": 4
+},
+{
+"id": 43,
+"russian": "Тот чел в очках всё время смотрит на наш столик.",
+"words_pool": ["ten", "typ", "w", "okularach", "cały", "czas", "patrzy", "w", "nasz", "stolik", "cwaniak", "kocur", "menu", "szama"],
+"correct_sequences": [
+["ten", "typ", "w", "okularach", "cały", "czas", "patrzy", "w", "nasz", "stolik"],
+["cały", "czas", "ten", "typ", "w", "okularach", "patrzy", "w", "nasz", "stolik"]
+],
+"distractors_count": 4
+},
+{
+"id": 44,
+"russian": "Я сдал тест на права, потому что у меня была хорошая шпора.",
+"words_pool": ["zdałem", "test", "na", "prawo", "jazdy", "bo", "miałem", "dobrą", "ściągę", "listę", "kit", "fuks", "auto"],
+"correct_sequences": [
+["zdałem", "test", "na", "prawo", "jazdy", "bo", "miałem", "dobrą", "ściągę"],
+["bo", "miałem", "dobrą", "ściągę", "zdałem", "test", "na", "prawo", "jazdy"]
+],
+"distractors_count": 4
+},
+{
+"id": 45,
+"russian": "Этот новый тренер в тренажерке — просто реальный качок.",
+"words_pool": ["ten", "nowy", "trener", "na", "siłowni", "to", "jest", "prawdziwy", "koks", "paker", "dzik", "mięsień", "szajba"],
+"correct_sequences": [
+["ten", "nowy", "trener", "na", "siłowni", "to", "jest", "prawdziwy", "koks"],
+["ten", "nowy", "trener", "na", "siłowni", "to", "prawdziwy", "koks"]
+],
+"distractors_count": 4
+},
+{
+"id": 46,
+"russian": "Ты нашел мой потерянный кошелек, огромный тебе респект.",
+"words_pool": ["znalazłeś", "mój", "zgubiony", "portfel", "wielki", "szacun", "dla", "ciebie", "respekt", "hajs", "kieszeń", "cwaniak"],
+"correct_sequences": [
+["znalazłeś", "mój", "zgubiony", "portfel", "wielki", "szacun", "dla", "ciebie"],
+["wielki", "szacun", "dla", "ciebie", "znalazłeś", "mój", "zgubiony", "portfel"]
+],
+"distractors_count": 4
+},
+{
+"id": 47,
+"russian": "Я упал посреди улицы, какой зашквар перед людьми.",
+"words_pool": ["przewróciłem", "się", "na", "środku", "ulicy", "ale", "obciach", "przed", "ludźmi", "przypał", "siara", "chodnik", "wtopa"],
+"correct_sequences": [
+["przewróciłem", "się", "na", "środku", "ulicy", "ale", "obciach", "przed", "ludźmi"],
+["ale", "obciach", "przed", "ludźmi", "przewróciłem", "się", "na", "środku", "ulicy"]
+],
+"distractors_count": 4
+},
+{
+"id": 48,
+"russian": "Такое поведение в ресторане — это просто полный колхоз.",
+"words_pool": ["takie", "zachowanie", "w", "restauracji", "to", "jest", "totalna", "wiocha", "obciach", "kelner", "szama", "dzban"],
+"correct_sequences": [
+["takie", "zachowanie", "w", "restauracji", "to", "jest", "totalna", "wiocha"],
+["takie", "zachowanie", "w", "restauracji", "to", "totalna", "wiocha"]
+],
+"distractors_count": 4
+},
+{
+"id": 49,
+"russian": "Здарова, долго ждешь этот поезд до Варшавы?",
+"words_pool": ["siema", "długo", "czekasz", "na", "ten", "pociąg", "do", "warszawy", "cześć", "bilet", "stacja", "nara"],
+"correct_sequences": [
+["siema", "długo", "czekasz", "na", "ten", "pociąg", "do", "warszawy"],
+["siema", "czekasz", "długo", "na", "ten", "pociąg", "do", "warszawy"]
+],
+"distractors_count": 4
+},
+{
+"id": 50,
+"russian": "Эта акция в торговом центре — один сплошной развод.",
+"words_pool": ["ta", "promocja", "w", "centrum", "handlowym", "to", "jedna", "wielka", "ściema", "kit", "wałek", "sklep", "cena"],
+"correct_sequences": [
+["ta", "promocja", "w", "centrum", "handlowym", "to", "jedna", "wielka", "ściema"],
+["ta", "promocja", "w", "centrum", "handlowym", "to", "wielka", "ściema"]
+],
+"distractors_count": 4
+},
+  {
+    "id": 51,
+    "russian": "Не будь придурком, просто извинись перед ним.",
+    "words_pool": ["nie", "bądź", "głupkiem", "po", "prostu", "go", "przeproś", "dzban", "frajer", "ziomek", "koks"],
+    "correct_sequences": [
+      ["nie", "bądź", "głupkiem", "po", "prostu", "go", "przeproś"],
+      ["po", "prostu", "go", "przeproś", "nie", "bądź", "głupkiem"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 52,
+    "russian": "Мы вчера офигенно провели время на концерте.",
+    "words_pool": ["wczoraj", "zarąbiście", "spędziliśmy", "czas", "na", "koncercie", "nudno", "lipa", "masakra", "wtopa"],
+    "correct_sequences": [
+      ["wczoraj", "zarąbiście", "spędziliśmy", "czas", "na", "koncercie"],
+      ["zarąbiście", "spędziliśmy", "czas", "na", "koncercie", "wczoraj"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 53,
+    "russian": "Этот новый телефон выглядит просто офигенно.",
+    "words_pool": ["ten", "nowy", "telefon", "wygląda", "po", "prostu", "zajebiście", "szajs", "kicha", "padaka", "suchar"],
+    "correct_sequences": [
+      ["ten", "nowy", "telefon", "wygląda", "po", "prostu", "zajebiście"],
+      ["ten", "nowy", "telefon", "wygląda", "zajebiście", "po", "prostu"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 54,
+    "russian": "Забей на это, мы купим новый в магазине.",
+    "words_pool": ["olej", "to", "kupimy", "nowy", "w", "sklepie", "zlej", "skasuj", "kibel", "masakra"],
+    "correct_sequences": [
+      ["olej", "to", "kupimy", "nowy", "w", "sklepie"],
+      ["kupimy", "nowy", "w", "sklepie", "olej", "to"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 55,
+    "russian": "Расслабься, у нас еще куча времени до поезда.",
+    "words_pool": ["wyluzuj", "mamy", "jeszcze", "dużo", "czasu", "do", "pociągu", "spina", "stres", "szybko", "nara"],
+    "correct_sequences": [
+      ["wyluzuj", "mamy", "jeszcze", "dużo", "czasu", "do", "pociągu"],
+      ["mamy", "jeszcze", "dużo", "czasu", "do", "pociągu", "wyluzuj"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 56,
+    "russian": "Да ладно, пойдем сегодня с нами в кино.",
+    "words_pool": ["no", "weź", "chodź", "dzisiaj", "z", "nami", "do", "kina", "idź", "sam", "lipa", "nuda"],
+    "correct_sequences": [
+      ["no", "weź", "chodź", "dzisiaj", "z", "nami", "do", "kina"],
+      ["no", "weź", "chodź", "z", "nami", "dzisiaj", "do", "kina"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 57,
+    "russian": "Без шуток, я видел его вчера с другой.",
+    "words_pool": ["bez", "jaj", "widziałem", "go", "wczoraj", "z", "inną", "dziewczyną", "poważnie", "ściema", "kit", "laska"],
+    "correct_sequences": [
+      ["bez", "jaj", "widziałem", "go", "wczoraj", "z", "inną", "dziewczyną"],
+      ["widziałem", "go", "wczoraj", "z", "inną", "dziewczyną", "bez", "jaj"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 58,
+    "russian": "Из этой ситуации была просто дикая ржака.",
+    "words_pool": ["z", "tej", "sytuacji", "była", "po", "prostu", "niezła", "beka", "smutek", "nuda", "kicha", "zamuła"],
+    "correct_sequences": [
+      ["z", "tej", "sytuacji", "była", "po", "prostu", "niezła", "beka"],
+      ["była", "po", "prostu", "niezła", "beka", "z", "tej", "sytuacji"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 59,
+    "russian": "Ты шутишь? Это стоит слишком дорого.",
+    "words_pool": ["żartujesz", "to", "kosztuje", "zbyt", "dużo", "poważnie", "mówisz", "tanio", "fuks", "zdzierstwo"],
+    "correct_sequences": [
+      ["żartujesz", "to", "kosztuje", "zbyt", "dużo"],
+      ["to", "kosztuje", "zbyt", "dużo", "żartujesz"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 60,
+    "russian": "Ни за что, я туда с тобой не пойду.",
+    "words_pool": ["nie", "ma", "opcji", "ja", "tam", "z", "tobą", "nie", "idę", "szans", "pewnie", "spoko", "luzik"],
+    "correct_sequences": [
+      ["nie", "ma", "opcji", "ja", "tam", "z", "tobą", "nie", "idę"],
+      ["ja", "tam", "z", "tobą", "nie", "idę", "nie", "ma", "opcji"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 61,
+    "russian": "То, что он говорит, это полная лажа.",
+    "words_pool": ["to", "co", "on", "mówi", "to", "jest", "totalny", "kit", "prawda", "ściema", "wałek", "wypas"],
+    "correct_sequences": [
+      ["to", "co", "on", "mówi", "to", "jest", "totalny", "kit"],
+      ["to", "co", "on", "mówi", "to", "totalny", "kit"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 62,
+    "russian": "Хватит вешать лапшу, расскажи мне всё как есть.",
+    "words_pool": ["przestań", "wciskać", "kit", "powiedz", "mi", "wszystko", "jak", "jest", "ściemniać", "prawdę", "kłamać", "mamić"],
+    "correct_sequences": [
+      ["przestań", "wciskać", "kit", "powiedz", "mi", "wszystko", "jak", "jest"],
+      ["powiedz", "mi", "wszystko", "jak", "jest", "przestań", "wciskać", "kit"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 63,
+    "russian": "Я не могу вкурить, как решить эту задачу.",
+    "words_pool": ["nie", "mogę", "skumać", "jak", "rozwiązać", "to", "zadanie", "czaić", "kminić", "zrozumieć", "ogarnąć"],
+    "correct_sequences": [
+      ["nie", "mogę", "skumać", "jak", "rozwiązać", "to", "zadanie"],
+      ["jak", "rozwiązać", "to", "zadanie", "nie", "mogę", "skumać"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 64,
+    "russian": "Обязательно зацени эту новую песню в интернете.",
+    "words_pool": ["koniecznie", "obczaj", "tę", "nową", "piosenkę", "w", "internecie", "zobacz", "posłuchaj", "skasuj", "zlej"],
+    "correct_sequences": [
+      ["koniecznie", "obczaj", "tę", "nową", "piosenkę", "w", "internecie"],
+      ["obczaj", "koniecznie", "tę", "nową", "piosenkę", "w", "internecie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 65,
+    "russian": "Ее парень очень прошаренный, он всё быстро устроил.",
+    "words_pool": ["jej", "chłopak", "jest", "bardzo", "ogarnięty", "on", "wszystko", "szybko", "załatwił", "głupek", "kujon", "koks"],
+    "correct_sequences": [
+      ["jej", "chłopak", "jest", "bardzo", "ogarnięty", "on", "wszystko", "szybko", "załatwił"],
+      ["on", "wszystko", "szybko", "załatwił", "jej", "chłopak", "jest", "bardzo", "ogarnięty"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 66,
+    "russian": "Лучше забей на эту работу, она слишком тяжелая.",
+    "words_pool": ["lepiej", "olej", "tę", "pracę", "ona", "jest", "zbyt", "ciężka", "rzuć", "skop", "haruj", "tyraj"],
+    "correct_sequences": [
+      ["lepiej", "olej", "tę", "pracę", "ona", "jest", "zbyt", "ciężka"],
+      ["ona", "jest", "zbyt", "ciężka", "lepiej", "olej", "tę", "pracę"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 67,
+    "russian": "Он просто проигнорировал мое сообщение вчера.",
+    "words_pool": ["on", "po", "prostu", "zlał", "moją", "wiadomość", "wczoraj", "olał", "przeczytał", "skasował", "priv"],
+    "correct_sequences": [
+      ["on", "po", "prostu", "zlał", "moją", "wiadomość", "wczoraj"],
+      ["wczoraj", "on", "po", "prostu", "zlał", "moją", "wiadomość"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 68,
+    "russian": "Учитель жестко осадил его перед всем классом.",
+    "words_pool": ["nauczyciel", "ostro", "skasował", "go", "przed", "całą", "klasą", "zlał", "pochwalił", "oblał", "uczeń"],
+    "correct_sequences": [
+      ["nauczyciel", "ostro", "skasował", "go", "przed", "całą", "klasą"],
+      ["ostro", "skasował", "go", "nauczyciel", "przed", "całą", "klasą"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 69,
+    "russian": "Мне дико подфартило, и я нашел свободное место.",
+    "words_pool": ["strasznie", "mi", "przyfarciło", "i", "znalazłem", "wolne", "miejsce", "udało", "wpadłem", "skopałem", "oblałem"],
+    "correct_sequences": [
+      ["strasznie", "mi", "przyfarciło", "i", "znalazłem", "wolne", "miejsce"],
+      ["znalazłem", "wolne", "miejsce", "i", "strasznie", "mi", "przyfarciło"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 70,
+    "russian": "Я выиграл этот конкурс на чистую халяву.",
+    "words_pool": ["wygrałem", "ten", "konkurs", "na", "czystego", "fuksa", "szczęście", "spoko", "masakrę", "wałek", "zdzierstwo"],
+    "correct_sequences": [
+      ["wygrałem", "ten", "konkurs", "na", "czystego", "fuksa"],
+      ["na", "czystego", "fuksa", "wygrałem", "ten", "konkurs"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 71,
+    "russian": "Твой брат настоящий везунчик, всегда выигрывает.",
+    "words_pool": ["twój", "brat", "to", "prawdziwy", "farciarz", "zawsze", "wygrywa", "pechowiec", "kujon", "koks", "ziomek"],
+    "correct_sequences": [
+      ["twój", "brat", "to", "prawdziwy", "farciarz", "zawsze", "wygrywa"],
+      ["prawdziwy", "farciarz", "zawsze", "wygrywa", "twój", "brat", "to"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 72,
+    "russian": "Эта вечеринка оказалась полным отстоем.",
+    "words_pool": ["ta", "impreza", "okazała", "się", "totalną", "kichą", "lipą", "masakrą", "wtopą", "czadowa", "sztos"],
+    "correct_sequences": [
+      ["ta", "impreza", "okazała", "się", "totalną", "kichą"],
+      ["ta", "impreza", "okazała", "się", "totalną", "lipą"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 73,
+    "russian": "Фильм был скучным, какая туфта.",
+    "words_pool": ["film", "był", "nudny", "ale", "lipa", "kicha", "szajs", "dobry", "ciekawy", "wypas", "sztos"],
+    "correct_sequences": [
+      ["film", "był", "nudny", "ale", "lipa"],
+      ["ale", "lipa", "film", "był", "nudny"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 74,
+    "russian": "Моя презентация была жестким фиаско.",
+    "words_pool": ["moja", "prezentacja", "to", "była", "twarda", "klapa", "wtopa", "sukces", "sztos", "kujon", "fuks"],
+    "correct_sequences": [
+      ["moja", "prezentacja", "to", "była", "twarda", "klapa"],
+      ["to", "była", "twarda", "klapa", "moja", "prezentacja"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 75,
+    "russian": "Опоздать на встречу — это был мой главный косяк.",
+    "words_pool": ["spóźnienie", "na", "spotkanie", "to", "była", "moja", "główna", "wtopa", "sukces", "przypał", "fuks", "zgon"],
+    "correct_sequences": [
+      ["spóźnienie", "na", "spotkanie", "to", "była", "moja", "główna", "wtopa"],
+      ["to", "była", "moja", "główna", "wtopa", "spóźnienie", "na", "spotkanie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 76,
+    "russian": "Они жестко запороли весь проект.",
+    "words_pool": ["oni", "ostro", "skopali", "cały", "projekt", "zwalili", "zrobili", "ogarnęli", "wkuwali", "harowali"],
+    "correct_sequences": [
+      ["oni", "ostro", "skopali", "cały", "projekt"],
+      ["ostro", "skopali", "cały", "projekt", "oni"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 77,
+    "russian": "Не пытайся свалить всё на меня.",
+    "words_pool": ["nie", "próbuj", "zwalić", "wszystkiego", "na", "mnie", "zrzucić", "skopać", "ogarnąć", "mamić", "kminić"],
+    "correct_sequences": [
+      ["nie", "próbuj", "zwalić", "wszystkiego", "na", "mnie"],
+      ["na", "mnie", "nie", "próbuj", "zwalić", "wszystkiego"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 78,
+    "russian": "Я боюсь, что могу завалить этот экзамен.",
+    "words_pool": ["boję", "się", "że", "mogę", "oblać", "ten", "egzamin", "zdać", "skopać", "ogarnąć", "skumać"],
+    "correct_sequences": [
+      ["boję", "się", "że", "mogę", "oblać", "ten", "egzamin"],
+      ["że", "mogę", "oblać", "ten", "egzamin", "boję", "się"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 79,
+    "russian": "Этот зубрила всегда знает ответы на все вопросы.",
+    "words_pool": ["ten", "kujon", "zawsze", "zna", "odpowiedzi", "na", "wszystkie", "pytania", "koks", "ziomek", "dzban", "frajer"],
+    "correct_sequences": [
+      ["ten", "kujon", "zawsze", "zna", "odpowiedzi", "na", "wszystkie", "pytania"],
+      ["zawsze", "zna", "odpowiedzi", "na", "wszystkie", "pytania", "ten", "kujon"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 80,
+    "russian": "Мне нужно ботать всю ночь перед тестом.",
+    "words_pool": ["muszę", "wkuwać", "całą", "noc", "przed", "testem", "spać", "imprezować", "harować", "tyrać", "kminić"],
+    "correct_sequences": [
+      ["muszę", "wkuwać", "całą", "noc", "przed", "testem"],
+      ["przed", "testem", "muszę", "wkuwać", "całą", "noc"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 81,
+    "russian": "Я долго обдумывал, что написать в сообщении.",
+    "words_pool": ["długo", "kminiłem", "co", "napisać", "w", "wiadomości", "myślałem", "ogarniałem", "ściemniałem", "zlałem", "priv"],
+    "correct_sequences": [
+      ["długo", "kminiłem", "co", "napisać", "w", "wiadomości"],
+      ["co", "napisać", "w", "wiadomości", "długo", "kminiłem"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 82,
+    "russian": "Наконец-то мы смогли разгадать эту сложную проблему.",
+    "words_pool": ["wreszcie", "udało", "nam", "się", "rozkminić", "ten", "trudny", "problem", "skumać", "ogarnąć", "skopać", "zlać"],
+    "correct_sequences": [
+      ["wreszcie", "udało", "nam", "się", "rozkminić", "ten", "trudny", "problem"],
+      ["udało", "nam", "się", "rozkminić", "ten", "trudny", "problem", "wreszcie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 83,
+    "russian": "Вчера у меня появилась глубокая мысль о жизни.",
+    "words_pool": ["wczoraj", "miałem", "głęboką", "rozkminę", "o", "życiu", "myśl", "wtopę", "lipę", "zajawkę", "fuksa"],
+    "correct_sequences": [
+      ["wczoraj", "miałem", "głęboką", "rozkminę", "o", "życiu"],
+      ["miałem", "głęboką", "rozkminę", "o", "życiu", "wczoraj"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 84,
+    "russian": "Я успел заметить, как он выходил из магазина.",
+    "words_pool": ["zdążyłem", "przyczaić", "jak", "on", "wychodził", "ze", "sklepu", "zobaczyć", "obczaić", "skumać", "gasić"],
+    "correct_sequences": [
+      ["zdążyłem", "przyczaić", "jak", "on", "wychodził", "ze", "sklepu"],
+      ["jak", "on", "wychodził", "ze", "sklepu", "zdążyłem", "przyczaić"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 85,
+    "russian": "Я пошел на экзамен абсолютно на удачу.",
+    "words_pool": ["poszedłem", "na", "egzamin", "zupełnie", "na", "fuksa", "spoko", "luzik", "pewno", "gotowy", "przypał"],
+    "correct_sequences": [
+      ["poszedłem", "na", "egzamin", "zupełnie", "na", "fuksa"],
+      ["zupełnie", "na", "fuksa", "poszedłem", "na", "egzamin"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 86,
+    "russian": "Наконец-то конец смены, я иду домой.",
+    "words_pool": ["wreszcie", "fajrant", "ja", "idę", "do", "domu", "impreza", "melanż", "nara", "chata", "szama"],
+    "correct_sequences": [
+      ["wreszcie", "fajrant", "ja", "idę", "do", "domu"],
+      ["ja", "idę", "do", "domu", "wreszcie", "fajrant"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 87,
+    "russian": "Мой отец пахал весь день на заводе.",
+    "words_pool": ["mój", "ojciec", "harował", "cały", "dzień", "w", "fabryce", "tyrał", "odpoczywał", "kminił", "zmywał"],
+    "correct_sequences": [
+      ["mój", "ojciec", "harował", "cały", "dzień", "w", "fabryce"],
+      ["cały", "dzień", "mój", "ojciec", "harował", "w", "fabryce"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 88,
+    "russian": "Эта работа в поле — настоящая каторга.",
+    "words_pool": ["ta", "praca", "w", "polu", "to", "prawdziwa", "orka", "masakra", "nuda", "luzik", "sztos"],
+    "correct_sequences": [
+      ["ta", "praca", "w", "polu", "to", "prawdziwa", "orka"],
+      ["to", "prawdziwa", "orka", "ta", "praca", "w", "polu"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 89,
+    "russian": "Хватит столько вкалывать, отдохни немного.",
+    "words_pool": ["przestań", "tyle", "tyrać", "odpocznij", "trochę", "harować", "kminić", "ściemniać", "ogarniać", "zrzuta"],
+    "correct_sequences": [
+      ["przestań", "tyle", "tyrać", "odpocznij", "trochę"],
+      ["odpocznij", "trochę", "przestań", "tyle", "tyrać"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 90,
+    "russian": "В этом магазине всегда завышают цены.",
+    "words_pool": ["w", "tym", "sklepie", "zawsze", "zdzierają", "ceny", "obniżają", "podnoszą", "kminią", "ściemniają", "wałek"],
+    "correct_sequences": [
+      ["w", "tym", "sklepie", "zawsze", "zdzierają", "ceny"],
+      ["zawsze", "zdzierają", "ceny", "w", "tym", "sklepie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 91,
+    "russian": "Платить столько за такси — это просто грабеж.",
+    "words_pool": ["płacić", "tyle", "za", "taksówkę", "to", "po", "prostu", "zdzierstwo", "kradzież", "tanio", "fuks"],
+    "correct_sequences": [
+      ["płacić", "tyle", "za", "taksówkę", "to", "po", "prostu", "zdzierstwo"],
+      ["to", "po", "prostu", "zdzierstwo", "płacić", "tyle", "za", "taksówkę"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 92,
+    "russian": "У меня не осталось денег после покупок.",
+    "words_pool": ["nie", "zostało", "mi", "kasy", "po", "zakupach", "hajsu", "siana", "stówy", "kloca", "reszty"],
+    "correct_sequences": [
+      ["nie", "zostało", "mi", "kasy", "po", "zakupach"],
+      ["po", "zakupach", "nie", "zostało", "mi", "kasy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 93,
+    "russian": "Пришлось отвалить бабла за этот ремонт машины.",
+    "words_pool": ["musiałem", "zabulić", "za", "ten", "remont", "samochodu", "zapłacić", "oddać", "zlać", "skasować", "hajs"],
+    "correct_sequences": [
+      ["musiałem", "zabulić", "za", "ten", "remont", "samochodu"],
+      ["za", "ten", "remont", "samochodu", "musiałem", "zabulić"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 94,
+    "russian": "Не стоит так жестко жадничать на подарке.",
+    "words_pool": ["nie", "warto", "tak", "ostro", "sknerować", "na", "prezencie", "oszczędzać", "wydawać", "zabulić", "kminić"],
+    "correct_sequences": [
+      ["nie", "warto", "tak", "ostro", "sknerować", "na", "prezencie"],
+      ["na", "prezencie", "nie", "warto", "tak", "ostro", "sknerować"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 95,
+    "russian": "Ее новый босс — ужасный скупердяй.",
+    "words_pool": ["jej", "nowy", "szef", "to", "okropna", "sknera", "dobry", "koleś", "dzban", "frajer", "ziomek"],
+    "correct_sequences": [
+      ["jej", "nowy", "szef", "to", "okropna", "sknera"],
+      ["to", "okropna", "sknera", "jej", "nowy", "szef"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 96,
+    "russian": "Я сейчас на мели, не могу пойти с вами.",
+    "words_pool": ["jestem", "teraz", "spłukany", "nie", "mogę", "iść", "z", "wami", "bogaty", "gotowy", "zmęczony", "zamuła"],
+    "correct_sequences": [
+      ["jestem", "teraz", "spłukany", "nie", "mogę", "iść", "z", "wami"],
+      ["nie", "mogę", "iść", "z", "wami", "jestem", "teraz", "spłukany"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 97,
+    "russian": "Одолжи мне сотку до завтрашнего дня.",
+    "words_pool": ["pożycz", "mi", "stówkę", "do", "jutrzejszego", "dnia", "kloca", "bańkę", "hajs", "siano", "kasa"],
+    "correct_sequences": [
+      ["pożycz", "mi", "stówkę", "do", "jutrzejszego", "dnia"],
+      ["do", "jutrzejszego", "dnia", "pożycz", "mi", "stówkę"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 98,
+    "russian": "Эта старая машина не стоит даже миллиона.",
+    "words_pool": ["ten", "stary", "samochód", "nie", "jest", "wart", "nawet", "bańki", "miliona", "kloca", "stówki", "fury"],
+    "correct_sequences": [
+      ["ten", "stary", "samochód", "nie", "jest", "wart", "nawet", "bańki"],
+      ["nie", "jest", "wart", "nawet", "bańki", "ten", "stary", "samochód"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 99,
+    "russian": "Я заплатил за телефон почти косарь.",
+    "words_pool": ["zapłaciłem", "za", "telefon", "prawie", "kloca", "stówkę", "bańkę", "hajs", "siano", "zabulilem", "wałek"],
+    "correct_sequences": [
+      ["zapłaciłem", "za", "telefon", "prawie", "kloca"],
+      ["prawie", "kloca", "zapłaciłem", "za", "telefon"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 100,
+    "russian": "Возьми себя в руки и начни готовиться к тесту.",
+    "words_pool": ["ogarnij", "się", "i", "zacznij", "przygotowywać", "się", "do", "testu", "wyluzuj", "spoko", "obczaj", "skumaj"],
+    "correct_sequences": [
+      ["ogarnij", "się", "i", "zacznij", "przygotowywać", "się", "do", "testu"],
+      ["zacznij", "przygotowywać", "się", "do", "testu", "i", "ogarnij", "się"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 101,
+    "russian": "Я отойду на минуту, скоро вернусь.",
+    "words_pool": ["ja", "odejdę", "na", "chwilę", "zw", "zaraz", "wracam", "nara", "siema", "kibel", "fajrant"],
+    "correct_sequences": [
+      ["ja", "odejdę", "na", "chwilę", "zw"],
+      ["odejdę", "na", "chwilę", "zw", "ja"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 102,
+    "russian": "Я уже тут, можем начинать.",
+    "words_pool": ["jj", "już", "jestem", "możemy", "zaczynać", "zw", "nara", "wtopa", "luzik", "masakra"],
+    "correct_sequences": [
+      ["jj", "możemy", "zaczynać"],
+      ["możemy", "zaczynać", "jj"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 103,
+    "russian": "Я без понятия, где он сейчас.",
+    "words_pool": ["nw", "nie", "wiem", "gdzie", "on", "teraz", "jest", "kmini", "obczaja", "zlał", "skasował"],
+    "correct_sequences": [
+      ["nw", "gdzie", "on", "teraz", "jest"],
+      ["gdzie", "on", "teraz", "jest", "nw"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 104,
+    "russian": "Спасибо за помощь. — Не за что.",
+    "words_pool": ["dzięki", "za", "pomoc", "nmzc", "nie", "ma", "za", "co", "spoko", "luzik", "nara"],
+    "correct_sequences": [
+      ["dzięki", "za", "pomoc", "nmzc"],
+      ["nmzc", "dzięki", "za", "pomoc"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 105,
+    "russian": "Напиши мне это в личку позже.",
+    "words_pool": ["napisz", "mi", "to", "na", "priv", "później", "prywatna", "wiadomość", "kibel", "dzban", "szajs"],
+    "correct_sequences": [
+      ["napisz", "mi", "to", "na", "priv", "później"],
+      ["później", "napisz", "mi", "to", "na", "priv"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 106,
+    "russian": "Мне нужно взять ситуацию под контроль на работе.",
+    "words_pool": ["muszę", "ogarnąć", "kuwetę", "w", "pracy", "zlać", "skopać", "oblać", "kminić", "ściemniać"],
+    "correct_sequences": [
+      ["muszę", "ogarnąć", "kuwetę", "w", "pracy"],
+      ["w", "pracy", "muszę", "ogarnąć", "kuwetę"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 107,
+    "russian": "Можешь глянуть на мой новый проект?",
+    "words_pool": ["możesz", "rzucić", "okiem", "na", "mój", "nowy", "projekt", "mięsem", "zlać", "olać", "obczaić"],
+    "correct_sequences": [
+      ["możesz", "rzucić", "okiem", "na", "mój", "nowy", "projekt"],
+      ["na", "mój", "nowy", "projekt", "możesz", "rzucić", "okiem"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 108,
+    "russian": "Заскочи ко мне вечером на кофе.",
+    "words_pool": ["wpadnij", "do", "mnie", "wieczorem", "na", "kawę", "zlej", "olej", "skasuj", "obczaj", "wtopa"],
+    "correct_sequences": [
+      ["wpadnij", "do", "mnie", "wieczorem", "na", "kawę"],
+      ["wieczorem", "wpadnij", "do", "mnie", "na", "kawę"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 109,
+    "russian": "У меня сегодня депресняк, я никуда не пойду.",
+    "words_pool": ["mam", "dzisiaj", "doła", "nigdzie", "nie", "idę", "fuksa", "hajs", "wypas", "sztos", "melanż"],
+    "correct_sequences": [
+      ["mam", "dzisiaj", "doła", "nigdzie", "nie", "idę"],
+      ["dzisiaj", "mam", "doła", "nigdzie", "nie", "idę"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 110,
+    "russian": "Эта скидка выглядит как жесткий развод.",
+    "words_pool": ["ta", "zniżka", "wygląda", "jak", "niezły", "wałek", "fuks", "wypas", "sztos", "luzik", "spoko"],
+    "correct_sequences": [
+      ["ta", "zniżka", "wygląda", "jak", "niezły", "wałek"],
+      ["wygląda", "jak", "niezły", "wałek", "ta", "zniżka"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 111,
+    "russian": "У меня нет налички, чтобы за это заплатить.",
+    "words_pool": ["nie", "mam", "siana", "żeby", "za", "to", "zapłacić", "doła", "wałka", "kloca", "fuksa"],
+    "correct_sequences": [
+      ["nie", "mam", "siana", "żeby", "za", "to", "zapłacić"],
+      ["żeby", "za", "to", "zapłacić", "nie", "mam", "siana"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 112,
+    "russian": "Надо выследить, где они продают эти кроссовки.",
+    "words_pool": ["trzeba", "wyczaić", "gdzie", "oni", "sprzedają", "te", "buty", "olać", "zlać", "skopać", "oblać"],
+    "correct_sequences": [
+      ["trzeba", "wyczaić", "gdzie", "oni", "sprzedają", "te", "buty"],
+      ["gdzie", "oni", "sprzedają", "te", "buty", "trzeba", "wyczaić"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 113,
+    "russian": "Я получил билеты на концерт на халяву.",
+    "words_pool": ["dostałem", "bilety", "na", "koncert", "za", "friko", "siano", "wałek", "fuks", "darmo"],
+    "correct_sequences": [
+      ["dostałem", "bilety", "na", "koncert", "za", "friko"],
+      ["za", "friko", "dostałem", "bilety", "na", "koncert"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 114,
+    "russian": "Этот тупица снова забыл ключи от дома.",
+    "words_pool": ["ten", "dzban", "znowu", "zapomniał", "kluczy", "do", "domu", "kocur", "paker", "ziomek", "koks"],
+    "correct_sequences": [
+      ["ten", "dzban", "znowu", "zapomniał", "kluczy", "do", "domu"],
+      ["znowu", "ten", "dzban", "zapomniał", "kluczy", "do", "domu"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 115,
+    "russian": "Моя старая машина — это полный отстой.",
+    "words_pool": ["mój", "stary", "samochód", "to", "jest", "totalny", "kibel", "wypas", "sztos", "fuks", "wałek"],
+    "correct_sequences": [
+      ["mój", "stary", "samochód", "to", "jest", "totalny", "kibel"],
+      ["to", "jest", "totalny", "kibel", "mój", "stary", "samochód"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 116,
+    "russian": "Здарова братан, как у тебя сегодня дела?",
+    "words_pool": ["siema", "morda", "jak", "tam", "dzisiaj", "leci", "dzban", "kibel", "szajs", "wałek"],
+    "correct_sequences": [
+      ["siema", "morda", "jak", "tam", "dzisiaj", "leci"],
+      ["jak", "tam", "dzisiaj", "leci", "siema", "morda"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 117,
+    "russian": "Я сделал жесткий ляп в этом документе.",
+    "words_pool": ["zrobiłem", "niezłego", "byka", "w", "tym", "dokumencie", "dzbana", "kibla", "wałka", "fuksa"],
+    "correct_sequences": [
+      ["zrobiłem", "niezłego", "byka", "w", "tym", "dokumencie"],
+      ["w", "tym", "dokumencie", "zrobiłem", "niezłego", "byka"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 118,
+    "russian": "Всё супер, не о чем волноваться.",
+    "words_pool": ["wszystko", "jest", "git", "nie", "ma", "się", "czym", "martwić", "lipa", "kibel", "wtopa"],
+    "correct_sequences": [
+      ["wszystko", "jest", "git", "nie", "ma", "się", "czym", "martwić"],
+      ["nie", "ma", "się", "czym", "martwić", "wszystko", "jest", "git"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 119,
+    "russian": "Отличная работа, всё пучком.",
+    "words_pool": ["świetna", "robota", "wszystko", "gra", "i", "buczy", "gitara", "lipa", "kibel", "masakra"],
+    "correct_sequences": [
+      ["świetna", "robota", "gitara"],
+      ["gitara", "świetna", "robota"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 120,
+    "russian": "Мы сдали этот проект легко и на расслабоне.",
+    "words_pool": ["oddaliśmy", "ten", "projekt", "zupełnie", "na", "lajcie", "spince", "dołku", "kiblu", "wałku"],
+    "correct_sequences": [
+      ["oddaliśmy", "ten", "projekt", "zupełnie", "na", "lajcie"],
+      ["zupełnie", "na", "lajcie", "oddaliśmy", "ten", "projekt"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 121,
+    "russian": "Соберись, ты сможешь это сделать.",
+    "words_pool": ["weź", "się", "w", "garść", "dasz", "radę", "to", "zrobić", "spina", "lajcie", "kibel", "dołek"],
+    "correct_sequences": [
+      ["weź", "się", "w", "garść", "dasz", "radę", "to", "zrobić"],
+      ["dasz", "radę", "to", "zrobić", "weź", "się", "w", "garść"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 122,
+    "russian": "Твой старший брат — настоящий смельчак.",
+    "words_pool": ["twój", "starszy", "brat", "to", "prawdziwy", "kozak", "dzban", "kibel", "frajer", "szajs"],
+    "correct_sequences": [
+      ["twój", "starszy", "brat", "to", "prawdziwy", "kozak"],
+      ["to", "prawdziwy", "kozak", "twój", "starszy", "brat"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 123,
+    "russian": "Вчерашняя вечеринка прошла просто офигенно.",
+    "words_pool": ["wczorajsza", "impreza", "udała", "się", "po", "prostu", "kozacko", "lipnie", "nudno", "słabo", "masakra"],
+    "correct_sequences": [
+      ["wczorajsza", "impreza", "udała", "się", "po", "prostu", "kozacko"],
+      ["po", "prostu", "kozacko", "udała", "się", "wczorajsza", "impreza"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 124,
+    "russian": "Твоя новая куртка выглядит шикарно.",
+    "words_pool": ["twoja", "nowa", "kurtka", "wygląda", "w", "dechę", "kibel", "lipę", "szajs", "wtopę"],
+    "correct_sequences": [
+      ["twoja", "nowa", "kurtka", "wygląda", "w", "dechę"],
+      ["wygląda", "w", "dechę", "twoja", "nowa", "kurtka"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 125,
+    "russian": "Директор начал совещание сразу с козырей.",
+    "words_pool": ["szef", "zaczął", "spotkanie", "od", "razu", "z", "grubej", "rury", "dechy", "kibla", "lajtu", "spiny"],
+    "correct_sequences": [
+      ["szef", "zaczął", "spotkanie", "od", "razu", "z", "grubej", "rury"],
+      ["od", "razu", "z", "grubej", "rury", "szef", "zaczął", "spotkanie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 126,
+    "russian": "Наша команда вчера порвала всех на соревновании.",
+    "words_pool": ["nasza", "drużyna", "wczoraj", "rozmaliła", "system", "na", "zawodach", "skopała", "oblała", "zlała", "kibel"],
+    "correct_sequences": [
+      ["nasza", "drużyna", "wczoraj", "rozwaliła", "system", "na", "zawodach"],
+      ["wczoraj", "na", "zawodach", "nasza", "drużyna", "rozwaliła", "system"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 127,
+    "russian": "У него есть сильное желание выиграть этот турнир.",
+    "words_pool": ["on", "ma", "wielkie", "parcie", "żeby", "wygrać", "ten", "turniej", "kibel", "dołek", "spina", "luzik"],
+    "correct_sequences": [
+      ["on", "ma", "wielkie", "parcie", "żeby", "wygrać", "ten", "turniej"],
+      ["żeby", "wygrać", "ten", "turniej", "on", "ma", "wielkie", "parcie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 128,
+    "russian": "Мне нужно купить новые шмотки на зиму.",
+    "words_pool": ["muszę", "kupić", "sobie", "nowe", "ciuchy", "na", "zimę", "siano", "kloca", "fury", "chaty"],
+    "correct_sequences": [
+      ["muszę", "kupić", "sobie", "nowe", "ciuchy", "na", "zimę"],
+      ["na", "zimę", "muszę", "kupić", "sobie", "nowe", "ciuchy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 129,
+    "russian": "Я нашел эту классную футболку в секонд-хенде.",
+    "words_pool": ["znalazłem", "tę", "fajną", "koszulkę", "w", "lumpie", "kiblu", "dechę", "szajsie", "wale", "klocu"],
+    "correct_sequences": [
+      ["znalazłem", "tę", "fajną", "koszulkę", "w", "lumpie"],
+      ["w", "lumpie", "znalazłem", "tę", "fajną", "koszulkę"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 130,
+    "russian": "Забыть имя начальника — это лютый зашквар.",
+    "words_pool": ["zapomnieć", "imienia", "szefa", "to", "jest", "niezły", "przypał", "luzik", "fuks", "wypas", "sztos"],
+    "correct_sequences": [
+      ["zapomnieć", "imienia", "szefa", "to", "jest", "niezły", "przypał"],
+      ["to", "jest", "niezły", "przypał", "zapomnieć", "imienia", "szefa"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 131,
+    "russian": "Этот бургер был супер вкусным, я наелся.",
+    "words_pool": ["ten", "burger", "był", "mega", "smaczny", "najadłem", "się", "kibel", "lipa", "szajs", "wtopa"],
+    "correct_sequences": [
+      ["ten", "burger", "był", "mega", "smaczny", "najadłem", "się"],
+      ["najadłem", "się", "ten", "burger", "był", "mega", "smaczny"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 132,
+    "russian": "У тебя есть какой-нибудь хавчик в холодильнике?",
+    "words_pool": ["masz", "jakąś", "szamę", "w", "lodówce", "lumpa", "kibla", "dzbana", "byka", "wałka"],
+    "correct_sequences": [
+      ["masz", "jakąś", "szamę", "w", "lodówce"],
+      ["w", "lodówce", "masz", "jakąś", "szamę"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 133,
+    "russian": "Мы сейчас кушаем, перезвони мне позже.",
+    "words_pool": ["my", "teraz", "szamiemy", "oddzwoń", "do", "mnie", "później", "kminimy", "ogarniamy", "zmywamy", "olewamy"],
+    "correct_sequences": [
+      ["my", "teraz", "szamiemy", "oddzwoń", "do", "mnie", "później"],
+      ["oddzwoń", "do", "mnie", "później", "my", "teraz", "szamiemy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 134,
+    "russian": "Заваливайтесь к нам сегодня вечером на пиво.",
+    "words_pool": ["wbijajcie", "do", "nas", "dzisiaj", "wieczorem", "na", "piwo", "olewajcie", "zmywajcie", "ściemniajcie", "głoście"],
+    "correct_sequences": [
+      ["wbijajcie", "do", "nas", "dzisiaj", "wieczorem", "na", "piwo"],
+      ["dzisiaj", "wieczorem", "wbijajcie", "do", "nas", "na", "piwo"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 135,
+    "russian": "Мне вообще пофиг на то, что он говорит.",
+    "words_pool": ["mam", "totalnie", "wywalone", "na", "to", "co", "on", "mówi", "spięte", "skopane", "zlane", "oblane"],
+    "correct_sequences": [
+      ["mam", "totalnie", "wywalone", "na", "to", "co", "on", "mówi"],
+      ["na", "to", "co", "on", "mówi", "mam", "totalnie", "wywalone"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 136,
+    "russian": "Уже поздно, я смываюсь домой.",
+    "words_pool": ["jest", "już", "późno", "ja", "się", "zmywam", "do", "domu", "wbijam", "kminie", "szamię", "olewam"],
+    "correct_sequences": [
+      ["jest", "już", "późno", "ja", "się", "zmywam", "do", "domu"],
+      ["ja", "się", "zmywam", "do", "domu", "jest", "już", "późno"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 137,
+    "russian": "Собирайте манатки, мы уезжаем через пять минут.",
+    "words_pool": ["zawijajcie", "mandżur", "wyjeżdżamy", "za", "pięć", "minut", "kibel", "lump", "szamę", "siano", "hajs"],
+    "correct_sequences": [
+      ["zawijajcie", "mandżur", "wyjeżdżamy", "za", "pięć", "minut"],
+      ["wyjeżdżamy", "za", "pięć", "minut", "zawijajcie", "mandżur"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 138,
+    "russian": "Я так устал, что иду дрыхнуть прямо сейчас.",
+    "words_pool": ["jestem", "tak", "zmęczony", "że", "idę", "w", "kimę", "od", "razu", "lump", "szamę", "mandżur"],
+    "correct_sequences": [
+      ["jestem", "tak", "zmęczony", "że", "idę", "w", "kimę", "od", "razu"],
+      ["idę", "w", "kimę", "od", "razu", "jestem", "tak", "zmęczony"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 139,
+    "russian": "Короткий сон после обеда — это лучшая вещь.",
+    "words_pool": ["krótka", "kima", "po", "obiedzie", "to", "najlepsza", "rzecz", "szama", "spina", "wtopa", "lipa"],
+    "correct_sequences": [
+      ["krótka", "kima", "po", "obiedzie", "to", "najlepsza", "rzecz"],
+      ["to", "najlepsza", "rzecz", "krótka", "kima", "po", "obiedzie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 140,
+    "russian": "Хватит мутить дела, давай сделаем всё легально.",
+    "words_pool": ["przestań", "kombinować", "zróbmy", "to", "wszystko", "legalnie", "szamać", "wkuwać", "kminić", "zmywać"],
+    "correct_sequences": [
+      ["przestań", "kombinować", "zróbmy", "to", "wszystko", "legalnie"],
+      ["zróbmy", "to", "wszystko", "legalnie", "przestań", "kombinować"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 141,
+    "russian": "Он вчера жестко проиграл в казино.",
+    "words_pool": ["on", "wczoraj", "grubo", "przegrał", "w", "kasynie", "cienko", "miękko", "lajcie", "spince", "dołku"],
+    "correct_sequences": [
+      ["on", "wczoraj", "grubo", "przegrał", "w", "kasynie"],
+      ["wczoraj", "on", "grubo", "przegrał", "w", "kasynie"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 142,
+    "russian": "Прыгнуть с парашютом — это безумный поступок.",
+    "words_pool": ["skok", "ze", "spadochronem", "to", "jest", "niezły", "odpał", "lump", "szajs", "kibel", "wałek"],
+    "correct_sequences": [
+      ["skok", "ze", "spadochronem", "to", "jest", "niezły", "odpał"],
+      ["to", "jest", "niezły", "odpał", "skok", "ze", "spadochronem"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 143,
+    "russian": "Мой младший брат опять натворил делов в школе.",
+    "words_pool": ["mój", "młodszy", "brat", "znowu", "coś", "odwalił", "w", "szkole", "ogarnął", "skumał", "przyczaił", "wbił"],
+    "correct_sequences": [
+      ["mój", "młodszy", "brat", "znowu", "coś", "odwalił", "w", "szkole"],
+      ["znowu", "coś", "odwalił", "w", "szkole", "mój", "młodszy", "brat"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 144,
+    "russian": "Эта идея была совершенно ни о чем.",
+    "words_pool": ["ten", "pomysł", "był", "kompletnie", "z", "dupy", "dechy", "kibla", "rury", "lumpa", "mandżura"],
+    "correct_sequences": [
+      ["ten", "pomysł", "był", "kompletnie", "z", "dupy"],
+      ["kompletnie", "z", "dupy", "był", "ten", "pomysł"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 145,
+    "russian": "Мы сегодня работаем на чилле, не парься.",
+    "words_pool": ["dzisiaj", "pracujemy", "bez", "spiny", "nie", "martw", "się", "kibla", "dołka", "szamy", "fuksa"],
+    "correct_sequences": [
+      ["dzisiaj", "pracujemy", "bez", "spiny", "nie", "martw", "się"],
+      ["nie", "martw", "się", "dzisiaj", "pracujemy", "bez", "spiny"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 146,
+    "russian": "Между ними вчера был серьезный конфликт.",
+    "words_pool": ["między", "nimi", "była", "wczoraj", "poważna", "spina", "szama", "kima", "wtopa", "lipa", "masakra"],
+    "correct_sequences": [
+      ["między", "nimi", "była", "wczoraj", "poważna", "spina"],
+      ["wczoraj", "była", "poważna", "spina", "między", "nimi"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 147,
+    "russian": "Этот чувак пытался наезжать на меня возле бара.",
+    "words_pool": ["ten", "koleś", "próbował", "się", "do", "mnie", "pruć", "pod", "barem", "szamać", "kminić", "zmywać", "wbijać"],
+    "correct_sequences": [
+      ["ten", "koleś", "próbował", "się", "do", "mnie", "pruć", "pod", "barem"],
+      ["pod", "barem", "ten", "koleś", "próbował", "się", "do", "mnie", "pruć"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 148,
+    "russian": "Моя сестра надула губы, потому что я съел её шоколад.",
+    "words_pool": ["moja", "siostra", "strzeliła", "focha", "bo", "zjadłem", "jej", "czekoladę", "byka", "wałka", "kloca", "dzbana"],
+    "correct_sequences": [
+      ["moja", "siostra", "strzeliła", "focha", "bo", "zjadłem", "jej", "czekoladę"],
+      ["bo", "zjadłem", "jej", "czekoladę", "moja", "siostra", "strzeliła", "focha"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 149,
+    "russian": "Организация этого фестиваля была полным отстоем.",
+    "words_pool": ["organizacja", "tego", "festiwalu", "to", "była", "kompletna", "padaka", "spina", "kima", "szama", "wypas"],
+    "correct_sequences": [
+      ["organizacja", "tego", "festiwalu", "to", "była", "kompletna", "padaka"],
+      ["to", "była", "kompletna", "padaka", "organizacja", "tego", "festiwalu"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 150,
+    "russian": "У него была сильная радость на лице, когда он выиграл.",
+    "words_pool": ["on", "miał", "wielki", "zaciesz", "na", "twarzy", "kiedy", "wygrał", "przypał", "wałek", "kibel", "dołek"],
+    "correct_sequences": [
+      ["on", "miał", "wielki", "zaciesz", "na", "twarzy", "kiedy", "wygrał"],
+      ["kiedy", "wygrał", "on", "miał", "wielki", "zaciesz", "na", "twarzy"]
+    ],
+    "distractors_count": 4
+  }
+]

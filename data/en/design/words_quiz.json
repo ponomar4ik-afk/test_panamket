@@ -1,0 +1,1010 @@
+[
+  {
+    "id": 1,
+    "expression": "Wireframe",
+    "options": ["Каркас экрана", "Итоговый макет", "Шрифт без засечек"],
+    "correct_answer": "Каркас экрана",
+    "example": {
+      "text": "Let's create a quick wireframe first.",
+      "translation": "Давай сначала набросаем быстрый каркас."
+    }
+  },
+  {
+    "id": 2,
+    "expression": "Mockup",
+    "options": ["Интерактивный прототип", "Визуализация / Макет", "Скрытый слой"],
+    "correct_answer": "Визуализация / Макет",
+    "example": {
+      "text": "The client finally approved the mockup.",
+      "translation": "Клиент наконец-то утвердил макет."
+    }
+  },
+  {
+    "id": 3,
+    "expression": "Whitespace",
+    "literal": "(досл. белое пространство)",
+    "options": ["Свободное пространство", "Белый фон", "Толщина линии"],
+    "correct_answer": "Свободное пространство",
+    "example": {
+      "text": "Add more whitespace around the text.",
+      "translation": "Добавь больше свободного пространства вокруг текста."
+    }
+  },
+  {
+    "id": 4,
+    "expression": "Alignment",
+    "options": ["Прозрачность", "Скругление углов", "Выравнивание"],
+    "correct_answer": "Выравнивание",
+    "example": {
+      "text": "Check the left alignment here.",
+      "translation": "Проверь здесь выравнивание по левому краю."
+    }
+  },
+  {
+    "id": 5,
+    "expression": "Padding",
+    "options": ["Внешняя граница", "Внутренний отступ", "Цветовая палитра"],
+    "correct_answer": "Внутренний отступ",
+    "example": {
+      "text": "Increase the padding inside this button.",
+      "translation": "Увеличь внутренний отступ в этой кнопке."
+    }
+  },
+  {
+    "id": 6,
+    "expression": "Margin",
+    "options": ["Внешний отступ", "Внутренний отступ", "Межстрочный интервал"],
+    "correct_answer": "Внешний отступ",
+    "example": {
+      "text": "We need a larger bottom margin.",
+      "translation": "Нам нужен больший нижний внешний отступ."
+    }
+  },
+  {
+    "id": 7,
+    "expression": "Assets",
+    "options": ["Материалы / Исходники", "Анимации", "Шрифты"],
+    "correct_answer": "Материалы / Исходники",
+    "example": {
+      "text": "Export all the assets for developers.",
+      "translation": "Экспортируй все исходники для разработчиков."
+    }
+  },
+  {
+    "id": 8,
+    "expression": "Opacity",
+    "options": ["Размытие", "Непрозрачность", "Контраст"],
+    "correct_answer": "Непрозрачность",
+    "example": {
+      "text": "Reduce the background opacity to 50%.",
+      "translation": "Снизь непрозрачность фона до 50%."
+    }
+  },
+  {
+    "id": 9,
+    "expression": "Draft",
+    "options": ["Векторная иконка", "Черновик", "Финальный файл"],
+    "correct_answer": "Черновик",
+    "example": {
+      "text": "This is just a rough draft.",
+      "translation": "Это просто грубый черновик."
+    }
+  },
+  {
+    "id": 10,
+    "expression": "Sans-serif",
+    "options": ["Шрифт с засечками", "Рукописный шрифт", "Шрифт без засечек"],
+    "correct_answer": "Шрифт без засечек",
+    "example": {
+      "text": "Let's use a clean sans-serif font.",
+      "translation": "Давай использовать чистый шрифт без засечек."
+    }
+  },
+  {
+    "id": 11,
+    "expression": "Pastel",
+    "options": ["Пастельный", "Яркий и кислотный", "Темный и мрачный"],
+    "correct_answer": "Пастельный",
+    "example": {
+      "text": "Try a soft pastel color palette.",
+      "translation": "Попробуй мягкую пастельную цветовую палитру."
+    }
+  },
+  {
+    "id": 12,
+    "expression": "Minimalism",
+    "options": ["Перегруженный дизайн", "Минимализм", "Сложная анимация"],
+    "correct_answer": "Минимализм",
+    "example": {
+      "text": "This design is about pure minimalism.",
+      "translation": "Этот дизайн — про чистый минимализм."
+    }
+  },
+  {
+    "id": 13,
+    "expression": "CTA",
+    "literal": "(сокращение от Call to Action)",
+    "options": ["Призыв к действию", "Всплывающее окно", "Нижний колонтитул"],
+    "correct_answer": "Призыв к действию",
+    "example": {
+      "text": "Make the CTA button more visible.",
+      "translation": "Сделай кнопку призыва к действию заметнее."
+    }
+  },
+  {
+    "id": 14,
+    "expression": "Header",
+    "options": ["Подвал сайта", "Шапка сайта", "Боковое меню"],
+    "correct_answer": "Шапка сайта",
+    "example": {
+      "text": "Make the logo smaller in the header.",
+      "translation": "Сделай логотип в шапке сайта поменьше."
+    }
+  },
+  {
+    "id": 15,
+    "expression": "Footer",
+    "options": ["Подвал сайта", "Шапка сайта", "Всплывающее окно"],
+    "correct_answer": "Подвал сайта",
+    "example": {
+      "text": "Add social media links to the footer.",
+      "translation": "Добавь ссылки на соцсети в подвал."
+    }
+  },
+  {
+    "id": 16,
+    "expression": "Prototype",
+    "options": ["Статичная картинка", "Рабочая модель / Прототип", "Логотип"],
+    "correct_answer": "Рабочая модель / Прототип",
+    "example": {
+      "text": "Let's test this interactive prototype.",
+      "translation": "Давай протестируем этот интерактивный прототип."
+    }
+  },
+  {
+    "id": 17,
+    "expression": "Resolution",
+    "options": ["Цветокоррекция", "Разрешение экрана", "Слой"],
+    "correct_answer": "Разрешение экрана",
+    "example": {
+      "text": "Export this image in high resolution.",
+      "translation": "Экспортируй эту картинку в высоком разрешении."
+    }
+  },
+  {
+    "id": 18,
+    "expression": "Vector",
+    "options": ["Векторная графика", "Растровая графика", "Фотография"],
+    "correct_answer": "Векторная графика",
+    "example": {
+      "text": "Always use vector graphics for logos.",
+      "translation": "Всегда используй векторную графику для логотипов."
+    }
+  },
+  {
+    "id": 19,
+    "expression": "Contrast",
+    "options": ["Насыщенность", "Контраст", "Яркость"],
+    "correct_answer": "Контраст",
+    "example": {
+      "text": "The text contrast is too low.",
+      "translation": "Контраст текста слишком низкий."
+    }
+  },
+  {
+    "id": 20,
+    "expression": "Guideline",
+    "options": ["Руководство / Стандарт", "Набросок от руки", "Сетка"],
+    "correct_answer": "Руководство / Стандарт",
+    "example": {
+      "text": "Just follow the brand guidelines.",
+      "translation": "Просто следуй дизайн-руководствам бренда."
+    }
+  },
+  {
+    "id": 21,
+    "expression": "Grid",
+    "options": ["Сетка", "Шрифт", "Цветовая палитра"],
+    "correct_answer": "Сетка",
+    "example": {
+      "text": "Snap all layout elements to the grid.",
+      "translation": "Привяжи все элементы макета к сетке."
+    }
+  },
+  {
+    "id": 22,
+    "expression": "Hover",
+    "literal": "(досл. парение)",
+    "options": ["Клик мышью", "Наведение курсора", "Прокрутка страницы"],
+    "correct_answer": "Наведение курсора",
+    "example": {
+      "text": "Change the button color on hover.",
+      "translation": "Измени цвет кнопки при наведении курсора."
+    }
+  },
+  {
+    "id": 23,
+    "expression": "Splash screen",
+    "options": ["Экран ошибки", "Главная страница", "Экран загрузки"],
+    "correct_answer": "Экран загрузки",
+    "example": {
+      "text": "Add our logo to the splash screen.",
+      "translation": "Добавь наш логотип на экран загрузки."
+    }
+  },
+  {
+    "id": 24,
+    "expression": "Breadcrumbs",
+    "literal": "(досл. хлебные крошки)",
+    "options": ["Навигационная цепочка", "Иконки соцсетей", "Мелкий текст"],
+    "correct_answer": "Навигационная цепочка",
+    "example": {
+      "text": "Add breadcrumbs for better navigation.",
+      "translation": "Добавь навигационную цепочку (крошки) для удобства."
+    }
+  },
+  {
+    "id": 25,
+    "expression": "Dropdown",
+    "options": ["Всплывающее окно", "Выпадающий список", "Ползунок"],
+    "correct_answer": "Выпадающий список",
+    "example": {
+      "text": "Select your country from the dropdown.",
+      "translation": "Выбери страну из выпадающего списка."
+    }
+  },
+  {
+    "id": 26,
+    "expression": "Toggle",
+    "options": ["Поле ввода", "Чекбокс", "Переключатель"],
+    "correct_answer": "Переключатель",
+    "example": {
+      "text": "Use a toggle switch for dark mode.",
+      "translation": "Используй переключатель для тёмной темы."
+    }
+  },
+  {
+    "id": 27,
+    "expression": "Tooltip",
+    "options": ["Подсказка при наведении", "Заголовок", "Кнопка отмены"],
+    "correct_answer": "Подсказка при наведении",
+    "example": {
+      "text": "Add a tooltip on hover.",
+      "translation": "Добавь подсказку при наведении."
+    }
+  },
+  {
+    "id": 28,
+    "expression": "Pixel-perfect",
+    "literal": "(досл. пиксель в пиксель)",
+    "options": ["Идеальная верстка по макету", "Картинка в высоком качестве", "Размытый фон"],
+    "correct_answer": "Идеальная верстка по макету",
+    "example": {
+      "text": "The final layout is pixel-perfect.",
+      "translation": "Итоговая верстка просто пиксель-в-пиксель."
+    }
+  },
+  {
+    "id": 29,
+    "expression": "Usability",
+    "options": ["Красота интерфейса", "Удобство использования", "Скорость загрузки"],
+    "correct_answer": "Удобство использования",
+    "example": {
+      "text": "We need to run a usability test.",
+      "translation": "Нам нужно провести тест на удобство (юзабилити)."
+    }
+  },
+  {
+    "id": 30,
+    "expression": "a11y",
+    "literal": "(сокращение от Accessibility)",
+    "options": ["Доступность (для людей с ОВЗ)", "Адаптивность", "Анимация"],
+    "correct_answer": "Доступность (для людей с ОВЗ)",
+    "example": {
+      "text": "We must improve a11y in our app.",
+      "translation": "Мы должны улучшить доступность в приложении."
+    }
+  },
+  {
+    "id": 31,
+    "expression": "Moodboard",
+    "options": ["Доска настроения (референсы)", "Рабочий стол", "Сетка макета"],
+    "correct_answer": "Доска настроения (референсы)",
+    "example": {
+      "text": "I collected some references on the moodboard.",
+      "translation": "Я собрал несколько референсов на мудборде."
+    }
+  },
+  {
+    "id": 32,
+    "expression": "Responsive",
+    "options": ["Быстрый сервер", "Адаптивный дизайн", "Векторный формат"],
+    "correct_answer": "Адаптивный дизайн",
+    "example": {
+      "text": "This layout must be fully responsive.",
+      "translation": "Этот макет должен быть полностью адаптивным."
+    }
+  },
+  {
+    "id": 33,
+    "expression": "Typography",
+    "options": ["Типографика", "Иконки", "Фотографии"],
+    "correct_answer": "Типографика",
+    "example": {
+      "text": "Good typography makes the text readable.",
+      "translation": "Хорошая типографика делает текст читаемым."
+    }
+  },
+  {
+    "id": 34,
+    "expression": "Hierarchy",
+    "options": ["Палитра цветов", "Визуальная иерархия", "Структура базы данных"],
+    "correct_answer": "Визуальная иерархия",
+    "example": {
+      "text": "Establish a clear visual hierarchy here.",
+      "translation": "Выстрой здесь четкую визуальную иерархию."
+    }
+  },
+  {
+    "id": 35,
+    "expression": "Kerning",
+    "options": ["Межстрочный интервал", "Межбуквенный интервал", "Отступ от края"],
+    "correct_answer": "Межбуквенный интервал",
+    "example": {
+      "text": "Adjust the kerning in the logo.",
+      "translation": "Настрой кернинг (межбуквенный интервал) в логотипе."
+    }
+  },
+  {
+    "id": 36,
+    "expression": "Leading",
+    "options": ["Заголовок", "Межбуквенный интервал", "Межстрочный интервал"],
+    "correct_answer": "Межстрочный интервал",
+    "example": {
+      "text": "Increase the leading in this paragraph.",
+      "translation": "Увеличь межстрочный интервал в этом абзаце."
+    }
+  },
+  {
+    "id": 37,
+    "expression": "Gradient",
+    "options": ["Сплошная заливка", "Градиент", "Прозрачность"],
+    "correct_answer": "Градиент",
+    "example": {
+      "text": "Let's use a smooth linear gradient.",
+      "translation": "Давай использовать плавный линейный градиент."
+    }
+  },
+  {
+    "id": 38,
+    "expression": "Blur",
+    "options": ["Резкость", "Тень", "Размытие"],
+    "correct_answer": "Размытие",
+    "example": {
+      "text": "Apply a subtle background blur.",
+      "translation": "Примени легкое размытие фона."
+    }
+  },
+  {
+    "id": 39,
+    "expression": "Stroke",
+    "options": ["Обводка", "Заливка", "Толщина шрифта"],
+    "correct_answer": "Обводка",
+    "example": {
+      "text": "Add a red stroke for errors.",
+      "translation": "Добавь красную обводку для ошибок."
+    }
+  },
+  {
+    "id": 40,
+    "expression": "Corner radius",
+    "options": ["Скругление углов", "Размер шрифта", "Толщина линии"],
+    "correct_answer": "Скругление углов",
+    "example": {
+      "text": "Set the corner radius to 12px.",
+      "translation": "Задай скругление углов 12px."
+    }
+  },
+  {
+    "id": 41,
+    "expression": "Component",
+    "options": ["Плагин", "Слой", "Компонент"],
+    "correct_answer": "Компонент",
+    "example": {
+      "text": "Create a master component for it.",
+      "translation": "Создай главный компонент для этого."
+    }
+  },
+  {
+    "id": 42,
+    "expression": "Instance",
+    "options": ["Анимация", "Экземпляр", "Сетка"],
+    "correct_answer": "Экземпляр",
+    "example": {
+      "text": "Update this instance in the layout.",
+      "translation": "Обнови этот экземпляр в макете."
+    }
+  },
+  {
+    "id": 43,
+    "expression": "Variant",
+    "options": ["Вариант", "Маска", "Шрифт"],
+    "correct_answer": "Вариант",
+    "example": {
+      "text": "Add a disabled variant for this button.",
+      "translation": "Добавь неактивный вариант для этой кнопки."
+    }
+  },
+  {
+    "id": 44,
+    "expression": "Auto layout",
+    "options": ["Ручное выравнивание", "Автолейаут", "Случайный порядок"],
+    "correct_answer": "Автолейаут",
+    "example": {
+      "text": "Just use auto layout here.",
+      "translation": "Просто используй здесь автолейаут."
+    }
+  },
+  {
+    "id": 45,
+    "expression": "Plugin",
+    "options": ["Расширение / Плагин", "Рабочая область", "Разрешение"],
+    "correct_answer": "Расширение / Плагин",
+    "example": {
+      "text": "This plugin generates random user avatars.",
+      "translation": "Этот плагин генерирует случайные аватарки пользователей."
+    }
+  },
+  {
+    "id": 46,
+    "expression": "Layer",
+    "options": ["Палитра", "Слой", "Интервал"],
+    "correct_answer": "Слой",
+    "example": {
+      "text": "Lock the background layer.",
+      "translation": "Заблокируй фоновый слой."
+    }
+  },
+  {
+    "id": 47,
+    "expression": "Frame",
+    "options": ["Тень", "Фрейм (рамка)", "Экспорт"],
+    "correct_answer": "Фрейм (рамка)",
+    "example": {
+      "text": "Put all elements inside a frame.",
+      "translation": "Помести все элементы внутрь фрейма."
+    }
+  },
+  {
+    "id": 48,
+    "expression": "Artboard",
+    "options": ["Артборд (монтажная область)", "Слой", "Заливка"],
+    "correct_answer": "Артборд (монтажная область)",
+    "example": {
+      "text": "Set the artboard width to 1440px.",
+      "translation": "Установи ширину артборда на 1440px."
+    }
+  },
+  {
+    "id": 49,
+    "expression": "Canvas",
+    "options": ["Шрифт", "Холст / Рабочая область", "Иконка"],
+    "correct_answer": "Холст / Рабочая область",
+    "example": {
+      "text": "I lost my designs on the canvas.",
+      "translation": "Я потерял свои макеты на рабочей области."
+    }
+  },
+  {
+    "id": 50,
+    "expression": "Export",
+    "options": ["Экспорт", "Импорт", "Удаление"],
+    "correct_answer": "Экспорт",
+    "example": {
+      "text": "Export this icon as an SVG.",
+      "translation": "Экспортируй эту иконку как SVG."
+    }
+  },
+  {
+    "id": 51,
+    "expression": "Drop shadow",
+    "options": ["Внешняя тень", "Внутренняя тень", "Размытие"],
+    "correct_answer": "Внешняя тень",
+    "example": {
+      "text": "Add a soft drop shadow here.",
+      "translation": "Добавь здесь мягкую внешнюю тень."
+    }
+  },
+  {
+    "id": 52,
+    "expression": "Inner shadow",
+    "options": ["Внешняя тень", "Заливка", "Внутренняя тень"],
+    "correct_answer": "Внутренняя тень",
+    "example": {
+      "text": "The inner shadow looks too harsh.",
+      "translation": "Внутренняя тень выглядит слишком резкой."
+    }
+  },
+  {
+    "id": 53,
+    "expression": "Fill",
+    "options": ["Обводка", "Заливка", "Прозрачность"],
+    "correct_answer": "Заливка",
+    "example": {
+      "text": "Change the fill to dark gray.",
+      "translation": "Измени заливку на темно-серый."
+    }
+  },
+  {
+    "id": 54,
+    "expression": "Hex code",
+    "options": ["Размер шрифта", "Hex-код (код цвета)", "Код разработчика"],
+    "correct_answer": "Hex-код (код цвета)",
+    "example": {
+      "text": "What's the hex code for this?",
+      "translation": "Какой hex-код у этого цвета?"
+    }
+  },
+  {
+    "id": 55,
+    "expression": "Palette",
+    "options": ["Палитра", "Сетка", "Маска"],
+    "correct_answer": "Палитра",
+    "example": {
+      "text": "Let's stick to our primary palette.",
+      "translation": "Давай придерживаться нашей основной палитры."
+    }
+  },
+  {
+    "id": 56,
+    "expression": "Swatch",
+    "options": ["Образец цвета", "Градиент", "Слой"],
+    "correct_answer": "Образец цвета",
+    "example": {
+      "text": "Save this color as a swatch.",
+      "translation": "Сохрани этот цвет как образец."
+    }
+  },
+  {
+    "id": 57,
+    "expression": "Wireframing",
+    "options": ["Проектирование каркаса", "Создание анимации", "Выравнивание"],
+    "correct_answer": "Проектирование каркаса",
+    "example": {
+      "text": "Wireframing helps us test the layout.",
+      "translation": "Проектирование каркаса помогает протестировать макет."
+    }
+  },
+  {
+    "id": 58,
+    "expression": "Prototyping",
+    "options": ["Прототипирование", "Удаление", "Экспорт"],
+    "correct_answer": "Прототипирование",
+    "example": {
+      "text": "Start prototyping the main user flow.",
+      "translation": "Начинай прототипирование главного пути пользователя."
+    }
+  },
+  {
+    "id": 59,
+    "expression": "Constraints",
+    "options": ["Привязки / Ограничения", "Направляющие", "Шрифты"],
+    "correct_answer": "Привязки / Ограничения",
+    "example": {
+      "text": "Set constraints to left and top.",
+      "translation": "Установи привязки по левому и верхнему краю."
+    }
+  },
+  {
+    "id": 60,
+    "expression": "Mask",
+    "options": ["Тень", "Маска", "Обводка"],
+    "correct_answer": "Маска",
+    "example": {
+      "text": "Use a mask for this image.",
+      "translation": "Используй маску для этой картинки."
+    }
+  },
+  {
+    "id": 61,
+    "expression": "Raster",
+    "options": ["Векторная графика", "Растровая графика", "Сетка"],
+    "correct_answer": "Растровая графика",
+    "example": {
+      "text": "Don't scale up this raster image.",
+      "translation": "Не увеличивай эту растровую картинку."
+    }
+  },
+  {
+    "id": 62,
+    "expression": "User flow",
+    "options": ["Путь пользователя", "Визуальный стиль", "База данных"],
+    "correct_answer": "Путь пользователя",
+    "example": {
+      "text": "The checkout user flow is confusing.",
+      "translation": "Путь пользователя при оплате слишком запутанный."
+    }
+  },
+  {
+    "id": 63,
+    "expression": "Onboarding",
+    "options": ["Экран загрузки", "Онбординг (обучение)", "Удаление аккаунта"],
+    "correct_answer": "Онбординг (обучение)",
+    "example": {
+      "text": "Let's simplify the onboarding process.",
+      "translation": "Давай упростим процесс онбординга."
+    }
+  },
+  {
+    "id": 64,
+    "expression": "Dashboard",
+    "options": ["Всплывающее окно", "Подвал сайта", "Дашборд (панель управления)"],
+    "correct_answer": "Дашборд (панель управления)",
+    "example": {
+      "text": "The admin dashboard needs more charts.",
+      "translation": "На дашборд админа нужно добавить графики."
+    }
+  },
+  {
+    "id": 65,
+    "expression": "Accordion",
+    "options": ["Чекбокс", "Выпадающее меню", "Аккордеон (раскрывающийся список)"],
+    "correct_answer": "Аккордеон (раскрывающийся список)",
+    "example": {
+      "text": "Put the FAQ in an accordion.",
+      "translation": "Помести частые вопросы в аккордеон."
+    }
+  },
+  {
+    "id": 66,
+    "expression": "Checkbox",
+    "options": ["Чекбокс (множественный выбор)", "Радиокнопка", "Ползунок"],
+    "correct_answer": "Чекбокс (множественный выбор)",
+    "example": {
+      "text": "Users must select at least one checkbox.",
+      "translation": "Пользователи должны отметить хотя бы один чекбокс."
+    }
+  },
+  {
+    "id": 67,
+    "expression": "Radio button",
+    "options": ["Поле ввода", "Кнопка отмены", "Радиокнопка (только один выбор)"],
+    "correct_answer": "Радиокнопка (только один выбор)",
+    "example": {
+      "text": "Use radio buttons for exclusive choices.",
+      "translation": "Используй радиокнопки для единственного выбора."
+    }
+  },
+  {
+    "id": 68,
+    "expression": "Pagination",
+    "options": ["Боковое меню", "Постраничная навигация", "Хлебные крошки"],
+    "correct_answer": "Постраничная навигация",
+    "example": {
+      "text": "Add pagination at the bottom.",
+      "translation": "Добавь постраничную навигацию внизу."
+    }
+  },
+  {
+    "id": 69,
+    "expression": "Tabs",
+    "options": ["Вкладки (табы)", "Текстовые ссылки", "Теги"],
+    "correct_answer": "Вкладки (табы)",
+    "example": {
+      "text": "Switch between categories using tabs.",
+      "translation": "Переключайся между категориями с помощью вкладок."
+    }
+  },
+  {
+    "id": 70,
+    "expression": "Slider",
+    "options": ["Карусель фото", "Всплывающее окно", "Ползунок (слайдер)"],
+    "correct_answer": "Ползунок (слайдер)",
+    "example": {
+      "text": "Use a slider to pick the price.",
+      "translation": "Используй ползунок для выбора цены."
+    }
+  },
+  {
+    "id": 71,
+    "expression": "Modal",
+    "options": ["Уведомление", "Модальное окно", "Боковая панель"],
+    "correct_answer": "Модальное окно",
+    "example": {
+      "text": "The login form opens in a modal.",
+      "translation": "Форма входа открывается в модальном окне."
+    }
+  },
+  {
+    "id": 72,
+    "expression": "Pop-up",
+    "options": ["Всплывающее окно", "Снэкбар", "Модальное окно"],
+    "correct_answer": "Всплывающее окно",
+    "example": {
+      "text": "This promo pop-up is too annoying.",
+      "translation": "Это промо всплывающее окно слишком раздражает."
+    }
+  },
+  {
+    "id": 73,
+    "expression": "Snackbar",
+    "options": ["Краткое уведомление внизу", "Меню навигации", "Шапка профиля"],
+    "correct_answer": "Краткое уведомление внизу",
+    "example": {
+      "text": "Show a snackbar after saving.",
+      "translation": "Покажи краткое уведомление после сохранения."
+    }
+  },
+  {
+    "id": 74,
+    "expression": "Banner",
+    "options": ["Текст с ошибкой", "Рекламный баннер", "Подсказка"],
+    "correct_answer": "Рекламный баннер",
+    "example": {
+      "text": "Hide the promo banner on mobile.",
+      "translation": "Скрой рекламный баннер на мобилке."
+    }
+  },
+  {
+    "id": 75,
+    "expression": "Navbar",
+    "options": ["Футер", "Текстовый блок", "Панель навигации"],
+    "correct_answer": "Панель навигации",
+    "example": {
+      "text": "Make the navbar sticky on scroll.",
+      "translation": "Сделай панель навигации липкой при скролле."
+    }
+  },
+  {
+    "id": 76,
+    "expression": "Sidebar",
+    "options": ["Выпадающий список", "Вкладка", "Боковая панель"],
+    "correct_answer": "Боковая панель",
+    "example": {
+      "text": "Move the filters to the sidebar.",
+      "translation": "Перенеси фильтры в боковую панель."
+    }
+  },
+  {
+    "id": 77,
+    "expression": "Hero section",
+    "options": ["Главный экран (обложка)", "Раздел с контактами", "Блок отзывов"],
+    "correct_answer": "Главный экран (обложка)",
+    "example": {
+      "text": "The hero section needs a strong headline.",
+      "translation": "Главному экрану нужен сильный заголовок."
+    }
+  },
+  {
+    "id": 78,
+    "expression": "Thumbnail",
+    "options": ["Иконка загрузки", "Размытый фон", "Миниатюра (превью)"],
+    "correct_answer": "Миниатюра (превью)",
+    "example": {
+      "text": "Click the thumbnail to open the gallery.",
+      "translation": "Кликни на миниатюру, чтобы открыть галерею."
+    }
+  },
+  {
+    "id": 79,
+    "expression": "Breakpoint",
+    "options": ["Ошибка в коде", "Контрольная точка адаптива", "Межстрочный интервал"],
+    "correct_answer": "Контрольная точка адаптива",
+    "example": {
+      "text": "Change the layout at the tablet breakpoint.",
+      "translation": "Измени макет на контрольной точке для планшетов."
+    }
+  },
+  {
+    "id": 80,
+    "expression": "Aspect ratio",
+    "options": ["Разрешение экрана", "Цветовой баланс", "Соотношение сторон"],
+    "correct_answer": "Соотношение сторон",
+    "example": {
+      "text": "Keep the 16:9 aspect ratio for videos.",
+      "translation": "Сохраняй соотношение сторон 16:9 для видео."
+    }
+  },
+  {
+    "id": 81,
+    "expression": "Design system",
+    "options": ["Система контроля версий", "Дизайн-система", "Сетка макета"],
+    "correct_answer": "Дизайн-система",
+    "example": {
+      "text": "Add this new button to our design system.",
+      "translation": "Добавь эту новую кнопку в нашу дизайн-систему."
+    }
+  },
+  {
+    "id": 82,
+    "expression": "Style guide",
+    "options": ["Руководство по стилю", "Набросок", "Черновик"],
+    "correct_answer": "Руководство по стилю",
+    "example": {
+      "text": "Check the style guide for text sizes.",
+      "translation": "Сверься с руководством по стилю для размеров текста."
+    }
+  },
+  {
+    "id": 83,
+    "expression": "Heatmap",
+    "options": ["Карта сайта", "Тепловая карта (кликов)", "Цветовая палитра"],
+    "correct_answer": "Тепловая карта (кликов)",
+    "example": {
+      "text": "The heatmap shows no clicks here.",
+      "translation": "Тепловая карта показывает, что здесь нет кликов."
+    }
+  },
+  {
+    "id": 84,
+    "expression": "Conversion",
+    "options": ["Адаптивность", "Разрешение экрана", "Показатель конверсии"],
+    "correct_answer": "Показатель конверсии",
+    "example": {
+      "text": "This redesign will boost our conversion.",
+      "translation": "Этот редизайн повысит нашу конверсию."
+    }
+  },
+  {
+    "id": 85,
+    "expression": "Above the fold",
+    "literal": "(досл. выше сгиба)",
+    "options": ["Первый экран (без прокрутки)", "Всплывающее меню", "Подвал сайта"],
+    "correct_answer": "Первый экран (без прокрутки)",
+    "example": {
+      "text": "Keep the main CTA above the fold.",
+      "translation": "Держи главную кнопку на первом экране."
+    }
+  },
+  {
+    "id": 86,
+    "expression": "Dark mode",
+    "options": ["Темная тема", "Скрытый слой", "Тень"],
+    "correct_answer": "Темная тема",
+    "example": {
+      "text": "We need to design the dark mode.",
+      "translation": "Нам нужно задизайнить темную тему."
+    }
+  },
+  {
+    "id": 87,
+    "expression": "Skeleton",
+    "options": ["Каркас экрана", "Скелетон (заглушка при загрузке)", "Скрытый текст"],
+    "correct_answer": "Скелетон (заглушка при загрузке)",
+    "example": {
+      "text": "Show a skeleton while the data loads.",
+      "translation": "Покажи скелетон, пока данные загружаются."
+    }
+  },
+  {
+    "id": 88,
+    "expression": "Spinner",
+    "options": ["Индикатор загрузки", "Слайдер", "Выпадающий список"],
+    "correct_answer": "Индикатор загрузки",
+    "example": {
+      "text": "Add a loading spinner to the button.",
+      "translation": "Добавь индикатор загрузки на кнопку."
+    }
+  },
+  {
+    "id": 89,
+    "expression": "Empty state",
+    "options": ["Удаленный слой", "Пустой экран (когда нет данных)", "Прозрачный фон"],
+    "correct_answer": "Пустой экран (когда нет данных)",
+    "example": {
+      "text": "Design a friendly empty state with an illustration.",
+      "translation": "Нарисуй приветливый пустой экран с иллюстрацией."
+    }
+  },
+  {
+    "id": 90,
+    "expression": "Popover",
+    "options": ["Модальное окно", "Подсказка", "Всплывающий блок"],
+    "correct_answer": "Всплывающий блок",
+    "example": {
+      "text": "Add a popover with more details.",
+      "translation": "Добавь всплывающий блок с подробностями."
+    }
+  },
+  {
+    "id": 91,
+    "expression": "Badge",
+    "options": ["Бейдж (счетчик уведомлений)", "Кнопка", "Иконка профиля"],
+    "correct_answer": "Бейдж (счетчик уведомлений)",
+    "example": {
+      "text": "Show a red badge for new messages.",
+      "translation": "Покажи красный бейдж для новых сообщений."
+    }
+  },
+  {
+    "id": 92,
+    "expression": "Carousel",
+    "options": ["Карусель элементов", "Анимация загрузки", "Боковое меню"],
+    "correct_answer": "Карусель элементов",
+    "example": {
+      "text": "Put the product images in a carousel.",
+      "translation": "Помести фото продукта в карусель."
+    }
+  },
+  {
+    "id": 93,
+    "expression": "Microinteraction",
+    "options": ["Микроанимация (отклик интерфейса)", "Маленький шрифт", "Миниатюра"],
+    "correct_answer": "Микроанимация (отклик интерфейса)",
+    "example": {
+      "text": "Add a microinteraction to the like button.",
+      "translation": "Добавь микроанимацию на кнопку лайка."
+    }
+  },
+  {
+    "id": 94,
+    "expression": "Dropzone",
+    "options": ["Область для перетаскивания файлов", "Корзина", "Скрытый слой"],
+    "correct_answer": "Область для перетаскивания файлов",
+    "example": {
+      "text": "Make the dropzone area much larger.",
+      "translation": "Сделай область для перетаскивания намного больше."
+    }
+  },
+  {
+    "id": 95,
+    "expression": "Stepper",
+    "options": ["Степпер (шаги процесса)", "Ползунок", "Сетка"],
+    "correct_answer": "Степпер (шаги процесса)",
+    "example": {
+      "text": "Use a stepper for the checkout process.",
+      "translation": "Используй степпер для процесса оформления заказа."
+    }
+  },
+  {
+    "id": 96,
+    "expression": "Divider",
+    "options": ["Разделитель (линия)", "Градиент", "Отступ"],
+    "correct_answer": "Разделитель (линия)",
+    "example": {
+      "text": "Add a light gray divider between sections.",
+      "translation": "Добавь светло-серый разделитель между секциями."
+    }
+  },
+  {
+    "id": 97,
+    "expression": "Placeholder",
+    "options": ["Текст-заглушка в поле ввода", "Главный заголовок", "Иконка ошибки"],
+    "correct_answer": "Текст-заглушка в поле ввода",
+    "example": {
+      "text": "Change the placeholder text in the search bar.",
+      "translation": "Измени текст-заглушку в строке поиска."
+    }
+  },
+  {
+    "id": 98,
+    "expression": "Lorem ipsum",
+    "options": ["Векторный формат", "Рыба-текст (для макета)", "Слой-маска"],
+    "correct_answer": "Рыба-текст (для макета)",
+    "example": {
+      "text": "Just fill the block with lorem ipsum.",
+      "translation": "Просто заполни блок рыбой-текстом."
+    }
+  },
+  {
+    "id": 99,
+    "expression": "Hand-off",
+    "literal": "(досл. передача из рук в руки)",
+    "options": ["Удаление проекта", "Экспорт иконок", "Передача макетов в разработку"],
+    "correct_answer": "Передача макетов в разработку",
+    "example": {
+      "text": "Prepare the Figma file for dev hand-off.",
+      "translation": "Подготовь файл в Фигме для передачи в разработку."
+    }
+  },
+  {
+    "id": 100,
+    "expression": "Avatar",
+    "options": ["Фото профиля пользователя", "Модальное окно", "Анимация"],
+    "correct_answer": "Фото профиля пользователя",
+    "example": {
+      "text": "Make the user avatar perfectly round.",
+      "translation": "Сделай аватарку пользователя идеально круглой."
+    }
+  }
+]

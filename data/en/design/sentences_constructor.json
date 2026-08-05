@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "russian": "Давайте использовать строгий минимализм здесь.",
+    "words_pool": ["let's", "use", "strict", "minimalism", "here", "make", "do", "bold", "font"],
+    "correct_sequences": [
+      ["let's", "use", "strict", "minimalism", "here"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 2,
+    "russian": "Можешь добавить больше воздуха?",
+    "words_pool": ["can", "you", "add", "more", "whitespace", "make", "less", "lines", "padding"],
+    "correct_sequences": [
+      ["can", "you", "add", "more", "whitespace"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 3,
+    "russian": "Я скину все исходники из Фигмы.",
+    "words_pool": ["i'll", "drop", "all", "assets", "from", "figma", "save", "make", "layers", "code"],
+    "correct_sequences": [
+      ["i'll", "drop", "all", "assets", "from", "figma"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 4,
+    "russian": "Паддинги везде одинаковые?",
+    "words_pool": ["is", "the", "padding", "the", "same", "everywhere", "margin", "make", "fonts", "are"],
+    "correct_sequences": [
+      ["is", "the", "padding", "the", "same", "everywhere"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 5,
+    "russian": "Клиент хочет пастельную палитру.",
+    "words_pool": ["the", "client", "wants", "a", "pastel", "palette", "bright", "needs", "make", "color"],
+    "correct_sequences": [
+      ["the", "client", "wants", "a", "pastel", "palette"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 6,
+    "russian": "Давай поменяем шрифт на без засечек.",
+    "words_pool": ["let's", "change", "the", "font", "to", "sans-serif", "make", "text", "bold", "serif"],
+    "correct_sequences": [
+      ["let's", "change", "the", "font", "to", "sans-serif"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 7,
+    "russian": "Выравнивание поехало на мобилке.",
+    "words_pool": ["the", "alignment", "looks", "off", "on", "mobile", "make", "padding", "is", "desktop"],
+    "correct_sequences": [
+      ["the", "alignment", "looks", "off", "on", "mobile"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 8,
+    "russian": "Сделай эту тень чуть прозрачнее.",
+    "words_pool": ["make", "this", "shadow", "a", "bit", "more", "transparent", "less", "opacity", "do", "dark"],
+    "correct_sequences": [
+      ["make", "this", "shadow", "a", "bit", "more", "transparent"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 9,
+    "russian": "Вот первый драфт главного экрана.",
+    "words_pool": ["here", "is", "the", "first", "draft", "of", "the", "main", "screen", "final", "make", "app"],
+    "correct_sequences": [
+      ["here", "is", "the", "first", "draft", "of", "the", "main", "screen"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 10,
+    "russian": "Кнопке нужен больший контраст.",
+    "words_pool": ["the", "button", "needs", "more", "contrast", "less", "make", "color", "cta"],
+    "correct_sequences": [
+      ["the", "button", "needs", "more", "contrast"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 11,
+    "russian": "Сделай верстку пиксель в пиксель, пожалуйста.",
+    "words_pool": ["make", "it", "pixel-perfect", "please", "do", "code", "responsive", "just"],
+    "correct_sequences": [
+      ["make", "it", "pixel-perfect", "please"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 12,
+    "russian": "На этой кнопке не хватает состояния при наведении.",
+    "words_pool": ["the", "hover", "state", "is", "missing", "on", "this", "button", "click", "make", "active"],
+    "correct_sequences": [
+      ["the", "hover", "state", "is", "missing", "on", "this", "button"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 13,
+    "russian": "Можем поменять скругление углов на 8 пикселей?",
+    "words_pool": ["can", "we", "change", "the", "corner", "radius", "to", "8", "pixels", "make", "stroke", "round"],
+    "correct_sequences": [
+      ["can", "we", "change", "the", "corner", "radius", "to", "8", "pixels"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 14,
+    "russian": "Выпадающее меню слишком длинное.",
+    "words_pool": ["the", "dropdown", "menu", "is", "too", "long", "popup", "make", "short", "big"],
+    "correct_sequences": [
+      ["the", "dropdown", "menu", "is", "too", "long"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 15,
+    "russian": "Сайт теперь полностью адаптивный?",
+    "words_pool": ["is", "the", "site", "fully", "responsive", "now", "make", "mobile", "desktop", "ready"],
+    "correct_sequences": [
+      ["is", "the", "site", "fully", "responsive", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 16,
+    "russian": "Мне не нравится этот градиент, он слишком яркий.",
+    "words_pool": ["i", "don't", "like", "this", "gradient", "it's", "too", "bright", "dark", "color", "make"],
+    "correct_sequences": [
+      ["i", "don't", "like", "this", "gradient", "it's", "too", "bright"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 17,
+    "russian": "Нам нужна подсказка для этой иконки.",
+    "words_pool": ["we", "need", "a", "tooltip", "for", "this", "icon", "make", "popup", "text", "button"],
+    "correct_sequences": [
+      ["we", "need", "a", "tooltip", "for", "this", "icon"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 18,
+    "russian": "Увеличь толщину обводки до 2 пикселей.",
+    "words_pool": ["increase", "the", "stroke", "width", "to", "2", "pixels", "make", "line", "radius", "less"],
+    "correct_sequences": [
+      ["increase", "the", "stroke", "width", "to", "2", "pixels"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 19,
+    "russian": "Визуальная иерархия немного сбивает с толку.",
+    "words_pool": ["the", "visual", "hierarchy", "is", "a", "bit", "confusing", "make", "grid", "bad", "looks"],
+    "correct_sequences": [
+      ["the", "visual", "hierarchy", "is", "a", "bit", "confusing"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 20,
+    "russian": "Поправь межстрочный интервал в этом абзаце.",
+    "words_pool": ["fix", "the", "leading", "in", "this", "paragraph", "make", "kerning", "text", "padding"],
+    "correct_sequences": [
+      ["fix", "the", "leading", "in", "this", "paragraph"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 21,
+    "russian": "Сделай это компонентом.",
+    "words_pool": ["make", "this", "a", "component", "do", "frame", "it", "group", "auto"],
+    "correct_sequences": [
+      ["make", "this", "a", "component"]
+    ],
+    "distractors_count": 5
+  },
+  {
+    "id": 22,
+    "russian": "Используй автолейаут для этой карточки.",
+    "words_pool": ["use", "auto", "layout", "for", "this", "card", "make", "padding", "grid", "put"],
+    "correct_sequences": [
+      ["use", "auto", "layout", "for", "this", "card"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 23,
+    "russian": "Экспортируй иконки в формате svg.",
+    "words_pool": ["export", "the", "icons", "in", "svg", "make", "save", "png", "vector", "format"],
+    "correct_sequences": [
+      ["export", "the", "icons", "in", "svg"]
+    ],
+    "distractors_count": 5
+  },
+  {
+    "id": 24,
+    "russian": "Этот цвет не проходит по контрасту.",
+    "words_pool": ["this", "color", "fails", "the", "contrast", "check", "make", "bright", "palette", "is"],
+    "correct_sequences": [
+      ["this", "color", "fails", "the", "contrast", "check"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 25,
+    "russian": "Нам нужно добавить внешнюю тень.",
+    "words_pool": ["we", "need", "to", "add", "a", "drop", "shadow", "make", "inner", "blur", "color"],
+    "correct_sequences": [
+      ["we", "need", "to", "add", "a", "drop", "shadow"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 26,
+    "russian": "Положи это в отдельный фрейм.",
+    "words_pool": ["put", "this", "in", "a", "separate", "frame", "make", "group", "layer", "canvas"],
+    "correct_sequences": [
+      ["put", "this", "in", "a", "separate", "frame"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 27,
+    "russian": "Измени заливку на белый.",
+    "words_pool": ["change", "the", "fill", "to", "white", "make", "color", "stroke", "black", "is"],
+    "correct_sequences": [
+      ["change", "the", "fill", "to", "white"]
+    ],
+    "distractors_count": 5
+  },
+  {
+    "id": 28,
+    "russian": "Где лежит этот плагин?",
+    "words_pool": ["where", "is", "this", "plugin", "find", "make", "component", "the", "app"],
+    "correct_sequences": [
+      ["where", "is", "this", "plugin"]
+    ],
+    "distractors_count": 5
+  },
+  {
+    "id": 29,
+    "russian": "Ты сделал вариант для темной темы?",
+    "words_pool": ["did", "you", "make", "a", "dark", "mode", "variant", "do", "theme", "color", "light"],
+    "correct_sequences": [
+      ["did", "you", "make", "a", "dark", "mode", "variant"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 30,
+    "russian": "Скинь мне хекс код этого синего.",
+    "words_pool": ["send", "me", "the", "hex", "code", "for", "this", "blue", "make", "color", "give", "swatch"],
+    "correct_sequences": [
+      ["send", "me", "the", "hex", "code", "for", "this", "blue"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 31,
+    "russian": "Добавь пагинацию внизу страницы.",
+    "words_pool": ["add", "pagination", "at", "the", "bottom", "of", "the", "page", "make", "top", "do", "lines"],
+    "correct_sequences": [
+      ["add", "pagination", "at", "the", "bottom", "of", "the", "page"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 32,
+    "russian": "Это модальное окно нельзя закрыть.",
+    "words_pool": ["this", "modal", "cannot", "be", "closed", "popup", "make", "is", "open"],
+    "correct_sequences": [
+      ["this", "modal", "cannot", "be", "closed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 33,
+    "russian": "Клиент просит изменить путь пользователя.",
+    "words_pool": ["the", "client", "wants", "to", "change", "the", "user", "flow", "make", "journey", "map"],
+    "correct_sequences": [
+      ["the", "client", "wants", "to", "change", "the", "user", "flow"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 34,
+    "russian": "Сделай радиокнопки вместо выпадающего списка.",
+    "words_pool": ["use", "radio", "buttons", "instead", "of", "a", "dropdown", "make", "checkboxes", "list"],
+    "correct_sequences": [
+      ["use", "radio", "buttons", "instead", "of", "a", "dropdown"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 35,
+    "russian": "Мы забыли нарисовать пустые состояния.",
+    "words_pool": ["we", "forgot", "to", "design", "the", "empty", "states", "make", "screens", "draw", "do"],
+    "correct_sequences": [
+      ["we", "forgot", "to", "design", "the", "empty", "states"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 36,
+    "russian": "Сдвинь боковую панель немного вправо.",
+    "words_pool": ["move", "the", "sidebar", "a", "bit", "to", "the", "right", "make", "left", "push"],
+    "correct_sequences": [
+      ["move", "the", "sidebar", "a", "bit", "to", "the", "right"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 37,
+    "russian": "Покажи мне дашборд администратора.",
+    "words_pool": ["show", "me", "the", "admin", "dashboard", "panel", "make", "look", "user"],
+    "correct_sequences": [
+      ["show", "me", "the", "admin", "dashboard"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 38,
+    "russian": "Нам нужен онбординг для новых юзеров.",
+    "words_pool": ["we", "need", "an", "onboarding", "for", "new", "users", "make", "tutorial", "people"],
+    "correct_sequences": [
+      ["we", "need", "an", "onboarding", "for", "new", "users"]
+    ],
+    "distractors_count": 3
+  },
+  {
+    "id": 39,
+    "russian": "На каком брейкпоинте ломается верстка?",
+    "words_pool": ["at", "what", "breakpoint", "does", "the", "layout", "break", "make", "grid", "where", "is"],
+    "correct_sequences": [
+      ["at", "what", "breakpoint", "does", "the", "layout", "break"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 40,
+    "russian": "Сделай карточки одинакового соотношения сторон.",
+    "words_pool": ["make", "the", "cards", "the", "same", "aspect", "ratio", "keep", "size", "grid", "do"],
+    "correct_sequences": [
+      ["make", "the", "cards", "the", "same", "aspect", "ratio"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 41,
+    "russian": "Нам нужна темная тема для этого приложения.",
+    "words_pool": ["we", "need", "a", "dark", "mode", "for", "this", "app", "make", "do", "color", "theme"],
+    "correct_sequences": [
+      ["we", "need", "a", "dark", "mode", "for", "this", "app"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 42,
+    "russian": "Добавь спиннер пока данные грузятся.",
+    "words_pool": ["add", "a", "spinner", "while", "the", "data", "loads", "loading", "make", "circle", "wait"],
+    "correct_sequences": [
+      ["add", "a", "spinner", "while", "the", "data", "loads"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 43,
+    "russian": "Передай макеты разработчикам завтра.",
+    "words_pool": ["hand", "off", "the", "designs", "to", "the", "devs", "tomorrow", "developers", "make", "give", "send"],
+    "correct_sequences": [
+      ["hand", "off", "the", "designs", "to", "the", "devs", "tomorrow"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 44,
+    "russian": "Обнови стайл гайд перед релизом.",
+    "words_pool": ["update", "the", "style", "guide", "before", "the", "release", "make", "do", "new", "launch"],
+    "correct_sequences": [
+      ["update", "the", "style", "guide", "before", "the", "release"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 45,
+    "russian": "Замени этот рыбный текст на реальный.",
+    "words_pool": ["replace", "this", "lorem", "ipsum", "with", "real", "text", "make", "change", "fake", "words"],
+    "correct_sequences": [
+      ["replace", "this", "lorem", "ipsum", "with", "real", "text"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 46,
+    "russian": "Плейсхолдер слишком светлый.",
+    "words_pool": ["the", "placeholder", "is", "too", "light", "dark", "text", "make", "gray", "color"],
+    "correct_sequences": [
+      ["the", "placeholder", "is", "too", "light"]
+    ],
+    "distractors_count": 5
+  },
+  {
+    "id": 47,
+    "russian": "Этот элемент должен быть на первом экране (без прокрутки).",
+    "words_pool": ["this", "element", "should", "be", "above", "the", "fold", "top", "make", "screen", "place"],
+    "correct_sequences": [
+      ["this", "element", "should", "be", "above", "the", "fold"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 48,
+    "russian": "Микроанимации делают интерфейс живым.",
+    "words_pool": ["microinteractions", "make", "the", "interface", "feel", "alive", "do", "move", "living", "good"],
+    "correct_sequences": [
+      ["microinteractions", "make", "the", "interface", "feel", "alive"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 49,
+    "russian": "Скелетоны выглядят лучше чем просто спиннер.",
+    "words_pool": ["skeletons", "look", "better", "than", "just", "a", "spinner", "make", "good", "loading", "fast"],
+    "correct_sequences": [
+      ["skeletons", "look", "better", "than", "just", "a", "spinner"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 50,
+    "russian": "У нас нет дизайн системы.",
+    "words_pool": ["we", "do", "not", "have", "a", "design", "system", "make", "need", "create", "are"],
+    "correct_sequences": [
+      ["we", "do", "not", "have", "a", "design", "system"]
+    ],
+    "distractors_count": 4
+  }
+]
