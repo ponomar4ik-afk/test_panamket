@@ -26,12 +26,13 @@ const onboardingSteps = [
 let currentOnboardingStep = 0;
 
 function checkAndStartOnboarding() {
-    const isDone = localStorage.getItem('panamket_onboarding_completed');
-    if (!isDone) {
+    // Убираем проверку, просто запускаем всегда
+    // const isDone = localStorage.getItem('panamket_onboarding_completed');
+    // if (!isDone) {
         showOnboardingStep(0);
         const overlay = document.getElementById('onboarding-overlay');
         if (overlay) overlay.classList.remove('hidden');
-    }
+    // }
 }
 
 function showOnboardingStep(stepIndex) {
@@ -1274,7 +1275,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Обработчик Онбординга
+// Обработчик Онбординга
     document.getElementById('onboarding-next-btn')?.addEventListener('click', () => {
         if (typeof triggerHaptic === 'function') triggerHaptic('light');
 
@@ -1285,7 +1286,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const overlay = document.getElementById('onboarding-overlay');
             if (overlay) overlay.classList.add('hidden');
             document.querySelectorAll('.onboarding-clone').forEach(el => el.remove());
-            localStorage.setItem('panamket_onboarding_completed', 'true');
+            
+            // ОТКЛЮЧЕНО ДЛЯ ТЕСТОВ: больше не записываем в память, что тур пройден
+            // localStorage.setItem('panamket_onboarding_completed', 'true');
         }
     });
 
