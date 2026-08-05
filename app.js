@@ -7,32 +7,34 @@ if (window.Telegram && Telegram.WebApp) {
 // ================= СЦЕНАРИЙ ОНБОРДИНГА =================
 const onboardingSteps = [
     {
-        title: "⚡️ Режим Молния",
-        text: "Бесконечный быстрый спринт по карточкам! Тапай слова на скорость, перелистывай и фарми XP в свободную минуту.",
+        title: "Режим Молния",
+        text: "Бесконечный быстрый спринт по карточкам! Тапай слова и фарми панамки в свободную минуту.",
         cat: "⚡️"
     },
     {
-        title: "📖 Режим Книга",
-        text: "Системные уроки со сборкой фраз из плиток. Жми ✕ вверху экрана, если захочешь быстро закончить уровень.",
+        title: "Режим Книга",
+        text: "Системные уроки на прохождение со сборкой фраз из слов. Жми ✖️ вверху экрана, если захочешь выйти с режима обучения.",
         cat: "📖"
     },
     {
-        title: "😼 Твой Профиль",
-        text: "Следи за статистикой выученных слов, переключай языки (EN / PL) и используй кнопку работы над ошибками!",
+        title: "Твой Профиль",
+        text: "Переключай языки, меняй тему обучения. Следи за статистикой выученных слов и проводи работу над ошибками!",
         cat: "😼"
     }
 ];
 
 let currentOnboardingStep = 0;
+// Флаг, который показывает, что прямо сейчас висит окно онбординга
+let isOnboardingActive = false; 
 
 function checkAndStartOnboarding() {
-    // Убираем проверку, просто запускаем всегда
-    // const isDone = localStorage.getItem('panamket_onboarding_completed');
-    // if (!isDone) {
+    const isDone = localStorage.getItem('panamket_onboarding_completed');
+    if (!isDone) {
+        isOnboardingActive = true; // Ставим на паузу все звуки
         showOnboardingStep(0);
         const overlay = document.getElementById('onboarding-overlay');
         if (overlay) overlay.classList.remove('hidden');
-    // }
+    }
 }
 
 function showOnboardingStep(stepIndex) {
@@ -63,8 +65,6 @@ function showOnboardingStep(stepIndex) {
     // ==========================================
     // МАГИЯ ПОДСВЕТКИ (SPOTLIGHT ЭФФЕКТ)
     // ==========================================
-    
-    // Удаляем старые клоны-подсветки
     document.querySelectorAll('.onboarding-clone').forEach(el => el.remove());
 
     const activeScreen = document.querySelector('.screen.active');
@@ -72,47 +72,40 @@ function showOnboardingStep(stepIndex) {
 
     let targets = [];
     const tabs = activeScreen.querySelectorAll('.tabbar-global .tab-item');
-    // Ищем кнопку возврата/крестика
     const backBtn = activeScreen.querySelector('.s4-back-btn, .s5-back-btn, .s3-back-btn');
 
-    // Определяем, какие элементы подсвечивать на каждом шаге
     if (stepIndex === 0) {
-        if (tabs[1]) targets.push(tabs[1]); // Режим Молния (по центру)
+        if (tabs[1]) targets.push(tabs[1]); 
     } else if (stepIndex === 1) {
-        if (tabs[0]) targets.push(tabs[0]); // Книга (слева)
-        if (backBtn) targets.push(backBtn); // Кнопка Назад/Крестик (сверху слева)
+        if (tabs[0]) targets.push(tabs[0]); 
+        if (backBtn) targets.push(backBtn); 
     } else if (stepIndex === 2) {
-        if (tabs[2]) targets.push(tabs[2]); // Профиль (справа)
+        if (tabs[2]) targets.push(tabs[2]); 
     }
 
-// Создаем светящиеся клоны поверх затемнения
     targets.forEach(el => {
         const rect = el.getBoundingClientRect();
         const clone = el.cloneNode(true);
         clone.classList.add('onboarding-clone');
         
-        // Позиционируем точно над оригиналом
         clone.style.position = 'fixed';
         clone.style.top = rect.top + 'px';
         clone.style.left = rect.left + 'px';
         clone.style.width = rect.width + 'px';
         clone.style.height = rect.height + 'px';
         clone.style.margin = '0';
-        clone.style.zIndex = '10002'; // Выше затемнения (10000)
-        clone.style.pointerEvents = 'none'; // Блокируем клики по клонам
-        clone.style.color = '#FFD24D'; // Зажигаем иконку жёлтым
-        clone.style.backgroundColor = '#181C26'; // Темный фон перекрывает оригинал
+        clone.style.zIndex = '10002'; 
+        clone.style.pointerEvents = 'none'; 
+        clone.style.color = '#FFD24D'; 
+        clone.style.backgroundColor = '#181C26'; 
         clone.style.display = 'flex';
         clone.style.alignItems = 'center';
         clone.style.justifyContent = 'center';
 
-        // 👇 ТОТ САМЫЙ ФИКС С КРЕСТИКОМ 👇
-        // Если это шаг про Книгу, жестко вставляем крестик внутрь клона, даже если под ним стрелка
         if (stepIndex === 1 && (el.classList.contains('s4-back-btn') || el.classList.contains('s5-back-btn') || el.classList.contains('s3-back-btn'))) {
             clone.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`;
         }
         
-        // Круглое скругление для таббара, квадратное для крестика
         if (el.classList.contains('tab-item')) {
             clone.style.borderRadius = '50%';
         } else {
@@ -146,7 +139,6 @@ let appMode = 'words';
 let lastBookScreen = 'screen-lessons';
 let currentArchiveTab = 'progress';
 
-// Глобальные счетчики и экономика очков
 let currentAppStreak = 0;
 let currentAppErrors = 0;
 
@@ -156,7 +148,6 @@ let currentLessonPhrasesXP = 0;
 let currentLessonComboXP = 0; 
 let currentSentenceAttempts = 0;
 
-// ФЛАГ ДЛЯ ПОДСКАЗКИ
 let usedHintThisTurn = false;
 
 const iconBackArrow = `<svg width="30" height="24" viewBox="0 0 30 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.33333 1L1 8.33333L8.33333 15.6667M1 8.33333H21.1667C23.1116 8.33333 24.9768 9.10595 26.3521 10.4812C27.7274 11.8565 28.5 13.7217 28.5 15.6667C28.5 17.6116 27.7274 19.4768 26.3521 20.8521C24.9768 22.2274 23.1116 23 21.1667 23H19.3333"/></svg>`;
@@ -207,11 +198,7 @@ function showScreen(screenId) {
     
     if (targetScreen) {
         targetScreen.classList.add('active');
-        
-        // ЖЕЛЕЗОБЕТОННЫЙ ФИКС СКРОЛЛА:
         targetScreen.scrollTop = 0; 
-        
-        // На всякий случай сбрасываем глобальный скролл окна
         window.scrollTo(0, 0); 
     }
 
@@ -245,17 +232,13 @@ function updateTabbarUI(activeTab) {
             if (newIndex === 2 && avatar) avatar.classList.add('active-avatar');
         }
 
-        // --- ИДЕАЛЬНОЕ СКОЛЬЖЕНИЕ ЧЕРЕЗ TRANSFORM ---
         if (glass) {
             if (needsAnimation) {
-                // Возвращаем на старое место без анимации
                 glass.style.transition = 'none';
                 glass.style.transform = getGlassTransform(oldIndex);
 
-                // Ждем рендер нового экрана и запускаем скольжение
                 requestAnimationFrame(() => {
                     requestAnimationFrame(() => {
-                        // Анимация transform отрабатывает 60 FPS без лагов
                         glass.style.transition = 'transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)';
                         glass.style.transform = getGlassTransform(newIndex);
                     });
@@ -268,7 +251,6 @@ function updateTabbarUI(activeTab) {
     });
 }
 
-// Вспомогательная функция. Сдвигает ровно на X ширин плашки.
 function getGlassTransform(index) {
     if (index === 0) return 'translateX(0%)';
     if (index === 1) return 'translateX(100%)';
@@ -286,6 +268,9 @@ async function checkAudioFileExists(url) {
 }
 
 async function speakWord(text, type = 'word', id = null) {
+    // БЛОКИРУЕМ ЗВУК, ЕСЛИ ОТКРЫТ ОНБОРДИНГ
+    if (isOnboardingActive) return;
+
     if ('speechSynthesis' in window) window.speechSynthesis.cancel();
 
     if (currentAudio) {
@@ -574,10 +559,10 @@ function handleWordsCardAnswer(wordId, isCorrect) {
 function loadQuizQuestion() {
     if (!activeQuizPool || activeQuizPool.length === 0) return;
 
-    usedHintThisTurn = false; // Сбрасываем флаг подсказки для новой карточки
+    usedHintThisTurn = false; 
 
     const cardInner = document.getElementById('s4-card-inner');
-    if (cardInner) cardInner.classList.remove('is-flipped'); // Сбрасываем переворот карточки
+    if (cardInner) cardInner.classList.remove('is-flipped'); 
 
     const wordData = activeQuizPool[currentQuizIndex];
     const wordEnEl = document.getElementById('s4-word-en');
@@ -588,24 +573,22 @@ function loadQuizQuestion() {
     const headerTitleEl = document.querySelector('#screen-quiz .s4-title');
     const btnSpeak = document.getElementById('s4-btn-speak');
     
-    // ПРАВИЛЬНАЯ ЛОГИКА ТАББАРА И КРЕСТИКА
     const btnBack1 = document.getElementById('s4-btn-back');
     if(appMode === 'book' || appMode === 'errors') {
-        document.body.classList.add('hide-tabbar'); // Скрываем таббар
-        if(btnBack1) btnBack1.innerHTML = iconCloseCross; // Ставим крестик
+        document.body.classList.add('hide-tabbar'); 
+        if(btnBack1) btnBack1.innerHTML = iconCloseCross; 
     } else {
-        document.body.classList.remove('hide-tabbar'); // Возвращаем таббар
-        if(btnBack1) btnBack1.innerHTML = iconBackArrow; // Возвращаем стрелку
+        document.body.classList.remove('hide-tabbar'); 
+        if(btnBack1) btnBack1.innerHTML = iconBackArrow; 
     }
 
-    // ПРАВИЛЬНАЯ ЛОГИКА ПРОГРЕСС-БАРА
     if (appMode === 'words') {
         if (progressBarEl) progressBarEl.style.width = `100%`;
         if (progressTextEl) progressTextEl.innerHTML = `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 1 0 0-8c-2 0-4 1.33-6 4Z"/></svg>`;
     } else if (appMode === 'errors') {
         const perc = (errorReviewPool.length / Math.max(initialErrorCount, 1)) * 100;
         if (progressBarEl) progressBarEl.style.width = `${perc}%`;
-        if (progressTextEl) progressTextEl.textContent = `${errorReviewPool.length}`; // Обратный счетчик!
+        if (progressTextEl) progressTextEl.textContent = `${errorReviewPool.length}`; 
         if (headerTitleEl) headerTitleEl.textContent = "Работа над ошибками";
     } else {
         const stepNum = currentQuizIndex + (isReverseQuiz ? 10 : 1);
@@ -613,14 +596,12 @@ function loadQuizQuestion() {
         if (progressTextEl) progressTextEl.textContent = `${stepNum}/15`;
     }
 
-    // ЗАПОЛНЯЕМ ОБРАТНУЮ СТОРОНУ (ПОДСКАЗКА)
     const backWord = document.getElementById('s4-back-word');
     const backTrans = document.getElementById('s4-back-trans');
     const backExText = document.getElementById('s4-back-ex-text');
     const backExTrans = document.getElementById('s4-back-ex-trans');
     const backExBox = document.querySelector('.s4-back-ex-box');
 
-    // Если это реверсивный режим, слова надо показать наоборот, но на подсказке всегда оригинал крупно
     if (backWord) backWord.textContent = wordData.expression;
     if (backTrans) backTrans.textContent = wordData.correct_answer;
 
@@ -639,7 +620,6 @@ function loadQuizQuestion() {
         if (headerTitleEl && appMode !== 'errors') headerTitleEl.textContent = "Выбери правильный перевод.";
         if (wordEnEl) wordEnEl.textContent = wordData.expression;
         
-        // Показываем кнопку плавно через класс
         if (btnSpeak) btnSpeak.classList.remove('icon-hidden');
 
         if (wordData.literal) {
@@ -671,7 +651,7 @@ function loadQuizQuestion() {
                     triggerHaptic('success');
                     btn.classList.add('correct');
                     
-                    if (!usedHintThisTurn) { // Даем XP только если не юзали подсказку
+                    if (!usedHintThisTurn) { 
                         if (appMode === 'words') {
                             showPhantomPoint(btn, "+1");
                             addXP(1);
@@ -707,7 +687,6 @@ function loadQuizQuestion() {
         if (wordEnEl) wordEnEl.textContent = wordData.correct_answer;
         if (wordRuEl) wordRuEl.textContent = "";
         
-        // Скрываем кнопку плавно через класс
         if (btnSpeak) btnSpeak.classList.add('icon-hidden');
 
         let wrongOptions = globalWordsData.filter(w => w.id !== wordData.id).map(w => w.expression);
@@ -740,7 +719,6 @@ function loadQuizQuestion() {
                         addXP(2);
                     }
                     
-                    // ОЗВУЧИВАЕМ ИНОСТРАННОЕ СЛОВО В ОБРАТНОМ ПЕРЕВОДЕ ПРИ УСПЕХЕ
                     speakWord(wordData.expression, 'word', wordData.id);
                 } else {
                     triggerHaptic('error');
@@ -1160,9 +1138,8 @@ document.addEventListener('DOMContentLoaded', () => {
         tg.ready();
         tg.expand();
         
-        // === ФИКС ФОНА TELEGRAM ===
         try {
-            tg.setBackgroundColor('#030b1d'); // Строго lowercase hex
+            tg.setBackgroundColor('#030b1d'); 
             tg.setHeaderColor('#030b1d');
             if (tg.setBottomBarColor) {
                 tg.setBottomBarColor('#030b1d');
@@ -1176,7 +1153,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- ЖЕЛЕЗОБЕТОННЫЙ ФИКС РЕЗИНКИ ДЛЯ iOS ---
     let startY = 0;
     
     document.body.addEventListener('touchstart', (e) => {
@@ -1185,24 +1161,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.body.addEventListener('touchmove', (e) => {
         const screen = e.target.closest('.screen');
-        const card = e.target.closest('.s4-question-card'); // Сама карточка
-        const dropZone = e.target.closest('.s5-drop-zone-container'); // Зона конструктора
+        const card = e.target.closest('.s4-question-card'); 
+        const dropZone = e.target.closest('.s5-drop-zone-container'); 
         
-        // 1. Если тянут за карточку, зону перетаскивания слов или вообще вне экрана — блокируем скролл окна!
         if (!screen || card || dropZone) {
             e.preventDefault();
             return;
         }
         
-        // 2. Логика для остального экрана: блокируем тягучий эффект на краях контента
         const y = e.touches[0].clientY;
         const isScrollingUp = y > startY;
         const isScrollingDown = y < startY;
 
         if (isScrollingUp && screen.scrollTop <= 0) {
-            e.preventDefault(); // Запрещаем тянуть окно вниз, когда мы в самом верху экрана
+            e.preventDefault(); 
         } else if (isScrollingDown && screen.scrollTop >= screen.scrollHeight - screen.clientHeight) {
-            e.preventDefault(); // Запрещаем тянуть окно вверх, когда мы в самом низу
+            e.preventDefault(); 
         }
     }, { passive: false });
 
@@ -1247,9 +1221,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.setItem('panamket_total_xp', 0);
                 totalUserXP = 0;
                 
+                // РАЗБЛОКИРОВАНО ДЛЯ ТЕСТА ОНБОРДИНГА
+                localStorage.removeItem('panamket_onboarding_completed');
+                
                 updateProfileStats();
                 triggerHaptic('success');
                 alert("Прогресс сброшен до нуля!");
+                
+                // Перезагрузка страницы для показа онбординга
+                window.location.reload();
             }
         });
     }
@@ -1258,9 +1238,16 @@ document.addEventListener('DOMContentLoaded', () => {
         triggerHaptic('light');
         appMode = 'words'; document.body.classList.remove('hide-tabbar');
         updateTabbarUI('lightning'); generateNextWordsCard(); showScreen('screen-quiz');
-        setTimeout(() => { if(activeQuizPool[0]) speakWord(activeQuizPool[0].expression, 'word', activeQuizPool[0].id); }, 200);
-        // ВЫЗЫВАЕМ ПОКАЗ ОНБОРДИНГА
-        setTimeout(checkAndStartOnboarding, 500); 
+        
+        // ВЫЗЫВАЕМ ПОКАЗ ОНБОРДИНГА (с паузой)
+        setTimeout(() => {
+            const isDone = localStorage.getItem('panamket_onboarding_completed');
+            if (!isDone) {
+                checkAndStartOnboarding();
+            } else {
+                if(activeQuizPool[0]) speakWord(activeQuizPool[0].expression, 'word', activeQuizPool[0].id);
+            }
+        }, 500); 
     };
 
     const selectBookMode = () => {
@@ -1281,7 +1268,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-// Обработчик Онбординга
+    // Обработчик Онбординга
     document.getElementById('onboarding-next-btn')?.addEventListener('click', () => {
         if (typeof triggerHaptic === 'function') triggerHaptic('light');
 
@@ -1293,7 +1280,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (overlay) overlay.classList.add('hidden');
             document.querySelectorAll('.onboarding-clone').forEach(el => el.remove());
             
-            // ОТКЛЮЧЕНО ДЛЯ ТЕСТОВ: больше не записываем в память, что тур пройден
+            // СНИМАЕМ ПАУЗУ И ОЗВУЧИВАЕМ СЛОВО
+            isOnboardingActive = false;
+            if(activeQuizPool[0] && appMode === 'words' && !isReverseQuiz) {
+                speakWord(activeQuizPool[0].expression, 'word', activeQuizPool[0].id);
+            }
+
+            // РАЗБЛОКИРОВАНО ДЛЯ ТЕСТОВ
             // localStorage.setItem('panamket_onboarding_completed', 'true');
         }
     });
