@@ -722,3 +722,16 @@ body.hide-tabbar .tabbar-global { opacity: 0; pointer-events: none; bottom: -100
 .onboarding-dots .dot.active { background: #FFD24D; width: 20px; border-radius: 10px; }
 .onboarding-btn { width: 100%; height: 48px; background: linear-gradient(136deg, #FFD24D 0%, #FD7D2D 100%); border: none; border-radius: 14px; color: #030B1D; font-size: 16px; font-weight: 700; cursor: pointer; transition: transform 0.1s ease; }
 .onboarding-btn:active { transform: scale(0.97); }
+
+/* Клоны для подсветки в онбординге */
+.onboarding-clone {
+  animation: pulseClone 1.5s infinite alternate;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+@keyframes pulseClone {
+  0% { box-shadow: 0 0 0 2px #FFD24D, 0 0 10px rgba(255, 210, 77, 0.4); }
+  100% { box-shadow: 0 0 0 2px #FFD24D, 0 0 20px rgba(255, 210, 77, 0.8); }
+}
