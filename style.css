@@ -183,14 +183,14 @@ body {
 
 .s3-card-title { 
     position: absolute; 
-    top: 24px; /* Укажи здесь нужный отступ от верха (например, 20px или 24px) */
+    top: 24px; 
     left: 24px; 
-    /* Я убрал height: 52px, display: flex и align-items: center */
     font-weight: 900; 
     font-size: 40px; 
     letter-spacing: 0.04em; 
-    line-height: 1; /* Чтобы текст занимал ровно свою высоту */
-}.s3-img { position: absolute; bottom: 29px; right: 20px; z-index: 1; background-position: right center; background-size: contain; background-repeat: no-repeat; }
+    line-height: 1; 
+}
+.s3-img { position: absolute; bottom: 29px; right: 20px; z-index: 1; background-position: right center; background-size: contain; background-repeat: no-repeat; }
 .s3-img-slang { width: 150px; height: 135px; background-image: url('right.webp'); }
 .s3-img-design { width: 141px; height: 135px; background-image: url('design.webp'); }
 .s3-img-it { width: 180px; height: 135px; background-image: url('IT.webp'); }
@@ -242,7 +242,7 @@ body {
     border-radius: 20px;
 }
 
-/* === ЛИЦЕВАЯ СТОРОНА (Добавлен padding по периметру) === */
+/* === ЛИЦЕВАЯ СТОРОНА === */
 .s4-card-front {
     background: linear-gradient(120.42deg, #1242DB 13.39%, #2F1396 48.07%, #221062 84.1%);
     border: 1px solid #6136FF;
@@ -276,13 +276,12 @@ body {
 }
 .s4-speaker { position: absolute; bottom: 16px; right: 16px; -webkit-backface-visibility: hidden; transform: translateZ(0); }
 
-/* === ОБРАТНАЯ СТОРОНА (ЖЕСТКИЙ ФЛЕКС-КАРКАС) === */
+/* === ОБРАТНАЯ СТОРОНА === */
 .s4-card-back {
     background: #181C26; 
     border: 1px solid #232936;
     transform: rotateY(180deg) translateZ(0);
     
-    /* 1. Одинаковый отступ по периметру */
     padding: 16px !important; 
     box-sizing: border-box !important;
     
@@ -296,21 +295,21 @@ body {
     font-weight: 700; 
     color: #FD7D2D; 
     line-height: 1.2; 
-    margin: 0 0 4px 0 !important; /* Прибит наверх, снизу 4px */
+    margin: 0 0 4px 0 !important;
     text-align: center; 
     width: 100%; 
-    flex: 0 0 auto !important; /* Жестко запрещаем сжиматься или расти */
+    flex: 0 0 auto !important;
 }
 
 .s4-back-trans { 
     font-size: 16px; 
-    font-weight: 600; /* Жирный шрифт, как ты просил */
+    font-weight: 600;
     color: #FFFFFF; 
-    margin: 0 0 6px 0 !important; /* Ровно 6px отступа до зеленой зоны */
+    margin: 0 0 6px 0 !important;
     line-height: 1.2; 
     text-align: center; 
     width: 100%; 
-    flex: 0 0 auto !important; /* Жестко запрещаем сжиматься или расти */
+    flex: 0 0 auto !important;
 }
 
 /* === ЗЕЛЕНАЯ ЗОНА: Плашка с примером === */
@@ -318,17 +317,15 @@ body {
     background: rgba(255,255,255,0.05); 
     border-radius: 12px; 
     padding: 12px !important; 
-    width: 100% !important; /* Всегда от края до края padding'а карточки */
+    width: 100% !important; 
     box-sizing: border-box !important;
     text-align: left; 
     align-self: stretch !important;
-    position: relative !important; /* Вернули нормальное позиционирование */
+    position: relative !important;
     
-    /* 2. МАГИЯ ВЫСОТЫ: Занимает ВСЁ оставшееся место */
     flex: 1 1 0px !important; 
-    min-height: 0 !important; /* БЕЗ ЭТОГО СКРОЛЛ НЕ РАБОТАЕТ В FLEXBOX */
+    min-height: 0 !important;
     
-    /* 3. Оставляем снизу ровно 54px (48px крестик + 6px зазор) */
     margin: 0 0 54px 0 !important; 
     
     overflow-y: auto !important; 
@@ -396,7 +393,6 @@ body {
     z-index: 10 !important;
 }
 
-/* Кнопка подсказки (лицевая сторона) */
 .s4-hint-btn { 
     position: absolute !important; 
     bottom: 0px !important; 
@@ -418,7 +414,6 @@ body {
 .speaker-audio-btn:hover { background: rgba(255, 255, 255, 0.12); }
 .speaker-audio-btn:active { transform: scale(0.92); background: rgba(255, 255, 255, 0.18); }
 
-/* Плавное скрытие иконок вместо display:none */
 .icon-hidden {
     opacity: 0 !important;
     pointer-events: none !important;
@@ -481,25 +476,9 @@ body {
 .profile-info { display: flex; flex-direction: column; justify-content: center; gap: 2px; }
 .profile-name { font-weight: 600; font-size: 20px; color: #FFFFFF; letter-spacing: 0.04em; }
 .profile-handle { margin-bottom: 6px; font-weight: 300; font-size: 16px; color: #7F848D; letter-spacing: 0.04em; }
-/* Делаем всю строку кликабельной с эффектом нажатия */
-.profile-theme-row { 
-    display: flex; 
-    align-items: baseline; 
-    gap: 12px; 
-    font-weight: 300; 
-    font-size: 16px; 
-    letter-spacing: 0.04em; 
-    cursor: pointer; 
-    transition: opacity 0.2s;
-}
-.profile-theme-row:active { 
-    opacity: 0.6; 
-}
-/* Оранжевый текст ("EN", "SLANG") */
-.theme-highlight { 
-    color: #FD7D2D; 
-    font-weight: 600; /* Можно сделать чуть жирнее, чтобы лучше смотрелось */
-}
+.profile-theme-row { display: flex; align-items: baseline; gap: 12px; font-weight: 300; font-size: 16px; letter-spacing: 0.04em; cursor: pointer; transition: opacity 0.2s; }
+.profile-theme-row:active { opacity: 0.6; }
+.theme-highlight { color: #FD7D2D; font-weight: 600; }
 .profile-theme-label { color: #FFFFFF; }
 .profile-change-theme { color: #7F848D; font-size: 12px; cursor: pointer; transition: opacity 0.2s; }
 .profile-change-theme:active { opacity: 0.6; }
@@ -532,7 +511,6 @@ body {
 .privacy-content strong { color: #FFFFFF; font-weight: 600; }
 
 /* ================= СТЕКЛЯННЫЙ ТАББАР ================= */
-/* Поднимаем сами иконки таббара выше стекляшки */
 .tab-item { 
     position: relative; 
     z-index: 2; 
@@ -547,30 +525,27 @@ body {
     transition: color 0.2s ease; 
 }
 
-/* Стили плавающей стекляшки */
 .tab-glass-indicator {
     position: absolute;
-    width: 33.3333%; /* Идеальная треть от ширины таббара */
-    height: 100%;    /* Высота как у таббара */
+    width: 33.3333%; 
+    height: 100%;    
     top: 0;
-    left: 0;         /* Прибиваем к левому краю, двигать будем через transform */
-    border-radius: 22px; /* Совпадает с закруглением самого таббара */
-
-    /* Эффект стекла */
+    left: 0;         
+    border-radius: 22px; 
     background: rgba(255, 255, 255, 0.08); 
     border: 1px solid rgba(255, 255, 255, 0.15); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    
     z-index: 1;
     pointer-events: none; 
 }
+
 .tabbar-global { 
-    position: fixed !important; /* Намертво прибиваем к экрану */
+    position: fixed !important; 
     bottom: 20px; 
     left: 50%; 
-    z-index: 9999 !important; /* Кладем поверх ВООБЩЕ ВСЕГО */
+    z-index: 9999 !important; 
     transform: translateX(-50%); 
     width: calc(100% - 32px); 
     max-width: 388px; 
@@ -586,7 +561,7 @@ body {
     border-radius: 22px; 
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1); 
     transition: opacity 0.3s ease, bottom 0.3s ease; 
-}.tab-item { display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; flex: 0 0 auto; color: #7F848D; cursor: pointer; transition: color 0.2s ease; }
+}
 .tab-item.active { color: #FFD24D; }
 .tab-item svg { display: block; flex-shrink: 0; }
 .tab-avatar { width: 28px !important; height: 28px !important; background: url('profile.webp') center/contain no-repeat; border-radius: 50%; flex-shrink: 0; border: 2px solid transparent; transition: border-color 0.2s ease; }
@@ -650,17 +625,15 @@ body.hide-tabbar .tabbar-global { opacity: 0; pointer-events: none; bottom: -100
     .s4-question-card { top: 90px; height: 188px; }
     .s4-word { font-size: 26px; }
     
-    /* ФИКС НА IPHONE 7 (С учетом жесткой сетки) */
     .s4-card-back { padding: 12px !important; }
 
     .s4-back-title { margin-bottom: 8px; font-size: 11px; }
     .s4-back-word { font-size: 16px; margin-bottom: 2px !important; }
     .s4-back-trans { font-size: 14px; margin-bottom: 6px !important; }
     
-/* ЗЕЛЕНАЯ ЗОНА НА IPHONE 7 */
     .s4-back-ex-box { 
         padding: 8px !important; 
-        margin: 0 0 54px 0 !important; /* Зазор до крестика сохраняется */
+        margin: 0 0 54px 0 !important;
         position: relative !important;
         width: 100% !important;
         left: auto !important;
@@ -690,7 +663,8 @@ body.hide-tabbar .tabbar-global { opacity: 0; pointer-events: none; bottom: -100
     .s5-submit-btn { bottom: 20px; height: 46px; }
     .s5-center-stack { bottom: 80px; }
 }
-/* ================= ПОПАПЫ СТРИКОВ (КОМБО И ОШИБКИ) ================= */
+
+/* ================= ПОПАПЫ СТРИКОВ ================= */
 .streak-popup-overlay {
     position: fixed; 
     top: 0;
@@ -704,24 +678,17 @@ body.hide-tabbar .tabbar-global { opacity: 0; pointer-events: none; bottom: -100
     opacity: 0;
     pointer-events: none; 
     transition: opacity 0.3s ease;
-    
     background: rgba(3, 11, 29, 0.7); 
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
-
-.streak-popup-overlay.show {
-    opacity: 1;
-}
+.streak-popup-overlay.show { opacity: 1; }
 
 .streak-popup-content {
     transform: scale(0.5);
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-
-.streak-popup-overlay.show .streak-popup-content {
-    transform: scale(1); 
-}
+.streak-popup-overlay.show .streak-popup-content { transform: scale(1); }
 
 .streak-popup-content img {
     width: 75vw; 
@@ -740,3 +707,18 @@ body.hide-tabbar .tabbar-global { opacity: 0; pointer-events: none; bottom: -100
     margin-top: 12px !important;
     letter-spacing: 0.02em;
 }
+
+/* ================= ONBOARDING SPOTLIGHT ================= */
+.onboarding-overlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 20px; transition: opacity 0.3s ease; }
+.onboarding-overlay.hidden { display: none !important; opacity: 0; pointer-events: none; }
+.onboarding-backdrop { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(3, 11, 29, 0.85); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+.onboarding-card { position: relative; z-index: 10001; background: #181C26; border: 1.5px solid #232936; border-radius: 20px; padding: 24px 20px; width: 100%; max-width: 320px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); animation: modalPop 0.3s ease-out; }
+@keyframes modalPop { 0% { transform: scale(0.9); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+.onboarding-cat-icon { font-size: 42px; margin-bottom: 8px; }
+.onboarding-title { font-size: 20px; font-weight: 800; color: #FFD24D; margin-bottom: 8px; letter-spacing: 0.02em; }
+.onboarding-text { font-size: 15px; font-weight: 400; color: #E2E8F0; line-height: 1.4; margin-bottom: 20px; min-height: 60px; }
+.onboarding-dots { display: flex; justify-content: center; gap: 8px; margin-bottom: 18px; }
+.onboarding-dots .dot { width: 8px; height: 8px; border-radius: 50%; background: #232936; transition: all 0.2s ease; }
+.onboarding-dots .dot.active { background: #FFD24D; width: 20px; border-radius: 10px; }
+.onboarding-btn { width: 100%; height: 48px; background: linear-gradient(136deg, #FFD24D 0%, #FD7D2D 100%); border: none; border-radius: 14px; color: #030B1D; font-size: 16px; font-weight: 700; cursor: pointer; transition: transform 0.1s ease; }
+.onboarding-btn:active { transform: scale(0.97); }
