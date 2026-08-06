@@ -465,23 +465,25 @@
         </div>
     </div>
 
-    <div id="onboarding-overlay" class="onboarding-overlay hidden">
-      <div class="onboarding-backdrop"></div>
-      <div class="onboarding-card">
-        
-        <!-- ВАЖНО: Вот ОДНА картинка на весь онбординг -->
-        <img id="onboarding-step-img" src="" alt="icon">
-        
-        <div id="onboarding-step-title" class="onboarding-title">Привет!</div>
-        <div id="onboarding-step-text" class="onboarding-text">Погнали разберёмся, как тут всё устроено!</div>
-        <div class="onboarding-dots">
-          <span class="dot active" id="dot-0"></span>
-          <span class="dot" id="dot-1"></span>
-          <span class="dot" id="dot-2"></span>
-        </div>
-        <button id="onboarding-next-btn" class="onboarding-btn">Дальше 🚀</button>
-      </div>
+<div id="onboarding-overlay" class="onboarding-overlay hidden">
+  <div class="onboarding-backdrop"></div>
+  <div class="onboarding-card">
+    
+    <!-- Контейнер, внутри которого мы будем жестко убивать и создавать картинку -->
+    <div id="onboarding-img-wrapper" class="onboarding-img-wrapper">
+      <img id="onboarding-step-img" src="" alt="icon">
     </div>
+    
+    <div id="onboarding-step-title" class="onboarding-title">Привет!</div>
+    <div id="onboarding-step-text" class="onboarding-text">Погнали разберёмся, как тут всё устроено!</div>
+    <div class="onboarding-dots">
+      <span class="dot active" id="dot-0"></span>
+      <span class="dot" id="dot-1"></span>
+      <span class="dot" id="dot-2"></span>
+    </div>
+    <button id="onboarding-next-btn" class="onboarding-btn">Дальше 🚀</button>
+  </div>
+</div>
 
     <script src="app.js"></script>
 </body>
