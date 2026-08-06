@@ -9,17 +9,17 @@ const onboardingSteps = [
     {
         title: "Режим Молния",
         text: "Бесконечный быстрый спринт по карточкам! Тапай слова и фарми панамки в свободную минуту.",
-        cat: "⚡️"
+        cat: "light.webp"
     },
     {
         title: "Режим Книга",
         text: "Системные уроки на прохождение со сборкой фраз из слов. Жми ✖️ вверху экрана, если захочешь выйти с режима обучения.",
-        cat: "📖"
+        cat: "book.webp"
     },
     {
         title: "Твой Профиль",
         text: "Переключай языки, меняй тему обучения. Следи за статистикой выученных слов и проводи работу над ошибками!",
-        cat: "😼"
+        cat: "profile_pic.webp"
     }
 ];
 
@@ -41,11 +41,13 @@ function showOnboardingStep(stepIndex) {
 
     const titleEl = document.getElementById('onboarding-step-title');
     const textEl = document.getElementById('onboarding-step-text');
-    const catEl = document.querySelector('.onboarding-cat-icon');
+    // Ищем теперь по ID, который мы задали картинке
+    const catEl = document.getElementById('onboarding-step-img');
 
     if(titleEl) titleEl.textContent = step.title;
     if(textEl) textEl.textContent = step.text;
-    if(catEl) catEl.textContent = step.cat;
+    // Вставляем путь к картинке в атрибут src!
+    if(catEl) catEl.src = step.cat;
 
     for (let i = 0; i < onboardingSteps.length; i++) {
         const dot = document.getElementById(`dot-${i}`);
