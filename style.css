@@ -714,11 +714,11 @@ body.hide-tabbar .tabbar-global { opacity: 0; pointer-events: none; bottom: -100
 .onboarding-backdrop { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(3, 11, 29, 0.85); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
 .onboarding-card { position: relative; z-index: 10001; background: #181C26; border: 1.5px solid #232936; border-radius: 20px; padding: 24px 20px; width: 100%; max-width: 320px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); animation: modalPop 0.3s ease-out; }
 @keyframes modalPop { 0% { transform: scale(0.9); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
-.onboarding-cat-icon { 
-    width: 90px;         /* Аккуратный размер, меньше плашки */
-    height: 90px; 
-    object-fit: contain; /* Картинка впишется пропорционально */
-    margin: 0 auto 12px auto; /* Центрируем и даем отступ снизу */
+#onboarding-step-img { 
+    width: 130px;         /* Увеличили размер */
+    height: 130px; 
+    object-fit: contain;  /* Картинка не исказится и впишется ровно */
+    margin: 0 auto 16px auto; 
     display: block;
 }
 .onboarding-title { font-size: 20px; font-weight: 800; color: #FFD24D; margin-bottom: 8px; letter-spacing: 0.02em; }
