@@ -42,15 +42,16 @@ function showOnboardingStep(stepIndex) {
     const titleEl = document.getElementById('onboarding-step-title');
     const textEl = document.getElementById('onboarding-step-text');
     
-    // Ищем единственную картинку по ID
-    const imgEl = document.getElementById('onboarding-step-img'); 
+const titleEl = document.getElementById('onboarding-step-title');
+    const textEl = document.getElementById('onboarding-step-text');
+    const imgWrapper = document.getElementById('onboarding-img-wrapper'); // Ищем обертку
 
     if(titleEl) titleEl.textContent = step.title;
     if(textEl) textEl.textContent = step.text;
     
-    // ЖЕЛЕЗОБЕТОННО меняем только ссылку. Старая картинка исчезнет, новая появится.
-    if(imgEl) {
-        imgEl.src = step.cat;
+    // ЖЕСТКИЙ СБРОС: убиваем старый тег и вставляем новый. Это лечит баг наслоения слоев в iOS WebView.
+    if(imgWrapper) {
+        imgWrapper.innerHTML = `<img id="onboarding-step-img" src="${step.cat}" alt="Обучение">`;
     }
 
     for (let i = 0; i < onboardingSteps.length; i++) {
