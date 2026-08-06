@@ -41,13 +41,19 @@ function showOnboardingStep(stepIndex) {
 
     const titleEl = document.getElementById('onboarding-step-title');
     const textEl = document.getElementById('onboarding-step-text');
-    // Ищем теперь по ID, который мы задали картинке
-    const catEl = document.getElementById('onboarding-step-img');
+    
+    // Ищем единственную картинку по ID
+    const imgEl = document.getElementById('onboarding-step-img'); 
 
     if(titleEl) titleEl.textContent = step.title;
     if(textEl) textEl.textContent = step.text;
-    // Вставляем путь к картинке в атрибут src!
-    if(catEl) catEl.src = step.cat;
+    
+    // ЖЕЛЕЗОБЕТОННО меняем только ссылку. Старая картинка исчезнет, новая появится.
+    if(imgEl) {
+        imgEl.src = step.cat;
+    }
+
+    // ... дальше идет цикл с точками (for let i = 0...) — его не трогаем
 
     for (let i = 0; i < onboardingSteps.length; i++) {
         const dot = document.getElementById(`dot-${i}`);
