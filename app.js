@@ -41,9 +41,6 @@ function showOnboardingStep(stepIndex) {
 
     const titleEl = document.getElementById('onboarding-step-title');
     const textEl = document.getElementById('onboarding-step-text');
-    
-const titleEl = document.getElementById('onboarding-step-title');
-    const textEl = document.getElementById('onboarding-step-text');
     const imgWrapper = document.getElementById('onboarding-img-wrapper'); // Ищем обертку
 
     if(titleEl) titleEl.textContent = step.title;
