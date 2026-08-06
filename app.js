@@ -8,17 +8,17 @@ if (window.Telegram && Telegram.WebApp) {
 const onboardingSteps = [
     {
         title: "Режим Молния",
-        text: "Бесконечный быстрый спринт по карточкам! Тапай слова и фарми панамки в свободную минуту.",
+        text: "Бесконечный быстрый спринт по карточкам! Тапай слова и фарми панамки в свободную минуту.",
         cat: "light.webp"
     },
     {
         title: "Режим Книга",
-        text: " Системные уроки на прохождение со сборкой фраз из слов. Жми ✖️ вверху экрана, если захочешь выйти с режима обучения.",
+        text: "Системные уроки на прохождение со сборкой фраз из слов. Жми ✖️ вверху экрана, если захочешь выйти с режима обучения.",
         cat: "book.webp"
     },
     {
         title: "Твой Профиль",
-        text: "Переключай языки, меняй тему обучения. Следи за статистикой выученных слов и проводи работу над ошибками!",
+        text: "Переключай языки, меняй тему обучения. Следи за статистикой выученных слов и проводи работу над ошибками!",
         cat: "profile_pic.webp"
     }
 ];
@@ -28,7 +28,9 @@ let currentOnboardingStep = 0;
 let isOnboardingActive = false; 
 
 function checkAndStartOnboarding() {
-    // ДЛЯ ТЕСТОВ УБРАЛИ ПРОВЕРКУ ФЛАГА - ОНБОРДИНГ БУДЕТ ВСЕГДА
+    // Проверяем, проходил ли юзер обучение (если да - выходим)
+    if (localStorage.getItem('panamket_onboarding_completed')) return;
+
     isOnboardingActive = true; // Ставим на паузу все звуки
     showOnboardingStep(0);
     const overlay = document.getElementById('onboarding-overlay');
@@ -1134,6 +1136,23 @@ function renderArchiveLoot() {
 // ================= НАВИГАЦИЯ И ИНИЦИАЛИЗАЦИЯ =================
 document.addEventListener('DOMContentLoaded', () => {
 
+    // === ПРИНУДИТЕЛЬНЫЙ СБРОС ПРОГРЕССА ДЛЯ ВЕРСИИ 1.3 ===
+    const currentAppVersion = "1.3";
+    const userAppVersion = localStorage.getItem('panamket_app_version');
+
+    if (userAppVersion !== currentAppVersion) {
+        // Очищаем старые сохранения
+        for (let key in localStorage) {
+            if (key.startsWith('panamket_')) {
+                localStorage.removeItem(key);
+            }
+        }
+        // Сохраняем новую версию, чтобы не сбрасывать при каждом входе
+        localStorage.setItem('panamket_app_version', currentAppVersion);
+        console.log("Прогресс сброшен (Обновление до версии 1.3)!");
+    }
+    // ====================================================
+
     if (window.Telegram && window.Telegram.WebApp) {
         const tg = window.Telegram.WebApp; 
         
@@ -1223,14 +1242,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.setItem('panamket_total_xp', 0);
                 totalUserXP = 0;
                 
-                // РАЗБЛОКИРОВАНО ДЛЯ ТЕСТА ОНБОРДИНГА
                 localStorage.removeItem('panamket_onboarding_completed');
                 
                 updateProfileStats();
                 triggerHaptic('success');
                 alert("Прогресс сброшен до нуля!");
                 
-                // Перезагрузка страницы для показа онбординга
                 window.location.reload();
             }
         });
@@ -1241,7 +1258,7 @@ document.addEventListener('DOMContentLoaded', () => {
         appMode = 'words'; document.body.classList.remove('hide-tabbar');
         updateTabbarUI('lightning'); generateNextWordsCard(); showScreen('screen-quiz');
         
-        // ВЫЗЫВАЕМ ПОКАЗ ОНБОРДИНГА БЕЗ ПРОВЕРКИ ФЛАГА
+        // Вызываем онбординг (внутри него теперь есть проверка)
         setTimeout(() => {
             checkAndStartOnboarding();
         }, 500); 
@@ -1283,8 +1300,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 speakWord(activeQuizPool[0].expression, 'word', activeQuizPool[0].id);
             }
 
-            // ДЛЯ ТЕСТОВ МЫ БОЛЬШЕ НЕ ЗАПИСЫВАЕМ ФЛАГ ОКОНЧАНИЯ
-            // localStorage.setItem('panamket_onboarding_completed', 'true');
+            // ЗАПИСЫВАЕМ ФЛАГ ОКОНЧАНИЯ ОНБОРДИНГА
+            localStorage.setItem('panamket_onboarding_completed', 'true');
         }
     });
 
