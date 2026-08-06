@@ -53,8 +53,6 @@ function showOnboardingStep(stepIndex) {
         imgEl.src = step.cat;
     }
 
-    // ... дальше идет цикл с точками (for let i = 0...) — его не трогаем
-
     for (let i = 0; i < onboardingSteps.length; i++) {
         const dot = document.getElementById(`dot-${i}`);
         if (dot) {
