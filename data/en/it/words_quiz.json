@@ -1,1 +1,2521 @@
-
+[
+  {
+    "id": 1,
+    "expression": "Bug",
+    "options": ["Ошибка в работе программы", "Новая функция", "Временное решение"],
+    "correct_answer": "Ошибка в работе программы",
+    "example": {
+      "text": "We found a critical bug right before the release.",
+      "translation": "Мы нашли критическую ошибку прямо перед релизом."
+    }
+  },
+  {
+    "id": 2,
+    "expression": "Feature",
+    "options": ["Устаревший код", "Новая функция или возможность", "Срочное исправление"],
+    "correct_answer": "Новая функция или возможность",
+    "example": {
+      "text": "This feature allows users to export data to PDF.",
+      "translation": "Эта функция позволяет пользователям экспортировать данные в PDF."
+    }
+  },
+  {
+    "id": 3,
+    "expression": "Code",
+    "options": ["Исходный текст программы", "База данных", "Дизайн макета"],
+    "correct_answer": "Исходный текст программы",
+    "example": {
+      "text": "He wrote a clean code for the new authentication module.",
+      "translation": "Он написал чистый код для нового модуля аутентификации."
+    }
+  },
+  {
+    "id": 4,
+    "expression": "Database",
+    "options": ["Серверное окружение", "Хранилище структурированных данных", "Интерфейс пользователя"],
+    "correct_answer": "Хранилище структурированных данных",
+    "example": {
+      "text": "All user profiles are stored in a PostgreSQL database.",
+      "translation": "Все профили пользователей хранятся в базе данных PostgreSQL."
+    }
+  },
+  {
+    "id": 5,
+    "expression": "User",
+    "options": ["Пользователь системы", "Администратор сервера", "Разработчик ПО"],
+    "correct_answer": "Пользователь системы",
+    "example": {
+      "text": "The user clicked the confirmation button.",
+      "translation": "Пользователь нажал кнопку подтверждения."
+    }
+  },
+  {
+    "id": 6,
+    "expression": "Developer",
+    "options": ["Тестировщик", "Разработчик ПО", "Проектный менеджер"],
+    "correct_answer": "Разработчик ПО",
+    "example": {
+      "text": "Our senior developer fixed the issue in an hour.",
+      "translation": "Наш старший разработчик исправил проблему за час."
+    }
+  },
+  {
+    "id": 7,
+    "expression": "App",
+    "options": ["Приложение", "База данных", "Сетевой протокол"],
+    "correct_answer": "Приложение",
+    "example": {
+      "text": "You can download our new app from the store.",
+      "translation": "Вы можете скачать наше новое приложение из магазина."
+    }
+  },
+  {
+    "id": 8,
+    "expression": "Web",
+    "options": ["Локальная сеть", "Сетевые веб-технологии и интернет", "Операционная система"],
+    "correct_answer": "Сетевые веб-технологии и интернет",
+    "example": {
+      "text": "She is learning modern web development frameworks.",
+      "translation": "Она изучает современные фреймворки для веб-разработки."
+    }
+  },
+  {
+    "id": 9,
+    "expression": "Server",
+    "options": ["Устройство пользователя", "Компьютер или система для обработки запросов", "Файл конфигурации"],
+    "correct_answer": "Компьютер или система для обработки запросов",
+    "example": {
+      "text": "The server responded with a 200 OK status.",
+      "translation": "Сервер ответил статусом 200 OK."
+    }
+  },
+  {
+    "id": 10,
+    "expression": "Client",
+    "options": ["Устройство или программа, отправляющая запросы", "База данных", "Файловый сервер"],
+    "correct_answer": "Устройство или программа, отправляющая запросы",
+    "example": {
+      "text": "The client sends a request to fetch the latest profile data.",
+      "translation": "Клиент отправляет запрос для получения свежих данных профиля."
+    }
+  },
+  {
+    "id": 11,
+    "expression": "UI",
+    "literal": "(User Interface)",
+    "options": ["Пользовательский интерфейс", "Пользовательский опыт", "Единый идентификатор"],
+    "correct_answer": "Пользовательский интерфейс",
+    "example": {
+      "text": "The UI of this app is simple and intuitive.",
+      "translation": "Интерфейс этого приложения простой и понятный."
+    }
+  },
+  {
+    "id": 12,
+    "expression": "UX",
+    "literal": "(User Experience)",
+    "options": ["Внешняя анимация", "Пользовательский опыт взаимодействия", "Макет системы"],
+    "correct_answer": "Пользовательский опыт взаимодействия",
+    "example": {
+      "text": "Improving the signup flow will enhance the overall UX.",
+      "translation": "Улучшение процесса регистрации повысит общий пользовательский опыт."
+    }
+  },
+  {
+    "id": 13,
+    "expression": "Frontend",
+    "options": ["Внешняя часть приложения, видимая пользователю", "Серверная логика", "Администрирование базы данных"],
+    "correct_answer": "Внешняя часть приложения, видимая пользователю",
+    "example": {
+      "text": "She handles the frontend using React and Tailwind CSS.",
+      "translation": "Она отвечает за фронтенд с использованием React и Tailwind CSS."
+    }
+  },
+  {
+    "id": 14,
+    "expression": "Backend",
+    "options": ["Дизайн интерфейса", "Внутренняя логика и серверная часть", "Верстка страниц"],
+    "correct_answer": "Внутренняя логика и серверная часть",
+    "example": {
+      "text": "The backend is built with Node.js and Express.",
+      "translation": "Бэкенд построен на Node.js и Express."
+    }
+  },
+  {
+    "id": 15,
+    "expression": "Task",
+    "options": ["Задача в разработке", "Ошибка в программе", "Отчет о тестировании"],
+    "correct_answer": "Задача в разработке",
+    "example": {
+      "text": "I moved my current task to the 'In Progress' column.",
+      "translation": "Я переместил свою текущую задачу в колонку 'В работе'."
+    }
+  },
+  {
+    "id": 16,
+    "expression": "Log",
+    "options": ["Запись событий в системе", "Переменная в коде", "Запрос к серверу"],
+    "correct_answer": "Запись событий в системе",
+    "example": {
+      "text": "Check the application logs to see what caused the crash.",
+      "translation": "Проверь логи приложения, чтобы понять причину сбоя."
+    }
+  },
+  {
+    "id": 17,
+    "expression": "Password",
+    "options": ["Имя пользователя", "Пароль", "Токен доступа"],
+    "correct_answer": "Пароль",
+    "example": {
+      "text": "Make sure your password contains numbers and special symbols.",
+      "translation": "Убедись, что твой пароль содержит цифры и спецсимволы."
+    }
+  },
+  {
+    "id": 18,
+    "expression": "Login",
+    "options": ["Выход из системы", "Вход в систему или имя пользователя", "Регистрация нового профиля"],
+    "correct_answer": "Вход в систему или имя пользователя",
+    "example": {
+      "text": "Enter your login credentials to access the dashboard.",
+      "translation": "Введи данные для входа, чтобы получить доступ к панели."
+    }
+  },
+  {
+    "id": 19,
+    "expression": "Link",
+    "options": ["Ссылка", "Заголовок страницы", "Файловый архив"],
+    "correct_answer": "Ссылка",
+    "example": {
+      "text": "Send me the link to the design mockup.",
+      "translation": "Отправь мне ссылку на макет дизайна."
+    }
+  },
+  {
+    "id": 20,
+    "expression": "Click",
+    "options": ["Двойное нажатие", "Нажатие на элемент", "Наведение курсора"],
+    "correct_answer": "Нажатие на элемент",
+    "example": {
+      "text": "A click on this card opens a detailed view.",
+      "translation": "Клик по этой карточке открывает подробный просмотр."
+    }
+  },
+  {
+    "id": 21,
+    "expression": "Download",
+    "options": ["Скачивание файла", "Загрузка файла на сервер", "Удаление файла"],
+    "correct_answer": "Скачивание файла",
+    "example": {
+      "text": "Click here to download the full documentation.",
+      "translation": "Нажмите здесь, чтобы скачать полную документацию."
+    }
+  },
+  {
+    "id": 22,
+    "expression": "Upload",
+    "options": ["Скачивание файла", "Загрузка файла на сервер", "Архивация файла"],
+    "correct_answer": "Загрузка файла на сервер",
+    "example": {
+      "text": "Please upload your avatar image.",
+      "translation": "Пожалуйста, загрузи изображение своего аватара."
+    }
+  },
+  {
+    "id": 23,
+    "expression": "Update",
+    "options": ["Отмена изменений", "Обновление ПО", "Удаление компонента"],
+    "correct_answer": "Обновление ПО",
+    "example": {
+      "text": "We need to update our npm packages to the latest versions.",
+      "translation": "Нам нужно обновить наши npm-пакеты до последних версий."
+    }
+  },
+  {
+    "id": 24,
+    "expression": "Release",
+    "options": ["Выпуск готовой версии продукта", "Тестирование модуля", "Анализ требований"],
+    "correct_answer": "Выпуск готовой версии продукта",
+    "example": {
+      "text": "The next product release is scheduled for Monday.",
+      "translation": "Следующий релиз продукта запланирован на понедельник."
+    }
+  },
+  {
+    "id": 25,
+    "expression": "Test",
+    "options": ["Проверка работоспособности", "Написание кода", "Публикация приложения"],
+    "correct_answer": "Проверка работоспособности",
+    "example": {
+      "text": "Always write automated tests for critical business logic.",
+      "translation": "Всегда пиши автотесты для критической бизнес-логики."
+    }
+  },
+  {
+    "id": 26,
+    "expression": "Network",
+    "options": ["Компьютерная сеть", "База данных", "Экранное разрешение"],
+    "correct_answer": "Компьютерная сеть",
+    "example": {
+      "text": "Check your network connection and try again.",
+      "translation": "Проверь свое сетевое соединение и попробуй снова."
+    }
+  },
+  {
+    "id": 27,
+    "expression": "File",
+    "options": ["Файл", "Папка", "Сервер"],
+    "correct_answer": "Файл",
+    "example": {
+      "text": "The config file was missing from the root directory.",
+      "translation": "Конфигурационный файл отсутствовал в корневой директории."
+    }
+  },
+  {
+    "id": 28,
+    "expression": "Folder",
+    "options": ["Файл", "Папка или директория", "База данных"],
+    "correct_answer": "Папка или директория",
+    "example": {
+      "text": "Save all assets inside the public folder.",
+      "translation": "Сохраняй все ассеты внутри папки public."
+    }
+  },
+  {
+    "id": 29,
+    "expression": "Access",
+    "options": ["Доступ к ресурсу", "Ограничение скорости", "Блокировка базы"],
+    "correct_answer": "Доступ к ресурсу",
+    "example": {
+      "text": "You don't have access to this admin feature.",
+      "translation": "У тебя нет доступа к этой функции администратора."
+    }
+  },
+  {
+    "id": 30,
+    "expression": "Admin",
+    "options": ["Обычный пользователь", "Администратор системы", "Гостевой профиль"],
+    "correct_answer": "Администратор системы",
+    "example": {
+      "text": "The admin can block abusive user accounts.",
+      "translation": "Администратор может блокировать аккаунты нарушителей."
+    }
+  },
+  {
+    "id": 31,
+    "expression": "Cache",
+    "options": ["Основная база данных", "Временное хранилище данных для быстрого доступа", "Файл логов"],
+    "correct_answer": "Временное хранилище данных для быстрого доступа",
+    "example": {
+      "text": "Clear your browser cache if you don't see the updates.",
+      "translation": "Очисти кэш браузера, если не видишь обновления."
+    }
+  },
+  {
+    "id": 32,
+    "expression": "Request",
+    "options": ["Ответ сервера", "Запрос к серверу", "Сбой приложения"],
+    "correct_answer": "Запрос к серверу",
+    "example": {
+      "text": "The client sent an HTTP GET request.",
+      "translation": "Клиент отправил HTTP GET запрос."
+    }
+  },
+  {
+    "id": 33,
+    "expression": "Response",
+    "options": ["Запрос от клиента", "Ответ от сервера", "Перенаправление страницы"],
+    "correct_answer": "Ответ от сервера",
+    "example": {
+      "text": "The response payload contains user profile data.",
+      "translation": "Тело ответа содержит данные профиля пользователя."
+    }
+  },
+  {
+    "id": 34,
+    "expression": "API",
+    "literal": "(Application Programming Interface)",
+    "options": ["Интерфейс взаимодействия между программами", "Графический редактор", "Операционная система"],
+    "correct_answer": "Интерфейс взаимодействия между программами",
+    "example": {
+      "text": "We fetch new articles using their REST API.",
+      "translation": "Мы получаем новые статьи, используя их REST API."
+    }
+  },
+  {
+    "id": 35,
+    "expression": "Design",
+    "options": ["Исходный код", "Внешний вид и структура интерфейса", "База данных"],
+    "correct_answer": "Внешний вид и структура интерфейса",
+    "example": {
+      "text": "Our designer updated the button styles in Figma.",
+      "translation": "Наш дизайнер обновил стили кнопок в Figma."
+    }
+  },
+  {
+    "id": 36,
+    "expression": "Layout",
+    "options": ["Макет или верстка страницы", "Серверная архитектура", "Таблица в базе данных"],
+    "correct_answer": "Макет или верстка страницы",
+    "example": {
+      "text": "The page layout looks broken on mobile devices.",
+      "translation": "Макет страницы выглядит сломанным на мобильных устройствах."
+    }
+  },
+  {
+    "id": 37,
+    "expression": "Mobile",
+    "options": ["Десктопная версия", "Мобильное устройство или версия", "Серверная база"],
+    "correct_answer": "Мобильное устройство или версия",
+    "example": {
+      "text": "We need to optimize this page for mobile screens.",
+      "translation": "Нам нужно оптимизировать эту страницу под мобильные экраны."
+    }
+  },
+  {
+    "id": 38,
+    "expression": "Desktop",
+    "options": ["Настольный ПК или версия для компьютера", "Мобильный телефон", "Планшет"],
+    "correct_answer": "Настольный ПК или версия для компьютера",
+    "example": {
+      "text": "The sidebar is visible only on desktop displays.",
+      "translation": "Боковая панель видна только на экранах компьютеров."
+    }
+  },
+  {
+    "id": 39,
+    "expression": "Framework",
+    "options": ["Простой текстовый редактор", "Готовая структура и инструмент для разработки", "Сетевой кабель"],
+    "correct_answer": "Готовая структура и инструмент для разработки",
+    "example": {
+      "text": "Next.js is a popular React framework.",
+      "translation": "Next.js — популярный фреймворк для React."
+    }
+  },
+  {
+    "id": 40,
+    "expression": "Library",
+    "options": ["Набор готовых функций и кода", "База пользователей", "Операционная система"],
+    "correct_answer": "Набор готовых функций и кода",
+    "example": {
+      "text": "We imported an icon library into our project.",
+      "translation": "Мы импортировали библиотеку иконок в наш проект."
+    }
+  },
+  {
+    "id": 41,
+    "expression": "Commit",
+    "options": ["Удаление проекта", "Фиксация изменений в системе контроля версий", "Скачивание ветки"],
+    "correct_answer": "Фиксация изменений в системе контроля версий",
+    "example": {
+      "text": "Don't forget to commit your changes before leaving.",
+      "translation": "Не забудь закоммитить изменения перед уходом."
+    }
+  },
+  {
+    "id": 42,
+    "expression": "Push",
+    "options": ["Скачивание изменений", "Отправка изменений на удаленный сервер", "Локальное удаление"],
+    "correct_answer": "Отправка изменений на удаленный сервер",
+    "example": {
+      "text": "Push your commit to origin main.",
+      "translation": "Запушь свой коммит в ветку origin main."
+    }
+  },
+  {
+    "id": 43,
+    "expression": "Pull",
+    "options": ["Получение свежих изменений с сервера", "Отправка локального кода", "Создание новой ветки"],
+    "correct_answer": "Получение свежих изменений с сервера",
+    "example": {
+      "text": "Run 'git pull' to get the latest updates from the team.",
+      "translation": "Выполни 'git pull', чтобы получить свежие обновления от команды."
+    }
+  },
+  {
+    "id": 44,
+    "expression": "Merge",
+    "options": ["Слияние двух веток кода", "Удаление конфликтов", "Разделение репозитория"],
+    "correct_answer": "Слияние двух веток кода",
+    "example": {
+      "text": "We merged the feature branch into main.",
+      "translation": "Мы слили ветку фичи в основную ветку."
+    }
+  },
+  {
+    "id": 45,
+    "expression": "Branch",
+    "options": ["Отдельная ветка разработки", "Корневая папка", "Главный сервер"],
+    "correct_answer": "Отдельная ветка разработки",
+    "example": {
+      "text": "Create a new branch for this task.",
+      "translation": "Создай новую ветку для этой задачи."
+    }
+  },
+  {
+    "id": 46,
+    "expression": "Repository",
+    "options": ["Место хранения кода и истории его изменений", "Временная папка кэша", "Исполняемый файл"],
+    "correct_answer": "Место хранения кода и истории его изменений",
+    "example": {
+      "text": "Clone the GitHub repository to your machine.",
+      "translation": "Склонируй GitHub-репозиторий на свой компьютер."
+    }
+  },
+  {
+    "id": 47,
+    "expression": "Deploy",
+    "options": ["Удаление сайта", "Развертывание приложения на сервере", "Архивация проекта"],
+    "correct_answer": "Развертывание приложения на сервере",
+    "example": {
+      "text": "We deploy our web app using Vercel.",
+      "translation": "Мы деплоим наше веб-приложение с помощью Vercel."
+    }
+  },
+  {
+    "id": 48,
+    "expression": "Production",
+    "options": ["Локальный компьютер", "Боевое окружение, доступное пользователям", "Тестовый сервер"],
+    "correct_answer": "Боевое окружение, доступное пользователям",
+    "example": {
+      "text": "Be careful when modifying settings in production.",
+      "translation": "Будь осторожен при изменении настроек на прод-сервере."
+    }
+  },
+  {
+    "id": 49,
+    "expression": "Domain",
+    "options": ["Адрес сайта в сети", "Название переменной", "Локальный путь"],
+    "correct_answer": "Адрес сайта в сети",
+    "example": {
+      "text": "We bought a new domain name for the product launch.",
+      "translation": "Мы купили новое доменное имя для запуска продукта."
+    }
+  },
+  {
+    "id": 50,
+    "expression": "Cloud",
+    "options": ["Локальный жесткий диск", "Облачная инфраструктура", "Сетевой роутер"],
+    "correct_answer": "Облачная инфраструктура",
+    "example": {
+      "text": "We store all uploaded images in cloud storage.",
+      "translation": "Мы храним все загруженные изображения в облачном хранилище."
+    }
+  },
+  {
+    "id": 51,
+    "expression": "Refactoring",
+    "options": ["Переработка кода без изменения его внешнего поведения", "Полное переписывание дизайна", "Исправление критической ошибки"],
+    "correct_answer": "Переработка кода без изменения его внешнего поведения",
+    "example": {
+      "text": "Refactoring made the component much easier to read.",
+      "translation": "Рефакторинг сделал компонент гораздо легче для чтения."
+    }
+  },
+  {
+    "id": 52,
+    "expression": "Hotfix",
+    "options": ["Плановое обновление", "Срочное исправление ошибки на рабочем сервере", "Новая функция"],
+    "correct_answer": "Срочное исправление ошибки на рабочем сервере",
+    "example": {
+      "text": "We pushed a hotfix to solve the payment bug instantly.",
+      "translation": "Мы выпустили хотфикс, чтобы мгновенно устранить ошибку с оплатой."
+    }
+  },
+  {
+    "id": 53,
+    "expression": "Legacy",
+    "options": ["Новый фреймворк", "Устаревший код или система, требующая поддержки", "Тестовый скрипт"],
+    "correct_answer": "Устаревший код или система, требующая поддержки",
+    "example": {
+      "text": "Working with this legacy codebase requires extra attention.",
+      "translation": "Работа с этим легаси-кодом требует повышенного внимания."
+    }
+  },
+  {
+    "id": 54,
+    "expression": "Roadmap",
+    "options": ["План развития проекта по этапам", "Список найденных багов", "Карта сети"],
+    "correct_answer": "План развития проекта по этапам",
+    "example": {
+      "text": "The Q3 roadmap includes dark mode implementation.",
+      "translation": "Роадмап на третий квартал включает внедрение темной темы."
+    }
+  },
+  {
+    "id": 55,
+    "expression": "Backlog",
+    "options": ["Архив закрытых задач", "Список всех запланированных задач", "Отчет о багах"],
+    "correct_answer": "Список всех запланированных задач",
+    "example": {
+      "text": "Let me pick a new item from the project backlog.",
+      "translation": "Возьму новую задачу из бэклога проекта."
+    }
+  },
+  {
+    "id": 56,
+    "expression": "Sprint",
+    "options": ["Годовой план", "Короткий фиксированный отрезок времени на выполнение задач", "Быстрый запуск сервера"],
+    "correct_answer": "Короткий фиксированный отрезок времени на выполнение задач",
+    "example": {
+      "text": "Our two-week sprint ends tomorrow.",
+      "translation": "Наш двухнедельный спринт заканчивается завтра."
+    }
+  },
+  {
+    "id": 57,
+    "expression": "Standup",
+    "options": ["Длинная презентация", "Короткое ежедневное совещание команды", "Отчет пред руководством"],
+    "correct_answer": "Короткое ежедневное совещание команды",
+    "example": {
+      "text": "We discuss daily progress at our 10 AM standup.",
+      "translation": "Мы обсуждаем ежедневный прогресс на митинге в 10 утра."
+    }
+  },
+  {
+    "id": 58,
+    "expression": "PR",
+    "literal": "(Pull Request)",
+    "options": ["Запрос на проверку и слияние изменений", "Рекламная кампания", "Ошибка рендеринга"],
+    "correct_answer": "Запрос на проверку и слияние изменений",
+    "example": {
+      "text": "Please review my PR when you have time.",
+      "translation": "Пожалуйста, посмотри мой PR, когда будет время."
+    }
+  },
+  {
+    "id": 59,
+    "expression": "Code Review",
+    "options": ["Автоматический запуск тестов", "Проверка кода коллегами перед слиянием", "Написание документации"],
+    "correct_answer": "Проверка кода коллегами перед слиянием",
+    "example": {
+      "text": "Code review helps catch bugs early.",
+      "translation": "Ревью кода помогает находить ошибки на ранней стадии."
+    }
+  },
+  {
+    "id": 60,
+    "expression": "Merge Conflict",
+    "options": ["Ошибка сервера", "Столкновение несовместимых правок в коде", "Удаление репозитория"],
+    "correct_answer": "Столкновение несовместимых правок в коде",
+    "example": {
+      "text": "I spent 30 minutes resolving a merge conflict.",
+      "translation": "Я потратил 30 минут на разрешение конфликта слияния."
+    }
+  },
+  {
+    "id": 61,
+    "expression": "Staging",
+    "options": ["Боевой сервер", "Предбоевой сервер для итоговой проверки", "Рабочий стол разработчика"],
+    "correct_answer": "Предбоевой сервер для итоговой проверки",
+    "example": {
+      "text": "Test the feature on staging before pushing to production.",
+      "translation": "Протестируй фичу на стейджинге перед отправкой на прод."
+    }
+  },
+  {
+    "id": 62,
+    "expression": "Localhost",
+    "options": ["Удаленный сервер", "Локальный сервер на компьютере разработчика", "Облачное хранилище"],
+    "correct_answer": "Локальный сервер на компьютере разработчика",
+    "example": {
+      "text": "The app is running locally on localhost:3000.",
+      "translation": "Приложение запущено локально на localhost:3000."
+    }
+  },
+  {
+    "id": 63,
+    "expression": "Hardcode",
+    "options": ["Фиксация значений напрямую в коде вместо настроек", "Сложный алгоритм", "Шифрование данных"],
+    "correct_answer": "Фиксация значений напрямую в коде вместо настроек",
+    "example": {
+      "text": "Don't hardcode the API URL in components.",
+      "translation": "Не зашивай URL API в компоненты напрямую."
+    }
+  },
+  {
+    "id": 64,
+    "expression": "Workaround",
+    "options": ["Временный обход проблемы", "Официальное исправление", "Оптимизация базы"],
+    "correct_answer": "Временный обход проблемы",
+    "example": {
+      "text": "We applied a quick workaround while waiting for a fix.",
+      "translation": "Мы применили временное решение, пока ждем полноценного исправления."
+    }
+  },
+  {
+    "id": 65,
+    "expression": "Crutch",
+    "options": ["Оптимальное решение", "Неоптимальное временное решение (костыль)", "Внешняя библиотека"],
+    "correct_answer": "Неоптимальное временное решение (костыль)",
+    "example": {
+      "text": "This function is a total crutch, we must rewrite it.",
+      "translation": "Эта функция — чистый костыль, ее нужно переписать."
+    }
+  },
+  {
+    "id": 66,
+    "expression": "Dependency",
+    "options": ["Внешняя библиотека, необходимая для работы программы", "Ошибка компиляции", "Главный поток"],
+    "correct_answer": "Внешняя библиотека, необходимая для работы программы",
+    "example": {
+      "text": "Run 'npm install' to fetch all project dependencies.",
+      "translation": "Запусти 'npm install', чтобы подтянуть все зависимости проекта."
+    }
+  },
+  {
+    "id": 67,
+    "expression": "Boilerplate",
+    "options": ["Уникальная логика", "Шаблонный код, повторяющийся в разных местах", "Удаленный репозиторий"],
+    "correct_answer": "Шаблонный код, повторяющийся в разных местах",
+    "example": {
+      "text": "Using a starter template saves us from writing boilerplate code.",
+      "translation": "Использование стартового шаблона избавляет от написания рутинного кода."
+    }
+  },
+  {
+    "id": 68,
+    "expression": "Deprecated",
+    "options": ["Новый метод", "Устаревший элемент, не рекомендуемый к использованию", "Заблокированный файл"],
+    "correct_answer": "Устаревший элемент, не рекомендуемый к использованию",
+    "example": {
+      "text": "This API method is deprecated and will be removed soon.",
+      "translation": "Этот метод API устарел и скоро будет удален."
+    }
+  },
+  {
+    "id": 69,
+    "expression": "Edge Case",
+    "options": ["Основной сценарий", "Нестандартный редкий случай использования", "Ошибка верстки"],
+    "correct_answer": "Нестандартный редкий случай использования",
+    "example": {
+      "text": "Make sure your code handles edge cases like empty inputs.",
+      "translation": "Убедись, что твой код обрабатывает краевые случаи вроде пустых данных."
+    }
+  },
+  {
+    "id": 70,
+    "expression": "Tech Debt",
+    "literal": "(Technical Debt)",
+    "options": ["Накопленные компромиссные решения в архитектуре", "Задолженность по зарплате", "Оплата серверов"],
+    "correct_answer": "Накопленные компромиссные решения в архитектуре",
+    "example": {
+      "text": "We need a refactoring sprint to pay off our tech debt.",
+      "translation": "Нам нужен спринт рефакторинга, чтобы закрыть техдолг."
+    }
+  },
+  {
+    "id": 71,
+    "expression": "Ping",
+    "options": ["Проверка связи или краткое напоминание человеку", "Запуск сервера", "Сохранение файла"],
+    "correct_answer": "Проверка связи или краткое напоминание человеку",
+    "example": {
+      "text": "Ping me when you finish testing the form.",
+      "translation": "Пингани меня, когда закончишь тестировать форму."
+    }
+  },
+  {
+    "id": 72,
+    "expression": "Sync",
+    "options": ["Выравнивание понимания задач между членами команды", "Блокировка потока", "Отмена изменения"],
+    "correct_answer": "Выравнивание понимания задач между членами команды",
+    "example": {
+      "text": "Let's sync for 5 minutes before the presentation.",
+      "translation": "Давай ссинхронизируемся на 5 минут перед презентацией."
+    }
+  },
+  {
+    "id": 73,
+    "expression": "Blocker",
+    "options": ["Препятствие, полностью останавливающее работу", "Фильтр рекламы", "Защита от вирусов"],
+    "correct_answer": "Препятствие, полностью останавливающее работу",
+    "example": {
+      "text": "The database outage is a total blocker for frontend development.",
+      "translation": "Сбой базы данных полностью блокирует разработку фронтенда."
+    }
+  },
+  {
+    "id": 74,
+    "expression": "ASAP",
+    "literal": "(As Soon As Possible)",
+    "options": ["Требование сделать задачу как можно скорее", "Плановое задание", "Необязательная фича"],
+    "correct_answer": "Требование сделать задачу как можно скорее",
+    "example": {
+      "text": "Fix this production issue ASAP.",
+      "translation": "Исправь эту проблему на проде как можно скорее."
+    }
+  },
+  {
+    "id": 75,
+    "expression": "ETA",
+    "literal": "(Estimated Time of Arrival)",
+    "options": ["Ожидаемое время завершения задачи", "Размер файла", "Оценка сложности"],
+    "correct_answer": "Ожидаемое время завершения задачи",
+    "example": {
+      "text": "What is the ETA for this task?",
+      "translation": "Каков ориентировочный срок готовности этой задачи?"
+    }
+  },
+  {
+    "id": 76,
+    "expression": "FYI",
+    "literal": "(For Your Information)",
+    "options": ["Информация к сведению", "Срочное действие", "Отмена встречи"],
+    "correct_answer": "Информация к сведению",
+    "example": {
+      "text": "FYI, the server maintenance starts at midnight.",
+      "translation": "К вашему сведению, обслуживание сервера начинается в полночь."
+    }
+  },
+  {
+    "id": 77,
+    "expression": "Scope",
+    "options": ["Зафиксированный объем работ", "Задержка сети", "История изменений"],
+    "correct_answer": "Зафиксированный объем работ",
+    "example": {
+      "text": "Adding new pages is out of scope for this sprint.",
+      "translation": "Добавление новых страниц не входит в объем работ этого спринта."
+    }
+  },
+  {
+    "id": 78,
+    "expression": "MVP",
+    "literal": "(Minimum Viable Product)",
+    "options": ["Минимальная версия продукта для проверки гипотез", "Главный разработчик", "Финальный релиз"],
+    "correct_answer": "Минимальная версия продукта для проверки гипотез",
+    "example": {
+      "text": "We launched our MVP to gather early user feedback.",
+      "translation": "Мы запустили MVP, чтобы собрать первые отзывы пользователей."
+    }
+  },
+  {
+    "id": 79,
+    "expression": "Onboarding",
+    "options": ["Процесс ввода нового человека в курс проекта", "Процесс увольнения", "Настройка сервера"],
+    "correct_answer": "Процесс ввода нового человека в курс проекта",
+    "example": {
+      "text": "Our onboarding process takes about three days.",
+      "translation": "Наш процесс онбординга занимает около трех дней."
+    }
+  },
+  {
+    "id": 80,
+    "expression": "Benchmark",
+    "options": ["Ориентир для сравнения производительности или качества", "Ошибка памяти", "Точка остановки"],
+    "correct_answer": "Ориентир для сравнения производительности или качества",
+    "example": {
+      "text": "We ran a benchmark to compare database speed.",
+      "translation": "Мы провели бенчмарк для сравнения скорости баз данных."
+    }
+  },
+  {
+    "id": 81,
+    "expression": "Best Practices",
+    "options": ["Наиболее эффективные общепринятые методы работы", "Тестовые сценарии", "Правила безопасности"],
+    "correct_answer": "Наиболее эффективные общепринятые методы работы",
+    "example": {
+      "text": "Following best practices keeps the codebase maintainable.",
+      "translation": "Следование проверенным практикам поддерживает код в хорошем состоянии."
+    }
+  },
+  {
+    "id": 82,
+    "expression": "Responsive Design",
+    "options": ["Адаптивный дизайн под разные экраны", "Быстрый отклик кнопки", "Темная тема"],
+    "correct_answer": "Адаптивный дизайн под разные экраны",
+    "example": {
+      "text": "Responsive design ensures the site looks good on tablet devices.",
+      "translation": "Адаптивный дизайн гарантирует хорошую верстку на планшетах."
+    }
+  },
+  {
+    "id": 83,
+    "expression": "Breakpoint",
+    "options": ["Точка изменения верстки при смене размера экрана", "Ошибка в коде", "Граница модуля"],
+    "correct_answer": "Точка изменения верстки при смене размера экрана",
+    "example": {
+      "text": "We added a desktop breakpoint at 1024px width.",
+      "translation": "Мы добавили брейкпоинт для десктопов на ширине 1024px."
+    }
+  },
+  {
+    "id": 84,
+    "expression": "Viewport",
+    "options": ["Область просмотра веб-страницы на экране", "Окно отладчика", "Заголовки запроса"],
+    "correct_answer": "Область просмотра веб-страницы на экране",
+    "example": {
+      "text": "The hero image adjusts automatically to fit the viewport.",
+      "translation": "Главное изображение автоматически подстраивается под область просмотра."
+    }
+  },
+  {
+    "id": 85,
+    "expression": "Component",
+    "options": ["Независимый переиспользуемый элемент интерфейса", "Строка в базе данных", "Сетевой роут"],
+    "correct_answer": "Независимый переиспользуемый элемент интерфейса",
+    "example": {
+      "text": "This Button component is used everywhere across the app.",
+      "translation": "Этот компонент Button используется по всему приложению."
+    }
+  },
+  {
+    "id": 86,
+    "expression": "Render",
+    "options": ["Отрисовка графики или интерфейса", "Компиляция кода", "Скачивание файлов"],
+    "correct_answer": "Отрисовка графики или интерфейса",
+    "example": {
+      "text": "React will re-render the screen when state updates.",
+      "translation": "React перерисует экран при обновлении состояния."
+    }
+  },
+  {
+    "id": 87,
+    "expression": "Markup",
+    "options": ["Структурная разметка страницы", "Стилевой файл", "Серверная модель"],
+    "correct_answer": "Структурная разметка страницы",
+    "example": {
+      "text": "Clean HTML markup helps search engines index your site.",
+      "translation": "Чистая HTML-верстка помогает поисковикам индексировать ваш сайт."
+    }
+  },
+  {
+    "id": 88,
+    "expression": "State",
+    "options": ["Текущее состояние данных в приложении", "Статус сервера", "Версия языка"],
+    "correct_answer": "Текущее состояние данных в приложении",
+    "example": {
+      "text": "When the user logs in, global state updates immediately.",
+      "translation": "Когда пользователь входит, глобальное состояние обновляется сразу."
+    }
+  },
+  {
+    "id": 89,
+    "expression": "Props",
+    "options": ["Параметры, передаваемые в компонент", "Внутренний кэш", "Глобальные стили"],
+    "correct_answer": "Параметры, передаваемые в компонент",
+    "example": {
+      "text": "Pass title and onClick handler as props to the Modal component.",
+      "translation": "Передай title и обработчик onClick в качестве пропсов в компонент Modal."
+    }
+  },
+  {
+    "id": 90,
+    "expression": "Asset",
+    "options": ["Графический или медиаресурс проекта", "Строка кода", "Тип данных"],
+    "correct_answer": "Графический или медиаресурс проекта",
+    "example": {
+      "text": "All static assets like images are stored in the public folder.",
+      "translation": "Все статические ассеты, такие как картинки, хранятся в папке public."
+    }
+  },
+  {
+    "id": 91,
+    "expression": "Mock Data",
+    "options": ["Тестовые или демонстрационные данные", "Ошибка в данных", "Зашифрованные пароли"],
+    "correct_answer": "Тестовые или демонстрационные данные",
+    "example": {
+      "text": "We used mock data until the backend API was ready.",
+      "translation": "Мы использовали моковые данные, пока бэкенд API не был готов."
+    }
+  },
+  {
+    "id": 92,
+    "expression": "SPA",
+    "literal": "(Single Page Application)",
+    "options": ["Одностраничное веб-приложение", "База данных", "Серверная логика"],
+    "correct_answer": "Одностраничное веб-приложение",
+    "example": {
+      "text": "An SPA dynamically updates the page without full reloads.",
+      "translation": "SPA динамически обновляет страницу без полной перезагрузки."
+    }
+  },
+  {
+    "id": 93,
+    "expression": "Endpoint",
+    "options": ["Конкретный адрес в API для обработки запроса", "Конечная точка маршрута", "Завершение программы"],
+    "correct_answer": "Конкретный адрес в API для обработки запроса",
+    "example": {
+      "text": "Send a POST request to the /api/users endpoint.",
+      "translation": "Отправь POST-запрос на эндпоинт /api/users."
+    }
+  },
+  {
+    "id": 94,
+    "expression": "Payload",
+    "options": ["Полезные данные, передаваемые в запросе", "Ошибка соединения", "Заголовки безопасности"],
+    "correct_answer": "Полезные данные, передаваемые в запросе",
+    "example": {
+      "text": "The request payload contains the new profile details.",
+      "translation": "Полезная нагрузка запроса содержит новые детали профиля."
+    }
+  },
+  {
+    "id": 95,
+    "expression": "Authorization",
+    "options": ["Проверка прав доступа пользователя", "Вход по логину", "Замена пароля"],
+    "correct_answer": "Проверка прав доступа пользователя",
+    "example": {
+      "text": "Authorization failed because the user is not an admin.",
+      "translation": "Авторизация не прошла, так как пользователь не является администратором."
+    }
+  },
+  {
+    "id": 96,
+    "expression": "Authentication",
+    "options": ["Проверка подлинности пользователя", "Предоставление прав доступа", "Очистка кэша"],
+    "correct_answer": "Проверка подлинности пользователя",
+    "example": {
+      "text": "Authentication checks your email and password.",
+      "translation": "Аутентификация проверяет твой email и пароль."
+    }
+  },
+  {
+    "id": 97,
+    "expression": "Token",
+    "options": ["Уникальный ключ для подтверждения доступа", "Элемент интерфейса", "Тестовый скрипт"],
+    "correct_answer": "Уникальный ключ для подтверждения доступа",
+    "example": {
+      "text": "Save the JWT token in secure cookies.",
+      "translation": "Сохраняй JWT-токен в защищенных куках."
+    }
+  },
+  {
+    "id": 98,
+    "expression": "Session",
+    "options": ["Период активной сессии пользователя в системе", "Подключение к Wi-Fi", "Файл авторизации"],
+    "correct_answer": "Период активной сессии пользователя в системе",
+    "example": {
+      "text": "Your user session has expired, please log in again.",
+      "translation": "Твоя пользовательская сессия истекла, войди снова."
+    }
+  },
+  {
+    "id": 99,
+    "expression": "Query",
+    "options": ["Запрос к базе данных", "Сбой сети", "Имя функции"],
+    "correct_answer": "Запрос к базе данных",
+    "example": {
+      "text": "This SQL query selects all active subscribers.",
+      "translation": "Этот SQL-запрос выбирает всех активных подписчиков."
+    }
+  },
+  {
+    "id": 100,
+    "expression": "Schema",
+    "options": ["Структура организации данных", "Дизайн веб-страницы", "Файл документации"],
+    "correct_answer": "Структура организации данных",
+    "example": {
+      "text": "We updated our database schema to add a phone number field.",
+      "translation": "Мы обновили схему базы данных, чтобы добавить поле номера телефона."
+    }
+  },
+  {
+    "id": 101,
+    "expression": "Migration",
+    "options": ["Перенос данных или изменение структуры базы", "Обновление дизайна", "Смена сервера"],
+    "correct_answer": "Перенос данных или изменение структуры базы",
+    "example": {
+      "text": "Run database migration before running the app.",
+      "translation": "Запусти миграцию базы данных перед запуском приложения."
+    }
+  },
+  {
+    "id": 102,
+    "expression": "Indexing",
+    "options": ["Ускорение поиска данных в базе", "Сортировка списка в UI", "Рендеринг таблицы"],
+    "correct_answer": "Ускорение поиска данных в базе",
+    "example": {
+      "text": "Adding database indexing sped up search results by 10x.",
+      "translation": "Добавление индексирования ускорило результаты поиска в 10 раз."
+    }
+  },
+  {
+    "id": 103,
+    "expression": "Primary Key",
+    "options": ["Уникальный идентификатор записи в базе данных", "Пароль администратора", "Токен доступа"],
+    "correct_answer": "Уникальный идентификатор записи в базе данных",
+    "example": {
+      "text": "Every user table row must have a primary key.",
+      "translation": "Каждая строка таблицы пользователей должна иметь первичный ключ."
+    }
+  },
+  {
+    "id": 104,
+    "expression": "Foreign Key",
+    "options": ["Связь между таблицами в базе данных", "Внешняя библиотека", "Внешний API-ключ"],
+    "correct_answer": "Связь между таблицами в базе данных",
+    "example": {
+      "text": "The order record links to user ID via a foreign key.",
+      "translation": "Запись заказа связывается с ID пользователя через внешний ключ."
+    }
+  },
+  {
+    "id": 105,
+    "expression": "ORM",
+    "literal": "(Object-Relational Mapping)",
+    "options": ["Инструмент для работы с базой данных через объектный код", "Графический фреймворк", "Сетевой протокол"],
+    "correct_answer": "Инструмент для работы с базой данных через объектный код",
+    "example": {
+      "text": "Prisma is a modern ORM for Node.js.",
+      "translation": "Prisma — современный ORM для Node.js."
+    }
+  },
+  {
+    "id": 106,
+    "expression": "Uptime",
+    "options": ["Время непрерывной работы системы без сбоев", "Скорость загрузки сайта", "Время выполнения скрипта"],
+    "correct_answer": "Время непрерывной работы системы без сбоев",
+    "example": {
+      "text": "Our cloud service guarantees 99.9% uptime.",
+      "translation": "Наш облачный сервис гарантирует 99.9% аптайма."
+    }
+  },
+  {
+    "id": 107,
+    "expression": "Downtime",
+    "options": ["Время простоя системы из-за аварии или обслуживания", "Ночная смена разработчиков", "Задержка при нажатии"],
+    "correct_answer": "Время простоя системы из-за аварии или обслуживания",
+    "example": {
+      "text": "Planned maintenance will cause 10 minutes of downtime.",
+      "translation": "Плановое обслуживание вызовет 10 минут простоя."
+    }
+  },
+  {
+    "id": 108,
+    "expression": "Rollback",
+    "options": ["Возврат системы к предыдущей стабильной версии", "Удаление данных из базы", "Перезагрузка сервера"],
+    "correct_answer": "Возврат системы к предыдущей стабильной версии",
+    "example": {
+      "text": "After the deployment failed, we did an emergency rollback.",
+      "translation": "После неудачного деплоя мы сделали экстренный откат."
+    }
+  },
+  {
+    "id": 109,
+    "expression": "CI/CD",
+    "literal": "(Continuous Integration / Continuous Delivery)",
+    "options": ["Автоматизация сборки, тестирования и доставки кода", "Дизайнерская система", "Система хранения файлов"],
+    "correct_answer": "Автоматизация сборки, тестирования и доставки кода",
+    "example": {
+      "text": "GitHub Actions manages our CI/CD workflow.",
+      "translation": "GitHub Actions управляет нашим CI/CD процессом."
+    }
+  },
+  {
+    "id": 110,
+    "expression": "Pipeline",
+    "options": ["Последовательность автоматических шагов сборки проекта", "Сетевой маршрутизатор", "Цепочка БД"],
+    "correct_answer": "Последовательность автоматических шагов сборки проекта",
+    "example": {
+      "text": "The build pipeline failed at the unit testing step.",
+      "translation": "Пайплайн сборки упал на этапе модульного тестирования."
+    }
+  },
+  {
+    "id": 111,
+    "expression": "Container",
+    "options": ["Изолированная среда для запуска приложения", "Оконный элемент UI", "Хранилище переменных"],
+    "correct_answer": "Изолированная среда для запуска приложения",
+    "example": {
+      "text": "Docker packs application code into an isolated container.",
+      "translation": "Docker упаковывает код приложения в изолированный контейнер."
+    }
+  },
+  {
+    "id": 112,
+    "expression": "Cluster",
+    "options": ["Группа объединенных серверов для совместных задач", "Набор стилей", "Таблица пользователей"],
+    "correct_answer": "Группа объединенных серверов для совместных задач",
+    "example": {
+      "text": "The app runs on a Kubernetes cluster.",
+      "translation": "Приложение работает на кластере Kubernetes."
+    }
+  },
+  {
+    "id": 113,
+    "expression": "Microservices",
+    "options": ["Архитектура из независимых небольших сервисов", "Единый большой монолит", "Формат передачи файлов"],
+    "correct_answer": "Архитектура из независимых небольших сервисов",
+    "example": {
+      "text": "Microservices allow teams to deploy modules independently.",
+      "translation": "Микросервисы позволяют командам деплоить модули независимо."
+    }
+  },
+  {
+    "id": 114,
+    "expression": "Monolith",
+    "options": ["Единое цельное приложение без деления на сервисы", "Микросервисная сеть", "Облачная система"],
+    "correct_answer": "Единое цельное приложение без деления на сервисы",
+    "example": {
+      "text": "Migrating our old monolith to microservices took months.",
+      "translation": "Переход со старого монолита на микросервисы занял месяцы."
+    }
+  },
+  {
+    "id": 115,
+    "expression": "Serverless",
+    "options": ["Запуск кода без прямого управления серверами", "Приложение без интернета", "Локальная база данных"],
+    "correct_answer": "Запуск кода без прямого управления серверами",
+    "example": {
+      "text": "AWS Lambda allows running serverless backend functions.",
+      "translation": "AWS Lambda позволяет запускать бессерверные бэкенд-функции."
+    }
+  },
+  {
+    "id": 116,
+    "expression": "Load Balancing",
+    "options": ["Распределение входящего трафика между серверами", "Выравнивание верстки", "Оптимизация изображений"],
+    "correct_answer": "Распределение входящего трафика между серверами",
+    "example": {
+      "text": "Load balancing keeps our servers stable during traffic spikes.",
+      "translation": "Балансировка нагрузки сохраняет сервера стабильными при всплесках трафика."
+    }
+  },
+  {
+    "id": 117,
+    "expression": "High Availability",
+    "options": ["Способность системы работать без перерывов", "Высокая скорость загрузки", "Максимальное разрешение экрана"],
+    "correct_answer": "Способность системы работать без перерывов",
+    "example": {
+      "text": "High availability is crucial for financial platforms.",
+      "translation": "Высокая доступность критически важна для финансовых платформ."
+    }
+  },
+  {
+    "id": 118,
+    "expression": "Reverse Proxy",
+    "options": ["Промежуточный сервер для перенаправления запросов", "VPN-подключение", "Антивирусный экран"],
+    "correct_answer": "Промежуточный сервер для перенаправления запросов",
+    "example": {
+      "text": "Nginx acts as a reverse proxy for our backend service.",
+      "translation": "Nginx выступает в роли обратного прокси для нашего бэкенд-сервиса."
+    }
+  },
+  {
+    "id": 119,
+    "expression": "Webhook",
+    "options": ["Автоматическое уведомление одной системы другой при событии", "Внешняя ссылка", "Индикатор загрузки"],
+    "correct_answer": "Автоматическое уведомление одной системы другой при событии",
+    "example": {
+      "text": "Stripe sends a webhook when payment is completed.",
+      "translation": "Stripe отправляет вебхук, когда оплата завершена."
+    }
+  },
+  {
+    "id": 120,
+    "expression": "Rate Limiting",
+    "options": ["Ограничение частоты запросов от одного клиента", "Ограничение памяти сервера", "Снижение качества видео"],
+    "correct_answer": "Ограничение частоты запросов от одного клиента",
+    "example": {
+      "text": "Rate limiting protects our API from spam and DDoS attacks.",
+      "translation": "Ограничение частоты запросов защищает наш API от спама и DDoS-атак."
+    }
+  },
+  {
+    "id": 121,
+    "expression": "Latency",
+    "options": ["Задержка при передаче данных по сети", "Скорость чтения диска", "Время компиляции"],
+    "correct_answer": "Задержка при передаче данных по сети",
+    "example": {
+      "text": "Low network latency is essential for online multiplayer games.",
+      "translation": "Низкая задержка сети необходима для онлайн-игр."
+    }
+  },
+  {
+    "id": 122,
+    "expression": "Cold Start",
+    "options": ["Пауза при первом запуске неактивного сервиса", "Перезагрузка ПК", "Сбой в работе процессора"],
+    "correct_answer": "Пауза при первом запуске неактивного сервиса",
+    "example": {
+      "text": "Serverless functions sometimes suffer from cold start latency.",
+      "translation": "Бессерверные функции иногда страдают от задержки при холодном старте."
+    }
+  },
+  {
+    "id": 123,
+    "expression": "Sandbox",
+    "options": ["Изолированная тестовая среда для безопасных экспериментов", "Рабочая ветка", "Игровой интерфейс"],
+    "correct_answer": "Изолированная тестовая среда для безопасных экспериментов",
+    "example": {
+      "text": "Test payments in the PayPal sandbox environment first.",
+      "translation": "Сначала протестируй платежи в песочнице PayPal."
+    }
+  },
+  {
+    "id": 124,
+    "expression": "Environment Variable",
+    "options": ["Переменная окружения для конфигурации", "Локальная функция", "Параметр компонента"],
+    "correct_answer": "Переменная окружения для конфигурации",
+    "example": {
+      "text": "Store secret keys inside an environment variable.",
+      "translation": "Храни секретные ключи внутри переменной окружения."
+    }
+  },
+  {
+    "id": 125,
+    "expression": "Middleware",
+    "options": ["Промежуточный обработчик запросов", "Средний уровень UI", "Компонент интерфейса"],
+    "correct_answer": "Промежуточный обработчик запросов",
+    "example": {
+      "text": "This middleware checks if user is authorized before processing request.",
+      "translation": "Этот обработчик проверяет авторизацию пользователя перед обработкой запроса."
+    }
+  },
+  {
+    "id": 126,
+    "expression": "Unit Test",
+    "options": ["Тест для проверки отдельной изолированной функции", "Сквозное тестирование интерфейса", "Тест под нагрузкой"],
+    "correct_answer": "Тест для проверки отдельной изолированной функции",
+    "example": {
+      "text": "Write a unit test to verify the discount calculation logic.",
+      "translation": "Напиши юнит-тест, чтобы проверить логику расчета скидки."
+    }
+  },
+  {
+    "id": 127,
+    "expression": "Integration Test",
+    "options": ["Тест взаимодействия нескольких модулей", "Тест одного элемента", "Ручная проверка интерфейса"],
+    "correct_answer": "Тест взаимодействия нескольких модулей",
+    "example": {
+      "text": "Integration tests ensure that the API and database work well together.",
+      "translation": "Интеграционные тесты проверяют совместную работу API и базы данных."
+    }
+  },
+  {
+    "id": 128,
+    "expression": "E2E Test",
+    "literal": "(End-to-End Test)",
+    "options": ["Сквозной тест сценария от лица пользователя", "Тестирование сервера", "Проверка одной функции"],
+    "correct_answer": "Сквозной тест сценария от лица пользователя",
+    "example": {
+      "text": "E2E tests simulate complete user login and purchase actions.",
+      "translation": "E2E-тесты симулируют полные действия пользователя от входа до покупки."
+    }
+  },
+  {
+    "id": 129,
+    "expression": "Regression Testing",
+    "options": ["Проверка, что новые правки не сломали старое", "Тестирование скорости", "Проверка дизайна"],
+    "correct_answer": "Проверка, что новые правки не сломали старое",
+    "example": {
+      "text": "Run regression testing before releasing the new update.",
+      "translation": "Проведи регрессионное тестирование перед выпуском обновления."
+    }
+  },
+  {
+    "id": 130,
+    "expression": "Smoke Testing",
+    "options": ["Поверхностная проверка ключевых функций системы", "Глубокий стресс-тест", "Тест безопасности"],
+    "correct_answer": "Поверхностная проверка ключевых функций системы",
+    "example": {
+      "text": "We did a quick smoke test after pushing code to staging.",
+      "translation": "Мы провели быстрый смоук-тест после отправки кода на стейджинг."
+    }
+  },
+  {
+    "id": 131,
+    "expression": "Bug Report",
+    "options": ["Документ с описанием найденной ошибки", "Отчет о доходах", "Список выполненных задач"],
+    "correct_answer": "Документ с описанием найденной ошибки",
+    "example": {
+      "text": "Attach screenshots and logs to your bug report.",
+      "translation": "Прикрепи скриншоты и логи к своему баг-репорту."
+    }
+  },
+  {
+    "id": 132,
+    "expression": "Test Coverage",
+    "options": ["Процент кода, охваченный автоматическими тестами", "Объем тестовой базы", "Время прохождения тестов"],
+    "correct_answer": "Процент кода, охваченный автоматическими тестами",
+    "example": {
+      "text": "Our goal is to reach 80% test coverage.",
+      "translation": "Наша цель — достичь 80% покрытия кода тестами."
+    }
+  },
+  {
+    "id": 133,
+    "expression": "Assertion",
+    "options": ["Проверка ожидаемого результата в автотесте", "Исключение в программе", "Запрос на доступ"],
+    "correct_answer": "Проверка ожидаемого результата в автотесте",
+    "example": {
+      "text": "The test failed because the assertion expected status 200, but got 500.",
+      "translation": "Тест упал, потому что утверждение ожидало статус 200, а получило 500."
+    }
+  },
+  {
+    "id": 134,
+    "expression": "Mock",
+    "options": ["Объект-заглушка для имитации работы внешнего сервиса", "Оригинальная база данных", "Удаленный сервер"],
+    "correct_answer": "Объект-заглушка для имитации работы внешнего сервиса",
+    "example": {
+      "text": "We created a mock service for payment gateway testing.",
+      "translation": "Мы создали мок-сервис для тестирования платежного шлюза."
+    }
+  },
+  {
+    "id": 135,
+    "expression": "Flaky Test",
+    "options": ["Автотест, выдающий разный результат при одинаковых условиях", "Быстро падающий тест", "Тест с ошибкой синтаксиса"],
+    "correct_answer": "Автотест, выдающий разный результат при одинаковых условиях",
+    "example": {
+      "text": "Fix that flaky test, it keeps failing randomly in CI.",
+      "translation": "Исправь тот флакующий тест, он случайно падает в CI."
+    }
+  },
+  {
+    "id": 136,
+    "expression": "Lazy Loading",
+    "options": ["Отложенная загрузка контента по мере необходимости", "Медленная работа сервера", "Кэширование файлов"],
+    "correct_answer": "Отложенная загрузка контента по мере необходимости",
+    "example": {
+      "text": "Lazy loading images improves initial page load speed.",
+      "translation": "Ленивая загрузка картинок улучшает начальную скорость загрузки страницы."
+    }
+  },
+  {
+    "id": 137,
+    "expression": "Bundle",
+    "options": ["Итоговый собранный файл приложения", "Пакет стилей", "Папка с картинками"],
+    "correct_answer": "Итоговый собранный файл приложения",
+    "example": {
+      "text": "Webpack packages all modules into a single production bundle.",
+      "translation": "Webpack упаковывает все модули в один итоговый бандл."
+    }
+  },
+  {
+    "id": 138,
+    "expression": "Minification",
+    "options": ["Сокращение размера кода за счет удаления лишних символов", "Уменьшение изображений", "Архивация папок"],
+    "correct_answer": "Сокращение размера кода за счет удаления лишних символов",
+    "example": {
+      "text": "JS minification reduces file size significantly.",
+      "translation": "Минификация JS существенно уменьшает размер файла."
+    }
+  },
+  {
+    "id": 139,
+    "expression": "Hydration",
+    "options": ["Наполнение статической верстки динамической логикой на клиенте", "Очистка памяти", "Обновление стилей"],
+    "correct_answer": "Наполнение статической верстки динамической логикой на клиенте",
+    "example": {
+      "text": "React hydration connects event listeners to server-rendered HTML.",
+      "translation": "Гидратация в React подключает обработчики событий к серверному HTML."
+    }
+  },
+  {
+    "id": 140,
+    "expression": "a11y",
+    "literal": "(Accessibility)",
+    "options": ["Доступность интерфейса для людей с ограничениями", "Анимация элементов", "Верстка таблиц"],
+    "correct_answer": "Доступность интерфейса для людей с ограничениями",
+    "example": {
+      "text": "Improving a11y ensures screen readers can navigate your site.",
+      "translation": "Улучшение доступности гарантирует, что скринридеры смогут читать ваш сайт."
+    }
+  },
+  {
+    "id": 141,
+    "expression": "Skeleton Screen",
+    "options": ["Каркасный индикатор в процессе загрузки содержимого", "Ошибка верстки", "Прозрачный фон"],
+    "correct_answer": "Каркасный индикатор в процессе загрузки содержимого",
+    "example": {
+      "text": "Use a skeleton screen instead of a plain spinner.",
+      "translation": "Используй скелетон вместо обычного спиннера."
+    }
+  },
+  {
+    "id": 142,
+    "expression": "Dark Mode",
+    "options": ["Темная цветовая схема интерфейса", "Режим инкогнито", "Выключение экрана"],
+    "correct_answer": "Темная цветовая схема интерфейса",
+    "example": {
+      "text": "Most users prefer using dark mode at night.",
+      "translation": "Большинство пользователей предпочитают темную тему ночью."
+    }
+  },
+  {
+    "id": 143,
+    "expression": "Event Loop",
+    "options": ["Механизм обработки асинхронных событий", "Зацикливание анимации", "Бесконечный запрос"],
+    "correct_answer": "Механизм обработки асинхронных событий",
+    "example": {
+      "text": "Understanding the JavaScript Event Loop is key to async coding.",
+      "translation": "Понимание Event Loop в JavaScript крайне важно для асинхронного кода."
+    }
+  },
+  {
+    "id": 144,
+    "expression": "Cross-Browser Compatibility",
+    "options": ["Корректное отображение во всех браузерах", "Синхронизация закладок", "Скорость работы браузера"],
+    "correct_answer": "Корректное отображение во всех браузерах",
+    "example": {
+      "text": "Ensure cross-browser compatibility before approving the release.",
+      "translation": "Обеспечь кроссбраузерность перед утверждением релиза."
+    }
+  },
+  {
+    "id": 145,
+    "expression": "Microfrontend",
+    "options": ["Разделение фронтенда на независимые части", "Мобильная верстка", "Миниатюрные иконки"],
+    "correct_answer": "Разделение фронтенда на независимые части",
+    "example": {
+      "text": "Microfrontend architecture allows distinct teams to own different UI pages.",
+      "translation": "Архитектура микрофронтендов позволяет разным командам отвечать за отдельные UI страницы."
+    }
+  },
+  {
+    "id": 146,
+    "expression": "Hot Reload",
+    "options": ["Мгновенное обновление интерфейса в ходе разработки", "Перезагрузка сервера", "Очистка кэша"],
+    "correct_answer": "Мгновенное обновление интерфейса в ходе разработки",
+    "example": {
+      "text": "Hot reload speeds up UI styling immensely.",
+      "translation": "Горячая перезагрузка очень сильно ускоряет верстку UI."
+    }
+  },
+  {
+    "id": 147,
+    "expression": "Monorepo",
+    "options": ["Хранение нескольких проектов в одном репозитории", "Единственный коммит", "База данных для одного сервиса"],
+    "correct_answer": "Хранение нескольких проектов в одном репозитории",
+    "example": {
+      "text": "We store both frontend and backend in a monorepo.",
+      "translation": "Мы храним и фронтенд, и бэкенд в одном монорепозитории."
+    }
+  },
+  {
+    "id": 148,
+    "expression": "Rebase",
+    "options": ["Перенос истории коммитов на новую базовую точку", "Удаление репозитория", "Отмена последнего пуша"],
+    "correct_answer": "Перенос истории коммитов на новую базовую точку",
+    "example": {
+      "text": "Rebase your feature branch onto main to update commit history.",
+      "translation": "Сделай рибейз своей ветки на main, чтобы обновить историю коммитов."
+    }
+  },
+  {
+    "id": 149,
+    "expression": "Cherry-Pick",
+    "options": ["Выборка и перенос отдельного коммита в другую ветку", "Удаление ветки", "Слияние всех изменений"],
+    "correct_answer": "Выборка и перенос отдельного коммита в другую ветку",
+    "example": {
+      "text": "I cherry-picked the fix commit into the production branch.",
+      "translation": "Я точечно перенес коммит с исправлением в продакшен-ветку."
+    }
+  },
+  {
+    "id": 150,
+    "expression": "Stash",
+    "options": ["Временное откладывание незакоммиченных изменений", "Удаление рабочей директории", "Архивация логов"],
+    "correct_answer": "Временное откладывание незакоммиченных изменений",
+    "example": {
+      "text": "Use 'git stash' to save uncommitted work temporarily.",
+      "translation": "Используй 'git stash', чтобы временно отложить незакоммиченную работу."
+    }
+  },
+  {
+    "id": 151,
+    "expression": "Fetch",
+    "options": ["Получение данных с сервера или обновление информации о ветках", "Удаление ветки", "Фиксация правок"],
+    "correct_answer": "Получение данных с сервера или обновление информации о ветках",
+    "example": {
+      "text": "Run 'git fetch' to download new branch info without merging.",
+      "translation": "Выполни 'git fetch', чтобы скачать информацию о новых ветках без слияния."
+    }
+  },
+  {
+    "id": 152,
+    "expression": "Checkout",
+    "options": ["Переключение на другую ветку или коммит", "Оплата заказа", "Проверка синтаксиса"],
+    "correct_answer": "Переключение на другую ветку или коммит",
+    "example": {
+      "text": "Checkout to the develop branch before adding code.",
+      "translation": "Переключись на ветку develop перед добавлением кода."
+    }
+  },
+  {
+    "id": 153,
+    "expression": "Overtime",
+    "options": ["Работа сверх нормированного времени", "Перерыв на обед", "Отпуск"],
+    "correct_answer": "Работа сверх нормированного времени",
+    "example": {
+      "text": "Working too much overtime leads to rapid fatigue.",
+      "translation": "Слишком частые переработки приводят к быстрой усталости."
+    }
+  },
+  {
+    "id": 154,
+    "expression": "Burnout",
+    "options": ["Эмоциональное и физическое истощение от работы", "Сбой процессора", "Перегрев сервера"],
+    "correct_answer": "Эмоциональное и физическое истощение от работы",
+    "example": {
+      "text": "Taking regular breaks helps prevent developer burnout.",
+      "translation": "Регулярные перерывы помогают предотвратить выгорание разработчиков."
+    }
+  },
+  {
+    "id": 155,
+    "expression": "Context Switching",
+    "options": ["Затраты ресурсов на частую смену задач", "Смена языка программирования", "Переключение экранов"],
+    "correct_answer": "Затраты ресурсов на частую смену задач",
+    "example": {
+      "text": "Constant context switching reduces productivity significantly.",
+      "translation": "Постоянное переключение контекста существенно снижает продуктивность."
+    }
+  },
+  {
+    "id": 156,
+    "expression": "Bus Factor",
+    "options": ["Риск проекта при неожиданной утрате ключевого специалиста", "Скорость передачи данных", "Нагрузка на сервер"],
+    "correct_answer": "Риск проекта при неожиданной утрате ключевого специалиста",
+    "example": {
+      "text": "Write documentation to keep a healthy bus factor in our team.",
+      "translation": "Пиши документацию, чтобы поддерживать безопасный фактор автобуса в команде."
+    }
+  },
+  {
+    "id": 157,
+    "expression": "Touch Base",
+    "options": ["Короткая сверка статуса по задаче", "Перезапуск базы", "Финальная приемка"],
+    "correct_answer": "Короткая сверка статуса по задаче",
+    "example": {
+      "text": "Let me touch base with the lead engineer regarding this issue.",
+      "translation": "Я быстро сверюсь с лид-инженером по этой проблеме."
+    }
+  },
+  {
+    "id": 158,
+    "expression": "Deep Dive",
+    "options": ["Подробное и детальное изучение вопроса", "Быстрый поверхностный осмотр", "Поиск багов"],
+    "correct_answer": "Подробное и детальное изучение вопроса",
+    "example": {
+      "text": "We need a deep dive into our app performance metrics.",
+      "translation": "Нам нужно глубоко погрузиться в метрики производительности приложения."
+    }
+  },
+  {
+    "id": 159,
+    "expression": "Trade-Off",
+    "options": ["Компромиссное решение между конкурирующими требованиями", "Продажа лицензии", "Обмен задачами"],
+    "correct_answer": "Компромиссное решение между конкурирующими требованиями",
+    "example": {
+      "text": "Speed vs security is a common architectural trade-off.",
+      "translation": "Скорость против безопасности — частый архитектурный компромисс."
+    }
+  },
+  {
+    "id": 160,
+    "expression": "Pain Point",
+    "options": ["Наиболее острая проблема пользователя или процесса", "Точка остановки программы", "Ошибка валидации"],
+    "correct_answer": "Наиболее острая проблема пользователя или процесса",
+    "example": {
+      "text": "Slow checkout speed is our users' main pain point.",
+      "translation": "Медленная скорость оплаты — главная боль наших пользователей."
+    }
+  },
+  {
+    "id": 161,
+    "expression": "Bottleneck",
+    "options": ["Узкое место, снижающее общую скорость системы", "Защита от спама", "Завершение процесса"],
+    "correct_answer": "Узкое место, снижающее общую скорость системы",
+    "example": {
+      "text": "Database queries were the main bottleneck in our API.",
+      "translation": "Запросы к базе данных были главным узким местом нашего API."
+    }
+  },
+  {
+    "id": 162,
+    "expression": "Memory Leak",
+    "options": ["Постепенное израсходование оперативной памяти", "Взлом базы данных", "Утечка паролей"],
+    "correct_answer": "Постепенное израсходование оперативной памяти",
+    "example": {
+      "text": "Unclosed database connections caused a memory leak.",
+      "translation": "Незакрытые соединения с базой привели к утечке памяти."
+    }
+  },
+  {
+    "id": 163,
+    "expression": "Garbage Collection",
+    "options": ["Автоматическое освобождение неиспользуемой памяти", "Удаление неиспользуемого кода", "Очистка жесткого диска"],
+    "correct_answer": "Автоматическое освобождение неиспользуемой памяти",
+    "example": {
+      "text": "Garbage collection cleans up unreachable JS objects.",
+      "translation": "Сборщик мусора очищает недостижимые объекты JS."
+    }
+  },
+  {
+    "id": 164,
+    "expression": "Race Condition",
+    "options": ["Ошибка из-за неопределенного порядка параллельных операций", "Тестирование скорости", "Конфликт прав доступа"],
+    "correct_answer": "Ошибка из-за неопределенного порядка параллельных операций",
+    "example": {
+      "text": "Simultaneous database updates triggered a race condition.",
+      "translation": "Одновременные обновления базы данных вызвали состояние гонки."
+    }
+  },
+  {
+    "id": 165,
+    "expression": "Deadlock",
+    "options": ["Взаимная блокировка двух и более процессов", "Ошибка компилятора", "Завершение программы"],
+    "correct_answer": "Взаимная блокировка двух и более процессов",
+    "example": {
+      "text": "Two threads blocked each other, causing a deadlock.",
+      "translation": "Два потока заблокировали друг друга, вызвав взаимную блокировку."
+    }
+  },
+  {
+    "id": 166,
+    "expression": "Null Pointer",
+    "options": ["Обращение к несуществующему объекту в памяти", "Нулевое значение переменной", "Пустой массив"],
+    "correct_answer": "Обращение к несуществующему объекту в памяти",
+    "example": {
+      "text": "The program crashed due to a null pointer exception.",
+      "translation": "Программа упала из-за ошибки обращения к несуществующему объекту."
+    }
+  },
+  {
+    "id": 167,
+    "expression": "Exception",
+    "options": ["Внештатная ситуация во время выполнения программы", "Особое правило верстки", "Разрешение доступа"],
+    "correct_answer": "Внештатная ситуация во время выполнения программы",
+    "example": {
+      "text": "Use try-catch blocks to handle runtime exceptions.",
+      "translation": "Используй блоки try-catch для обработки исключений во время выполнения."
+    }
+  },
+  {
+    "id": 168,
+    "expression": "Throttling",
+    "options": ["Принудительное замедление частоты выполнения операций", "Сжатие изображений", "Очистка кэша"],
+    "correct_answer": "Принудительное замедление частоты выполнения операций",
+    "example": {
+      "text": "Throttling limits how often scroll event handlers fire.",
+      "translation": "Троттлинг ограничивает частоту срабатывания обработчиков скролла."
+    }
+  },
+  {
+    "id": 169,
+    "expression": "Polling",
+    "options": ["Постоянный регулярный опрос сервера на наличие изменений", "Голосование пользователей", "Скачивание файлов"],
+    "correct_answer": "Постоянный регулярный опрос сервера на наличие изменений",
+    "example": {
+      "text": "Instead of polling every second, switch to WebSockets.",
+      "translation": "Вместо опроса сервера каждую секунду перейди на WebSockets."
+    }
+  },
+  {
+    "id": 170,
+    "expression": "Connection Pool",
+    "options": ["Набор готовых соединений с базой данных", "Сеть Wi-Fi точек", "Список доступных серверов"],
+    "correct_answer": "Набор готовых соединений с базой данных",
+    "example": {
+      "text": "Using a connection pool reduces latency for database requests.",
+      "translation": "Использование пула соединений снижает задержку для запросов к базе."
+    }
+  },
+  {
+    "id": 171,
+    "expression": "CORS",
+    "literal": "(Cross-Origin Resource Sharing)",
+    "options": ["Настройки разрешений для запросов между разными доменами", "Защита от вирусов", "Сетевой протокол"],
+    "correct_answer": "Настройки разрешений для запросов между разными доменами",
+    "example": {
+      "text": "Configure CORS headers properly on your Express backend.",
+      "translation": "Настрой CORS-заголовки корректно на своем бэкенде Express."
+    }
+  },
+  {
+    "id": 172,
+    "expression": "Async / Await",
+    "options": ["Синтаксис для асинхронной работы без блокировки потока", "Цикл обработки элементов", "Тип данных"],
+    "correct_answer": "Синтаксис для асинхронной работы без блокировки потока",
+    "example": {
+      "text": "Async / await makes asynchronous code look synchronous.",
+      "translation": "Async / await делает асинхронный код похожим на синхронный."
+    }
+  },
+  {
+    "id": 173,
+    "expression": "Callback",
+    "options": ["Функция, вызываемая после завершения другой операции", "Обратный звонок клиенту", "Повторный запрос"],
+    "correct_answer": "Функция, вызываемая после завершения другой операции",
+    "example": {
+      "text": "Pass a callback function to run when data loading finishes.",
+      "translation": "Передай колбэк-функцию, которая выполнится после завершения загрузки данных."
+    }
+  },
+  {
+    "id": 174,
+    "expression": "High Load",
+    "options": ["Архитектурный режим работы при экстремальных нагрузках", "Большой размер файла", "Долгая загрузка системы"],
+    "correct_answer": "Архитектурный режим работы при экстремальных нагрузках",
+    "example": {
+      "text": "High load architecture handles millions of active connections.",
+      "translation": "Хайлоад-архитектура обрабатывает миллионы активных соединений."
+    }
+  },
+  {
+    "id": 175,
+    "expression": "CDN",
+    "literal": "(Content Delivery Network)",
+    "options": ["Распределенная сеть для ускоренной отдачи тяжелого контента", "Локальный диск", "База данных"],
+    "correct_answer": "Распределенная сеть для ускоренной отдачи тяжелого контента",
+    "example": {
+      "text": "Serving images via CDN speeds up site loading worldwide.",
+      "translation": "Раздача изображений через CDN ускоряет загрузку сайта по всему миру."
+    }
+  },
+  {
+    "id": 176,
+    "expression": "Serialization",
+    "options": ["Преобразование структуры данных в строку или байты", "Распараллеливание вычислений", "Шифрование ключей"],
+    "correct_answer": "Преобразование структуры данных в строку или байты",
+    "example": {
+      "text": "JSON serialization converts JavaScript objects to plain text.",
+      "translation": "Сериализация JSON преобразует объекты JavaScript в обычный текст."
+    }
+  },
+  {
+    "id": 177,
+    "expression": "Deserialization",
+    "options": ["Восстановление структуры данных из строки или байтов", "Удаление данных из диска", "Сжатие архива"],
+    "correct_answer": "Восстановление структуры данных из строки или байтов",
+    "example": {
+      "text": "Deserialization turns incoming JSON strings back into live objects.",
+      "translation": "Десериализация превращает входящие JSON-строки обратно в живые объекты."
+    }
+  },
+  {
+    "id": 178,
+    "expression": "Parsing",
+    "options": ["Анализ и разбор текста в структурированный формат", "Шифрование данных", "Форматирование диска"],
+    "correct_answer": "Анализ и разбор текста в структурированный формат",
+    "example": {
+      "text": "The app crashed while parsing an invalid JSON response.",
+      "translation": "Приложение упало во время парсинга некорректного JSON-ответа."
+    }
+  },
+  {
+    "id": 179,
+    "expression": "Immutability",
+    "options": ["Неизменяемость состояния объекта после создания", "Постоянная динамика", "Гибкая структура"],
+    "correct_answer": "Неизменяемость состояния объекта после создания",
+    "example": {
+      "text": "Immutability prevents unexpected state modifications in Redux.",
+      "translation": "Иммутабельность предотвращает непредсказуемые изменения состояния в Redux."
+    }
+  },
+  {
+    "id": 180,
+    "expression": "Mutability",
+    "options": ["Изменяемость внутреннего состояния объекта", "Защищенность класса", "Постоянство данных"],
+    "correct_answer": "Изменяемость внутреннего состояния объекта",
+    "example": {
+      "text": "Array mutability means push methods modify the original instance.",
+      "translation": "Мутабельность массивов означает, что методы push меняют исходный экземпляр."
+    }
+  },
+  {
+    "id": 181,
+    "expression": "Pure Function",
+    "options": ["Функция без побочных эффектов с предсказуемым результатом", "Функция без параметров", "Функция без возвращаемого значения"],
+    "correct_answer": "Функция без побочных эффектов с предсказуемым результатом",
+    "example": {
+      "text": "A pure function always returns the exact same result for identical inputs.",
+      "translation": "Чистая функция всегда возвращает один и тот же результат для одинаковых аргументов."
+    }
+  },
+  {
+    "id": 182,
+    "expression": "Syntax Sugar",
+    "options": ["Дополнительный удобный синтаксис без изменения логики", "Красивое оформление UI", "Оптимизация скорости"],
+    "correct_answer": "Дополнительный удобный синтаксис без изменения логики",
+    "example": {
+      "text": "Arrow functions are syntactic sugar for standard JS function expressions.",
+      "translation": "Стрелочные функции — синтаксический сахар для обычных функций JS."
+    }
+  },
+  {
+    "id": 183,
+    "expression": "Spaghetti Code",
+    "options": ["Запутанная и трудночитаемая структура программы", "Быстрый легкий код", "Модульная архитектура"],
+    "correct_answer": "Запутанная и трудночитаемая структура программы",
+    "example": {
+      "text": "Refactoring this spaghetti code will take a full week.",
+      "translation": "Рефакторинг этого спагетти-кода займет целую неделю."
+    }
+  },
+  {
+    "id": 184,
+    "expression": "Under the Hood",
+    "options": ["Детали скрытого внутреннего устройства системы", "Интерфейсная панель", "Папка логов"],
+    "correct_answer": "Детали скрытого внутреннего устройства системы",
+    "example": {
+      "text": "Under the hood, this library uses WebSockets for instant updates.",
+      "translation": "Под капотом эта библиотека использует WebSockets для мгновенных обновлений."
+    }
+  },
+  {
+    "id": 185,
+    "expression": "Out of the Box",
+    "options": ["Готовое решение, работающее сразу после установки", "Самописный скрипт", "Устаревший компонент"],
+    "correct_answer": "Готовое решение, работающее сразу после установки",
+    "example": {
+      "text": "This framework provides user authentication out of the box.",
+      "translation": "Этот фреймворк предоставляет аутентификацию пользователей из коробки."
+    }
+  },
+  {
+    "id": 186,
+    "expression": "Dry Run",
+    "options": ["Пробный запуск системы без совершения реальных изменений", "Очистка базы", "Быстрая компиляция"],
+    "correct_answer": "Пробный запуск системы без совершения реальных изменений",
+    "example": {
+      "text": "Always execute a dry run before running data deletion scripts.",
+      "translation": "Всегда делай тестовый запуск перед скриптами удаления данных."
+    }
+  },
+  {
+    "id": 187,
+    "expression": "Overhead",
+    "options": ["Дополнительный расход ресурсов на служебные операции", "Верхнее меню страницы", "Переполнение стека"],
+    "correct_answer": "Дополнительный расход ресурсов на служебные операции",
+    "example": {
+      "text": "Heavy logging adds extra performance overhead.",
+      "translation": "Избыточное логирование создает дополнительные накладные расходы ресурсов."
+    }
+  },
+  {
+    "id": 188,
+    "expression": "Feature Flag",
+    "options": ["Динамический переключатель доступности функции", "Иконка в интерфейсе", "Флаг ошибки"],
+    "correct_answer": "Динамический переключатель доступности функции",
+    "example": {
+      "text": "We turned on the new checkout UI via a feature flag.",
+      "translation": "Мы включили новый UI оформления заказа с помощью фича-флага."
+    }
+  },
+  {
+    "id": 189,
+    "expression": "Canary Release",
+    "options": ["Выкатка обновления на небольшую часть пользователей", "Тестовый запуск на локалке", "Релиз без проверки"],
+    "correct_answer": "Выкатка обновления на небольшую часть пользователей",
+    "example": {
+      "text": "A canary release helps identify production bugs safely.",
+      "translation": "Канареечный релиз помогает безопасно выявлять ошибки на проде."
+    }
+  },
+  {
+    "id": 190,
+    "expression": "Blue-Green Deployment",
+    "options": ["Смена версий приложения переключением трафика", "Цветовая схема IDE", "Двухфакторная защита"],
+    "correct_answer": "Смена версий приложения переключением трафика",
+    "example": {
+      "text": "Blue-green deployment guarantees zero downtime during updates.",
+      "translation": "Сине-зеленый деплой гарантирует отсутствие простоя при обновлениях."
+    }
+  },
+  {
+    "id": 191,
+    "expression": "Dark Launch",
+    "options": ["Выкатка функции без анонса для проверки нагрузки", "Запуск темной темы", "Взлом сервера"],
+    "correct_answer": "Выкатка функции без анонса для проверки нагрузки",
+    "example": {
+      "text": "We did a dark launch of the search engine to measure backend load.",
+      "translation": "Мы провели скрытый запуск поисковика, чтобы измерить нагрузку на бэкенд."
+    }
+  },
+  {
+    "id": 192,
+    "expression": "TTM",
+    "literal": "(Time to Market)",
+    "options": ["Время от идеи до появления продукта на рынке", "Время ответа сервера", "Время решения бага"],
+    "correct_answer": "Время от идеи до появления продукта на рынке",
+    "example": {
+      "text": "Reducing TTM helped us stay ahead of competitors.",
+      "translation": "Сокращение времени выхода на рынок помогло опередить конкурентов."
+    }
+  },
+  {
+    "id": 193,
+    "expression": "Scope Creep",
+    "options": ["Неконтролируемое расширение требований к проекту", "Сужение бюджета", "Сокращение команды"],
+    "correct_answer": "Неконтролируемое расширение требований к проекту",
+    "example": {
+      "text": "Uncontrolled scope creep delayed our launch by two months.",
+      "translation": "Неконтролируемое расширение требований задержало запуск на два месяца."
+    }
+  },
+  {
+    "id": 194,
+    "expression": "Grooming",
+    "options": ["Разбор и уточнение деталей задач из бэклога", "Удаление старого кода", "Тестирование макетов"],
+    "correct_answer": "Разбор и уточнение деталей задач из бэклога",
+    "example": {
+      "text": "During backlog grooming, we estimated task effort.",
+      "translation": "Во время груминга бэклога мы оценили трудоемкость задач."
+    }
+  },
+  {
+    "id": 195,
+    "expression": "Acceptance Criteria",
+    "options": ["Четкие условия, подтверждающие готовность задачи", "Правила приема на работу", "Критерии тестирования кода"],
+    "correct_answer": "Четкие условия, подтверждающие готовность задачи",
+    "example": {
+      "text": "The task is done only when all acceptance criteria are met.",
+      "translation": "Задача готова только тогда, когда выполнены все критерии приемки."
+    }
+  },
+  {
+    "id": 196,
+    "expression": "Story Points",
+    "options": ["Относительная оценка сложности задач", "Очки лояльности пользователя", "Количество строк кода"],
+    "correct_answer": "Относительная оценка сложности задач",
+    "example": {
+      "text": "We assigned 5 story points to the payment integration ticket.",
+      "translation": "Мы оценили тикет интеграции оплаты в 5 сторипоинтов."
+    }
+  },
+  {
+    "id": 197,
+    "expression": "Vulnerability",
+    "options": ["Слабое место в системе, уязвимое для атак", "Нестабильный сервер", "Ошибка в логике UI"],
+    "correct_answer": "Слабое место в системе, уязвимое для атак",
+    "example": {
+      "text": "Security patch closed a critical SQL injection vulnerability.",
+      "translation": "Патч безопасности закрыл критическую уязвимость SQL-инъекций."
+    }
+  },
+  {
+    "id": 198,
+    "expression": "Exploit",
+    "options": ["Код, использующий уязвимость для проникновения", "Антивирусная программа", "Файловый менеджер"],
+    "correct_answer": "Код, использующий уязвимость для проникновения",
+    "example": {
+      "text": "Hackers created an exploit targeting unpatched servers.",
+      "translation": "Хакеры создали эксплойт для непротвиненных серверов."
+    }
+  },
+  {
+    "id": 199,
+    "expression": "Encryption",
+    "options": ["Защитное кодирование информации", "Сжатие изображений", "Удаление метаданных"],
+    "correct_answer": "Защитное кодирование информации",
+    "example": {
+      "text": "SSL encryption secures user passwords during transit.",
+      "translation": "Шифрование SSL защищает пароли пользователей при передаче."
+    }
+  },
+  {
+    "id": 200,
+    "expression": "Data Breach",
+    "options": ["Несанкционированный доступ и утечка защищенных данных", "Удаление базы данных", "Сбой файловой системы"],
+    "correct_answer": "Несанкционированный доступ и утечка защищенных данных",
+    "example": {
+      "text": "The company notified customers about a recent data breach.",
+      "translation": "Компания уведомила клиентов о недавней утечке данных."
+    }
+  },
+  {
+    "id": 201,
+    "expression": "Sanitization",
+    "options": ["Очистка пользовательского ввода от вредоносных символов", "Форматирование кода", "Удаление кэша"],
+    "correct_answer": "Очистка пользовательского ввода от вредоносных символов",
+    "example": {
+      "text": "Input sanitization prevents XSS attacks.",
+      "translation": "Очистка пользовательских данных предотвращает XSS-атаки."
+    }
+  },
+  {
+    "id": 202,
+    "expression": "Stress Test",
+    "options": ["Проверка устойчивости системы при запредельных нагрузках", "Тест одного компонента", "Проверка синтаксиса"],
+    "correct_answer": "Проверка устойчивости системы при запредельных нагрузках",
+    "example": {
+      "text": "Stress testing showed where our backend crashes first.",
+      "translation": "Стресс-тестирование показало, где наш бэкенд падаем первым делом."
+    }
+  },
+  {
+    "id": 203,
+    "expression": "Dataset",
+    "options": ["Подготовленный набор данных для анализа или обучения", "База пользователей", "Список файлов"],
+    "correct_answer": "Подготовленный набор данных для анализа или обучения",
+    "example": {
+      "text": "We trained the ML model using a huge dataset.",
+      "translation": "Мы обучили модель ML на огромном датасете."
+    }
+  },
+  {
+    "id": 204,
+    "expression": "Data Pipeline",
+    "options": ["Автоматический конвейер сбора и трансформации данных", "Сетевой кабель", "Блок-схема проекта"],
+    "correct_answer": "Автоматический конвейер сбора и трансформации данных",
+    "example": {
+      "text": "Our data pipeline processes logs every hour.",
+      "translation": "Наш конвейер данных обрабатывает логи каждый час."
+    }
+  },
+  {
+    "id": 205,
+    "expression": "Prompt",
+    "options": ["Текстовый запрос для взаимодействия с нейросетью", "Всплывающее окно", "Командная строка"],
+    "correct_answer": "Текстовый запрос для взаимодействия с нейросетью",
+    "example": {
+      "text": "Write a clear prompt to get accurate results from the AI.",
+      "translation": "Напиши четкий промпт, чтобы получить точный результат от ИИ."
+    }
+  },
+  {
+    "id": 206,
+    "expression": "Fine-Tuning",
+    "options": ["Дообучение готовой языковой модели под узкие задачи", "Настройка мониторов", "Оптимизация стилей"],
+    "correct_answer": "Дообучение готовой языковой модели под узкие задачи",
+    "example": {
+      "text": "Fine-tuning improved the model's accuracy in legal terms.",
+      "translation": "Тонкая настройка повысила точность модели в юридических терминах."
+    }
+  },
+  {
+    "id": 207,
+    "expression": "Inference",
+    "options": ["Запуск работы обученной нейросети для получения ответа", "Процесс обучения модели", "Сбор данных"],
+    "correct_answer": "Запуск работы обученной нейросети для получения ответа",
+    "example": {
+      "text": "Optimizing model inference reduces response delay.",
+      "translation": "Оптимизация инференса модели сокращает задержку ответа."
+    }
+  },
+  {
+    "id": 208,
+    "expression": "Hallucination",
+    "options": ["Выдумывание неверных фактов нейросетью", "Сбой в рендеринге", "Ошибка компилятора"],
+    "correct_answer": "Выдумывание неверных фактов нейросетью",
+    "example": {
+      "text": "AI hallucination happens when the model lacks accurate source data.",
+      "translation": "Галлюцинация ИИ происходит, когда модели не хватает точных данных."
+    }
+  },
+  {
+    "id": 209,
+    "expression": "Vector DB",
+    "options": ["База данных для хранения математических векторов", "Графический редактор", "База реляционных таблиц"],
+    "correct_answer": "База данных для хранения математических векторов",
+    "example": {
+      "text": "Pinecone is a popular vector DB for AI similarity search.",
+      "translation": "Pinecone — популярная векторная БД для поиска сходств в ИИ."
+    }
+  },
+  {
+    "id": 210,
+    "expression": "Scraping",
+    "options": ["Автоматический сбор информации со страниц сайтов", "Удаление вредоносных файлов", "Очистка кода"],
+    "correct_answer": "Автоматический сбор информации со страниц сайтов",
+    "example": {
+      "text": "Web scraping extracted price information from competitor sites.",
+      "translation": "Веб-скрейпинг извлек информацию о ценах с сайтов конкурентов."
+    }
+  },
+  {
+    "id": 211,
+    "expression": "RAG",
+    "literal": "(Retrieval-Augmented Generation)",
+    "options": ["Обогащение ответа ИИ внешним поиском", "Модель генерации видео", "Алгоритм сжатия данных"],
+    "correct_answer": "Обогащение ответа ИИ внешним поиском",
+    "example": {
+      "text": "Using RAG helps the LLM answer questions based on custom docs.",
+      "translation": "Использование RAG помогает модели отвечать на вопросы по вашей документации."
+    }
+  },
+  {
+    "id": 212,
+    "expression": "Embedding",
+    "options": ["Векторное цифровое представление текста или медиа", "Встраивание видео на сайт", "Файловый архив"],
+    "correct_answer": "Векторное цифровое представление текста или медиа",
+    "example": {
+      "text": "Text embeddings capture semantic meaning in numerical vectors.",
+      "translation": "Текстовые эмбеддинги передают смысловое значение в виде числовых векторов."
+    }
+  },
+  {
+    "id": 213,
+    "expression": "Overfitting",
+    "options": ["Переобучение модели с потерей гибкости", "Перегрев видеокарты", "Переполнение памяти"],
+    "correct_answer": "Переобучение модели с потерей гибкости",
+    "example": {
+      "text": "Overfitting caused the model to fail on new test samples.",
+      "translation": "Переобучение привело к тому, что модель завалилась на новых тестовых образцах."
+    }
+  },
+  {
+    "id": 214,
+    "expression": "Underfitting",
+    "options": ["Недостаточное обучение модели для выявления закономерностей", "Низкое качество графики", "Нехватка памяти"],
+    "correct_answer": "Недостаточное обучение модели для выявления закономерностей",
+    "example": {
+      "text": "Underfitting happens when the network model is too simple.",
+      "translation": "Недообучение происходит, когда модель слишком простая."
+    }
+  },
+  {
+    "id": 215,
+    "expression": "Context Window",
+    "options": ["Ограничение по объему памяти текста для языковой модели", "Размер браузерного окна", "Настройки области просмотра"],
+    "correct_answer": "Ограничение по объему памяти текста для языковой модели",
+    "example": {
+      "text": "Large context window allows analyzing entire books in one prompt.",
+      "translation": "Большое контекстное окно позволяет анализировать целые книги за один промпт."
+    }
+  },
+  {
+    "id": 216,
+    "expression": "Guardrails",
+    "options": ["Фильтры и ограничения для безопасной работы ИИ", "Сетевые экраны", "Правила оформления кода"],
+    "correct_answer": "Фильтры и ограничения для безопасной работы ИИ",
+    "example": {
+      "text": "Guardrails prevent the AI model from generating inappropriate content.",
+      "translation": "Защитные рамки предотвращают генерацию недопустимого контента ИИ."
+    }
+  },
+  {
+    "id": 217,
+    "expression": "Vendor",
+    "options": ["Внешний поставщик готового программного решения", "Продавец в интернет-магазине", "Главный архитектор"],
+    "correct_answer": "Внешний поставщик готового программного решения",
+    "example": {
+      "text": "We chose a cloud vendor that guarantees top security.",
+      "translation": "Мы выбрали облачного вендора, который гарантирует высокую безопасность."
+    }
+  },
+  {
+    "id": 218,
+    "expression": "Third-Party",
+    "options": ["Сторонний сервис или модуль вне текущей разработки", "Третья версия продукта", "Третья сторона договора"],
+    "correct_answer": "Сторонний сервис или модуль вне текущей разработки",
+    "example": {
+      "text": "Avoid relying on unverified third-party libraries.",
+      "translation": "Избегай использования непроверенных сторонних библиотек."
+    }
+  },
+  {
+    "id": 219,
+    "expression": "Self-Hosted",
+    "options": ["Размещение сервиса на собственных серверах", "Локальный компьютер разработчика", "Облачный хостинг"],
+    "correct_answer": "Размещение сервиса на собственных серверах",
+    "example": {
+      "text": "We use a self-hosted Git server for data privacy.",
+      "translation": "Мы используем селф-хостед Git-сервер для приватности данных."
+    }
+  },
+  {
+    "id": 220,
+    "expression": "Open Source",
+    "options": ["Программное обеспечение с открытым исходным кодом", "Бесплатный интернет", "Открытый доступ к серверу"],
+    "correct_answer": "Программное обеспечение с открытым исходным кодом",
+    "example": {
+      "text": "Linux is the most famous open source project.",
+      "translation": "Linux — самый известный опенсорсный проект."
+    }
+  },
+  {
+    "id": 221,
+    "expression": "Proprietary",
+    "options": ["Закрытое коммерческое программное обеспечение", "Бесплатный софт", "Экспериментальный код"],
+    "correct_answer": "Закрытое коммерческое программное обеспечение",
+    "example": {
+      "text": "Photoshop is proprietary software owned by Adobe.",
+      "translation": "Photoshop — это проприетарное ПО, принадлежащее Adobe."
+    }
+  },
+  {
+    "id": 222,
+    "expression": "Software Stack",
+    "options": ["Набор используемых в проекте технологий", "Папка со скриптами", "Стек вызова функций"],
+    "correct_answer": "Набор используемых в проекте технологий",
+    "example": {
+      "text": "Our software stack includes React, Node.js, and MongoDB.",
+      "translation": "Наш стек технологий включает React, Node.js и MongoDB."
+    }
+  },
+  {
+    "id": 223,
+    "expression": "Dead Code",
+    "options": ["Части программы, которые никогда не выполняются", "Закомментированные заметки", "Удаленный репозиторий"],
+    "correct_answer": "Части программы, которые никогда не выполняются",
+    "example": {
+      "text": "Remove dead code to clean up the bundle size.",
+      "translation": "Удали мертвый код, чтобы уменьшить размер бандла."
+    }
+  },
+  {
+    "id": 224,
+    "expression": "Code Bloat",
+    "options": ["Избыточное разрастание объема исходного кода", "Ошибки синтаксиса", "Дублирование базы данных"],
+    "correct_answer": "Избыточное разрастание объема исходного кода",
+    "example": {
+      "text": "Unnecessary dependencies led to massive code bloat.",
+      "translation": "Ненужные зависимости приведут к сильному разрастанию кода."
+    }
+  },
+  {
+    "id": 225,
+    "expression": "Dump",
+    "options": ["Полный снимок содержимого памяти или базы данных", "Удаленный файл", "Резервная копия стилей"],
+    "correct_answer": "Полный снимок содержимого памяти или базы данных",
+    "example": {
+      "text": "Export a database dump before executing structural changes.",
+      "translation": "Сделай дамп базы данных перед внесением structural изменений."
+    }
+  },
+  {
+    "id": 226,
+    "expression": "Stack Trace",
+    "options": ["История вызовов функций в момент возникновения ошибки", "Список текущих задач", "История коммитов"],
+    "correct_answer": "История вызовов функций в момент возникновения ошибки",
+    "example": {
+      "text": "The stack trace points directly to line 42 in index.js.",
+      "translation": "Стек-трейс указывает прямо на строку 42 в index.js."
+    }
+  },
+  {
+    "id": 227,
+    "expression": "Code Smell",
+    "options": ["Признак неоптимальной или проблемной архитектуры", "Синтаксическая ошибка", "Закомментированный файл"],
+    "correct_answer": "Признак неоптимальной или проблемной архитектуры",
+    "example": {
+      "text": "Deeply nested loops are a classic code smell.",
+      "translation": "Глубокая вложенность циклов — классический «душок» кода."
+    }
+  },
+  {
+    "id": 228,
+    "expression": "God Object",
+    "options": ["Объект или класс, наделенный слишком широким функционалом", "Главная база данных", "Корневой сервер"],
+    "correct_answer": "Объект или класс, наделенный слишком широким функционалом",
+    "example": {
+      "text": "Split that God object into smaller single-responsibility services.",
+      "translation": "Разбей этот объект-бог на более мелкие узкоспециализированные сервисы."
+    }
+  },
+  {
+    "id": 229,
+    "expression": "Anti-Pattern",
+    "options": ["Распространенный подход, приносящий больше вреда, чем пользы", "Оригинальный паттерн", "Ограничение языка"],
+    "correct_answer": "Распространенный подход, приносящий больше вреда, чем пользы",
+    "example": {
+      "text": "Global variables are considered an anti-pattern in modern development.",
+      "translation": "Глобальные переменные считаются антипаттерном в современной разработке."
+    }
+  },
+  {
+    "id": 230,
+    "expression": "Thread",
+    "options": ["Отдельный поток выполнения команд внутри процесса", "Ветка репозитория", "Сообщение в чате"],
+    "correct_answer": "Отдельный поток выполнения команд внутри процесса",
+    "example": {
+      "text": "The worker thread handles heavy background tasks.",
+      "translation": "Фоновый поток обрабатывает тяжелые задачи."
+    }
+  },
+  {
+    "id": 231,
+    "expression": "Zero-Day",
+    "literal": "(Zero-Day Vulnerability)",
+    "options": ["Ранее неизвестная уязвимость, для которой нет защиты", "День запуска проекта", "Первая версия продукта"],
+    "correct_answer": "Ранее неизвестная уязвимость, для которой нет защиты",
+    "example": {
+      "text": "Engineers rushed to patch a newly discovered zero-day bug.",
+      "translation": "Инженеры поспешили закрыть патчем новообнаруженную уязвимость нулевого дня."
+    }
+  },
+  {
+    "id": 232,
+    "expression": "Idempotency",
+    "options": ["Свойство операции давать одинаковый результат при повторе", "Нестабильность запроса", "Скорость обработки"],
+    "correct_answer": "Свойство операции давать одинаковый результат при повторе",
+    "example": {
+      "text": "Idempotency ensures double clicks don't charge the user twice.",
+      "translation": "Идемпотентность гарантирует, что двойной клик не спишет деньги дважды."
+    }
+  },
+  {
+    "id": 233,
+    "expression": "Monkey Patching",
+    "options": ["Быстрое изменение логики программы прямо во время работы", "Автоматическое тестирование", "Написание хаотичного кода"],
+    "correct_answer": "Быстрое изменение логики программы прямо во время работы",
+    "example": {
+      "text": "Monkey patching can lead to unpredictable side effects in production.",
+      "translation": "Патчинг на лету может привести к непредсказуемым побочным эффектам на проде."
+    }
+  },
+  {
+    "id": 234,
+    "expression": "Headless",
+    "options": ["Сервис или система без графического интерфейса", "Устаревший браузер", "Неавторизованный пользователь"],
+    "correct_answer": "Сервис или система без графического интерфейса",
+    "example": {
+      "text": "Headless CMS provides content strictly via API without built-in UI.",
+      "translation": "Headless CMS дает контент исключительно через API без встроенного UI."
+    }
+  },
+  {
+    "id": 235,
+    "expression": "Telemetry",
+    "options": ["Сбор и передача метрик использования системы", "Дистанционный запуск сервера", "Видеотрансляция экрана"],
+    "correct_answer": "Сбор и передача метрик использования системы",
+    "example": {
+      "text": "Telemetry data helps identify crash rates across different OS versions.",
+      "translation": "Данные телеметрии помогают понять частоту сбоев на разных версиях ОС."
+    }
+  },
+  {
+    "id": 236,
+    "expression": "Changelog",
+    "options": ["Журнал с перечнем внесенных в продукт изменений", "Конфигурационный файл", "База данных версий"],
+    "correct_answer": "Журнал с перечнем внесенных в продукт изменений",
+    "example": {
+      "text": "Check the changelog to see what features were added in version 2.0.",
+      "translation": "Посмотри чейнджлог, чтобы узнать, какие фичи добавили в версии 2.0."
+    }
+  },
+  {
+    "id": 237,
+    "expression": "Cold Reload",
+    "options": ["Полная перезагрузка приложения со сбросом текущего состояния", "Быстрое обновление UI", "Перезапуск браузера"],
+    "correct_answer": "Полная перезагрузка приложения со сбросом текущего состояния",
+    "example": {
+      "text": "A cold reload was required after modifying environment files.",
+      "translation": "После изменения файлов окружения потребовалась полная перезагрузка."
+    }
+  },
+  {
+    "id": 238,
+    "expression": "Edge Computing",
+    "options": ["Вычисления на конечных устройствах, а не на сервере", "Облачные вычисления", "Распределенная база данных"],
+    "correct_answer": "Вычисления на конечных устройствах, а не на сервере",
+    "example": {
+      "text": "Edge computing reduces server response time for local users.",
+      "translation": "Периферийные вычисления сокращают время отклика для местных пользователей."
+    }
+  },
+  {
+    "id": 239,
+    "expression": "Rate Limit Exceeded",
+    "options": ["Превышение допустимого количества запросов", "Превышение размера файла", "Ошибка авторизации"],
+    "correct_answer": "Превышение допустимого количества запросов",
+    "example": {
+      "text": "The API returned a 429 status code: Rate Limit Exceeded.",
+      "translation": "API вернул статус 429: превышен лимит частоты запросов."
+    }
+  },
+  {
+    "id": 240,
+    "expression": "Cache Invalidation",
+    "options": ["Сброс устаревших данных из кэша", "Очистка жесткого диска", "Удаление старых сессий"],
+    "correct_answer": "Сброс устаревших данных из кэша",
+    "example": {
+      "text": "Cache invalidation is one of the hardest challenges in computer science.",
+      "translation": "Инвалидация кэша — одна из самых сложных задач в компьютерных науках."
+    }
+  },
+  {
+    "id": 241,
+    "expression": "Sharding",
+    "options": ["Горизонтальное разделение базы данных по нескольким серверам", "Резервное копирование", "Шифрование таблиц"],
+    "correct_answer": "Горизонтальное разделение базы данных по нескольким серверам",
+    "example": {
+      "text": "Database sharding allowed us to scale beyond a single database node.",
+      "translation": "Шардинг базы данных позволил нам масштабироваться за пределы одного узла."
+    }
+  },
+  {
+    "id": 242,
+    "expression": "Replication",
+    "options": ["Дублирование данных между несколькими серверами", "Архивация логов", "Удаление дубликатов"],
+    "correct_answer": "Дублирование данных между несколькими серверами",
+    "example": {
+      "text": "Data replication ensures backup availability if the primary node dies.",
+      "translation": "Репликация данных обеспечивает доступность копии при падении главного узла."
+    }
+  },
+  {
+    "id": 243,
+    "expression": "Single Source of Truth",
+    "options": ["Единый достоверный источник данных в системе", "Главный сервер", "Документ с требованиями"],
+    "correct_answer": "Единый достоверный источник данных в системе",
+    "example": {
+      "text": "PostgreSQL serves as our single source of truth for user profiles.",
+      "translation": "PostgreSQL служит нашим единым источником правды для профилей пользователей."
+    }
+  },
+  {
+    "id": 244,
+    "expression": "Low-Hanging Fruit",
+    "options": ["Простые задачи, дающие быстрый видимый результат", "Сложные архитектурные баги", "Второстепенные фичи"],
+    "correct_answer": "Простые задачи, дающие быстрый видимый результат",
+    "example": {
+      "text": "Fixing button contrast is a low-hanging fruit for overall accessibility.",
+      "translation": "Исправление контраста кнопок — простая задача, дающая быстрый результат для доступности."
+    }
+  },
+  {
+    "id": 245,
+    "expression": "Move the Needle",
+    "options": ["Внести существенные изменения в ключевые метрики", "Изменить курс разработки", "Быстро закрыть задачу"],
+    "correct_answer": "Внести существенные изменения в ключевые метрики",
+    "example": {
+      "text": "This UI redesign should really move the needle on conversions.",
+      "translation": "Этот редизайн UI должен действительно ощутимо поднять конверсию."
+    }
+  },
+  {
+    "id": 246,
+    "expression": "Headroom",
+    "options": ["Запас ресурсов или производительности системы", "Верхнее поле страницы", "Размер памяти процесса"],
+    "correct_answer": "Запас ресурсов или производительности системы",
+    "example": {
+      "text": "We need server headroom to handle Black Friday traffic.",
+      "translation": "Нам нужен запас мощности серверов, чтобы справиться с наплывом в Черную пятницу."
+    }
+  },
+  {
+    "id": 247,
+    "expression": "Graceful Degradation",
+    "options": ["Сохранение базовой работы системы при отказах", "Постепенное выключение серверов", "Ухудшение качества графики"],
+    "correct_answer": "Сохранение базовой работы системы при отказах",
+    "example": {
+      "text": "Graceful degradation keeps essential features active even if analytics fail.",
+      "translation": "Плавная деградация сохраняет базовые функции, даже если упала аналитика."
+    }
+  },
+  {
+    "id": 248,
+    "expression": "Circuit Breaker",
+    "options": ["Шаблон, предотвращающий частые запросы к упавшему сервису", "Сетевой фильтр", "Прерыватель потока"],
+    "correct_answer": "Шаблон, предотвращающий частые запросы к упавшему сервису",
+    "example": {
+      "text": "Circuit breaker pattern stops sending traffic to an unresponsive backend.",
+      "translation": "Шаблон Circuit Breaker прекращает посылать трафик на неотвечающий бэкенд."
+    }
+  },
+  {
+    "id": 249,
+    "expression": "Polling Rate",
+    "options": ["Частота обращения за новыми данными", "Скорость обработки базы", "Задержка ввода"],
+    "correct_answer": "Частота обращения за новыми данными",
+    "example": {
+      "text": "We lowered the polling rate to reduce load on our API.",
+      "translation": "Мы снизили частоту опроса, чтобы уменьшить нагрузку на наш API."
+    }
+  },
+  {
+    "id": 250,
+    "expression": "Eventual Consistency",
+    "options": ["Согласованность данных в распределенной системе через время", "Постоянная стабильность", "Мгновенное обновление базы"],
+    "correct_answer": "Согласованность данных в распределенной системе через время",
+    "example": {
+      "text": "NoSQL databases often rely on eventual consistency across nodes.",
+      "translation": "Базы данных NoSQL часто полагаются на согласованность данных со временем."
+    }
+  }
+]
