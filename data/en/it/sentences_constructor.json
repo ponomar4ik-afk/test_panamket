@@ -1,0 +1,1864 @@
+[
+  {
+    "id": 1,
+    "russian": "Я нашел баг сегодня.",
+    "words_pool": ["I", "found", "a", "bug", "today", "deploy", "server", "cache", "ping"],
+    "correct_sequences": [
+      ["I", "found", "a", "bug", "today"],
+      ["found", "a", "bug", "today"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 2,
+    "russian": "Нам нужна новая фича.",
+    "words_pool": ["we", "need", "a", "new", "feature", "crash", "lag", "pull", "merge"],
+    "correct_sequences": [
+      ["we", "need", "a", "new", "feature"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 3,
+    "russian": "Запушь код в main.",
+    "words_pool": ["push", "the", "code", "to", "main", "lazy", "mock", "agile", "token"],
+    "correct_sequences": [
+      ["push", "the", "code", "to", "main"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 4,
+    "russian": "Проверь логи базы данных.",
+    "words_pool": ["check", "the", "database", "logs", "commit", "frontend", "sandbox", "sprint"],
+    "correct_sequences": [
+      ["check", "the", "database", "logs"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 5,
+    "russian": "Пользователь кликнул по ссылке.",
+    "words_pool": ["the", "user", "clicked", "the", "link", "rebase", "downtime", "proxy", "hash"],
+    "correct_sequences": [
+      ["the", "user", "clicked", "the", "link"],
+      ["user", "clicked", "the", "link"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 6,
+    "russian": "Наш разработчик быстро это исправил.",
+    "words_pool": ["our", "developer", "fixed", "it", "fast", "domain", "cloud", "stack", "agile"],
+    "correct_sequences": [
+      ["our", "developer", "fixed", "it", "fast"],
+      ["developer", "fixed", "it", "fast"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 7,
+    "russian": "Скачай новое приложение.",
+    "words_pool": ["download", "the", "new", "app", "latency", "stash", "fetch", "node"],
+    "correct_sequences": [
+      ["download", "the", "new", "app"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 8,
+    "russian": "Веб-сервер упал.",
+    "words_pool": ["the", "web", "server", "is", "down", "compiled", "agile", "scrum", "repo"],
+    "correct_sequences": [
+      ["the", "web", "server", "is", "down"],
+      ["web", "server", "is", "down"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 9,
+    "russian": "Перезагрузи локальный сервер.",
+    "words_pool": ["restart", "the", "local", "server", "mock", "stub", "ping", "commit"],
+    "correct_sequences": [
+      ["restart", "the", "local", "server"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 10,
+    "russian": "Клиент отправил запрос.",
+    "words_pool": ["the", "client", "sent", "a", "request", "branch", "merge", "fetch", "query"],
+    "correct_sequences": [
+      ["the", "client", "sent", "a", "request"],
+      ["client", "sent", "a", "request"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 11,
+    "russian": "UI выглядит очень чисто.",
+    "words_pool": ["the", "UI", "looks", "very", "clean", "backend", "token", "payload", "docker"],
+    "correct_sequences": [
+      ["the", "UI", "looks", "very", "clean"],
+      ["UI", "looks", "very", "clean"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 12,
+    "russian": "Нам нужен лучший UX здесь.",
+    "words_pool": ["we", "need", "better", "UX", "here", "cookie", "storage", "cache", "ping"],
+    "correct_sequences": [
+      ["we", "need", "better", "UX", "here"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 13,
+    "russian": "Фронтенд написан на React.",
+    "words_pool": ["the", "frontend", "is", "built", "with", "React", "SQL", "database", "query", "bash"],
+    "correct_sequences": [
+      ["the", "frontend", "is", "built", "with", "React"],
+      ["frontend", "is", "built", "with", "React"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 14,
+    "russian": "Бэкенд использует Node.",
+    "words_pool": ["the", "backend", "uses", "Node", "design", "layout", "Figma", "pixel"],
+    "correct_sequences": [
+      ["the", "backend", "uses", "Node"],
+      ["backend", "uses", "Node"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 15,
+    "russian": "Я закончил свою текущую задачу.",
+    "words_pool": ["I", "finished", "my", "current", "task", "crash", "bug", "downtime", "log"],
+    "correct_sequences": [
+      ["I", "finished", "my", "current", "task"],
+      ["finished", "my", "current", "task"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 16,
+    "russian": "Очисти кэш браузера сейчас.",
+    "words_pool": ["clear", "the", "browser", "cache", "now", "commit", "push", "pull", "deploy"],
+    "correct_sequences": [
+      ["clear", "the", "browser", "cache", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 17,
+    "russian": "Введите ваш надежный пароль.",
+    "words_pool": ["enter", "your", "strong", "password", "agile", "sprint", "standup", "repo"],
+    "correct_sequences": [
+      ["enter", "your", "strong", "password"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 18,
+    "russian": "Вход снова не удался.",
+    "words_pool": ["the", "login", "failed", "again", "markup", "render", "deploy", "build"],
+    "correct_sequences": [
+      ["the", "login", "failed", "again"],
+      ["login", "failed", "again"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 19,
+    "russian": "Пришли мне ссылку на встречу.",
+    "words_pool": ["send", "me", "the", "meeting", "link", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["send", "me", "the", "meeting", "link"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 20,
+    "russian": "Нажми на зеленую кнопку.",
+    "words_pool": ["click", "the", "green", "button", "server", "router", "proxy", "node"],
+    "correct_sequences": [
+      ["click", "the", "green", "button"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 21,
+    "russian": "Загрузи фото профиля.",
+    "words_pool": ["upload", "your", "profile", "picture", "crash", "exception", "null", "array"],
+    "correct_sequences": [
+      ["upload", "your", "profile", "picture"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 22,
+    "russian": "Скачай файл конфигурации.",
+    "words_pool": ["download", "the", "config", "file", "sprint", "agile", "scrum", "board"],
+    "correct_sequences": [
+      ["download", "the", "config", "file"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 23,
+    "russian": "Обнови версию приложения.",
+    "words_pool": ["update", "your", "app", "version", "mock", "stub", "test", "fake"],
+    "correct_sequences": [
+      ["update", "your", "app", "version"],
+      ["update", "app", "version"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 24,
+    "russian": "Релиз в понедельник.",
+    "words_pool": ["the", "release", "is", "on", "Monday", "ping", "latency", "lag", "packet"],
+    "correct_sequences": [
+      ["the", "release", "is", "on", "Monday"],
+      ["release", "is", "on", "Monday"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 25,
+    "russian": "Напиши быстрый юнит-тест.",
+    "words_pool": ["write", "a", "quick", "unit", "test", "hardware", "cable", "mouse", "screen"],
+    "correct_sequences": [
+      ["write", "a", "quick", "unit", "test"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 26,
+    "russian": "Сеть слишком медленная.",
+    "words_pool": ["the", "network", "is", "too", "slow", "deploy", "build", "compile", "run"],
+    "correct_sequences": [
+      ["the", "network", "is", "too", "slow"],
+      ["network", "is", "too", "slow"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 27,
+    "russian": "Удали старый файл.",
+    "words_pool": ["delete", "the", "old", "file", "token", "auth", "session", "cookie"],
+    "correct_sequences": [
+      ["delete", "the", "old", "file"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 28,
+    "russian": "Создай новую пустую папку.",
+    "words_pool": ["create", "a", "new", "empty", "folder", "branch", "merge", "pull", "push"],
+    "correct_sequences": [
+      ["create", "a", "new", "empty", "folder"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 29,
+    "russian": "У тебя нет админского доступа.",
+    "words_pool": ["you", "have", "no", "admin", "access", "pixel", "layout", "grid", "flex"],
+    "correct_sequences": [
+      ["you", "have", "no", "admin", "access"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 30,
+    "russian": "Спроси системного администратора.",
+    "words_pool": ["ask", "the", "system", "admin", "cache", "state", "props", "hook"],
+    "correct_sequences": [
+      ["ask", "the", "system", "admin"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 31,
+    "russian": "Сначала отправь API запрос.",
+    "words_pool": ["send", "the", "API", "request", "first", "layout", "button", "color", "font"],
+    "correct_sequences": [
+      ["send", "the", "API", "request", "first"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 32,
+    "russian": "Открой пулл-реквест.",
+    "words_pool": ["open", "a", "pull", "request", "server", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["open", "a", "pull", "request"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 33,
+    "russian": "Ответ сервера пустой.",
+    "words_pool": ["the", "server", "response", "is", "empty", "agile", "sprint", "scrum", "task"],
+    "correct_sequences": [
+      ["the", "server", "response", "is", "empty"],
+      ["server", "response", "is", "empty"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 34,
+    "russian": "Читай документацию API.",
+    "words_pool": ["read", "the", "API", "docs", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["read", "the", "API", "docs"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 35,
+    "russian": "Дизайн полностью адаптивный.",
+    "words_pool": ["the", "design", "is", "fully", "responsive", "backend", "query", "database", "table"],
+    "correct_sequences": [
+      ["the", "design", "is", "fully", "responsive"],
+      ["design", "is", "fully", "responsive"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 36,
+    "russian": "Почини верстку страницы.",
+    "words_pool": ["fix", "the", "page", "layout", "ping", "latency", "packet", "loss"],
+    "correct_sequences": [
+      ["fix", "the", "page", "layout"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 37,
+    "russian": "Открой мобильную версию.",
+    "words_pool": ["open", "the", "mobile", "version", "deploy", "build", "pipeline", "docker"],
+    "correct_sequences": [
+      ["open", "the", "mobile", "version"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 38,
+    "russian": "Это работает только на десктопе.",
+    "words_pool": ["it", "works", "on", "desktop", "only", "repo", "commit", "branch", "tag"],
+    "correct_sequences": [
+      ["it", "works", "on", "desktop", "only"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 39,
+    "russian": "Мы используем современный фреймворк.",
+    "words_pool": ["we", "use", "a", "modern", "framework", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["we", "use", "a", "modern", "framework"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 40,
+    "russian": "Установи внешнюю библиотеку.",
+    "words_pool": ["install", "the", "external", "library", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["install", "the", "external", "library"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 41,
+    "russian": "Закоммить свои изменения сейчас.",
+    "words_pool": ["commit", "your", "changes", "now", "pixel", "vector", "layer", "mask"],
+    "correct_sequences": [
+      ["commit", "your", "changes", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 42,
+    "russian": "Запушь в удаленный репозиторий.",
+    "words_pool": ["push", "to", "the", "remote", "repository", "agile", "scrum", "sprint", "demo"],
+    "correct_sequences": [
+      ["push", "to", "the", "remote", "repository"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 43,
+    "russian": "Стяни последние обновления.",
+    "words_pool": ["pull", "the", "latest", "updates", "cache", "cookie", "storage", "state"],
+    "correct_sequences": [
+      ["pull", "the", "latest", "updates"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 44,
+    "russian": "Влей ветку в main.",
+    "words_pool": ["merge", "the", "branch", "into", "main", "server", "proxy", "router", "port"],
+    "correct_sequences": [
+      ["merge", "the", "branch", "into", "main"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 45,
+    "russian": "Создай новую ветку для фичи.",
+    "words_pool": ["create", "a", "new", "feature", "branch", "query", "table", "index", "row"],
+    "correct_sequences": [
+      ["create", "a", "new", "feature", "branch"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 46,
+    "russian": "Склонируй git репозиторий.",
+    "words_pool": ["clone", "the", "git", "repository", "markup", "style", "font", "color"],
+    "correct_sequences": [
+      ["clone", "the", "git", "repository"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 47,
+    "russian": "Задеплой приложение на прод.",
+    "words_pool": ["deploy", "the", "app", "to", "production", "bug", "issue", "ticket", "error"],
+    "correct_sequences": [
+      ["deploy", "the", "app", "to", "production"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 48,
+    "russian": "Мы тестируем на стейджинг сервере.",
+    "words_pool": ["we", "test", "on", "the", "staging", "server", "token", "hash", "salt", "auth"],
+    "correct_sequences": [
+      ["we", "test", "on", "the", "staging", "server"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 49,
+    "russian": "Купи новое доменное имя.",
+    "words_pool": ["buy", "a", "new", "domain", "name", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["buy", "a", "new", "domain", "name"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 50,
+    "russian": "Перенеси всё в облако.",
+    "words_pool": ["move", "everything", "to", "the", "cloud", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["move", "everything", "to", "the", "cloud"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 51,
+    "russian": "Мне нужно сделать рефакторинг этого кода.",
+    "words_pool": ["I", "need", "to", "refactor", "this", "code", "ping", "deploy", "server", "cache"],
+    "correct_sequences": [
+      ["I", "need", "to", "refactor", "this", "code"],
+      ["need", "to", "refactor", "this", "code"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 52,
+    "russian": "Мы выпустили хотфикс вчера.",
+    "words_pool": ["we", "released", "a", "hotfix", "yesterday", "lag", "crash", "mock", "stub"],
+    "correct_sequences": [
+      ["we", "released", "a", "hotfix", "yesterday"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 53,
+    "russian": "Это старый легаси проект.",
+    "words_pool": ["this", "is", "an", "old", "legacy", "project", "token", "payload", "auth", "query"],
+    "correct_sequences": [
+      ["this", "is", "an", "old", "legacy", "project"],
+      ["is", "an", "old", "legacy", "project"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 54,
+    "russian": "Проверь наш роадмап продукта.",
+    "words_pool": ["check", "our", "product", "roadmap", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["check", "our", "product", "roadmap"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 55,
+    "russian": "Добавь эту задачу в бэклог.",
+    "words_pool": ["add", "this", "task", "to", "the", "backlog", "proxy", "server", "router", "port"],
+    "correct_sequences": [
+      ["add", "this", "task", "to", "the", "backlog"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 56,
+    "russian": "Текущий спринт заканчивается завтра.",
+    "words_pool": ["the", "current", "sprint", "ends", "tomorrow", "pixel", "layout", "grid", "font"],
+    "correct_sequences": [
+      ["the", "current", "sprint", "ends", "tomorrow"],
+      ["current", "sprint", "ends", "tomorrow"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 57,
+    "russian": "У нас дейли стендап в десять.",
+    "words_pool": ["we", "have", "a", "daily", "standup", "at", "ten", "query", "database", "table", "row"],
+    "correct_sequences": [
+      ["we", "have", "a", "daily", "standup", "at", "ten"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 58,
+    "russian": "Пожалуйста заревьюй мой пулл-реквест.",
+    "words_pool": ["please", "review", "my", "pull", "request", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["please", "review", "my", "pull", "request"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 59,
+    "russian": "Код ревью помогает находить баги.",
+    "words_pool": ["code", "review", "helps", "find", "bugs", "agile", "scrum", "kanban", "board"],
+    "correct_sequences": [
+      ["code", "review", "helps", "find", "bugs"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 60,
+    "russian": "У меня конфликт слияния тут.",
+    "words_pool": ["I", "have", "a", "merge", "conflict", "here", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["I", "have", "a", "merge", "conflict", "here"],
+      ["have", "a", "merge", "conflict", "here"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 61,
+    "russian": "Стейджинг окружение сейчас упало.",
+    "words_pool": ["the", "staging", "environment", "is", "down", "now", "token", "session", "auth", "cookie"],
+    "correct_sequences": [
+      ["the", "staging", "environment", "is", "down", "now"],
+      ["staging", "environment", "is", "down", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 62,
+    "russian": "Приложение запущено на локалхосте.",
+    "words_pool": ["the", "app", "is", "running", "on", "localhost", "push", "pull", "commit", "branch"],
+    "correct_sequences": [
+      ["the", "app", "is", "running", "on", "localhost"],
+      ["app", "is", "running", "on", "localhost"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 63,
+    "russian": "Не хардкодь этот токен API.",
+    "words_pool": ["do", "not", "hardcode", "this", "API", "token", "markup", "style", "font", "color"],
+    "correct_sequences": [
+      ["do", "not", "hardcode", "this", "API", "token"],
+      ["don't", "hardcode", "this", "API", "token"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 64,
+    "russian": "Мы нашли временный обход проблемы.",
+    "words_pool": ["we", "found", "a", "temporary", "workaround", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["we", "found", "a", "temporary", "workaround"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 65,
+    "russian": "Этот скрипт просто костыль.",
+    "words_pool": ["this", "script", "is", "just", "a", "crutch", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["this", "script", "is", "just", "a", "crutch"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 66,
+    "russian": "Обнови зависимости в проекте.",
+    "words_pool": ["update", "the", "dependencies", "in", "the", "project", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["update", "the", "dependencies", "in", "the", "project"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 67,
+    "russian": "Удали весь этот бойлерплейт код.",
+    "words_pool": ["remove", "all", "this", "boilerplate", "code", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["remove", "all", "this", "boilerplate", "code"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 68,
+    "russian": "Этот метод устарел.",
+    "words_pool": ["this", "method", "is", "deprecated", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["this", "method", "is", "deprecated"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 69,
+    "russian": "Нам нужно обработать этот краевой случай.",
+    "words_pool": ["we", "need", "to", "handle", "this", "edge", "case", "layout", "grid", "pixel", "flex"],
+    "correct_sequences": [
+      ["we", "need", "to", "handle", "this", "edge", "case"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 70,
+    "russian": "Наш технический долг слишком высок.",
+    "words_pool": ["our", "technical", "debt", "is", "too", "high", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["our", "technical", "debt", "is", "too", "high"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 71,
+    "russian": "Пингани меня когда закончишь.",
+    "words_pool": ["ping", "me", "when", "you", "finish", "crash", "bug", "error", "fail"],
+    "correct_sequences": [
+      ["ping", "me", "when", "you", "finish"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 72,
+    "russian": "Давай быстро ссинхронизируемся.",
+    "words_pool": ["let's", "have", "a", "quick", "sync", "database", "query", "table", "row"],
+    "correct_sequences": [
+      ["let's", "have", "a", "quick", "sync"],
+      ["let", "us", "have", "a", "quick", "sync"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 73,
+    "russian": "Этот баг является блокером.",
+    "words_pool": ["this", "bug", "is", "a", "blocker", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["this", "bug", "is", "a", "blocker"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 74,
+    "russian": "Почини этот сервер как можно скорее.",
+    "words_pool": ["fix", "this", "server", "ASAP", "markup", "style", "font", "color"],
+    "correct_sequences": [
+      ["fix", "this", "server", "ASAP"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 75,
+    "russian": "Какое время готовности этой задачи?",
+    "words_pool": ["what", "is", "the", "ETA", "for", "this", "task", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["what", "is", "the", "ETA", "for", "this", "task"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 76,
+    "russian": "К твоему сведению, API изменился.",
+    "words_pool": ["FYI", "the", "API", "has", "changed", "agile", "sprint", "kanban", "board"],
+    "correct_sequences": [
+      ["FYI", "the", "API", "has", "changed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 77,
+    "russian": "Эта фича вне рамок проекта.",
+    "words_pool": ["this", "feature", "is", "out", "of", "scope", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["this", "feature", "is", "out", "of", "scope"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 78,
+    "russian": "Мы запускаем MVP завтра.",
+    "words_pool": ["we", "are", "launching", "the", "MVP", "tomorrow", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["we", "are", "launching", "the", "MVP", "tomorrow"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 79,
+    "russian": "Начни процесс онбординга.",
+    "words_pool": ["start", "the", "onboarding", "process", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["start", "the", "onboarding", "process"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 80,
+    "russian": "Запусти бенчмарк базы данных.",
+    "words_pool": ["run", "the", "database", "benchmark", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["run", "the", "database", "benchmark"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 81,
+    "russian": "Всегда следуй лучшим практикам.",
+    "words_pool": ["always", "follow", "the", "best", "practices", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["always", "follow", "the", "best", "practices"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 82,
+    "russian": "Сайт имеет адаптивный дизайн.",
+    "words_pool": ["the", "site", "has", "a", "responsive", "design", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["the", "site", "has", "a", "responsive", "design"],
+      ["site", "has", "a", "responsive", "design"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 83,
+    "russian": "Добавь брейкпоинт для планшетов.",
+    "words_pool": ["add", "a", "breakpoint", "for", "tablets", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["add", "a", "breakpoint", "for", "tablets"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 84,
+    "russian": "Настрой ширину области просмотра.",
+    "words_pool": ["set", "the", "viewport", "width", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["set", "the", "viewport", "width"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 85,
+    "russian": "Создай новый UI компонент.",
+    "words_pool": ["create", "a", "new", "UI", "component", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["create", "a", "new", "UI", "component"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 86,
+    "russian": "Рендер страницы слишком медленный.",
+    "words_pool": ["the", "page", "render", "is", "too", "slow", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["the", "page", "render", "is", "too", "slow"],
+      ["page", "render", "is", "too", "slow"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 87,
+    "russian": "Эта разметка сломана.",
+    "words_pool": ["this", "markup", "is", "broken", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["this", "markup", "is", "broken"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 88,
+    "russian": "Обнови глобальное состояние.",
+    "words_pool": ["update", "the", "global", "state", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["update", "the", "global", "state"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 89,
+    "russian": "Передай это как пропс.",
+    "words_pool": ["pass", "this", "as", "a", "prop", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["pass", "this", "as", "a", "prop"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 90,
+    "russian": "Загрузи статические ассеты.",
+    "words_pool": ["load", "the", "static", "assets", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["load", "the", "static", "assets"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 91,
+    "russian": "Используй моковые данные пока что.",
+    "words_pool": ["use", "mock", "data", "for", "now", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["use", "mock", "data", "for", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 92,
+    "russian": "Мы собираем одностраничное приложение.",
+    "words_pool": ["we", "are", "building", "an", "SPA", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["we", "are", "building", "an", "SPA"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 93,
+    "russian": "Этот эндпоинт возвращает ошибку.",
+    "words_pool": ["this", "endpoint", "returns", "an", "error", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["this", "endpoint", "returns", "an", "error"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 94,
+    "russian": "Проверь полезную нагрузку запроса.",
+    "words_pool": ["check", "the", "request", "payload", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["check", "the", "request", "payload"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 95,
+    "russian": "Авторизация пользователя не удалась.",
+    "words_pool": ["user", "authorization", "failed", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["user", "authorization", "failed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 96,
+    "russian": "Добавь аутентификацию по токену.",
+    "words_pool": ["add", "token", "authentication", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["add", "token", "authentication"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 97,
+    "russian": "Срок действия токена истек.",
+    "words_pool": ["the", "token", "has", "expired", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["the", "token", "has", "expired"],
+      ["token", "has", "expired"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 98,
+    "russian": "Твоя сессия недействительна.",
+    "words_pool": ["your", "session", "is", "invalid", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["your", "session", "is", "invalid"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 99,
+    "russian": "Оптимизируй этот SQL запрос.",
+    "words_pool": ["optimize", "this", "SQL", "query", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["optimize", "this", "SQL", "query"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 100,
+    "russian": "Схема базы данных обновилась.",
+    "words_pool": ["the", "database", "schema", "updated", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["the", "database", "schema", "updated"],
+      ["database", "schema", "updated"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 101,
+    "russian": "Запусти миграцию базы данных.",
+    "words_pool": ["run", "the", "database", "migration", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["run", "the", "database", "migration"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 102,
+    "russian": "Индексирование ускоряет поиск.",
+    "words_pool": ["indexing", "speeds", "up", "the", "search", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["indexing", "speeds", "up", "the", "search"],
+      ["indexing", "speeds", "up", "search"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 103,
+    "russian": "Каждая таблица имеет первичный ключ.",
+    "words_pool": ["every", "table", "has", "a", "primary", "key", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["every", "table", "has", "a", "primary", "key"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 104,
+    "russian": "Добавь внешний ключ к заказам.",
+    "words_pool": ["add", "a", "foreign", "key", "to", "orders", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["add", "a", "foreign", "key", "to", "orders"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 105,
+    "russian": "Мы используем ORM для Node.",
+    "words_pool": ["we", "use", "an", "ORM", "for", "Node", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["we", "use", "an", "ORM", "for", "Node"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 106,
+    "russian": "Аптайм нашего сервера высокий.",
+    "words_pool": ["our", "server", "uptime", "is", "high", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["our", "server", "uptime", "is", "high"],
+      ["server", "uptime", "is", "high"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 107,
+    "russian": "Даунтайм составил пять минут.",
+    "words_pool": ["the", "downtime", "was", "five", "minutes", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["the", "downtime", "was", "five", "minutes"],
+      ["downtime", "was", "five", "minutes"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 108,
+    "russian": "Сделай быстрый откат сейчас.",
+    "words_pool": ["do", "a", "quick", "rollback", "now", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["do", "a", "quick", "rollback", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 109,
+    "russian": "Настрой CI/CD пайплайн.",
+    "words_pool": ["set", "up", "the", "CI/CD", "pipeline", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["set", "up", "the", "CI/CD", "pipeline"],
+      ["set", "up", "CI/CD", "pipeline"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 110,
+    "russian": "Пайплайн сборки упал.",
+    "words_pool": ["the", "build", "pipeline", "failed", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["the", "build", "pipeline", "failed"],
+      ["build", "pipeline", "failed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 111,
+    "russian": "Запусти приложение в контейнере.",
+    "words_pool": ["run", "the", "app", "in", "a", "container", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["run", "the", "app", "in", "a", "container"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 112,
+    "russian": "Кластер масштабируется автоматически.",
+    "words_pool": ["the", "cluster", "scales", "automatically", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["the", "cluster", "scales", "automatically"],
+      ["cluster", "scales", "automatically"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 113,
+    "russian": "Мы перешли на микросервисы.",
+    "words_pool": ["we", "moved", "to", "microservices", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["we", "moved", "to", "microservices"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 114,
+    "russian": "Этот монолит слишком большой.",
+    "words_pool": ["this", "monolith", "is", "too", "big", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["this", "monolith", "is", "too", "big"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 115,
+    "russian": "Я люблю бессерверную архитектуру.",
+    "words_pool": ["I", "love", "serverless", "architecture", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["I", "love", "serverless", "architecture"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 116,
+    "russian": "Нам нужна балансировка нагрузки.",
+    "words_pool": ["we", "need", "load", "balancing", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["we", "need", "load", "balancing"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 117,
+    "russian": "Высокая доступность очень важна.",
+    "words_pool": ["high", "availability", "is", "very", "important", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["high", "availability", "is", "very", "important"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 118,
+    "russian": "Настрой обратный прокси.",
+    "words_pool": ["configure", "the", "reverse", "proxy", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["configure", "the", "reverse", "proxy"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 119,
+    "russian": "Сервер отправил вебхук.",
+    "words_pool": ["the", "server", "sent", "a", "webhook", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["the", "server", "sent", "a", "webhook"],
+      ["server", "sent", "a", "webhook"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 120,
+    "russian": "Включи ограничение частоты запросов.",
+    "words_pool": ["enable", "rate", "limiting", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["enable", "rate", "limiting"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 121,
+    "russian": "Сетевая задержка слишком высокая.",
+    "words_pool": ["the", "network", "latency", "is", "too", "high", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["the", "network", "latency", "is", "too", "high"],
+      ["network", "latency", "is", "too", "high"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 122,
+    "russian": "Исправь проблему холодного старта.",
+    "words_pool": ["fix", "the", "cold", "start", "issue", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["fix", "the", "cold", "start", "issue"],
+      ["fix", "cold", "start", "issue"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 123,
+    "russian": "Протестируй это в песочнице.",
+    "words_pool": ["test", "it", "in", "the", "sandbox", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["test", "it", "in", "the", "sandbox"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 124,
+    "russian": "Проверь переменные окружения.",
+    "words_pool": ["check", "the", "environment", "variables", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["check", "the", "environment", "variables"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 125,
+    "russian": "Добавь промежуточный обработчик аутентификации.",
+    "words_pool": ["add", "an", "auth", "middleware", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["add", "an", "auth", "middleware"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 126,
+    "russian": "Напиши юнит-тест для этого.",
+    "words_pool": ["write", "a", "unit", "test", "for", "this", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["write", "a", "unit", "test", "for", "this"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 127,
+    "russian": "Интеграционный тест прошел успешно.",
+    "words_pool": ["the", "integration", "test", "passed", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["the", "integration", "test", "passed"],
+      ["integration", "test", "passed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 128,
+    "russian": "Запусти сквозные тесты ночью.",
+    "words_pool": ["run", "E2E", "tests", "at", "night", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["run", "E2E", "tests", "at", "night"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 129,
+    "russian": "Регрессионное тестирование не выявило багов.",
+    "words_pool": ["regression", "testing", "found", "no", "bugs", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["regression", "testing", "found", "no", "bugs"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 130,
+    "russian": "Сделай быстрый смоук-тест.",
+    "words_pool": ["do", "a", "quick", "smoke", "test", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["do", "a", "quick", "smoke", "test"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 131,
+    "russian": "Прикрепи логи к баг-репорту.",
+    "words_pool": ["attach", "logs", "to", "the", "bug", "report", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["attach", "logs", "to", "the", "bug", "report"],
+      ["attach", "logs", "to", "bug", "report"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 132,
+    "russian": "Покрытие тестами очень низкое.",
+    "words_pool": ["the", "test", "coverage", "is", "very", "low", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["the", "test", "coverage", "is", "very", "low"],
+      ["test", "coverage", "is", "very", "low"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 133,
+    "russian": "Утверждение в тесте упало.",
+    "words_pool": ["the", "test", "assertion", "failed", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["the", "test", "assertion", "failed"],
+      ["test", "assertion", "failed"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 134,
+    "russian": "Создай мок для API.",
+    "words_pool": ["create", "a", "mock", "for", "the", "API", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["create", "a", "mock", "for", "the", "API"],
+      ["create", "a", "mock", "for", "API"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 135,
+    "russian": "Исправь этот флакующий тест.",
+    "words_pool": ["fix", "this", "flaky", "test", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["fix", "this", "flaky", "test"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 136,
+    "russian": "Используй ленивую загрузку для картинок.",
+    "words_pool": ["use", "lazy", "loading", "for", "images", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["use", "lazy", "loading", "for", "images"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 137,
+    "russian": "Размер бандла слишком большой.",
+    "words_pool": ["the", "bundle", "size", "is", "too", "big", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["the", "bundle", "size", "is", "too", "big"],
+      ["bundle", "size", "is", "too", "big"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 138,
+    "russian": "Минификация скриптов ускоряет загрузку.",
+    "words_pool": ["minification", "speeds", "up", "loading", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["minification", "speeds", "up", "loading"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 139,
+    "russian": "Ошибка гидратации в React.",
+    "words_pool": ["a", "hydration", "error", "in", "React", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["a", "hydration", "error", "in", "React"],
+      ["hydration", "error", "in", "React"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 140,
+    "russian": "Доступность интерфейса очень важна.",
+    "words_pool": ["accessibility", "is", "very", "important", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["accessibility", "is", "very", "important"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 141,
+    "russian": "Добавь скелетон при загрузке.",
+    "words_pool": ["add", "a", "skeleton", "screen", "on", "load", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["add", "a", "skeleton", "screen", "on", "load"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 142,
+    "russian": "Темная тема выглядит круто.",
+    "words_pool": ["dark", "mode", "looks", "cool", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["dark", "mode", "looks", "cool"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 143,
+    "russian": "Не блокируй цикл событий.",
+    "words_pool": ["do", "not", "block", "the", "event", "loop", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["do", "not", "block", "the", "event", "loop"],
+      ["don't", "block", "the", "event", "loop"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 144,
+    "russian": "Проверь кроссбраузерность сайта.",
+    "words_pool": ["check", "the", "cross-browser", "compatibility", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["check", "the", "cross-browser", "compatibility"],
+      ["check", "cross-browser", "compatibility"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 145,
+    "russian": "Микрофронтенд дает нам гибкость.",
+    "words_pool": ["microfrontend", "gives", "us", "flexibility", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["microfrontend", "gives", "us", "flexibility"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 146,
+    "russian": "Горячая перезагрузка экономит время.",
+    "words_pool": ["hot", "reload", "saves", "time", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["hot", "reload", "saves", "time"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 147,
+    "russian": "Мы храним код в монорепозитории.",
+    "words_pool": ["we", "keep", "code", "in", "a", "monorepo", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["we", "keep", "code", "in", "a", "monorepo"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 148,
+    "russian": "Сделай рибейз своей ветки.",
+    "words_pool": ["rebase", "your", "branch", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["rebase", "your", "branch"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 149,
+    "russian": "Черри-пикни этот коммит в прод.",
+    "words_pool": ["cherry-pick", "this", "commit", "to", "prod", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["cherry-pick", "this", "commit", "to", "prod"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 150,
+    "russian": "Спрячь эти изменения в стэш.",
+    "words_pool": ["stash", "these", "changes", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["stash", "these", "changes"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 151,
+    "russian": "Стяни свежую инфу с ветки.",
+    "words_pool": ["fetch", "the", "latest", "info", "from", "the", "branch", "token", "auth", "session", "cache"],
+    "correct_sequences": [
+      ["fetch", "the", "latest", "info", "from", "the", "branch"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 152,
+    "russian": "Переключись на главную ветку.",
+    "words_pool": ["checkout", "to", "the", "main", "branch", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["checkout", "to", "the", "main", "branch"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 153,
+    "russian": "Я не хочу работать овертайм.",
+    "words_pool": ["I", "do", "not", "want", "to", "work", "overtime", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["I", "do", "not", "want", "to", "work", "overtime"],
+      ["I", "don't", "want", "to", "work", "overtime"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 154,
+    "russian": "У меня сильное выгорание сейчас.",
+    "words_pool": ["I", "have", "severe", "burnout", "right", "now", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["I", "have", "severe", "burnout", "right", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 155,
+    "russian": "Переключение контекста убивает фокус.",
+    "words_pool": ["context", "switching", "kills", "focus", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["context", "switching", "kills", "focus"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 156,
+    "russian": "Фактор автобуса у нас единица.",
+    "words_pool": ["our", "bus", "factor", "is", "one", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["our", "bus", "factor", "is", "one"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 157,
+    "russian": "Давай сверим часы по этой задаче.",
+    "words_pool": ["let's", "touch", "base", "on", "this", "task", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["let's", "touch", "base", "on", "this", "task"],
+      ["let", "us", "touch", "base", "on", "this", "task"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 158,
+    "russian": "Нам нужно глубокое погружение в логи.",
+    "words_pool": ["we", "need", "a", "deep", "dive", "into", "the", "logs", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["we", "need", "a", "deep", "dive", "into", "the", "logs"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 159,
+    "russian": "Это компромисс между скоростью и качеством.",
+    "words_pool": ["it", "is", "a", "trade-off", "between", "speed", "and", "quality", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["it", "is", "a", "trade-off", "between", "speed", "and", "quality"],
+      ["it's", "a", "trade-off", "between", "speed", "and", "quality"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 160,
+    "russian": "Где здесь болевая точка?",
+    "words_pool": ["where", "is", "the", "pain", "point", "here", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["where", "is", "the", "pain", "point", "here"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 161,
+    "russian": "База данных стала узким местом.",
+    "words_pool": ["the", "database", "became", "a", "bottleneck", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["the", "database", "became", "a", "bottleneck"],
+      ["database", "became", "a", "bottleneck"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 162,
+    "russian": "Я вижу утечку памяти тут.",
+    "words_pool": ["I", "see", "a", "memory", "leak", "here", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["I", "see", "a", "memory", "leak", "here"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 163,
+    "russian": "Сборка мусора фризит интерфейс.",
+    "words_pool": ["garbage", "collection", "freezes", "the", "UI", "query", "schema", "table", "row"],
+    "correct_sequences": [
+      ["garbage", "collection", "freezes", "the", "UI"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 164,
+    "russian": "Это типичное состояние гонки.",
+    "words_pool": ["this", "is", "a", "typical", "race", "condition", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["this", "is", "a", "typical", "race", "condition"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 165,
+    "russian": "Потоки застряли во взаимной блокировке.",
+    "words_pool": ["the", "threads", "are", "stuck", "in", "a", "deadlock", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["the", "threads", "are", "stuck", "in", "a", "deadlock"],
+      ["threads", "are", "stuck", "in", "a", "deadlock"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 166,
+    "russian": "Приложение упало из-за нулевого указателя.",
+    "words_pool": ["the", "app", "crashed", "due", "to", "a", "null", "pointer", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["the", "app", "crashed", "due", "to", "a", "null", "pointer"],
+      ["app", "crashed", "due", "to", "a", "null", "pointer"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 167,
+    "russian": "Мы перехватили это исключение.",
+    "words_pool": ["we", "caught", "this", "exception", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["we", "caught", "this", "exception"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 168,
+    "russian": "Примени троттлинг к этим запросам.",
+    "words_pool": ["apply", "throttling", "to", "these", "requests", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["apply", "throttling", "to", "these", "requests"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 169,
+    "russian": "Мы используем постоянный опрос здесь.",
+    "words_pool": ["we", "use", "polling", "here", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["we", "use", "polling", "here"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 170,
+    "russian": "Пул соединений сейчас пуст.",
+    "words_pool": ["the", "connection", "pool", "is", "empty", "now", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["the", "connection", "pool", "is", "empty", "now"],
+      ["connection", "pool", "is", "empty", "now"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 171,
+    "russian": "Настрой CORS для этого API.",
+    "words_pool": ["configure", "CORS", "for", "this", "API", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["configure", "CORS", "for", "this", "API"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 172,
+    "russian": "Используй async await вместо промисов.",
+    "words_pool": ["use", "async", "await", "instead", "of", "promises", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["use", "async", "await", "instead", "of", "promises"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 173,
+    "russian": "Передай это как функцию обратного вызова.",
+    "words_pool": ["pass", "this", "as", "a", "callback", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["pass", "this", "as", "a", "callback"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 174,
+    "russian": "Этот сервер не выдержит хайлоад.",
+    "words_pool": ["this", "server", "will", "not", "handle", "high", "load", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["this", "server", "will", "not", "handle", "high", "load"],
+      ["this", "server", "won't", "handle", "high", "load"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 175,
+    "russian": "Картинки грузятся через CDN.",
+    "words_pool": ["images", "load", "via", "a", "CDN", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["images", "load", "via", "a", "CDN"],
+      ["images", "load", "via", "CDN"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 176,
+    "russian": "Сериализация сломала эту строку.",
+    "words_pool": ["serialization", "broke", "this", "string", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["serialization", "broke", "this", "string"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 177,
+    "russian": "Десериализация заняла слишком много времени.",
+    "words_pool": ["deserialization", "took", "too", "much", "time", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["deserialization", "took", "too", "much", "time"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 178,
+    "russian": "Ошибка во время парсинга данных.",
+    "words_pool": ["error", "during", "data", "parsing", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["error", "during", "data", "parsing"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 179,
+    "russian": "Иммутабельность делает код безопаснее.",
+    "words_pool": ["immutability", "makes", "the", "code", "safer", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["immutability", "makes", "the", "code", "safer"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 180,
+    "russian": "Мутабельность здесь вызывает баги.",
+    "words_pool": ["mutability", "causes", "bugs", "here", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["mutability", "causes", "bugs", "here"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 181,
+    "russian": "Это простая чистая функция.",
+    "words_pool": ["this", "is", "a", "simple", "pure", "function", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["this", "is", "a", "simple", "pure", "function"],
+      ["it's", "a", "simple", "pure", "function"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 182,
+    "russian": "Это просто синтаксический сахар.",
+    "words_pool": ["this", "is", "just", "syntax", "sugar", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["this", "is", "just", "syntax", "sugar"],
+      ["it's", "just", "syntax", "sugar"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 183,
+    "russian": "Весь проект это спагетти код.",
+    "words_pool": ["the", "whole", "project", "is", "spaghetti", "code", "database", "query", "schema", "table"],
+    "correct_sequences": [
+      ["the", "whole", "project", "is", "spaghetti", "code"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 184,
+    "russian": "Что находится под капотом?",
+    "words_pool": ["what", "is", "under", "the", "hood", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["what", "is", "under", "the", "hood"],
+      ["what's", "under", "the", "hood"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 185,
+    "russian": "Эта либа работает из коробки.",
+    "words_pool": ["this", "library", "works", "out", "of", "the", "box", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["this", "library", "works", "out", "of", "the", "box"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 186,
+    "russian": "Сделай холостой прогон сначала.",
+    "words_pool": ["do", "a", "dry", "run", "first", "server", "ping", "latency", "packet"],
+    "correct_sequences": [
+      ["do", "a", "dry", "run", "first"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 187,
+    "russian": "Накладные расходы тут слишком большие.",
+    "words_pool": ["the", "overhead", "here", "is", "too", "big", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["the", "overhead", "here", "is", "too", "big"],
+      ["overhead", "here", "is", "too", "big"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 188,
+    "russian": "Выключи этот фича флаг.",
+    "words_pool": ["turn", "off", "this", "feature", "flag", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["turn", "off", "this", "feature", "flag"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 189,
+    "russian": "Давай сделаем канареечный релиз.",
+    "words_pool": ["let's", "do", "a", "canary", "release", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["let's", "do", "a", "canary", "release"],
+      ["let", "us", "do", "a", "canary", "release"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 190,
+    "russian": "Мы используем сине-зеленый деплой.",
+    "words_pool": ["we", "use", "blue-green", "deployment", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["we", "use", "blue-green", "deployment"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 191,
+    "russian": "Незаметный запуск прошел успешно.",
+    "words_pool": ["the", "dark", "launch", "was", "successful", "token", "payload", "auth", "session"],
+    "correct_sequences": [
+      ["the", "dark", "launch", "was", "successful"],
+      ["dark", "launch", "was", "successful"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 192,
+    "russian": "Время выхода на рынок критично.",
+    "words_pool": ["time", "to", "market", "is", "critical", "agile", "sprint", "retro", "scrum"],
+    "correct_sequences": [
+      ["time", "to", "market", "is", "critical"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 193,
+    "russian": "Избегай раздувания объема проекта.",
+    "words_pool": ["avoid", "scope", "creep", "database", "query", "schema", "table", "row"],
+    "correct_sequences": [
+      ["avoid", "scope", "creep"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 194,
+    "russian": "У нас завтра груминг бэклога.",
+    "words_pool": ["we", "have", "backlog", "grooming", "tomorrow", "pull", "push", "merge", "commit"],
+    "correct_sequences": [
+      ["we", "have", "backlog", "grooming", "tomorrow"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 195,
+    "russian": "Эти критерии приемки непонятны.",
+    "words_pool": ["these", "acceptance", "criteria", "are", "unclear", "cloud", "host", "domain", "dns"],
+    "correct_sequences": [
+      ["these", "acceptance", "criteria", "are", "unclear"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 196,
+    "russian": "Сколько сторипоинтов в этой задаче?",
+    "words_pool": ["how", "many", "story", "points", "in", "this", "task", "latency", "packet"],
+    "correct_sequences": [
+      ["how", "many", "story", "points", "in", "this", "task"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 197,
+    "russian": "Мы нашли критическую уязвимость.",
+    "words_pool": ["we", "found", "a", "critical", "vulnerability", "bug", "crash", "error", "fail"],
+    "correct_sequences": [
+      ["we", "found", "a", "critical", "vulnerability"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 198,
+    "russian": "Хакер использовал этот эксплойт.",
+    "words_pool": ["the", "hacker", "used", "this", "exploit", "commit", "stash", "rebase", "fetch"],
+    "correct_sequences": [
+      ["the", "hacker", "used", "this", "exploit"],
+      ["hacker", "used", "this", "exploit"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 199,
+    "russian": "Шифрование данных обязательно.",
+    "words_pool": ["data", "encryption", "is", "mandatory", "proxy", "router", "switch", "hub"],
+    "correct_sequences": [
+      ["data", "encryption", "is", "mandatory"]
+    ],
+    "distractors_count": 4
+  },
+  {
+    "id": 200,
+    "russian": "Утечка данных разрушила их репутацию.",
+    "words_pool": ["the", "data", "breach", "ruined", "their", "reputation", "mock", "stub", "fake", "test"],
+    "correct_sequences": [
+      ["the", "data", "breach", "ruined", "their", "reputation"],
+      ["data", "breach", "ruined", "their", "reputation"]
+    ],
+    "distractors_count": 4
+  }
+]
