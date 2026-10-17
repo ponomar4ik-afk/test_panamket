@@ -8,17 +8,17 @@ if (window.Telegram && Telegram.WebApp) {
 const onboardingSteps = [
     {
         title: "Режим Молния",
-        text: "Бесконечный быстрый спринт по карточкам! Тапай слова и фарми панамки в свободную минуту.",
+        text: "Бесконечный быстрый спринт по карточкам! Тапай слова и фарми панамки в свободную минуту.",
         cat: "light.webp"
     },
     {
         title: "Режим Книга",
-        text: "Системные уроки на прохождение со сборкой фраз из слов. Жми ✖️ вверху экрана, если захочешь выйти с режима обучения. ",
+        text: "Системные уроки на прохождение со сборкой фраз из слов. Жми ✖️ вверху экрана, если захочешь выйти с режима обучения. ",
         cat: "book.webp"
     },
     {
         title: "Твой Профиль",
-        text: "Переключай языки, меняй тему обучения. Следи за статистикой выученных слов и проводи работу над ошибками!",
+        text: "Переключай языки, меняй тему обучения. Следи за статистикой выученных слов и проводи работу над ошибками!",
         cat: "profile_pic.webp"
     }
 ];
@@ -989,8 +989,8 @@ function updateProfileStats() {
     const realPhrasesCount = parseInt(localStorage.getItem(`panamket_total_phrases_${currentLanguage}`)) || 0;
     if (statPhrases) statPhrases.textContent = realPhrasesCount;
 
-    const el1 = document.querySelector('.s3-card-slang .s3-stat-text:nth-child(1)');
-    const fill = document.querySelector('.s3-card-slang .s3-progress-fill');
+    const el1 = document.querySelector(`.s3-card-${currentTopic} .s3-stat-text:nth-child(1)`);
+    const fill = document.querySelector(`.s3-card-${currentTopic} .s3-progress-fill`);
 
     if(el1) el1.textContent = `Глава ${getBookProgress()}`;
     if(fill) fill.style.width = `${(learnedCount / (globalWordsData.length || 250)) * 100}%`;
@@ -1353,6 +1353,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const lbl = document.getElementById('profile-theme-label');
         if (lbl) lbl.textContent = 'DESIGN';
+        
+        const success = await loadContentData();
+        if(success) selectWordsMode();
+    });
+
+    document.getElementById('s3-btn-it')?.addEventListener('click', async () => {
+        triggerHaptic('light');
+        currentTopic = 'it';
+        localStorage.setItem('panamket_user_topic', 'it');
+
+        const lbl = document.getElementById('profile-theme-label');
+        if (lbl) lbl.textContent = 'IT';
         
         const success = await loadContentData();
         if(success) selectWordsMode();
